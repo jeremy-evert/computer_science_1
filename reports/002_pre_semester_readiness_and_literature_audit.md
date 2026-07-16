@@ -1,5 +1,20 @@
 # Report 002: Pre-Semester Readiness and Literature Audit
 
+> **Update (2026-07-16, later same day):** At the time this report was
+> written, `professional_minds/professional_minds.csv` and the "AI I:
+> Thinking with AI" course document could not be located anywhere under
+> `/data/git`. Both `professional_minds` and `ai_fluency` have since been
+> pulled as full repositories and inspected directly in
+> [`reports/004_source_reconciliation_and_slurp_status.md`](004_source_reconciliation_and_slurp_status.md).
+> **`professional_minds.csv` is now found** (committed 2026-07-14,
+> `2f3bfad`) and every week of the planner matches it exactly — that part
+> of this report's finding is now stale and superseded by Report 004.
+> **The AI I: Thinking with AI document is still not located** even after
+> the `ai_fluency` pull — that part of this report's finding remains
+> accurate as of the Report 004 pass. This note preserves the original
+> audit's finding as it stood on first run; it does not rewrite the
+> narrative below, which reflects what was known and unknown at that time.
+
 ## Executive Summary
 
 The 17-week Fall 2026 planner (`planning/week-01.md` … `week-17-finals.md`) is
