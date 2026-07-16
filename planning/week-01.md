@@ -6,16 +6,22 @@ Full week.
 ## Weekly Focus
 Foundations: `print`, `input`, program execution — course launch, environment setup, first submission. See `lessons/01-foundations-print-input.md`.
 
+> **Week 1 is universal across all of Jeremy's courses** (2026-07-15, see
+> `docs/course-ethos.md` / `swosu_cs_curriculum/shared/weekly-rhythm.md`).
+> The strand topics below supersede the earlier AI-lens/book pairings for
+> this week; those shift to Week 2 onward.
+
 ## Monday — Aug 17 — Monday Moments
-**AI I Lens 1: Define the Problem** — What are we actually trying to solve when we ask AI for help?
-Technical tie-in: students are also defining their first programming problem (produce exact output from `print`/`input`) — framing a vague ask into a precise spec is the same move in both places.
+**Getting the most out of this class and this semester** — best practices for the course itself.
+Then 35–40 min on the week's topic: first programs, `print`/`input`, with live worked examples.
 
 ## Wednesday — Aug 19 — Wacky Wednesday
-**Professional Minds Week 1** — Book: *How Learning Works* — Question: How do successful professionals learn?
+**Getting the most out of your degree** — LinkedIn Learning, degree check, degree plan, progress report, course substitutions, degree audits.
+Then paired programming: environment setup in pairs, first program together.
 
 ## Friday — Aug 21 — Fun Friday
-**Professional Minds Week 1** — Book: *Teach Students How to Learn* — Question: How do successful professionals learn?
-Show-and-tell / reflection tie-in: first Hello World / first submission show-and-tell.
+**Getting the most out of your career** — daily 3-things journal; weekly two paragraphs into your vita; monthly rotate a resume line into the CV; internships, resume tips, surviving the job search.
+Then show-and-tell: first Hello World / first submission.
 
 ## Due this week
 Getting-to-know-you quiz, environment setup, first program submission (`quizzes/getting-to-know-you.md`).
