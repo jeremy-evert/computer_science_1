@@ -21,3 +21,14 @@ are the more developed plan.
 
 Once anything is harvested into the active course structure, note it here so
 this import can eventually be archived or deleted without losing anything.
+
+**Archived 2026-07-20.** `canvas/canvas-module-checklist.md` and
+`notes/ideas-parking-lot.md` were harvested to `docs/canvas-module-checklist.md`
+and `docs/ideas-parking-lot.md`. `canvas/weekly-announcements.md` and the
+`labs/` skeleton shape were not harvested — both are superseded by the naming
+scheme in `NAMING.md`. `schedule/fall-2026-course-schedule.csv` was not
+harvested — it is a placeholder CSV shell with no real per-week dates beyond
+what `planning/block-map.md` already carries. This whole tree moved here
+(from `imports/cs1-python-fall-2026/`) as a closed, read-only archive; see
+`jeremy_task_tracking/DECISIONS.md`'s 2026-07-20 entry for the reconciliation
+call.
