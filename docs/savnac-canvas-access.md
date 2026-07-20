@@ -85,10 +85,26 @@ to work out once already (full detail in the `Savnac` repo's
   `~/.canvas-savnac-admin-credentials` on Brandy (mode 600, not in any
   repo). The Canvas API token Harbor uses is in the same file.
 
-## What's not done yet
+## Adapter built and run for real (2026-07-20)
 
-No load adapter exists for this course in `course_foundry` yet, so nothing
-currently pushes `computer_science_1`'s actual content (lessons, planning,
-assignments) into Savnac automatically — the steps above only prove the
-connection and confirm a course shell exists. Building that adapter is
-real content-mapping work, tracked as the next step, not started here.
+`course_foundry` now has a real load/sync adapter for this course:
+`cs1_savnac_load_adapter`/`cs1_savnac_sync_adapter` in
+`load_adapters.py`/`sync_adapters.py`, registered under course id `1`. It
+reads `computer_science_1` + sibling repos `professional_minds` and
+`ai_fluency` live off disk (via `cs1_content_map.py`) and computes which
+weeks are content-ready to push, rather than assuming a fixed set.
+
+The first real push landed weeks 1–3 (36 objects: lesson/Monday-Moment/
+Wacky-Wednesday/Fun-Friday content as Pages, assignments as ungraded
+Assignments, rubric-type markdown as Pages — not native Canvas Rubric
+objects, since the source is free-form prose, not Canvas's structured
+criteria schema). Compiled Beamer PDF decks are tracked but not pushed —
+Harbor has no file-upload workflow yet. Idempotent by name: re-running
+after more weeks are authored (currently blocked at week 4 by `ai_fluency`
+Monday Moments content) only pushes what's new. Full evidence trail:
+`course_foundry/runs/2026-07-20_cs1_savnac_pilot_push/`; decision record:
+`jeremy_task_tracking/DECISIONS.md`'s 2026-07-20 entry.
+
+Run it yourself with `python3 -m course_foundry.cs1_dry_run
+--course-repo-path ~/git/computer_science_1` first (zero Canvas calls) to
+see the current plan before ever calling the real adapter.
