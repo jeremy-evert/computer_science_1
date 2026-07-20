@@ -90,8 +90,11 @@ owning repo — not in the pull.
   `DECISIONS.md`, `RISKS.md`). Matters whenever priorities shift: the
   2026-07-15 content-first pivot should be recorded there.
 - **`harbor`** — the Canvas API client. Matters at **push time**: when CS1
-  content in this repo is ready to load into Canvas (sandbox course 24298
-  first, never a real course first).
+  content in this repo is ready to load into Canvas. Push order, safest
+  first: **Savnac** (a whole separate private Canvas instance on Brandy,
+  zero real-data risk by construction — see
+  [`docs/savnac-canvas-access.md`](savnac-canvas-access.md)) → sandbox
+  course 24298 on real SWOSU Canvas → never a real course first.
 - **`course_foundry`** — course-agnostic checks (sync_check,
   completeness_check) and the verification harness. Matters **after** CS1
   content exists and is Canvas-deployed; explicitly parked until then per
