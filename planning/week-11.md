@@ -18,4 +18,4 @@ Technical tie-in: verifying a collection-processing program against edge cases (
 Show-and-tell / reflection tie-in: share edge cases a collections program was tested against.
 
 ## Due this week
-Weekly coding practice, chapter 8 continued (`assignments/weekly-coding-practice.md`).
+Weekly coding practice, chapter 8 continued (`assignments/A1-weekly-coding-practice.md`).

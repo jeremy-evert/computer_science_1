@@ -18,4 +18,4 @@ Technical tie-in: naming and typing a variable well is itself a context decision
 Show-and-tell / reflection tie-in: share a program that uses variables and formatted output.
 
 ## Due this week
-Weekly coding practice, chapters 1–2 (`assignments/weekly-coding-practice.md`).
+Weekly coding practice, chapters 1–2 (`assignments/A1-weekly-coding-practice.md`).

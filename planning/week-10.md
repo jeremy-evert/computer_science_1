@@ -18,4 +18,4 @@ Technical tie-in: reviewing a classmate's list/dictionary code for mutation haza
 Show-and-tell / reflection tie-in: share a list/dictionary program and a peer's critique of it.
 
 ## Due this week
-Weekly coding practice, chapter 8 (`assignments/weekly-coding-practice.md`); pair programming session (`assignments/pair-programming.md`).
+Weekly coding practice, chapter 8 (`assignments/A1-weekly-coding-practice.md`); pair programming session (`assignments/A3-pair-programming.md`).

@@ -18,4 +18,4 @@ Technical tie-in: a function signature (parameters, return value) is a specifica
 Show-and-tell / reflection tie-in: share a first function and explain what evidence shows it works.
 
 ## Due this week
-Weekly coding practice, chapter 6 start (`assignments/weekly-coding-practice.md`).
+Weekly coding practice, chapter 6 start (`assignments/A1-weekly-coding-practice.md`).

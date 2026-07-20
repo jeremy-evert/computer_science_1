@@ -24,4 +24,4 @@ Then paired programming: environment setup in pairs, first program together.
 Then show-and-tell: first Hello World / first submission.
 
 ## Due this week
-Getting-to-know-you quiz, environment setup, first program submission (`quizzes/getting-to-know-you.md`).
+Getting-to-know-you quiz, environment setup, first program submission (`quizzes/Q1-getting-to-know-you.md`).

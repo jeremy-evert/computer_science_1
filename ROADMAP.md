@@ -39,15 +39,28 @@ report as history, and this file as the living version going forward.
    rather than a direct citation). See Report 002's Literature Audit
    Findings section for the per-query strength-of-evidence breakdown; do
    not describe this audit as uniformly "strongly literature-grounded."
-3. **Professional Minds lesson content doesn't exist.** Confirmed again in
-   Report 002 and re-confirmed in
-   `reports/004_source_reconciliation_and_slurp_status.md`: all 16
-   `professional_minds/lessons/week01/`…`week16/` folders are still
-   `.gitkeep`-only; only one book (*Make It Stick*) has even a first-stage
-   slurp, no DNA card or lesson for any book.
-4. **Monday Moments entries don't exist.** Confirmed again in Report 002:
-   `monday_moments/` still has only `README.md` and `template.md` — 0 of
-   16 week entries written.
+3. **Correction (2026-07-20): Professional Minds lesson content does exist —
+   it just doesn't live in `professional_minds/lessons/weekNN/`.** Those 16
+   folders are indeed still `.gitkeep`-only (that part of Report 002/004 was
+   right), but real content lives elsewhere in that same repo:
+   `professional_minds/readings/week_NN_{wed,fri}_*.md` and
+   `presentations/beamer/week_NN_{wed,fri}/` (compiled decks), tracked
+   authoritatively in that repo's own
+   `indexes/session_coverage_matrix.md`. As of that matrix (built
+   2026-07-18/19, with more added same-day 2026-07-20): **weeks 2–11 are
+   session-complete** (day-specific reading + presentation + compiled
+   Beamer PDF), weeks 12–14 have one shared week-level artifact per week,
+   and weeks 15–16 plus 2 unscheduled slots are still genuinely missing.
+   Check that matrix directly for current status rather than this file.
+4. **Correction (2026-07-20): Monday Moments entries exist, just not in
+   this repo.** `monday_moments/` here still has only `README.md` and
+   `template.md` — that folder is not, and was never meant to be, the
+   canonical home. The canonical copy is
+   `ai_fluency/ai_i/monday_moments/week_NN_<slug>/` (CS1 carries the "AI I"
+   level) — 3 of 16 weeks are written there as of 2026-07-20
+   (`week_01_define_the_problem`, `week_02_gather_context`,
+   `week_03_plan_the_work`), each independently quality-audited. See
+   `NAMING.md` for the full pointer.
 5. **Source-availability gap: partially resolved, partially still open.**
    Report 002 could not locate either the "AI I: Thinking with AI" course
    doc or `professional_minds/professional_minds.csv` anywhere under
@@ -78,16 +91,24 @@ substitute). Once those land, a follow-up prompt applies any approved
 changes to `planning/` — neither Report 002 nor Report 004 made changes
 there.
 
-After the decisions land, the next production step is the Professional
-Minds book-slurp pass (15 of 16 books still need a slurp; source PDFs/ePub
-for all 16 are already present in `curriculum_rag_supporter/books/`), at
-whatever lead-time cadence Jeremy sets.
+**Correction (2026-07-20):** the book-slurp pass and content-filling described
+below are further along than this section's original text assumed — see
+items 3–4 above. Check `professional_minds/indexes/session_coverage_matrix.md`
+and `ai_fluency/ai_i/monday_moments/README.md` for current status before
+treating this section as a from-scratch task list.
+
+After the decisions land, the next production step is closing the remaining
+Professional Minds gaps (weeks 15–16 plus 2 unscheduled slots still lack a
+reading/presentation, per the coverage matrix) and continuing the Monday
+Moments sequence past week 3, at whatever lead-time cadence Jeremy sets.
 
 ## After that
 
-Once readiness decisions are made: start filling Professional Minds lesson
-content and Monday Moments entries, at the lead-time cadence Jeremy
-chooses (Report 002 recommends 2–3 weeks ahead of each week taught, not
-full front-loading or strict just-in-time). Canvas population
-(`reports/003_canvas_capability_planning.md`) stays sequenced after this,
-per that report's own recommendation.
+Continue filling Professional Minds' remaining slots and Monday Moments
+weeks 4–16, at the lead-time cadence Jeremy chooses (Report 002 recommends
+2–3 weeks ahead of each week taught, not full front-loading or strict
+just-in-time). Canvas population (`reports/003_canvas_capability_planning.md`)
+stays sequenced after this, per that report's own recommendation — though a
+bounded Savnac pilot push (weeks confirmed content-ready across all three
+repos) is now in progress ahead of full Canvas population; see
+`docs/savnac-canvas-access.md`.

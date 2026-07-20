@@ -18,4 +18,4 @@ Technical tie-in: grounding a function's behavior in a unit test is the programm
 Show-and-tell / reflection tie-in: share a function with a passing unit test.
 
 ## Due this week
-Weekly coding practice, chapter 6 (with required unit-testing problem) (`assignments/weekly-coding-practice.md`).
+Weekly coding practice, chapter 6 (with required unit-testing problem) (`assignments/A1-weekly-coding-practice.md`).

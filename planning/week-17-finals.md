@@ -16,4 +16,4 @@ Final exam period continues.
 Semester ends 10:00 PM.
 
 ## Due this week
-Final reflection (`assignments/final-reflection.md`); chapter exam if used (`quizzes/chapter-exam.md`); final Coding Odyssey portfolio submission.
+Final reflection (`assignments/A5-final-reflection.md`); chapter exam if used (`quizzes/Q2-chapter-exam.md`); final Coding Odyssey portfolio submission.

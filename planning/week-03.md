@@ -18,4 +18,4 @@ Technical tie-in: tracing a decision table before writing an `if`/`elif`/`else` 
 Show-and-tell / reflection tie-in: reflect on the first hard bug of the semester.
 
 ## Due this week
-Weekly coding practice, chapter 3 (`assignments/weekly-coding-practice.md`).
+Weekly coding practice, chapter 3 (`assignments/A1-weekly-coding-practice.md`).

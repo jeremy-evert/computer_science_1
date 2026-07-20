@@ -19,4 +19,4 @@ Technical tie-in: breaking a large branching problem into nested, testable condi
 Show-and-tell / reflection tie-in: share a branching program and its boundary/invalid test cases.
 
 ## Due this week
-Weekly coding practice, chapter 4 (`assignments/weekly-coding-practice.md`).
+Weekly coding practice, chapter 4 (`assignments/A1-weekly-coding-practice.md`).

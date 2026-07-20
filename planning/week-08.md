@@ -18,4 +18,4 @@ Technical tie-in: choosing among string methods (index vs. slice vs. search) req
 Show-and-tell / reflection tie-in: share a string-processing program with clean, readable formatting.
 
 ## Due this week
-Weekly coding practice, chapter 7 (`assignments/weekly-coding-practice.md`).
+Weekly coding practice, chapter 7 (`assignments/A1-weekly-coding-practice.md`).

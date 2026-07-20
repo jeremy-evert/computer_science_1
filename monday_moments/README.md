@@ -10,4 +10,17 @@ At this stage students don't yet have the judgment to spot a subtly wrong AI ans
 - Noticing when an AI-generated answer is longer/fancier than anything covered in class — a signal to slow down, not copy it in.
 - Building the habit of typing code out by hand even when a suggestion is available, because at this level the typing *is* the learning.
 
-Add one entry per week using `template.md`. One idea per week, taught concretely through a demo, then practiced through that week's Monday Moment quiz/assignment. Fifteen minutes is a hard ceiling for the in-class demo; the digest stays short enough to read in a few minutes.
+**This folder holds no real entries and should not gain any.** The canonical
+home for Monday Moment content is
+[`ai_fluency/ai_i/monday_moments/week_NN_<slug>/`](../../ai_fluency/ai_i/monday_moments/README.md)
+(confirmed 2026-07-20 — see `../NAMING.md`) — each real week there is a full
+package (`monday_moment.md`, `instructor_guide.md`, `student_activity.md`,
+`assessment_rubric.md`, `portfolio_artifact_*.md`), independently
+quality-audited, and already paired to specific CS1 weeks (weeks 1–3 written
+as of 2026-07-20). `template.md` in this folder predates that pipeline and
+is kept only as historical scaffolding, not a live authoring target — write
+new weeks in `ai_fluency`, not here. One idea per week, taught concretely
+through a demo, then practiced through that week's Monday Moment
+quiz/assignment, stays the operating shape; fifteen minutes is a hard
+ceiling for the in-class demo, and the digest stays short enough to read in
+a few minutes.

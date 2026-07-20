@@ -18,4 +18,4 @@ Technical tie-in: choosing between two class designs (composition vs. inheritanc
 Show-and-tell / reflection tie-in: pair-programming demo of a multi-class/module program.
 
 ## Due this week
-Weekly coding practice, chapter 9 Round 2 (`assignments/weekly-coding-practice.md`); pair programming session (`assignments/pair-programming.md`).
+Weekly coding practice, chapter 9 Round 2 (`assignments/A1-weekly-coding-practice.md`); pair programming session (`assignments/A3-pair-programming.md`).

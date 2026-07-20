@@ -32,25 +32,32 @@ through AI V "Machine Learning and AI Systems"). Each level has its own
 sixteen "AI as tutor, not typist" lenses the weekly planner already anchors
 every Monday to.
 
-**When it matters:** *Now.* Writing the 16 Monday Moments entries is on the
-critical path to Aug 17. Author them against the AI I lens list, and decide
-whether the canonical copy lives in `ai_fluency/ai_i/monday_moments/` (shared
-across sections/years) with this repo's `monday_moments/` holding the
-CS1-scheduled instances — or the reverse. Don't write them twice.
+**When it matters:** *Now.* **Resolved 2026-07-20:** the canonical copy lives
+in `ai_fluency/ai_i/monday_moments/week_NN_<slug>/`, not in this repo's own
+`monday_moments/` (which stays README+pointer only — see `NAMING.md`). 3 of
+16 weeks are written there as of 2026-07-20
+(`week_01_define_the_problem`/`week_02_gather_context`/`week_03_plan_the_work`),
+each independently quality-audited. Writing weeks 4–16 there is on the
+critical path to Aug 17.
 
 ## `professional_minds` — Wacky Wednesday / Fun Friday curriculum
 
 The book-anchored professional-development strand folded into every class:
-book notes (`books/`), lesson folders (`lessons/week01/`–`week16/`),
-assignments, portfolio structure, and its own monday_moments. CS1's weekly
-planner points at it twice a week — *How Learning Works*, *Teach Students
-How to Learn*, etc.
+book notes (`books/`), assignments, portfolio structure, and its own
+monday_moments. CS1's weekly planner points at it twice a week — *How
+Learning Works*, *Teach Students How to Learn*, etc.
 
-**When it matters:** *Now — it's the biggest unfunded promise in the CS1
-plan.* The `lessons/week01/`–`week16/` folders are still empty, and the CS1
-planner commits to 32 sessions against them. Before Aug 17, either write the
-15-minute lessons (at least Weeks 1–4) or officially run Wed/Fri as
-discussion from the book + question already in each planning file.
+**Correction (2026-07-20):** `lessons/week01/`–`week16/` are indeed still
+`.gitkeep`-only, but that is not where this repo's real content lives — the
+day-specific readings and compiled Beamer decks are at
+`readings/week_NN_{wed,fri}_*.md` / `presentations/beamer/week_NN_{wed,fri}/`,
+tracked in `indexes/session_coverage_matrix.md`. **Weeks 2–11 are
+session-complete** (real reading + presentation + compiled PDF, each
+QC-passed) as of that matrix; weeks 12–14 share one week-level artifact per
+week; weeks 15–16 plus 2 unscheduled slots still lack real content. Check
+that matrix directly — this is much further along than "biggest unfunded
+promise" suggested. Remaining work before Aug 17: weeks 15–16 (and the 2
+unscheduled slots) still need real reading/presentation content.
 
 ## `curriculum_rag_supporter` — the curriculum-craft library
 

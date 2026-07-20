@@ -18,4 +18,4 @@ Technical tie-in: refactoring a first-pass class based on peer/instructor feedba
 Show-and-tell / reflection tie-in: share a first class definition (constructor, `self`, one method).
 
 ## Due this week
-Weekly coding practice, chapter 9 Round 1 (`assignments/weekly-coding-practice.md`).
+Weekly coding practice, chapter 9 Round 1 (`assignments/A1-weekly-coding-practice.md`).

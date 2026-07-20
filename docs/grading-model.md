@@ -7,7 +7,7 @@ final is worth points. The *percentages* below are a first proposal that sums
 to 100 — adjust freely.
 
 > **Final decided (2026-07-15):** the final is a **reflection paper**, built
-> from the existing template (`assignments/final-reflection.md`). One small
+> from the existing template (`assignments/A5-final-reflection.md`). One small
 > residual: confirm at syllabus finalization that university policy is
 > satisfied by a reflection paper in the finals slot.
 
@@ -22,7 +22,7 @@ to 100 — adjust freely.
 | Friday feedback report | 5% | weekly | Quality of feedback the student *gave* |
 | Weekly reinforcement assignment | 25% | weekly | Two axes: result 15% + process 10% (rubric below) |
 | Coding Odyssey checkpoints | 15% | 4 checkpoints | Keeps the historical effort ladder (70/80/90/100) |
-| Final reflection paper | 10% | finals week | Template basis: `assignments/final-reflection.md`; sanity-check against university finals policy |
+| Final reflection paper | 10% | finals week | Template basis: `assignments/A5-final-reflection.md`; sanity-check against university finals policy |
 | Attendance & participation | 20% | daily | Historical policy; confirm language at syllabus finalization |
 | Course evaluation | 2% | end of term | Carried from current model |
 | **Total** | **100%** | | |

@@ -18,4 +18,4 @@ Technical tie-in: choosing `for` vs. `while` for a repetition problem is the sam
 Show-and-tell / reflection tie-in: share a loop that fixed an off-by-one or non-terminating bug.
 
 ## Due this week
-Weekly coding practice, chapter 5 (`assignments/weekly-coding-practice.md`).
+Weekly coding practice, chapter 5 (`assignments/A1-weekly-coding-practice.md`).

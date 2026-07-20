@@ -138,7 +138,7 @@ Once, then reused weekly:
   (prompts and chats tracked). Knowledge management and resource tracking
   are part of the ethos, even in CS1.
 - **The final is a reflection paper** (decided 2026-07-15) — template basis:
-  `assignments/final-reflection.md`. Weight in `docs/grading-model.md`.
+  `assignments/A5-final-reflection.md`. Weight in `docs/grading-model.md`.
 - **Collaboration is encouraged.** Pairs may share one repo. Each student
   documents their own contributions; the git log must show a
   lines-of-code split no more lopsided than 80/20.
