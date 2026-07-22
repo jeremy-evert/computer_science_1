@@ -59,19 +59,33 @@ report as history, and this file as the living version going forward.
    rather than a direct citation). See Report 002's Literature Audit
    Findings section for the per-query strength-of-evidence breakdown; do
    not describe this audit as uniformly "strongly literature-grounded."
-3. **Correction (2026-07-20): Professional Minds lesson content does exist —
-   it just doesn't live in `professional_minds/lessons/weekNN/`.** Those 16
-   folders are indeed still `.gitkeep`-only (that part of Report 002/004 was
-   right), but real content lives elsewhere in that same repo:
-   `professional_minds/readings/week_NN_{wed,fri}_*.md` and
-   `presentations/beamer/week_NN_{wed,fri}/` (compiled decks), tracked
-   authoritatively in that repo's own
-   `indexes/session_coverage_matrix.md`. As of that matrix (built
-   2026-07-18/19, with more added same-day 2026-07-20): **weeks 2–11 are
-   session-complete** (day-specific reading + presentation + compiled
-   Beamer PDF), weeks 12–14 have one shared week-level artifact per week,
-   and weeks 15–16 plus 2 unscheduled slots are still genuinely missing.
-   Check that matrix directly for current status rather than this file.
+3. **Resolved 2026-07-22: Professional Minds is fully content-complete,
+   weeks 2–16.** (Superseding the 2026-07-20 correction below, which is now
+   itself stale — kept for history.) Real content lives in
+   `professional_minds/readings/week_NN_{wed,fri}_*.md`,
+   `presentations/beamer/week_NN_{wed,fri}/` (compiled decks), and
+   `assignments/` (8 files/week: reading+slides assignments, each with a
+   rubric). Verified directly against the repo 2026-07-22 (not against any
+   status doc): 41 readings, 31 compiled Beamer PDFs, 121 assignment/rubric
+   files — every week 2–16 has a day-specific reading, presentation, and
+   compiled deck. `professional_minds/indexes/session_coverage_matrix.md`
+   was found stale (still showing weeks 12–16 as shared-artifact/missing)
+   and corrected in place same day. The only real remaining gap: this
+   content hasn't been pushed to Canvas yet — that's a push, not more
+   authoring.
+   <details><summary>2026-07-20 correction (superseded, kept for history)</summary>
+
+   Those 16 `professional_minds/lessons/weekNN/` folders are indeed still
+   `.gitkeep`-only (that part of Report 002/004 was right), but real
+   content lives elsewhere in that same repo, tracked authoritatively in
+   that repo's own `indexes/session_coverage_matrix.md`. As of that matrix
+   (built 2026-07-18/19, with more added same-day 2026-07-20): **weeks
+   2–11 are session-complete** (day-specific reading + presentation +
+   compiled Beamer PDF), weeks 12–14 have one shared week-level artifact
+   per week, and weeks 15–16 plus 2 unscheduled slots are still genuinely
+   missing. **This turned out to be stale by 2026-07-22** — see the
+   resolved note above.
+   </details>
 4. **Correction (2026-07-20): Monday Moments entries exist, just not in
    this repo.** `monday_moments/` here still has only `README.md` and
    `template.md` — that folder is not, and was never meant to be, the
