@@ -25,11 +25,15 @@ and note the override here.
   point-in-time snapshot from 2026-07-14. Useful for history; `ROADMAP.md`
   is the current source of truth.
 - [`reports/002_pre_semester_readiness_and_literature_audit.md`](reports/002_pre_semester_readiness_and_literature_audit.md)
-  — the readiness/literature audit (complete; Jeremy's decisions still
-  pending) — and
+  — the readiness/literature audit (complete) — and
   [`reports/004_source_reconciliation_and_slurp_status.md`](reports/004_source_reconciliation_and_slurp_status.md)
   — the follow-up source reconciliation against the newly pulled
-  `professional_minds` and `ai_fluency` repos (complete). Read both before
+  `professional_minds` and `ai_fluency` repos (complete). **Jeremy's
+  decisions on Report 002 landed 2026-07-22** — see
+  [`reports/005_apply_pre_semester_decisions.md`](reports/005_apply_pre_semester_decisions.md)
+  (what changed) and
+  [`reports/006_pre_semester_decisions_recheck.md`](reports/006_pre_semester_decisions_recheck.md)
+  (the re-audit against the applied decisions). Read all four before
   touching `planning/`.
 
 ## 2. Special instructions for course development
@@ -37,8 +41,9 @@ and note the override here.
 - [`prompts/README.md`](prompts/README.md) — read this before drafting any
   new curriculum-development prompt. It lists required reading (this
   README, Monday Moments docs, the relevant weekly plan, the professional
-  pathway artifacts doc, plus AI-content sources in `../ai_fluency/` and
-  `../drive_raw_pull_2026-07-14/`).
+  pathway artifacts doc, plus `../ai_fluency/` for AI content — now the
+  authoritative source by decision, not a document to keep searching for;
+  see item 4 below).
 - [`prompts/001_course_development_source_walk.md`](prompts/001_course_development_source_walk.md)
   and [`prompts/001_pre_semester_readiness_and_literature_audit.md`](prompts/001_pre_semester_readiness_and_literature_audit.md)
   — the actual development prompts. The second one is the active work item;
@@ -64,13 +69,16 @@ and note the override here.
 
 ## 4. First step if you're starting fresh right now
 
-Open [`ROADMAP.md`](ROADMAP.md) → "Next step". As of 2026-07-16 (later same
-day) Reports 002 and 004 are both complete: the readiness/literature audit
-ran, and the two previously-missing source documents were re-investigated
-against the newly pulled `professional_minds` and `ai_fluency` repos
-(`professional_minds.csv` found and fully verified against the planner; the
-AI I: Thinking with AI document still not located). The next step is
-**Jeremy's decision pass** on Report 002's "Decisions Jeremy Must Make"
-section — not a report-writing task. After those decisions land, a
-follow-up prompt applies approved changes to `planning/`, and Professional
-Minds book-slurp production begins.
+Open [`ROADMAP.md`](ROADMAP.md) → "Next step" (updated 2026-07-22). Reports
+002, 004, 005, and 006 are all complete: the readiness/literature audit ran,
+the two previously-missing source documents were investigated
+(`professional_minds.csv` found and verified; the AI I: Thinking with AI
+document still not located, but **no longer treated as a blocker** — see
+Report 005), Jeremy's six decisions from Report 002 were applied to
+`planning/` and related files (Report 005), and the planner was re-audited
+against those decisions (Report 006). Fall 2026 production is scoped to
+three courses (CS1, CS2, Discrete Structures), with CS1 Week 2 as the
+pipeline test and the rest of CS1 following once that passes — see
+`ROADMAP.md`'s "Next step" for the full order. Check Report 006's verdict
+before assuming the planner is fully clean to teach from or load further
+into Canvas/Savnac.

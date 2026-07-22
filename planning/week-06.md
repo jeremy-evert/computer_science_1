@@ -4,11 +4,17 @@
 Full week.
 
 ## Weekly Focus
-Loops continued; introduce functions. See `lessons/04-loops.md` and `lessons/05-functions.md`.
+Loops review, practice, and consolidation (`lessons/04-loops.md`) is the
+week's actual instructional load. Functions (`lessons/05-functions.md`)
+appear only as a brief, ungraded preview — full instruction and graded
+expectations for parameters, return values, and decomposition begin Week 7.
+**Decision, 2026-07-22** (see `reports/005_apply_pre_semester_decisions.md`):
+this replaces the earlier "loops continued + functions introduced" framing,
+which stacked two conceptual loads in the same week.
 
 ## Monday — Sep 21 — Monday Moments
 **AI I Lens 6: Engineer the Prompt** — How do we write prompts that behave more like professional work orders?
-Technical tie-in: a function signature (parameters, return value) is a specification in the same way a well-engineered prompt is — both name inputs, constraints, and expected output.
+Technical tie-in: a function signature (parameters, return value) is a specification in the same way a well-engineered prompt is — both name inputs, constraints, and expected output. This tie-in previews functions vocabulary; it is not the start of graded functions instruction (that's Week 7).
 
 ## Wednesday — Sep 23 — Wacky Wednesday
 **Professional Minds Week 6** — Book: *Statistics Done Wrong* — Question: How do we know something is true?
@@ -18,4 +24,4 @@ Technical tie-in: a function signature (parameters, return value) is a specifica
 Show-and-tell / reflection tie-in: share a first function and explain what evidence shows it works.
 
 ## Due this week
-Weekly coding practice, chapter 6 start (`assignments/A1-weekly-coding-practice.md`).
+Weekly coding practice, chapter 5 review/loops practice (`assignments/A1-weekly-coding-practice.md`). No graded functions work is due this week — chapter 6 practice begins Week 7.

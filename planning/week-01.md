@@ -25,3 +25,5 @@ Then show-and-tell: first Hello World / first submission.
 
 ## Due this week
 Getting-to-know-you quiz, environment setup, first program submission (`quizzes/Q1-getting-to-know-you.md`).
+
+**Professional-pathway portfolio — baseline established here (Decision, 2026-07-22, `reports/005_apply_pre_semester_decisions.md`).** Wednesday/Friday's degree-check and career content is where students start or submit the baseline artifacts for `assignments/A6-professional-pathway-artifacts.md`: unofficial transcript/degree audit, advisor/progress check, a preliminary degree plan, a current (even incomplete) resume, current GitHub/LinkedIn, and an initial dream-job/role interest. These don't need to be polished in Week 1 — they get updated in Week 14 and completed/submitted in Week 15. Largely covered by `semester_kickoff_week`'s A01–A09 assignment set; see that repo for the actual handouts/rubrics once CS1's Week 1 sources from it directly (tracked, not yet done as of this decision).
