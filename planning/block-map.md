@@ -106,7 +106,7 @@ happen live in class.
 | L03 | Aug 31 | 3 | Types, conversion, formatting | ☐ | ☐ | ☐ |
 | — | — | 4 | **Branching — no Monday (Labor Day).** Lecture content moves to Wed/Fri active time or the podcast carries it | ☐ | ☐ | ☐ |
 | L04 | Sep 14 | 5 | Loops and repetition I | ☐ | ☐ | ☐ |
-| L05 | Sep 21 | 6 | Loops II; Coding Odyssey planning | ☐ | ☐ | ☐ |
+| L05 | Sep 21 | 6 | Loops II; Coding Odyssey checkpoint 1 — baby project / dry run | ☐ | ☐ | ☐ |
 | L06 | Sep 28 | 7 | Functions and decomposition | ☐ | ☐ | ☐ |
 | L07 | Oct 5 | 8 | Strings and text processing | ☐ | ☐ | ☐ |
 | L08 | Oct 12 | 9 | Collections: lists and dictionaries | ☐ | ☐ | ☐ |
@@ -116,7 +116,7 @@ happen live in class.
 | L12 | Nov 9 | 13 | Classes, objects, modules II | ☐ | ☐ | ☐ |
 | L13 | Nov 16 | 14 | GitHub, pair programming, AI-aware coding | ☐ | ☐ | ☐ |
 | L14 | Nov 23 | 15 | Consolidation; independent project work | ☐ | ☐ | ☐ |
-| L15 | Nov 30 | 16 | Coding Odyssey final pass; professional artifacts | ☐ | ☐ | ☐ |
+| L15 | Nov 30 | 16 | Coding Odyssey checkpoint 4 — final pass | ☐ | ☐ | ☐ |
 
 ## Production totals
 

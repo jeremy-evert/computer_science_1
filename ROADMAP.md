@@ -39,10 +39,18 @@ report as history, and this file as the living version going forward.
    defined-but-not-yet-built attendance/check-in/disengagement-check
    system; (6) the professional-pathway portfolio is staged across the
    semester (Week 1 baseline, Week 14 update, Week 15 completion) instead
-   of dumped in Week 16. **Not resolved:** Report 002's lower-priority Week
-   9 checkpoint-1-timing question — Jeremy's answers didn't address it.
-   `reports/006_pre_semester_decisions_recheck.md` re-audits the planner
-   against these six decisions.
+   of dumped in Week 16. `reports/006_pre_semester_decisions_recheck.md`
+   re-audits the planner against these six decisions. **Resolved
+   2026-07-22 (separately, after Report 006):** Report 002's lower-priority
+   Week 9 checkpoint-1-timing question. Rather than moving the Week 9
+   checkpoint to Week 10 as Report 002 suggested, added a new, lighter
+   Coding Odyssey checkpoint 1 ("baby project" / dry run) at Week 6 —
+   already the week `planning/block-map.md` scheduled Coding Odyssey
+   planning — and renumbered checkpoints 1→2, 2→3, 3→4 at Weeks 9/14/16.
+   Week 9's checkpoint is now a genuine second check-in rather than the
+   first, so the first-time-submission overhead Report 002 flagged is
+   absorbed earlier, in a full week, instead. See
+   `reports/007_coding_odyssey_baby_project_checkpoint.md`.
 2. **Literature-grounded audit is done.** Section 4 ran successfully
    against `curriculum_rag_supporter` (corpus already ingested, 29 books;
    no blockers) and all seven queries executed — but evidence quality
