@@ -34,3 +34,54 @@ earlier than the historical three-checkpoint pattern. See
 
 Final Coding Odyssey portfolio submission remains Week 17 (finals week),
 unchanged.
+
+## Deepened structure, 2026-07-24: genre menu, weekly gates, World Bible
+
+**Decision:** CS1's content spine pivoted to make this project the spine of
+the whole course, not an occasional checkpoint on top of unrelated weekly
+work. Full design: `jeremy_task_tracking/DECISIONS.md`'s 2026-07-24 entry;
+`docs/curriculum/judgment_toolkit.md` (the five grading instruments); the
+reconciled week-by-week map: `planning/coding-odyssey-arc-map.md`. This
+section adds detail to the checkpoint structure above — it does not change
+the four checkpoint weeks (6/9/14/16) or the Week 17 final.
+
+**Bounded genre menu, picked once in Week 1, kept all semester.** Four
+options, not open worldbuilding — bounding it enables genre-based peer
+grouping later and keeps grading tractable across ~30 different worlds:
+
+- **The Frontier Settlement** — manage colonists, resources, events.
+- **The Investigation Bureau** — a detective case-file engine (strongest
+  fit for the optional NLP/text-analysis side-quest — see the arc map).
+- **The Starship Log** — crew and exploration management.
+- **The Small Business** — inventory, customers, transactions.
+
+Each must be able to support: collections of things, text data, a save/load
+state, at least one class hierarchy, and a numeric feature by the
+Weeks 16-17 capstone. Picked Friday of Week 1, alongside the existing
+"dream job" Fun Friday content — see `planning/week-01.md`.
+
+**Weekly gates.** Starting Week 2, each week's new concept gets a small
+pass/fail Quick Check positioned at the start of that week's work — the
+smallest proof the concept was used, not a spec. Full per-week gate list:
+`planning/coding-odyssey-arc-map.md`. The four existing Checkpoints above
+*are* the Build-graded moments in this structure — weekly gates don't
+replace them, they build toward them.
+
+**World Bible.** Each student keeps a living document (their own
+miniature `ROADMAP.md`): founding charter (from the Week 1 genre pick),
+current state, one line per week on what gate was passed and what broke,
+and a running "known debt" list. This is Build/Routine evidence, not extra
+work — see `judgment_toolkit.md` §5 (Judgment Log) for the three graded
+checkpoints (Week 1, mid-semester via each Debrief, Week 17 final).
+
+**Grading instruments.** Build (checkpoints + light weekly continuation
+grading), Decide/Compare (Weeks 10-11 structure choice; Week 16 capstone),
+Debrief (each checkpoint, Full Trail Debrief mandatory at Checkpoint 3/Wk14),
+and Quick Check (weekly gates) are defined in full in
+`docs/curriculum/judgment_toolkit.md` — not repeated here.
+
+**Not yet done:** per-week gate assignment text and rubrics (drafted
+separately, follows this repo's existing `assignments/`+`rubrics/`-style
+convention — see `semester_kickoff_week/assignments/A01_unofficial_transcript.md`
++ `rubrics/A01_rubric.md` for the pattern this should match); point values;
+Savnac load; NRP calibration.

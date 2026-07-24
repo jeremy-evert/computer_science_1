@@ -23,7 +23,9 @@ Then paired programming: environment setup in pairs, first program together.
 **Getting the most out of your career** — daily 3-things journal; weekly two paragraphs into your vita; monthly rotate a resume line into the CV; internships, resume tips, surviving the job search.
 Then show-and-tell: first Hello World / first submission.
 
+**Coding Odyssey genre pick (added 2026-07-24, see `docs/curriculum/judgment_toolkit.md` and `planning/coding-odyssey-arc-map.md`).** Pairs with this day's existing dream-job/career theme rather than adding a new slot. Students pick one of 4 bounded genres (Frontier Settlement / Investigation Bureau / Starship Log / Small Business — full menu in `assignments/A2-coding-odyssey-project.md`) and write a one-paragraph founding charter — the seed of their World Bible and the first Judgment Log checkpoint.
+
 ## Due this week
-Getting-to-know-you quiz, environment setup, first program submission (`quizzes/Q1-getting-to-know-you.md`).
+Getting-to-know-you quiz, environment setup, first program submission (`quizzes/Q1-getting-to-know-you.md`); Coding Odyssey genre pick + founding charter (`assignments/A2-coding-odyssey-project.md`).
 
 **Professional-pathway portfolio — baseline established here (Decision, 2026-07-22, `reports/005_apply_pre_semester_decisions.md`).** Wednesday/Friday's degree-check and career content is where students start or submit the baseline artifacts for `assignments/A6-professional-pathway-artifacts.md`: unofficial transcript/degree audit, advisor/progress check, a preliminary degree plan, a current (even incomplete) resume, current GitHub/LinkedIn, and an initial dream-job/role interest. These don't need to be polished in Week 1 — they get updated in Week 14 and completed/submitted in Week 15. Largely covered by `semester_kickoff_week`'s A01–A09 assignment set; see that repo for the actual handouts/rubrics once CS1's Week 1 sources from it directly (tracked, not yet done as of this decision).
