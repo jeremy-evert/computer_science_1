@@ -3,6 +3,14 @@
 Matches `docs/curriculum/judgment_toolkit.md` §1/§2. Two separately-graded
 parts — do not average them into one score.
 
+## Step 0 — Genre pick + founding charter (existence check, not scored here)
+
+Not a separate pass/fail row: confirm a genre was picked and a founding
+charter paragraph exists (this feeds the Week 1/Week 2 Judgment Log
+checkpoint, `judgment_toolkit.md` §5) — don't block the Quick Check below
+on charter *quality*, only presence. Moved here 2026-07-24 from Week 1
+Friday (`jeremy_task_tracking/DECISIONS.md`).
+
 ## Part 1 — Quick Check (pass/fail, mechanical-checkable)
 
 | Criterion | Pass condition |

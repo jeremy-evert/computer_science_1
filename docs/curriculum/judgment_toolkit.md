@@ -28,7 +28,7 @@ tone, they don't import a stricter one.
 | Build | one checkpoint or continuation | ~weekly (light) + 4 checkpoints (full) | `assignments/A2-coding-odyssey-project.md` |
 | Decide/Compare | one real choice, defended | 2 points (Wk 10-11, Wk 16 capstone) | collections-era design choice; capstone |
 | Debrief | reflective, cyclical | 4 arc closes + finals | Checkpoints 1-4, Week 17 |
-| Judgment Log | cumulative, living | 3 checkpoints (Wk1 / mid / Wk17) | the World Bible |
+| Judgment Log | cumulative, living | 3 checkpoints (Wk2 / mid / Wk17) | the World Bible |
 
 ---
 
@@ -162,14 +162,16 @@ purposes: shows what exists (Build evidence) and shows how the student
 decided to get there (Judgment Log).
 
 **Minimum contents** (from the original Odyssey design, unchanged):
-founding charter (Week 1), current state, one line per week on what gate was
+founding charter (Week 2), current state, one line per week on what gate was
 passed and what broke, a running "known debt" list.
 
 **Three graded checkpoints, not a running grade:**
-1. **Week 1** — founding charter exists, committed. Pairs naturally with
-   Friday's existing "dream job"/career-interest content
-   (`planning/week-01.md`) rather than needing a new slot — see the genre-menu
-   addition there.
+1. **Week 2** — founding charter exists, committed. **Moved 2026-07-24**
+   from Week 1 Friday: Week 1 stays strictly universal across all five
+   courses (no CS1-only content, even as a separate module); Week 2 is the
+   first unambiguously-CS1 week, opening with the genre pick right before
+   that week's gate — see `planning/week-02.md` and
+   `assignments/odyssey_gates/week-02.md`.
 2. **Mid-semester** — implicitly checked at each Debrief (the Log is the raw
    material each Debrief draws from); no separate standalone grade.
 3. **Week 17 final** — the Log as a whole is reviewed alongside the final

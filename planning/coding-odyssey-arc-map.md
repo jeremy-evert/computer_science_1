@@ -44,8 +44,8 @@ Check — a starting call, not final; confirm during authoring
 
 | Wk | Real focus (`planning/week-NN.md`) | Gate | Route |
 |---|---|---|---|
-| 1 | Foundations — universal week | *No gate.* Genre pick + founding charter instead (see below). | — |
-| 2 | Variables, expressions, types | World must print at least one computed value using a variable and an expression (not a hardcoded string). | Mechanical |
+| 1 | Foundations — universal week | *No gate, no genre pick.* Stays identical across all five courses. | — |
+| 2 | Variables, expressions, types | **Step 0:** genre pick + founding charter (existence check, not scored). **Gate:** world must print at least one computed value using a variable and an expression (not a hardcoded string). | Mechanical |
 | 3 | Types/formatting continued; branching intro | World must use one conditional to change its output based on state. | Mechanical |
 | 4 | Branching and decision-making | World must include a decision with ≥2 branches that meaningfully changes behavior (deeper than Wk3's intro use). | Mechanical |
 | 5 | Loops and repetition | World must run a loop processing an unknown/variable number of events (sentinel- or range-driven). | Mechanical |
@@ -62,14 +62,18 @@ Check — a starting call, not final; confirm during authoring
 | 16 | Checkpoint 4 — final creative pass | *Gate = Checkpoint 4 itself.* **Also hosts Decide/Compare #2** (capstone-scale version). | Build + Decide/Compare (Checkpoint) |
 | 17 | Finals — wrap-up | Final Judgment Log checkpoint + Debrief, full show-and-tell (already scheduled). | Human |
 
-## Genre menu — Week 1
+## Genre menu — Week 2 Monday (moved 2026-07-24 from Week 1 Friday)
 
-**Placement:** Friday of Week 1 already carries a "dream job"/career-interest
-theme (`planning/week-01.md`'s Fun Friday content, feeding
-`assignments/A6-professional-pathway-artifacts.md`'s "initial dream-job/role
-interest"). Genre pick pairs with this directly — no new due-date real
-estate needed, just an addition to what's already scheduled that day. See
-the Week 1 edit itself for the exact addition.
+**Placement, reconsidered.** Originally paired with Week 1 Friday's
+"dream job"/career-interest theme. Jeremy's call, 2026-07-24: keep Week 1
+strictly universal across all five courses (no CS1-only exception, even as
+a technically-separate module), and start the Odyssey's own content at
+Week 2 — the first week that's unambiguously CS1-only anyway. Genre pick +
+founding charter now open Week 2 Monday, immediately before that week's
+gate (`assignments/odyssey_gates/week-02.md`). Reasoning also considered
+and rejected: a separate Friday-Week-1 module (technically easy, but muddies
+the "Week 1 = identical everywhere" line and adds load to an already-full
+universal week).
 
 **The menu (unchanged from the original design, still bounded at 4):**
 Frontier Settlement, Investigation Bureau, Starship Log, Small Business —

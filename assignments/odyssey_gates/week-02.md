@@ -4,6 +4,24 @@
 **Arc:** 1 — Foundations. **Instrument:** Quick Check (pass/fail) — see
 `docs/curriculum/judgment_toolkit.md` §1. Full map: `planning/coding-odyssey-arc-map.md`.
 
+## Step 0 — Pick your genre (moved here 2026-07-24 from Week 1 Friday)
+
+Before anything else this week: pick one of 4 bounded genres and keep it
+all semester.
+
+- **The Frontier Settlement** — manage colonists, resources, events.
+- **The Investigation Bureau** — a detective case-file engine (strongest
+  fit for the optional NLP/text-analysis side-quest — see
+  `planning/coding-odyssey-arc-map.md`).
+- **The Starship Log** — crew and exploration management.
+- **The Small Business** — inventory, customers, transactions.
+
+Write a one-paragraph **founding charter**: what is this world, who's in
+it, what's at stake. This is the seed of your World Bible
+(`assignments/A2-coding-odyssey-project.md`) and the first Judgment Log
+checkpoint (`docs/curriculum/judgment_toolkit.md` §5) — not graded
+pass/fail like the gate below, just needs to genuinely exist.
+
 ## The gate (do this first)
 
 Write a short scene where your world states its own founding condition —
@@ -13,7 +31,7 @@ week's whole assignment: if you're writing more than a few lines of world
 logic to pass it, you've overbuilt it.
 
 Examples of "founding condition," by genre (pick whichever fits the genre
-you chose Week 1 — these are illustrations, not requirements):
+you chose above — these are illustrations, not requirements):
 
 - **Frontier Settlement:** starting food stock, computed as rations ×
   colonist count, printed as "The settlement begins with N days of food."

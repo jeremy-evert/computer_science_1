@@ -45,9 +45,10 @@ reconciled week-by-week map: `planning/coding-odyssey-arc-map.md`. This
 section adds detail to the checkpoint structure above — it does not change
 the four checkpoint weeks (6/9/14/16) or the Week 17 final.
 
-**Bounded genre menu, picked once in Week 1, kept all semester.** Four
-options, not open worldbuilding — bounding it enables genre-based peer
-grouping later and keeps grading tractable across ~30 different worlds:
+**Bounded genre menu, picked once at the start of Week 2, kept all
+semester.** Four options, not open worldbuilding — bounding it enables
+genre-based peer grouping later and keeps grading tractable across ~30
+different worlds:
 
 - **The Frontier Settlement** — manage colonists, resources, events.
 - **The Investigation Bureau** — a detective case-file engine (strongest
@@ -57,8 +58,11 @@ grouping later and keeps grading tractable across ~30 different worlds:
 
 Each must be able to support: collections of things, text data, a save/load
 state, at least one class hierarchy, and a numeric feature by the
-Weeks 16-17 capstone. Picked Friday of Week 1, alongside the existing
-"dream job" Fun Friday content — see `planning/week-01.md`.
+Weeks 16-17 capstone. Picked Week 2 Monday (**moved 2026-07-24** from Week 1
+Friday — Week 1 stays strictly universal across all five courses, with no
+CS1-only content even as a separate module; Week 2 is the first week
+that's unambiguously CS1's own) — see `planning/week-02.md` and
+`assignments/odyssey_gates/week-02.md`.
 
 **Weekly gates.** Starting Week 2, each week's new concept gets a small
 pass/fail Quick Check positioned at the start of that week's work — the
@@ -68,11 +72,11 @@ smallest proof the concept was used, not a spec. Full per-week gate list:
 replace them, they build toward them.
 
 **World Bible.** Each student keeps a living document (their own
-miniature `ROADMAP.md`): founding charter (from the Week 1 genre pick),
+miniature `ROADMAP.md`): founding charter (from the Week 2 genre pick),
 current state, one line per week on what gate was passed and what broke,
 and a running "known debt" list. This is Build/Routine evidence, not extra
 work — see `judgment_toolkit.md` §5 (Judgment Log) for the three graded
-checkpoints (Week 1, mid-semester via each Debrief, Week 17 final).
+checkpoints (Week 2, mid-semester via each Debrief, Week 17 final).
 
 **Grading instruments.** Build (checkpoints + light weekly continuation
 grading), Decide/Compare (Weeks 10-11 structure choice; Week 16 capstone),
