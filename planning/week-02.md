@@ -10,10 +10,9 @@ Variables, expressions, and types. See `lessons/02-variables-expressions-types.m
 **Coding Odyssey genre pick (moved here 2026-07-24 from Week 1 Friday — see
 `planning/coding-odyssey-arc-map.md`).** Before this week's technical work:
 pick one of 4 bounded genres (Frontier Settlement / Investigation Bureau /
-Starship Log / Small Business — full menu in
-`assignments/A2-coding-odyssey-project.md`) and write a one-paragraph
-founding charter — the seed of the World Bible and the first Judgment Log
-checkpoint. See `assignments/odyssey_gates/week-02.md`.
+Starship Log / Small Business) and write a one-paragraph founding charter —
+the seed of the World Bible and the first Judgment Log checkpoint. Full
+genre menu and details in `assignments/odyssey_gates/week-02.md`.
 
 **AI I Lens 2: Gather Context** — What information would make the AI answer dramatically better?
 Technical tie-in: naming and typing a variable well is itself a context decision — the variable's name and type are context the rest of the program depends on.
