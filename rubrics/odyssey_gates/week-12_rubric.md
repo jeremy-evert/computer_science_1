@@ -21,3 +21,10 @@ Same three-band shape as Week 2 — see `rubrics/odyssey_gates/week-02_rubric.md
 - An empty class with only `pass` or attributes set but never read by any
   method does not pass — the point is behavior tied to state, not a data
   container renamed "class."
+- The World Bible one-line log entry (this week's assignment) is a
+  required but not-separately-scored part of the submission — tracked
+  across the semester and reviewed as a whole at Week 17's checkpoint
+  (`rubrics/odyssey_gates/week-17_rubric.md`), not graded week-by-week
+  here.
+- Light Build (Part 2 above) is graded separately and holistically — not
+  part of this gate's pass/fail criteria.

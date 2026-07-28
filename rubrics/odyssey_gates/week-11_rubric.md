@@ -29,3 +29,11 @@ parts.
   matters more than lookup speed) and defends it well should score Strong.
   The instrument grades the *quality of the comparison*, not agreement with
   the expected answer.
+- The World Bible one-line log entry (this week's assignment) is a
+  required but not-separately-scored part of the submission — tracked
+  across the semester and reviewed as a whole at Week 17's checkpoint
+  (`rubrics/odyssey_gates/week-17_rubric.md`), not graded week-by-week
+  here.
+- This week's assignment also has an open "light Build" continuation
+  (same holistic, ungraded shape as other weeks' Part 2) alongside the
+  scored Decide/Compare #1 above — not part of either scored part here.
