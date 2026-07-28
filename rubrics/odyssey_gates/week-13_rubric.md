@@ -13,11 +13,14 @@ Matches `docs/curriculum/judgment_toolkit.md` §1/§2.
 **All three present → pass.**
 
 **Grading route:** "two roles" and "cross-object call" are mechanical-
-checkable; **"two meaningfully different instance roles" needs a human
-read** when a submission only has one class — don't auto-fail a genre
+checkable; **"two meaningfully different instance roles" needs a judgment
+call** when a submission only has one class — don't auto-fail a genre
 that's genuinely thinner on natural noun-count (e.g., a very small Small
-Business world) without checking whether the second role is a real design
-choice or a missed gate.
+Business world) without weighing whether the second role is a real design
+choice or a missed gate. This is a real judgment call the grader should
+make and score, not a case to hold for a human — it doesn't warrant
+routing out of autonomous grading (Jeremy, 2026-07-27: "I had no
+intention to escalate that week 13 to a human").
 
 ## Part 2 — Light Build (holistic)
 
