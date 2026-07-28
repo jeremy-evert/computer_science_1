@@ -24,6 +24,25 @@ instance attributes, and at least one method beyond `__init__`.
 - [ ] At least one instance is created and its method called, replacing (or
       alongside, mid-refactor) the old dict/list-entry representation.
 
+## Suggested textbook problem (optional scaffolding)
+
+The general problem: turn one entity from your Week 10–11 dict/list into a
+class with `__init__` setting at least one real attribute, plus one method
+beyond `__init__` that does something with that attribute.
+
+- **Frontier Settlement:** `class Colonist:` — `__init__(self, name,
+  role)`; `def status(self):` returns a sentence using `self.role`.
+- **Investigation Bureau:** `class Suspect:` — `__init__(self, name,
+  alibi)`; `def summary(self):` returns a one-line case note.
+- **Starship Log:** `class CrewMember:` — `__init__(self, name, role)`;
+  `def report(self):` returns a status line.
+- **Small Business:** `class Customer:` — `__init__(self, name,
+  balance)`; `def account_status(self):` returns a label based on
+  `self.balance`.
+
+Do this version directly if it helps, then let it *be* your gate
+submission — you don't need a second, different one.
+
 ## Then: open continuation (light Build, holistic)
 
 ## World Bible

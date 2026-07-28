@@ -25,6 +25,24 @@ data.
 - [ ] At least one input-validation or whitespace/edge case from the
       lesson's own focus is handled on purpose.
 
+## Suggested textbook problem (optional scaffolding)
+
+The general problem: write one short, made-up line of text relevant to
+your world, then pull one specific piece of information out of it with
+`.split()`, `.find()`, or slicing — not just print it back formatted.
+
+- **Frontier Settlement:** `"Day 12: harvested 40 units of grain"` → split
+  out the day number and the harvest amount.
+- **Investigation Bureau:** `"The suspect left around 9pm near the
+  docks"` → extract the time or the location.
+- **Starship Log:** `"STATUS: fuel=62 hull=98"` → split out the fuel and
+  hull values.
+- **Small Business:** `"SKU-2291 x3 @ $4.50"` → parse out the quantity and
+  the unit price.
+
+Do this version directly if it helps, then let it *be* your gate
+submission — you don't need a second, different one.
+
 ## Then: open continuation (light Build, holistic)
 
 ## World Bible

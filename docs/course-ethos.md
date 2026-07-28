@@ -71,7 +71,12 @@ Six recurring student artifacts, each with its own reusable template:
 2. **Wacky Wednesday reflection** — how the Wednesday professional-minds
    lesson ties into the week.
 3. **Weekly topic reinforcement** — practice reinforcing the week's technical
-   course topic.
+   course topic. **Reconciled 2026-07-27:** this practice happens inside the
+   student's Coding Odyssey world (`assignments/A2-coding-odyssey-project.md`),
+   not through a separate textbook problem set — the textbook chapter
+   supplies the concept and stays part of the lecture/conversation, but
+   every technical week's gate or checkpoint *is* this artifact. See
+   `assignments/A1-weekly-coding-practice.md`.
 4. **Fun Friday reflection** — how the Friday professional-minds lesson ties
    into the week.
 5. **Paired-programming report** — evaluates how the student contributed to
@@ -136,7 +141,9 @@ Once, then reused weekly:
   it as written?), planning (plan first or winged it?), tool transparency
   (which services, free or paid, disclosed), and knowledge management
   (prompts and chats tracked). Knowledge management and resource tracking
-  are part of the ethos, even in CS1.
+  are part of the ethos, even in CS1. **Reconciled 2026-07-27:** the working
+  result is that week's Coding Odyssey gate or checkpoint, not a separate
+  chapter problem set — see `assignments/A1-weekly-coding-practice.md`.
 - **The final is a reflection paper** (decided 2026-07-15) — template basis:
   `assignments/A5-final-reflection.md`. Weight in `docs/grading-model.md`.
 - **Collaboration is encouraged.** Pairs may share one repo. Each student
@@ -173,3 +180,13 @@ Once, then reused weekly:
    (Codex gpt-5.6-luna, medium). One caveat carried forward: a static Beamer
    PDF can't show a live on-slide clock — present via `pdfpc`/`pympress`,
    whose presenter console provides the live timer.
+6. ~~**Weekly reinforcement vs. the Coding Odyssey.**~~ **Resolved
+   2026-07-27:** the 2026-07-24 Odyssey pivot (weekly gates, genre menu,
+   World Bible — `docs/curriculum/judgment_toolkit.md`) made the Odyssey the
+   spine of the course, but this file, `docs/grading-model.md`, and most of
+   `planning/week-NN.md` still described the weekly reinforcement
+   assignment as a separate textbook-chapter problem set running alongside
+   it. Jeremy's call, 2026-07-27: every week is a Coding Odyssey week — the
+   textbook chapter supplies the concept and stays part of the lecture and
+   conversation, but the gate or checkpoint *is* the practice, not an
+   addition to it. All affected documents reconciled to this on that date.

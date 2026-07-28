@@ -18,4 +18,9 @@ Technical tie-in: verifying a collection-processing program against edge cases (
 Show-and-tell / reflection tie-in: share edge cases a collections program was tested against.
 
 ## Due this week
-Weekly coding practice, chapter 8 continued (`assignments/A1-weekly-coding-practice.md`).
+Coding Odyssey weekly gate + Decide/Compare #1
+(`assignments/odyssey_gates/week-11.md`) — apply chapter 8's dictionaries
+concept to your world, then defend the data-structure choice. Fulfills the
+weekly coding practice requirement
+(`assignments/A1-weekly-coding-practice.md`); no separate chapter problem
+set is due.

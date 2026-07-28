@@ -23,6 +23,24 @@ hand.
 - [ ] An accumulator or running total/state changes across iterations (the
       loop does more than print the same thing N times).
 
+## Suggested textbook problem (optional scaffolding)
+
+The general problem: write a loop over a short list of 3–5 made-up events,
+printing something for each one and keeping a running total or count as
+you go.
+
+- **Frontier Settlement:** loop over a list of harvest amounts (e.g.
+  `[12, 9, 15, 11]`), summing into `total_food`.
+- **Investigation Bureau:** loop over a list of witness statements,
+  counting how many mention a keyword (e.g. `"saw"`).
+- **Starship Log:** loop over a list of system-check results, counting how
+  many came back `"fail"`.
+- **Small Business:** loop over a list of daily sales figures, summing into
+  `total_revenue`.
+
+Do this version directly if it helps, then let it *be* your gate
+submission — you don't need a second, different one.
+
 ## Then: open continuation (light Build, holistic)
 
 ## World Bible

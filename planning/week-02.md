@@ -25,6 +25,8 @@ Technical tie-in: naming and typing a variable well is itself a context decision
 Show-and-tell / reflection tie-in: share a program that uses variables and formatted output.
 
 ## Due this week
-Weekly coding practice, chapters 1–2 (`assignments/A1-weekly-coding-practice.md`);
 Coding Odyssey genre pick + founding charter, and Week 2's gate
-(`assignments/odyssey_gates/week-02.md`).
+(`assignments/odyssey_gates/week-02.md`), applying chapters 1–2's variables
+and expressions to your world — this fulfills the weekly coding practice
+requirement (`assignments/A1-weekly-coding-practice.md`); no separate
+chapter problem set is due.

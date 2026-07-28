@@ -91,13 +91,20 @@ creativity.
 
 - Python 3 in an approved development environment.
 - Canvas access and a reliable way to submit code, output, and explanations.
-- ZyBooks: *Programming in Python 3*, accessed through the Canvas assignment
-  links if used in this offering.
+- **Textbook (switched from ZyBooks, 2026-07-27):** Paul & Harvey Deitel,
+  *Intro to Python for Computer Science and Data Science*. Chosen over the
+  prior ZyBooks text (*Programming in Python 3*) because it's the more
+  complete standalone reference — see `docs/curriculum/judgment_toolkit.md`
+  and the reasoning in `assignments/A1-weekly-coding-practice.md`'s
+  scaffolding note. Each week's chapter supplies that week's concept; it's
+  applied inside the student's Coding Odyssey project
+  (`assignments/A2-coding-odyssey-project.md`), not through separate
+  textbook problem sets.
 
-> TODO: confirm the current ZyBooks link, subscription price, access dates,
-> ISBN/code, and whether ZyBooks is required, optional, or provided through
-> Canvas. The 2026 source syllabus says students should begin from a Canvas
-> ZyBooks assignment link rather than creating a separate book enrollment.
+> TODO: confirm the current Deitel edition/ISBN, access method (physical,
+> ebook, or an institutional license), and cost — none of that was carried
+> over from the ZyBooks-era TODO, since the two books aren't sold or
+> accessed the same way.
 
 ### Supplemental materials
 

@@ -18,4 +18,8 @@ Technical tie-in: refactoring a first-pass class based on peer/instructor feedba
 Show-and-tell / reflection tie-in: share a first class definition (constructor, `self`, one method).
 
 ## Due this week
-Weekly coding practice, chapter 9 Round 1 (`assignments/A1-weekly-coding-practice.md`).
+Coding Odyssey weekly gate (`assignments/odyssey_gates/week-12.md`) —
+turn a major noun from chapter 9 Round 1's classes/objects concept into a
+real class in your world. Fulfills the weekly coding practice requirement
+(`assignments/A1-weekly-coding-practice.md`); no separate chapter problem
+set is due.

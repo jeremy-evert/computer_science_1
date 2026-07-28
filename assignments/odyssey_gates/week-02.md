@@ -53,6 +53,26 @@ you chose above — these are illustrations, not requirements):
 All three present → pass. Missing any → not yet; resubmit, this is a gate,
 not a one-shot.
 
+## Suggested textbook problem (optional scaffolding)
+
+If you'd rather start from concrete numbers than invent your own scenario,
+plug these straight into the genre examples above — same shapes, filled in:
+
+- **Frontier Settlement:** `rations_per_colonist = 2`, `colonist_count = 40`
+  → `food_stock = rations_per_colonist * colonist_count` → "The settlement
+  begins with 80 days of food."
+- **Investigation Bureau:** `report_filed_hour = 14`, `current_hour = 20` →
+  `hours_cold = current_hour - report_filed_hour` → "The trail is 6 hours
+  cold."
+- **Starship Log:** `fuel_reserve = 100`, `jump_cost = 37` →
+  `fuel_remaining = fuel_reserve - jump_cost` → "63 units of fuel remain
+  after the jump."
+- **Small Business:** `cash_on_hand = 5000`, `rent = 1200` →
+  `opening_cash = cash_on_hand - rent` → "Opening cash on hand: $3800."
+
+Do this version directly if it helps, then let it *be* your gate
+submission — you don't need a second, different one.
+
 ## Then: open continuation (light Build, holistic)
 
 Once the gate passes, keep building your world's opening scene for the rest

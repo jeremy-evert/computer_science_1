@@ -35,6 +35,23 @@ world's actual data — not a generic "dicts are faster" restatement. The
 choice should visibly follow from the comparison, not precede it
 cosmetically (don't write the code first and rationalize afterward).
 
+## Suggested textbook problem (optional scaffolding)
+
+The general problem: build a dictionary keyed by name or ID from your
+Week 10 list, then look up one entity by key and print a real result.
+
+- **Frontier Settlement:** `colonist_registry = {name: role, ...}` → look
+  up one colonist's role by name.
+- **Investigation Bureau:** `case_files = {suspect_id: notes, ...}` → look
+  up one case file by ID.
+- **Starship Log:** `crew_roster = {name: role, ...}` → look up one crew
+  member's role by name.
+- **Small Business:** `customer_accounts = {id: balance, ...}` → look up
+  one customer's balance by ID.
+
+Do this version directly if it helps, then let it *be* your gate
+submission — you don't need a second, different one.
+
 ## Then: open continuation (light Build, holistic)
 
 ## World Bible

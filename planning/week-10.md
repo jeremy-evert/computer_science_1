@@ -18,4 +18,8 @@ Technical tie-in: reviewing a classmate's list/dictionary code for mutation haza
 Show-and-tell / reflection tie-in: share a list/dictionary program and a peer's critique of it.
 
 ## Due this week
-Weekly coding practice, chapter 8 (`assignments/A1-weekly-coding-practice.md`); pair programming session (`assignments/A3-pair-programming.md`).
+Coding Odyssey weekly gate (`assignments/odyssey_gates/week-10.md`) —
+apply chapter 8's lists concept to your world (fulfills the weekly coding
+practice requirement, `assignments/A1-weekly-coding-practice.md`; no
+separate chapter problem set is due); pair programming session on this
+week's gate (`assignments/A3-pair-programming.md`).

@@ -19,4 +19,8 @@ Technical tie-in: breaking a large branching problem into nested, testable condi
 Show-and-tell / reflection tie-in: share a branching program and its boundary/invalid test cases.
 
 ## Due this week
-Weekly coding practice, chapter 4 (`assignments/A1-weekly-coding-practice.md`).
+Coding Odyssey weekly gate (`assignments/odyssey_gates/week-04.md`) —
+apply chapter 4's full branching/decision-making depth to your world.
+Fulfills the weekly coding practice requirement
+(`assignments/A1-weekly-coding-practice.md`); no separate chapter problem
+set is due.

@@ -22,6 +22,24 @@ other. If Week 12 only produced one class, this is where a second one
 - [ ] The interaction produces a real, demonstrable effect (a state change,
       a computed result) — not just proof the syntax runs.
 
+## Suggested textbook problem (optional scaffolding)
+
+The general problem: add a second class (or a second, meaningfully
+different role of the same class), and have one object's method call or
+read from another object — not two classes that never talk to each other.
+
+- **Frontier Settlement:** `Colonist` + `Settlement` — `Settlement.
+  consume_food()` reads and updates a list of `Colonist` objects.
+- **Investigation Bureau:** `Suspect` + `CaseFile` — `CaseFile.
+  add_suspect(suspect)` reads a `Suspect` object's data.
+- **Starship Log:** `CrewMember` + `Ship` — `Ship.report_status()` reads
+  each `CrewMember` object.
+- **Small Business:** `Customer` + `Store` — `Store.process_sale(customer)`
+  updates a `Customer` object's balance.
+
+Do this version directly if it helps, then let it *be* your gate
+submission — you don't need a second, different one.
+
 ## Then: open continuation (light Build, holistic)
 
 This is the natural point to reflect on Weeks 12-13 as a whole — see

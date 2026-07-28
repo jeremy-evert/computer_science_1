@@ -18,4 +18,9 @@ Technical tie-in: grounding a function's behavior in a unit test is the programm
 Show-and-tell / reflection tie-in: share a function with a passing unit test.
 
 ## Due this week
-Weekly coding practice, chapter 6 (with required unit-testing problem) (`assignments/A1-weekly-coding-practice.md`).
+Coding Odyssey weekly gate (`assignments/odyssey_gates/week-07.md`) —
+apply chapter 6's functions/decomposition concept by refactoring one world
+action into a function with a parameter and return value; this week also
+requires a passing unit test for that function. Fulfills the weekly coding
+practice requirement (`assignments/A1-weekly-coding-practice.md`); no
+separate chapter problem set is due.

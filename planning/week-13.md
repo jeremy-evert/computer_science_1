@@ -18,4 +18,9 @@ Technical tie-in: choosing between two class designs (composition vs. inheritanc
 Show-and-tell / reflection tie-in: pair-programming demo of a multi-class/module program.
 
 ## Due this week
-Weekly coding practice, chapter 9 Round 2 (`assignments/A1-weekly-coding-practice.md`); pair programming session (`assignments/A3-pair-programming.md`).
+Coding Odyssey weekly gate (`assignments/odyssey_gates/week-13.md`) — apply
+chapter 9 Round 2 by making at least two of your world's classes interact
+(fulfills the weekly coding practice requirement,
+`assignments/A1-weekly-coding-practice.md`; no separate chapter problem set
+is due); pair programming session on this week's gate
+(`assignments/A3-pair-programming.md`).

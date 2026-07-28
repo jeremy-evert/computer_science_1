@@ -23,6 +23,25 @@ behavior as before, now named and reusable.
       definition, and the world's behavior is unchanged from before the
       refactor (same output, cleaner structure).
 
+## Suggested textbook problem (optional scaffolding)
+
+The general problem: take a branching check you already wrote (Week 3 or
+4) and turn it into a function that takes the value as a parameter and
+*returns* the status label instead of printing it directly; call the
+function and print the result yourself.
+
+- **Frontier Settlement:** `def food_status(stock): ...` returns
+  `"critical"`/`"low"`/`"stable"`.
+- **Investigation Bureau:** `def case_temperature(hours_cold): ...` returns
+  `"hot"`/`"cooling"`/`"cold"`.
+- **Starship Log:** `def fuel_status(fuel_remaining): ...` returns
+  `"critical"`/`"low"`/`"nominal"`.
+- **Small Business:** `def cash_status(balance): ...` returns
+  `"overdrawn"`/`"tight"`/`"healthy"`.
+
+Do this version directly if it helps, then let it *be* your gate
+submission — you don't need a second, different one.
+
 ## Then: open continuation (light Build, holistic)
 
 ## World Bible

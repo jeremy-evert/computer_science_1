@@ -18,4 +18,8 @@ Technical tie-in: choosing among string methods (index vs. slice vs. search) req
 Show-and-tell / reflection tie-in: share a string-processing program with clean, readable formatting.
 
 ## Due this week
-Weekly coding practice, chapter 7 (`assignments/A1-weekly-coding-practice.md`).
+Coding Odyssey weekly gate (`assignments/odyssey_gates/week-08.md`) —
+apply chapter 7's string/text-processing concept to your world. Fulfills
+the weekly coding practice requirement
+(`assignments/A1-weekly-coding-practice.md`); no separate chapter problem
+set is due.

@@ -33,6 +33,24 @@ Examples, illustrative only:
       show your world in a state where the condition is true, and a state
       where it isn't.
 
+## Suggested textbook problem (optional scaffolding)
+
+The general problem: pick one number or flag you already track, and write
+one `if`/`else` that prints a different sentence depending on its value —
+show both a true-condition run and a false-condition run.
+
+- **Frontier Settlement:** `if food_stock < 20:` print a shortage warning;
+  `else:` print "The settlement is stable."
+- **Investigation Bureau:** `if hours_cold > 48:` print "The trail has gone
+  cold."; `else:` print "The case is still active."
+- **Starship Log:** `if fuel_remaining < 20:` print "Warning: fuel
+  critical."; `else:` print "Fuel levels nominal."
+- **Small Business:** `if opening_cash < 0:` print a negative-balance
+  alert; `else:` print "Opening balance looks normal."
+
+Do this version directly if it helps, then let it *be* your gate
+submission — you don't need a second, different one.
+
 ## Then: open continuation (light Build, holistic)
 
 Keep extending your world's opening scene. See

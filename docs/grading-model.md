@@ -6,6 +6,15 @@ artifact, the old single "homework" bucket splits into named categories, the
 final is worth points. The *percentages* below are a first proposal that sums
 to 100 — adjust freely.
 
+**Reconciled 2026-07-27:** the "weekly reinforcement assignment" row and the
+"Coding Odyssey checkpoints" row below are two grains of the *same* project,
+not two separate assignments. Every technical week is a Coding Odyssey week
+(`assignments/A2-coding-odyssey-project.md`) — the textbook chapter supplies
+that week's concept, applied inside the student's own world; the weekly
+gate/checkpoint that results *is* the weekly reinforcement assignment. See
+`assignments/A1-weekly-coding-practice.md` and
+`docs/curriculum/judgment_toolkit.md`.
+
 > **Final decided (2026-07-15):** the final is a **reflection paper**, built
 > from the existing template (`assignments/A5-final-reflection.md`). One small
 > residual: confirm at syllabus finalization that university policy is
@@ -20,8 +29,8 @@ to 100 — adjust freely.
 | Fun Friday reflection | 6% | weekly | Tie-in to the week |
 | Paired-programming report | 5% | weekly | Student's own contribution, honestly assessed |
 | Friday feedback report | 5% | weekly | Quality of feedback the student *gave* |
-| Weekly reinforcement assignment | 25% | weekly | Two axes: result 15% + process 10% (rubric below) |
-| Coding Odyssey checkpoints | 15% | 4 checkpoints | Keeps the historical effort ladder (70/80/90/100) |
+| Weekly reinforcement assignment | 25% | weekly | Two axes: result 15% + process 10% (rubric below). Result = that week's Coding Odyssey gate + Light Build continuation, weeks 2–5/7–8/10–13. |
+| Coding Odyssey checkpoints | 15% | 4 checkpoints (Wk 6/9/14/16) | The bigger, periodic grading pass on the same project — full four-axis Build rubric, not the weekly gate's pass/fail. Keeps the historical effort ladder in spirit (70/80/90/100 → now the Functions/Concept-use/Explanation/Demonstrability axes, `judgment_toolkit.md` §2). |
 | Final reflection paper | 10% | finals week | Template basis: `assignments/A5-final-reflection.md`; sanity-check against university finals policy |
 | Attendance & participation | 20% | daily | Historical policy; confirm language at syllabus finalization |
 | Course evaluation | 2% | end of term | Carried from current model |
@@ -32,9 +41,14 @@ two-week late window (see syllabus) — decide drop-lowest at finalization.
 
 ## The two-axis rubric for the weekly reinforcement assignment
 
-**Axis 1 — the working result (15 points of the 25).** Keeps the historical
-effort-based ladder: meaningful effort 25% → one working solution 50% → two
-75% → three / complete core task 100% of the axis.
+**Axis 1 — the working result (15 points of the 25).** For gate weeks
+(2–5, 7–8, 10–13), this is that week's Odyssey Quick Check (pass/fail floor)
+plus the Light Build continuation band, mapped onto the historical
+effort-based ladder: gate not yet passed sits around 25% of the axis, gate
+passed with minimal continuation 50–75%, gate passed with a solid-to-strong
+continuation 100%. For checkpoint weeks (6, 9, 14, 16), the four-axis Full
+Build rubric (`docs/curriculum/judgment_toolkit.md` §2) stands in for this
+axis directly instead of the ladder.
 
 **Axis 2 — process (10 points of the 25).** Knowledge management and
 resource tracking are part of the ethos, even in CS1. Four dimensions,

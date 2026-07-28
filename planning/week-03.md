@@ -18,4 +18,7 @@ Technical tie-in: tracing a decision table before writing an `if`/`elif`/`else` 
 Show-and-tell / reflection tie-in: reflect on the first hard bug of the semester.
 
 ## Due this week
-Weekly coding practice, chapter 3 (`assignments/A1-weekly-coding-practice.md`).
+Coding Odyssey weekly gate (`assignments/odyssey_gates/week-03.md`) —
+apply chapter 3's branching concept to your world. Fulfills the weekly
+coding practice requirement (`assignments/A1-weekly-coding-practice.md`);
+no separate chapter problem set is due.

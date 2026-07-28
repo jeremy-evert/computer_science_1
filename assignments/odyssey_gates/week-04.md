@@ -25,6 +25,24 @@ not just a different sentence printed.
       clearly-above and clearly-below.
 - [ ] The decision changes real behavior downstream, not only output text.
 
+## Suggested textbook problem (optional scaffolding)
+
+The general problem: take the same value from Week 3 and sort it into
+three or more named bands (not just true/false), and deliberately test the
+exact boundary value between two bands, not just the obvious middle cases.
+
+- **Frontier Settlement:** `food_stock` → "critical" (< 5), "low" (5–14),
+  "stable" (15+); test exactly `5` and exactly `15`.
+- **Investigation Bureau:** `hours_cold` → "hot" (< 24), "cooling" (24–71),
+  "cold" (72+); test exactly `24` and exactly `72`.
+- **Starship Log:** `fuel_remaining` → "critical" (< 10), "low" (10–29),
+  "nominal" (30+); test exactly `10` and exactly `30`.
+- **Small Business:** `cash_on_hand` → "overdrawn" (< 0), "tight" (0–999),
+  "healthy" (1000+); test exactly `0` and exactly `1000`.
+
+Do this version directly if it helps, then let it *be* your gate
+submission — you don't need a second, different one.
+
 ## Then: open continuation (light Build, holistic)
 
 ## World Bible
