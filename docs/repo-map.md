@@ -105,7 +105,12 @@ owning repo — not in the pull.
 - **`course_foundry`** — course-agnostic checks (sync_check,
   completeness_check) and the verification harness. Matters **after** CS1
   content exists and is Canvas-deployed; explicitly parked until then per
-  the content-first pivot.
+  the content-first pivot. As of 2026-07-30 it also owns CS1's Savnac
+  layout/navigation push (`cs1_savnac_layout_and_navigation.py`) —
+  `default_view`, Course Navigation tab visibility, and the per-module
+  Overview + one-time Start Here pages (`templates/T4`/`T5` in this repo)
+  — separate from the content push, per
+  `prompts/022_cs1_savnac_layout_and_navigation_template.md`.
 
 ## The order of operations, in one line
 

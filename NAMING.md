@@ -35,6 +35,32 @@ drift ahead of what's written here.
   consistent with that pattern instead of using free-text slugs with no
   ordering signal.
 
+## `templates/T<n>-slug.md` — orientation templates are now two kinds (added 2026-07-30)
+
+`T1`-`T3` (assignment/rubric/syllabus) are human-facing fill-in-the-blank
+guides — a person copies the shape and writes the content by hand. `T4` and
+`T5` (added by `course_foundry/prompts/022_cs1_savnac_layout_and_navigation_template.md`)
+are a different kind: **script-fillable** templates, meant to be read and
+populated programmatically, not copy-pasted by a person. Both still use the
+same `T<n>-slug.md` numbering — the distinction is in each file's own header,
+not a separate numbering scheme:
+
+- `T4-module-overview.md` — the per-module Overview page (first item in
+  every weekly Canvas module, per `docs/canvas-module-checklist.md`'s
+  "Overview page" line). `{{DOUBLE_BRACE}}` placeholders are filled in by
+  `course_foundry/cs1_savnac_layout_and_navigation.py` from that week's
+  actual `DesiredCourse` module contents (`cs1_desired_course.py`) — the
+  page regenerates itself as content changes, no separate weekly upkeep.
+- `T5-start-here.md` — the one-time, richer week-1 orientation page,
+  linked from inside Module 1, never set as `default_view`/front page.
+  Its factual content (weekly rhythm, six weekly artifacts, A1-A6
+  canonical-week table) traces to `docs/course-ethos.md` and
+  `cs1_desired_course.py`'s already-decided placement, not re-derived.
+
+Both are written to be reusable by CS2/DSCT/SE/ML's own version later
+(`docs/repo-map.md`'s "promote reusable patterns up to `swosu_cs_curriculum`"
+note), not one-off pages that only make sense for CS1 week 1.
+
 ## `reports/` — a known, accepted numbering collision (grandfathered)
 
 `reports/002`, `003`, and `004` each have **two different files sharing the
