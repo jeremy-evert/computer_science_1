@@ -1,6 +1,6 @@
 # COMSC 1033 — Grading Model (DRAFT PROPOSAL)
 
-**Status: draft for Jeremy's adjustment, 2026-07-15.** Direction is decided
+**Status: reviewed, 2026-07-31.** Direction is decided
 (see `course-ethos.md`): no traditional tests, points attach to every weekly
 artifact, the old single "homework" bucket splits into named categories, the
 final is worth points. The *percentages* below are a first proposal that sums
