@@ -35,7 +35,7 @@ drift ahead of what's written here.
   consistent with that pattern instead of using free-text slugs with no
   ordering signal.
 
-## `templates/T<n>-slug.md` — orientation templates are now two kinds (added 2026-07-30)
+## `templates/T<n>-slug.md` — orientation templates are now two kinds (added 2026-07-31)
 
 `T1`-`T3` (assignment/rubric/syllabus) are human-facing fill-in-the-blank
 guides — a person copies the shape and writes the content by hand. `T4` and

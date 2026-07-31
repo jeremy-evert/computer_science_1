@@ -3,7 +3,7 @@
 Per-module orientation page — the first item in every weekly Canvas module
 (`docs/canvas-module-checklist.md`'s "Overview page" line, first proposed
 2026-07-15, built by `course_foundry`'s `cs1_savnac_layout_and_navigation.py`
-2026-07-30). Short, answers "what happens this week and what's due," and
+2026-07-31). Short, answers "what happens this week and what's due," and
 regenerates itself from that week's actual pushed content — no separate
 weekly upkeep once the pipeline runs.
 

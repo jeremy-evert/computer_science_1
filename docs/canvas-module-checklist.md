@@ -2,7 +2,7 @@
 
 Each weekly module should include:
 
-- **Overview page** — built 2026-07-30
+- **Overview page** — built 2026-07-31
   (`course_foundry/prompts/022_cs1_savnac_layout_and_navigation_template.md`).
   Template: `templates/T4-module-overview.md`. Pushed as the first item in
   every module by `course_foundry/cs1_savnac_layout_and_navigation.py`,
