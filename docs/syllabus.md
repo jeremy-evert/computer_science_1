@@ -106,6 +106,20 @@ creativity.
 > over from the ZyBooks-era TODO, since the two books aren't sold or
 > accessed the same way.
 
+> **Chapter-numbering convention (added 2026-08-06, Jeremy's call):** every
+> "Chapter N" reference in this course's planning/assignment/rubric files
+> (e.g. `planning/week-05.md`'s "chapter 5's loops") uses the **zyBooks**
+> *Programming in Python 3* chapter numbering — the department-standard
+> scheme other CS1 faculty already use — confirmed directly against that
+> book's own table of contents. **It does not match the Deitel book's own
+> printed chapter numbers** (a different, incompatible scheme — e.g.
+> Deitel's ch.5 is "Sequences: Lists and Tuples," not loops). Deitel is the
+> assigned reading/content source; zyBooks numbering is only the shared
+> department label for "which week's concept." If a student reads the
+> Deitel chapter that matches a week's concept by topic, it will not be
+> under the same chapter number stated in that week's materials — this is
+> expected, not an error.
+
 ### Supplemental materials
 
 - Instructor recordings and examples: TODO: confirm current link.
