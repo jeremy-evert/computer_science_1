@@ -11,11 +11,16 @@ the course grade (`docs/grading-model.md`).
 1. Pick **five** prompts from the bank below (or propose an
    instructor-approved equivalent) — at least one from each of the four
    categories.
-2. Answer each in your own words. These are pass/fail: any honest, specific
-   answer earns full credit; vague or generic answers ("it was a good
-   semester") don't, but there's no single "correct" answer to chase.
+2. Answer each in your own words. Full credit for any honest, specific
+   answer you give, as long as you answer — this is a generous bar by
+   design; vague or generic answers ("it was a good semester") don't earn
+   full credit, but there's no single "correct" answer to chase. Scored
+   with a real rubric and points (`rubrics/A5-final-reflection-rubric.md`,
+   10 points), not Canvas's plain pass/fail mechanism — that split exists
+   specifically so a small optional bonus (below) has somewhere to attach.
 3. Share one favorite meme, quote, or moment from the semester — optional,
-   but a nice way to close it out.
+   but a nice way to close it out. This is just a nice way to close things
+   out, not a graded rubric row.
 4. If your section's Coding Odyssey Week 17 work includes the **Final
    Debrief** and Judgment Log review
    (`assignments/odyssey_gates/week-17.md`), that *is* this reflection's
@@ -54,9 +59,19 @@ the course grade (`docs/grading-model.md`).
 - Name one specific thing (a certification, a project, a habit) you want to
   build on next semester, and why.
 
+## Bonus — genuinely specific and reflective (+2 pts)
+
+Beyond the 10 base points, up to 2 extra-credit points are available for
+answers that name a specific, identifiable detail from your own semester —
+a moment, a bug, a person, a decision — rather than staying general. This
+is optional: you can earn all 10 base points with generous, honest-but-
+general answers, and only reach for these 2 points if you choose to go
+further. See `rubrics/A5-final-reflection-rubric.md` for the full scoring
+detail.
+
 ## Support and integrity
 
-This is pass/fail and open-book/open-note/open-everything — take the time
-you need, and it's fine to revise and resubmit if you change your mind
-later. If a prompt above doesn't fit your semester, swap it for one that
-does; the categories matter more than the exact wording.
+This is graded generously and open-book/open-note/open-everything — take
+the time you need, and it's fine to revise and resubmit if you change your
+mind later. If a prompt above doesn't fit your semester, swap it for one
+that does; the categories matter more than the exact wording.

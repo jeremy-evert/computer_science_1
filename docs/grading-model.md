@@ -32,9 +32,11 @@ gate/checkpoint that results *is* the weekly reinforcement assignment. See
 | Weekly reinforcement assignment | 25% | weekly | Two axes: result 15% + process 10% (rubric below). Result = that week's Coding Odyssey gate + Light Build continuation, weeks 2–5/7–8/10–13. |
 | Coding Odyssey checkpoints | 15% | 4 checkpoints (Wk 6/9/14/16) | The bigger, periodic grading pass on the same project — full four-axis Build rubric, not the weekly gate's pass/fail. Keeps the historical effort ladder in spirit (70/80/90/100 → now the Functions/Concept-use/Explanation/Demonstrability axes, `judgment_toolkit.md` §2). |
 | Final reflection paper | 10% | finals week | Template basis: `assignments/A5-final-reflection.md`; sanity-check against university finals policy |
+| Professional pathway — Week 14 update | 5% | Week 14 | Reasoning-graded update pass + new changelog/diff artifact (`assignments/A6-professional-pathway-artifacts.md`, `rubrics/A6-week-14-update_rubric.md`). Decided 2026-08-06, reshaped from an ungraded prep checkpoint into its own graded row. |
+| Professional pathway — Week 15 submission | 5% | Week 15 | Completion + submission of the full artifact set + next-steps reflection (`rubrics/A6-week-15-submission_rubric.md`). Decided 2026-08-06 — previously had no rubric or weight row at all despite carrying real work. |
 | Attendance & participation | 20% | daily | Historical policy; confirm language at syllabus finalization |
 | Course evaluation | 2% | end of term | Carried from current model |
-| **Total** | **100%** | | |
+| **Total** | **110%** | | **Known, disclosed overage — not yet reconciled.** Professional pathway's 5%+5% (decided and confirmed 2026-08-06) was added on top of the pre-existing 100% total without shrinking any other row; see "Open decisions" below. |
 
 Weekly categories drop-lowest or late-work handling: inherit the standing
 two-week late window (see syllabus) — decide drop-lowest at finalization.
@@ -84,6 +86,15 @@ student narrates their side.
 - [ ] Confirm university finals policy accepts a reflection paper (small
       residual; decision itself is made).
 - [ ] Confirm or adjust every percentage above.
+- [ ] **Reconcile the table's 110% total** (2026-08-06): the professional
+      pathway's two new rows (5% + 5%, decided and confirmed by Jeremy the
+      same day) were added without shrinking any existing row, so the
+      table currently over-sums by 10 points. Options at syllabus
+      finalization: shrink another row (or several) by a combined 10%, or
+      accept 110% as Canvas assignment-group weights don't strictly require
+      summing to 100 (they normalize relative to each other regardless).
+      Flagged rather than silently resolved — this prompt's own scope was
+      building what was decided, not re-litigating the total.
 - [ ] Drop-lowest policy per weekly category.
 - [ ] Where each artifact is submitted in Canvas (one assignment group per
       category keeps the gradebook legible).
