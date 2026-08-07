@@ -1,6 +1,10 @@
-# Attendance & participation (20% of course grade)
+# Attendance & participation (10% of course grade)
 
 Authored 2026-08-06 (course_foundry prompt 026), per Jeremy's decision:
+shrunk from 20% to 10% the same day (course_foundry prompt 038 follow-up)
+to absorb the professional-pathway rows added by prompt 027 without
+over-summing `grading-model.md`'s weight table -- see that file's "Open
+decisions" for the full reconciliation record.
 this is a gradebook-only Canvas object with no student-submitted artifact
 -- attendance is not something a student uploads, it's recorded by the
 instructor. This file is the minimal source doc `cs1_desired_course.py`
@@ -9,7 +13,7 @@ source file it renders from.
 
 ## What this represents
 
-`docs/grading-model.md`'s "Attendance & participation" row, 20% of the
+`docs/grading-model.md`'s "Attendance & participation" row, 10% of the
 course grade, daily cadence. Policy language: `docs/syllabus.md`'s
 "Attendance and participation" section -- attendance taken at the start of
 class, in person or via approved Zoom arrangement, students expected to
@@ -23,10 +27,10 @@ log into Canvas regularly.
   instructor enters a score directly, same as any other Canvas
   gradebook-only column.
 - `grading_type`: `"points"`.
-- `points_possible`: 20 (traces directly to the 20% weight, scaled by
+- `points_possible`: 10 (traces directly to the 10% weight, scaled by
   this project's 100-raw-point-per-100%-of-course-grade convention -- see
   `docs/grading-model.md`'s "Open decisions" note on assignment groups).
-- Assignment group: "Attendance & Participation" (`group_weight: 20`).
+- Assignment group: "Attendance & Participation" (`group_weight: 10`).
 
 ## Explicitly out of scope here
 
