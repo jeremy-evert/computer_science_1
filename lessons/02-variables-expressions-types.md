@@ -234,6 +234,109 @@ this lecture's exponentiation operator (`**`) and f-string formatting, so
 the historical lab and the current lecture content are the same code, not
 two disconnected artifacts.
 
+## Optional extra practice — no story, just the mechanics (ungraded)
+
+**This is not the assignment.** Your real graded weekly deliverable is the
+Coding Odyssey Gate
+(`assignments/odyssey_gates/week-02.md`) — see
+`assignments/A1-weekly-coding-practice.md`: "no separate chapter problem
+set is due." The gate file already has its own optional "Suggested
+textbook problem" scaffolding, four genre-flavored versions of the gate
+itself. **This section is different from that:** eight short, plain,
+no-narrative exercises on the raw mechanic — variables, expressions,
+conversion, types, formatted output — with no settlement/case/starship/
+business wrapper. Use them, some of them, or none of them; they exist only
+for extra reps before you attempt the gate, and nothing here is submitted,
+collected, or scored. Every answer is given immediately below its
+problem, so you can check yourself without waiting on anyone.
+
+A runnable, self-checking version of all eight lives in
+`lessons/code/week02_practice_problems.py` — run it and it prints each
+problem, the expected answer, and confirms your own reasoning matches via
+an `assert`.
+
+**1. Predict the output.**
+
+```python
+a = 5
+b = 2
+c = a + b * 2
+print(c)
+```
+
+> **Answer:** `9`. Precedence: `b * 2` evaluates first (`4`), then
+> `a + 4` (§2.3's precedence table — `*` binds tighter than `+`).
+
+**2. Predict the output — all three lines.**
+
+```python
+print(17 / 5)
+print(17 // 5)
+print(17 % 5)
+```
+
+> **Answer:** `3.4`, then `3`, then `2`. `/` is true division (always a
+> float); `//` truncates toward negative infinity; `%` is the remainder
+> (§2.3).
+
+**3. Fix the type error.**
+
+```python
+age = input("Enter your age: ")
+next_year = age + 1
+```
+
+> **Answer:** `input()` always returns a `str` (§2.6), so `age + 1` raises
+> `TypeError: can only concatenate str (not "int") to str`. Fix:
+> `next_year = int(age) + 1`.
+
+**4. Write one line.** Given `price = 42.5`, print it formatted to exactly
+two decimal places with a leading `$`.
+
+> **Answer:** `print(f"${price:.2f}")` → `$42.50` (§2.4's f-string format
+> spec).
+
+**5. Predict the output.**
+
+```python
+x = 10
+x = "ten"
+print(type(x))
+```
+
+> **Answer:** `<class 'str'>`. Python is dynamically typed (§2.8) — `x` is
+> rebound to a new value of a different type; nothing about the *name*
+> `x` was ever fixed to `int`.
+
+**6. What does this code print — and why might that surprise you?**
+
+```python
+value1 = "4"
+value2 = "5"
+print(value1 + value2)
+```
+
+> **Answer:** `45` (a two-character string), not `9`. Both operands are
+> `str`, so `+` is string concatenation, not arithmetic addition (§2.6) —
+> this is exactly the trap `input()` sets if you forget to convert first.
+
+**7. Name the exception each line raises, before you run it.**
+
+```python
+print(5 / 0)
+print(int("hello"))
+print(z + 1)          # z was never assigned
+```
+
+> **Answer, in order:** `ZeroDivisionError`, `ValueError`, `NameError`
+> (the common-type-errors table above).
+
+**8. Write one line.** Store `3 ** 4` in a variable named `total`, then
+print `total`.
+
+> **Answer:** `total = 3 ** 4` then `print(total)` → `81`. (`**` is
+> exponentiation, §2.3 — right-associative, evaluated before `*`/`/`.)
+
 ## Source and limitation note
 
 - Primary source: Paul & Harvey Deitel, *Intro to Python for Computer
