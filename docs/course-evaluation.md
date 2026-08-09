@@ -35,3 +35,13 @@ No evaluation-completion tracking mechanism (e.g. an API integration with
 SWOSU's evaluation system) is invented by this file or its Canvas object
 -- per Jeremy's 2026-08-06 decision, only the point allocation itself is
 in scope.
+
+**Re-confirmed 2026-08-08** (same discussion as `docs/attendance.md`'s
+matching note): stays instructor-entered by design. SWOSU's actual
+evaluation platform (likely Watermark, CoursEval, or similar -- not
+native Canvas) may expose a completion-roster API gated at a minimum-
+respondent anonymity threshold; confirming this requires checking
+directly with SWOSU IT/registrar, not something this codebase can
+determine on its own. Captured as part of the same follow-on idea:
+`jeremy_task_tracking/plans/
+2026-08-08_student_engagement_early_alert_system_proposed.md`.

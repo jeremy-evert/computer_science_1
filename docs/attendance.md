@@ -39,3 +39,18 @@ invented by this file or its Canvas object -- per Jeremy's 2026-08-06
 decision, only the point allocation itself is in scope. How the instructor
 actually determines each week's score remains `docs/syllabus.md`'s policy
 prose, to be finalized separately.
+
+**Re-confirmed 2026-08-08** (during prompt 043's full-semester CS1
+pipe-integrity check, when this category's lack of a gradable artifact
+surfaced as a disclosed skip): this stays instructor-entered by design,
+not by oversight. Jeremy considered and explicitly declined to invent a
+data-collection mechanism here without checking real Canvas capabilities
+first (Canvas login/page-view analytics, a possible Attendance/Roll Call
+LTI, video-watch metrics where Canvas Studio-hosted) -- a real, larger
+follow-on idea, captured but not started:
+`jeremy_task_tracking/plans/
+2026-08-08_student_engagement_early_alert_system_proposed.md`. This
+category's own point-threshold policy is separately still blocked on the
+university-policy confirmation `docs/syllabus.md` already flags -- that
+blocker doesn't go away even if the data-collection piece above gets
+built.
