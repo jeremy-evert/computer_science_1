@@ -1,0 +1,152 @@
+\documentclass{beamer}
+\input{../theme/preamble.tex}
+
+\title{Week 2 Monday}
+\subtitle{Variables, Expressions, and Types}
+\author{CS1}
+\date{}
+
+\begin{document}
+
+\SessionTitleSlide{Week 2 -- Monday}{Variables, Expressions, and Types}{How does a program store a value, compute something from it, and show the result predictably?}{Deitel \& Deitel, \emph{Intro to Python for Computer Science and Data Science}, Chapter 2, ``Introduction to Python Programming,'' \S\S2.1--2.4, 2.6, 2.8}
+
+\begin{frame}[fragile]{Variables and Assignment}
+\begin{itemize}
+    \item A variable stores a value for later use; \texttt{=} is assignment, not algebraic equality.
+    \item The right side evaluates completely first, then binds to the name on the left.
+    \item \texttt{total = x + y} reads ``total is assigned the value of x + y.''
+\end{itemize}
+\begin{verbatim}
+x = 7
+y = 3
+total = x + y   # 10
+\end{verbatim}
+\note{Deitel \S2.2, pp. 50-51. Run this live: create x, create y, then total, then print total. Emphasize that the = symbol is not itself an operator -- it's an instruction, and the right side always finishes first. Identifiers: letters, digits, underscores, never starting with a digit, case-sensitive (score vs Score are different names) -- docs.python.org/3/reference/lexical\_analysis.html\#identifiers.}
+\end{frame}
+
+\begin{frame}[fragile]{Arithmetic and Precedence}
+\begin{itemize}
+    \item \texttt{+ - * **} as expected; \texttt{/} is true division (always float); \texttt{//} is floor division (truncates toward $-\infty$); \texttt{\%} is remainder.
+    \item Precedence: parentheses, then \texttt{**} (right-to-left), then \texttt{* / // \%} (left-to-right), then \texttt{+ -}.
+    \item Parentheses change results, not just readability.
+\end{itemize}
+\begin{verbatim}
+7 / 4    # 1.75          7 // 4   # 1
+-13 // 4 # -4             17 % 5   # 2
+10 * (5 + 3)  # 80        10 * 5 + 3  # 53
+\end{verbatim}
+\note{Deitel \S2.3, pp. 52-56. Full precedence table: docs.python.org/3/reference/expressions.html\#operator-precedence. Run -13 // 4 live -- students often expect -3, not -4; floor division rounds toward negative infinity, not toward zero. Mention ZeroDivisionError and NameError as the two exceptions this section's operators can raise -- both produce a traceback, read the last line first.}
+\end{frame}
+
+\begin{frame}[fragile]{Formatted Output}
+\begin{itemize}
+    \item \texttt{print} joins a comma-separated list with spaces.
+    \item f-strings (\texttt{f"..."}) embed expressions directly in \texttt{\{\}}, with an optional format spec after \texttt{:}.
+    \item Use f-strings for anything with more than one value in the line.
+\end{itemize}
+\begin{verbatim}
+print('Sum is', 7 + 3)              # Sum is 10
+price = 19.999
+print(f"Price: ${price:.2f}")       # Price: $20.00
+\end{verbatim}
+\note{Deitel \S2.4, pp. 56-58, plus docs.python.org/3/tutorial/inputoutput.html\#formatted-string-literals (f-strings are not in this edition of Deitel's own text but are the modern standard -- cite the docs directly). Run the price example live so the rounding from 19.999 to 20.00 is visible, not just asserted.}
+\end{frame}
+
+\begin{frame}[fragile]{Input Always Returns a String}
+\begin{itemize}
+    \item \texttt{input()} returns a \texttt{str}, even when the user types digits.
+    \item \texttt{'7' + '3'} concatenates to \texttt{'73'} -- not addition.
+    \item Convert first: \texttt{int()} or \texttt{float()}, then compute.
+\end{itemize}
+\begin{verbatim}
+value1 = input('Enter first number: ')   # '7'
+value2 = input('Enter second number: ')  # '3'
+value1 + value2        # '73'  (concatenation!)
+int(value1) + int(value2)  # 10
+\end{verbatim}
+\note{Deitel \S2.6, pp. 59-61. This is the single most common bug students will hit on the gate the moment they read input from a user instead of hardcoding numbers. int() on a non-numeric string raises ValueError -- show int('hello') live and read the traceback's last line together.}
+\end{frame}
+
+\begin{frame}[fragile]{Objects, Types, and Dynamic Typing}
+\begin{itemize}
+    \item Every value is an object; every object has a type.
+    \item Python is dynamically typed: a variable can be rebound to a value of a \emph{different} type at any time.
+    \item \texttt{bool} is a subtype of \texttt{int} -- \texttt{True + True} is \texttt{2}.
+\end{itemize}
+\begin{verbatim}
+type(7)      # <class 'int'>
+x = 7
+x = 'dog'    # legal -- x now refers to a str
+True + True  # 2
+\end{verbatim}
+\note{Deitel \S2.8, pp. 66-68. Boolean subtyping: docs.python.org/3/library/stdtypes.html\#boolean-type-bool and \#numeric-types-int-float-complex (``Booleans are a subtype of integers''). Comparison expressions (7 > 4) produce bool values -- that's this week's ``comparison expressions'' objective; the if statement that acts on a bool is next week (lessons/03-branching.md), don't teach it here.}
+\end{frame}
+
+\begin{frame}[fragile]{Common Type Errors}
+\begin{center}
+\begin{tabular}{ll}
+\texttt{TypeError} & mixing incompatible types, e.g. \texttt{'3' + 3} \\
+\texttt{ValueError} & \texttt{int()}/\texttt{float()} on a non-numeric string \\
+\texttt{ZeroDivisionError} & \texttt{/} or \texttt{//} with a zero denominator \\
+\texttt{NameError} & using a variable before it's assigned \\
+\texttt{SyntaxError} & \texttt{=} where \texttt{==} was meant, or a stray character \\
+\end{tabular}
+\end{center}
+\note{Every one of these produces a traceback naming the exception type and the offending line. Teach the habit: read the last line of the traceback first. These are the errors students will actually hit on the gate this week -- worth pointing at each one by name so they recognize it later instead of panicking.}
+\end{frame}
+
+\begin{frame}[fragile]{Worked Example: This Week's Gate}
+Frontier Settlement genre, from \texttt{assignments/odyssey\_gates/week-02.md}:
+\begin{verbatim}
+rations_per_colonist = 2
+colonist_count = 40
+food_stock = rations_per_colonist * colonist_count
+print(f"The settlement begins with {food_stock} days of food.")
+\end{verbatim}
+Same shape works for all four genres: a variable, an expression, a
+formatted sentence.
+\note{Run this live, then swap in the Investigation Bureau, Starship Log, or Small Business numbers from the gate file's own ``Suggested textbook problem'' section -- same three lines, different story. That swap is literally the gate's Quick Check: a variable assigned and reused, an expression computed from it, and the result printed as part of a sentence.}
+\end{frame}
+
+\begin{frame}{Runnable Example File}
+\begin{itemize}
+    \item \texttt{lessons/code/week02\_variables\_expressions\_types.py} -- every example from today, runnable with no input required.
+    \item Includes the historical caffeine half-life lab (fall 2021 onward) as a working function, using this lecture's exponentiation operator and f-string formatting.
+    \item \url{https://github.com/jeremy-evert/computer_science_1/blob/main/lessons/code/week02_variables_expressions_types.py}
+\end{itemize}
+\note{Point students at this file at the end of lecture -- download it, run it, read the source with the Deitel section labels next to this lecture's own structure. The caffeine half-life problem ties today's lecture directly to labs this course has assigned every semester since at least fall 2021 -- continuity, not reinvention.}
+\end{frame}
+
+\begin{frame}{Closing Takeaway}
+\begin{center}
+\large
+A variable stores a value; an expression computes a new one from it;
+formatted output shows the result predictably. Everything in this week's
+gate is that pattern, applied to your world.
+\end{center}
+\note{Return to the essential question: how does a program store a value, compute something from it, and show the result predictably? Bridge to Wednesday's paired programming -- students apply exactly this pattern to their own gate genre, with a partner.}
+\end{frame}
+
+\begin{frame}{Source and Limitation Note}
+\begin{itemize}
+    \item Deitel \& Deitel, \emph{Intro to Python for Computer Science and Data Science} (Pearson, 2020), Chapter 2, \S\S2.1--2.4, 2.6, 2.8, pp. 49--61, 66--68.
+    \item This deck covers Deitel \S\S2.1--2.4, 2.6, 2.8 only -- \S2.5 (triple-quoted strings) and \S2.7 (the \texttt{if} statement) are deferred to Week 3.
+\end{itemize}
+\note{State the limitation clearly, same convention as every other deck in this project: this is a selection of one chapter's sections aimed at this week's specific objectives, not a summary of the whole chapter or book. Triple-quoted strings and the if statement are real Deitel content students will read, just not this week's lecture focus.}
+\end{frame}
+
+\begin{frame}[allowframebreaks]{Python Documentation Cited Today}
+\small
+\begin{itemize}
+    \item Identifiers and keywords: \url{https://docs.python.org/3/reference/lexical_analysis.html\#identifiers}
+    \item Operator precedence: \url{https://docs.python.org/3/reference/expressions.html\#operator-precedence}
+    \item Formatted string literals (f-strings): \url{https://docs.python.org/3/tutorial/inputoutput.html\#formatted-string-literals}
+    \item Numeric types (\texttt{int}, \texttt{float}, \texttt{complex}): \url{https://docs.python.org/3/library/stdtypes.html\#numeric-types-int-float-complex}
+    \item Boolean type: \url{https://docs.python.org/3/library/stdtypes.html\#boolean-type-bool}
+    \item Built-in \texttt{int}/\texttt{float}/\texttt{str}: \url{https://docs.python.org/3/library/functions.html\#int}, \url{https://docs.python.org/3/library/functions.html\#float}, \url{https://docs.python.org/3/library/functions.html\#func-str}
+    \item PEP 8 style guide: \url{https://peps.python.org/pep-0008/}
+\end{itemize}
+\note{Same links as \texttt{lessons/02-variables-expressions-types.md}, repeated here so a student working from the slide deck alone (not the lesson page) still has real, clickable sources rather than a pointer to go find them elsewhere.}
+\end{frame}
+
+\end{document}

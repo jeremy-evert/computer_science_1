@@ -1,0 +1,37 @@
+% Computer Science 1 — shared Beamer preamble.
+% \input this file after \documentclass{beamer} in every Monday lecture
+% deck so all decks share one visual system. Do not fork per-week copies of
+% this file — edit it once here and every deck picks up the change on next
+% compile. Vendored from professional_minds/presentations/beamer/theme/
+% preamble.tex (same pattern semester_kickoff_week's own vendored copy
+% uses), kept local rather than \input across repos so this repo stays
+% self-contained and usable without a professional_minds checkout.
+
+\usetheme{Boadilla}
+\usecolortheme{seahorse}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+% Speaker notes: \note{...} on any frame. Compiling with the default
+% `pdflatex deck.tex` produces a slides-only PDF (notes are embedded but
+% hidden). Compiling with
+% `pdflatex "\PassOptionsToPackage{show}{pgfpages}\input{deck.tex}"`
+% or uncommenting the line below produces an instructor copy with each
+% slide's notes on a second page — see README.md for both commands.
+% \setbeameroption{show notes on second screen=right}
+
+\usepackage{pgfpages}
+
+\newcommand{\SessionTitleSlide}[4]{%
+  % #1 = Week/Day (e.g. "Week 2 -- Monday"), #2 = session title,
+  % #3 = essential question, #4 = primary source citation
+  \begin{frame}
+    \titlepage
+  \end{frame}
+  \begin{frame}{Essential Question}
+    \Large #3
+
+    \vspace{1em}
+    \normalsize\emph{#4}
+  \end{frame}
+}

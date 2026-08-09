@@ -1,0 +1,11 @@
+\frametitle{Worked Example: This Week's Gate}
+Frontier Settlement genre, from \texttt{assignments/odyssey\_gates/week-02.md}:
+\begin{verbatim}
+rations_per_colonist = 2
+colonist_count = 40
+food_stock = rations_per_colonist * colonist_count
+print(f"The settlement begins with {food_stock} days of food.")
+\end{verbatim}
+Same shape works for all four genres: a variable, an expression, a
+formatted sentence.
+\note{Run this live, then swap in the Investigation Bureau, Starship Log, or Small Business numbers from the gate file's own ``Suggested textbook problem'' section -- same three lines, different story. That swap is literally the gate's Quick Check: a variable assigned and reused, an expression computed from it, and the result printed as part of a sentence.}
