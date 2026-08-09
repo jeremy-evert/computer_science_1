@@ -38,6 +38,18 @@ gate/checkpoint that results *is* the weekly reinforcement assignment. See
 | Course evaluation | 2% | end of term | Carried from current model |
 | **Total** | **100%** | | Reconciled 2026-08-06 — see "What this replaces" history and "Open decisions" below for the attendance trim that made this balance. |
 
+**Not in the table above: A4 (Show and Tell reflection).** Decided
+2026-08-08 (Jeremy: "I want to see a PPR and SnTR for every week that we
+have them") — A4 now pushes a real, gradable, rubric-scored instance every
+ready week in Canvas (`course_foundry`'s `_weekly_a4_object`, same weekly
+pattern as the paired-programming report and Friday feedback report rows
+above). It earns real points today (10 pts/week, Canvas's default
+0%-weighted "Assignments" group) but has **no row and no percentage in this
+table** — unlike "Fun Friday reflection" above (professional_minds' own
+Friday slides reflection, a distinct artifact), A4 was never in this weight
+model at all, on-disk or live, before today. Cadence is decided; weight is
+not — see "Open decisions" below.
+
 Weekly categories drop-lowest or late-work handling: inherit the standing
 two-week late window (see syllabus) — decide drop-lowest at finalization.
 
@@ -98,3 +110,10 @@ student narrates their side.
       category keeps the gradebook legible).
 - [ ] How the automated-feedback reply scores or pre-scores the process
       rubric (Marker names gaps; the professor keeps final authority).
+- [ ] **A4 (Show and Tell reflection) weight/category** (flagged
+      2026-08-08, exit-ticket grading audit; cadence decided same day, weight
+      still open): A4 now pushes weekly to Canvas with real points and a real
+      rubric, ungrouped in the 0%-weighted default "Assignments" group. Giving
+      it a real percentage means shrinking some other row to keep the table at
+      100% — the same class of call Jeremy made explicitly for the two
+      professional-pathway rows above. Not decided; do not guess a number.
