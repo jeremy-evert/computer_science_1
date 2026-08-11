@@ -1,0 +1,77 @@
+# Computer Science I — durable course metadata
+#
+# Tracked source of truth for COMSC-1033's Fall 2026 offering, populated
+# 2026-08-11 to match the schema already used by
+# computer_science_2/course_metadata.yaml, discrete_structures_and_
+# critical_thinking/course_metadata.yaml, and computer_architecture/
+# course_metadata.yaml (schema itself introduced by prompt 044, generator:
+# course_foundry.course_information_page). This file was empty until now
+# even though CS1 is otherwise the most-developed of the four courses —
+# course/official facts below trace to computer_science_1/docs/syllabus.md
+# (itself sourced from Self-Service, confirmed 2026-07-14).
+
+course:
+  code: "COMSC-1033"
+  name: "Computer Science I"
+  credits: 3
+  term: "Fall 2026"
+  section_number: "COMSC-1033-1415"
+  start_date: "2026-08-17"
+  end_date: "2026-12-11"
+  instructor: "Dr. Jeremy P. Evert"
+  requisites: "None"
+  catalog_offering_note: "Traditional, in-person section (a separate online section, 1414, also exists but is not this offering)"
+
+official:
+  modality: "Traditional (in-person)"
+  location: "Gen. Thomas P. Stafford Center, Room 125"
+  meeting_pattern: "M/W/F 10:00 AM - 10:50 AM"
+  catalog_description: >-
+    TODO: no verbatim catalog description has been confirmed/transcribed
+    into this file yet -- docs/syllabus.md does not carry one either as of
+    2026-08-11. Do not fabricate one here; pull from the official catalog
+    record the same way Architecture's was (prompt 044).
+
+instructional_working_cadence:
+  days: "Monday / Wednesday / Friday"
+  time: "10:00 AM"
+  label: "Same as the official Banner meeting time above -- no separate planning cadence for this course."
+
+# ZyBooks adoption: Jeremy confirmed directly 2026-08-11 that CS1 has a
+# real, current adoption on the ZyBooks server (same message that
+# confirmed Computer Architecture's). This is Jeremy-stated, not yet
+# independently re-verified via a live ZyBooks read-back or a Canvas LTI
+# tool listing -- do not treat as equivalent in evidentiary weight to
+# Architecture's `EvertCOD(MIPS)Jul2021`, which carries an exact
+# title/URL/chapter list. The exact product/edition/URL for CS1's current
+# adoption has not been supplied yet; historical precedent (Fall
+# 2021-Fall 2025 Canvas archive) used "Programming in Python 3" via a
+# ZyBooks LTI 1.1-then-1.3 tool (see jeremy_task_tracking/reports/
+# 2026-08-11_zybooks_lti_real_integration_options.md) but this file does
+# not assume the current adoption is the same edition without Jeremy
+# confirming it directly -- see prompts/049 for the reconciliation task
+# this blocks.
+textbook:
+  title: "Adopted on ZyBooks server (Jeremy-confirmed 2026-08-11) -- exact title/edition/URL not yet supplied"
+  authors: []
+  zybook_identifier: "TBD -- confirm with Jeremy or by having him read it directly from his ZyBooks instructor dashboard"
+  zybook_url: ""
+  main_chapters: []
+  note: >-
+    Fall 2026 strategy (Jeremy, 2026-08-11): focus on ZyBooks as the
+    primary graded-practice track for all four Fall 2026 courses; the
+    2026-07-27 switch to Deitel as CS1's primary text is not being
+    reversed by deleting existing Deitel-cited curriculum, but ZyBooks
+    becomes the near-term graded focus again. See
+    jeremy_task_tracking/DECISIONS.md's 2026-08-11 entries and
+    prompts/049_cs1_zybooks_readoption_reconciliation.md.
+
+provenance:
+  - source: "computer_science_1/docs/syllabus.md (course/official blocks; sourced from Self-Service, confirmed 2026-07-14)"
+    covers: "course/official blocks"
+  - source: "Jeremy, directly, 2026-08-11 conversation (ZyBooks adoption confirmation for CS1 and Computer Architecture)"
+    covers: "textbook.title (adoption confirmed), textbook.note (Fall 2026 strategy)"
+  - note: >-
+      textbook.zybook_identifier/zybook_url/main_chapters are intentionally
+      TBD -- no exact product identifier has been supplied yet; do not
+      fabricate one.
