@@ -38,31 +38,110 @@ instructional_working_cadence:
   label: "Same as the official Banner meeting time above -- no separate planning cadence for this course."
 
 # ZyBooks adoption: Jeremy confirmed directly 2026-08-11 that CS1 has a
-# real, current adoption on the ZyBooks server (same message that
-# confirmed Computer Architecture's). This is Jeremy-stated, not yet
-# independently re-verified via a live ZyBooks read-back or a Canvas LTI
-# tool listing -- do not treat as equivalent in evidentiary weight to
-# Architecture's `EvertCOD(MIPS)Jul2021`, which carries an exact
-# title/URL/chapter list. The exact product/edition/URL for CS1's current
-# adoption has not been supplied yet; historical precedent (Fall
-# 2021-Fall 2025 Canvas archive) used "Programming in Python 3" via a
-# ZyBooks LTI 1.1-then-1.3 tool (see jeremy_task_tracking/reports/
-# 2026-08-11_zybooks_lti_real_integration_options.md) but this file does
-# not assume the current adoption is the same edition without Jeremy
-# confirming it directly -- see prompts/049 for the reconciliation task
-# this blocks.
+# real, current adoption on the ZyBooks server, then supplied the exact
+# product (title/ISBN/URL/full TOC, pasted verbatim from his ZyBooks
+# instructor "About this material" page) later the same day -- this is
+# now equivalent in evidentiary weight to Architecture's
+# `EvertCOD(MIPS)Jul2021`. Historical precedent (Fall 2021-Fall 2025
+# Canvas archive) used "Programming in Python 3" via a ZyBooks LTI
+# 1.1-then-1.3 tool (see jeremy_task_tracking/reports/
+# 2026-08-11_zybooks_lti_real_integration_options.md); the current
+# adoption is a combined/updated custom zyBook built from 2 zyBook
+# titles (per its own About page) and is NOT assumed identical to that
+# older edition -- see prompts/049 and
+# planning/zybooks-assignment-map.md for the reconciliation.
 textbook:
-  title: "Adopted on ZyBooks server (Jeremy-confirmed 2026-08-11) -- exact title/edition/URL not yet supplied"
-  authors: []
-  zybook_identifier: "TBD -- confirm with Jeremy or by having him read it directly from his ZyBooks instructor dashboard"
-  zybook_url: ""
-  main_chapters: []
+  title: "COMSC 1033: Computer Science I (custom zyBook, built from 2 zyBook titles, zyLabs enabled)"
+  authors:
+    - "Bailey Miller"
+  senior_contributors:
+    - "Roman Lysecky"
+    - "Frank Vahid"
+    - "Nkenge Wheatland"
+  zybook_identifier: "SWOSUCOMSC1033Fall2026"
+  zybook_isbn: "979-8-203-33060-4"
+  zybook_url: "https://learn.zybooks.com/zybook/SWOSUCOMSC1033Fall2026"
+  current_release: "September 2025 (intended for class use starting January 2026) -- current as adopted for Fall 2026"
+  main_chapters:
+    - number: 1
+      title: "Introduction to Python"
+    - number: 2
+      title: "Variables and Expressions"
+    - number: 3
+      title: "Types"
+    - number: 4
+      title: "Branching"
+    - number: 5
+      title: "Loops"
+    - number: 6
+      title: "Functions"
+    - number: 7
+      title: "Strings"
+    - number: 8
+      title: "Lists and Dictionaries"
+    - number: 9
+      title: "Classes"
+    - number: 10
+      title: "Exceptions"
+    - number: 11
+      title: "Modules"
+    - number: 12
+      title: "Files"
+    - number: 13
+      title: "Inheritance"
+    - number: 14
+      title: "Recursion"
+    - number: 15
+      title: "Plotting"
+    - number: 16
+      title: "Searching and Sorting Algorithms"
+    - number: 17
+      title: "Additional Material"
+    - number: 18
+      title: "Additional Labs: Introduction to Python 3"
+    - number: 19
+      title: "Additional Labs: Variables and Expressions"
+    - number: 20
+      title: "Additional Labs: Types"
+    - number: 21
+      title: "Additional Labs: Branching"
+    - number: 22
+      title: "Additional Labs: Loops"
+    - number: 23
+      title: "Additional Labs: Functions"
+    - number: 24
+      title: "Additional Labs: Strings"
+    - number: 25
+      title: "Additional Labs: Lists and Dictionaries"
+    - number: 26
+      title: "Additional Labs: Classes"
+    - number: 27
+      title: "Additional Labs: Exceptions"
+    - number: 28
+      title: "Additional Labs: Files"
+    - number: 29
+      title: "Additional Labs: Recursion"
+    - number: 30
+      title: "Additional Labs: One Large Program"
+    - number: 31
+      title: "Python for Data Science"
+    - number: 32
+      title: "Coding Practice Problems"
+    - number: 33
+      title: "Artificial Intelligence"
   note: >-
     Fall 2026 strategy (Jeremy, 2026-08-11): focus on ZyBooks as the
     primary graded-practice track for all four Fall 2026 courses; the
     2026-07-27 switch to Deitel as CS1's primary text is not being
     reversed by deleting existing Deitel-cited curriculum, but ZyBooks
-    becomes the near-term graded focus again. See
+    becomes the near-term graded focus again. Core teaching chapters
+    (1-16) map closely to CS1's existing Monday-lecture sequence
+    (planning/block-map.md L01-L15), with one confirmed off-by-one
+    mismatch in the existing week-03/week-04 chapter citations -- see
+    planning/zybooks-assignment-map.md. Chapters 17-33 (Additional
+    Material/Labs, Data Science, Practice Problems, AI) are extra
+    inventory beyond the core 16-chapter teaching sequence, not assumed
+    to map 1:1 onto any existing week. See
     jeremy_task_tracking/DECISIONS.md's 2026-08-11 entries and
     prompts/049_cs1_zybooks_readoption_reconciliation.md.
 
