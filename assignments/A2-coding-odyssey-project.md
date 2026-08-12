@@ -28,7 +28,7 @@ are not two separate things to submit.
    these files also includes an optional **suggested textbook problem** —
    the same concept as a plain practice problem, with one version per
    genre.
-3. **Checkpoints (Weeks 6, 9, 14, 16):** submit a working version, explain
+3. **Checkpoints (Weeks 6, 9, 14):** submit a working version, explain
    in your own words what changed, and demonstrate it. Table below; full
    grading criteria in that week's own gate file.
 4. **Week 17 (finals):** submit the final portfolio version — playable or

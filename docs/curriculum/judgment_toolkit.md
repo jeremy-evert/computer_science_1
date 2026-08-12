@@ -27,7 +27,7 @@ tone, they don't import a stricter one.
 | Quick Check | one gate, one concept | ~weekly | the weekly technical topic |
 | Build | one checkpoint or continuation | ~weekly (light) + 3 checkpoints (full) | `assignments/A2-coding-odyssey-project.md` |
 | Decide/Compare | one real choice, defended | 2 points (Wk 10-11, Wk 13 capstone) | collections-era design choice; capstone |
-| Debrief | reflective, cyclical | 4 arc closes + finals | Checkpoints 1-4, Week 17 |
+| Debrief | reflective, cyclical | 3 arc closes + finals | Checkpoints 1-3, Week 17 |
 | Judgment Log | cumulative, living | 3 checkpoints (Wk2 / mid / Wk17) | the World Bible |
 
 ---
@@ -94,7 +94,7 @@ or this checkpoint's concept, correctly, and does it run.
 
 Checkpoint 1 (Wk6, "baby project") is deliberately light on all four axes
 per its own existing framing (`reports/007`) — it exists to rehearse the
-mechanics, not to be graded at full Build weight. Checkpoints 2-4 and the
+mechanics, not to be graded at full Build weight. Checkpoints 2-3 and the
 Week 17 final use the full rubric.
 
 ---

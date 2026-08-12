@@ -30,13 +30,25 @@ gate/checkpoint that results *is* the weekly reinforcement assignment. See
 | Paired-programming report | 5% | weekly | Student's own contribution, honestly assessed |
 | Friday feedback report | 5% | weekly | Quality of feedback the student *gave* |
 | Weekly reinforcement assignment | 25% | weekly | Two axes: result 15% + process 10% (rubric below). Result = that week's Coding Odyssey gate + Light Build continuation, weeks 2–5/7–8/10–13. Optional standalone bonus practice (`assignments/A1-weekly-coding-practice.md`) is additive on top of this row, not part of its 25% — exact point value not yet decided, see Open decisions. |
-| Coding Odyssey checkpoints | 15% | 4 checkpoints (Wk 6/9/14/16) | The bigger, periodic grading pass on the same project — full four-axis Build rubric, not the weekly gate's pass/fail. Keeps the historical effort ladder in spirit (70/80/90/100 → now the Functions/Concept-use/Explanation/Demonstrability axes, `judgment_toolkit.md` §2). |
+| Coding Odyssey checkpoints | 15% | 3 checkpoints (Wk 6/9/14) | The bigger, periodic grading pass on the same project — full four-axis Build rubric, not the weekly gate's pass/fail. Keeps the historical effort ladder in spirit (70/80/90/100 → now the Functions/Concept-use/Explanation/Demonstrability axes, `judgment_toolkit.md` §2). **Reconciled 2026-08-12 (prompt 055):** the table previously said "4 checkpoints (Wk 6/9/14/16)" — stale from before Checkpoint 4 was retired at Week 16 (`reports/012_pre_savnac_source_reconciliation.md`). Week 16 is the Farkle/ML fun week, not a checkpoint; see `planning/week-16.md` and `reports/013_week16_farkle_ml_capstone.md`. |
 | Final reflection paper | 10% | finals week | Template basis: `assignments/A5-final-reflection.md`; sanity-check against university finals policy |
 | Professional pathway — Week 14 update | 5% | Week 14 | Reasoning-graded update pass + new changelog/diff artifact (`assignments/A6-professional-pathway-artifacts.md`, `rubrics/A6-week-14-update_rubric.md`). Decided 2026-08-06, reshaped from an ungraded prep checkpoint into its own graded row. |
 | Professional pathway — Week 15 submission | 5% | Week 15 | Completion + submission of the full artifact set + next-steps reflection (`rubrics/A6-week-15-submission_rubric.md`). Decided 2026-08-06 — previously had no rubric or weight row at all despite carrying real work. |
 | Attendance & participation | 10% | daily | Historical policy; shrunk from 20% on 2026-08-06 to absorb the professional-pathway rows below without over-summing the table — confirm language at syllabus finalization |
 | Course evaluation | 2% | end of term | Carried from current model |
 | **Total** | **100%** | | Reconciled 2026-08-06 — see "What this replaces" history and "Open decisions" below for the attendance trim that made this balance. |
+
+**Week 16 (Farkle/ML) grading, reconciled 2026-08-12 (prompt 055):** Week
+16 carries no Coding Odyssey checkpoint/gate (see above) and this task
+does not invent one. The week's light evidence artifact
+(`assignments/W16-farkle-ml-experiment-receipt.md`) is participation/
+reflection evidence of the same shape as the existing weekly
+Wacky-Wednesday-reflection / Fun-Friday-reflection / attendance rows
+above — Week 16 already has both a Wacky Wednesday and Fun Friday slot
+(`planning/week-16.md`). No new percentage row is added for it; it is
+covered by those existing categories. If a future pass wants a distinct
+graded weight specifically for the Farkle/ML receipt, that is a new
+decision for Jeremy to make, not one made here.
 
 **Not in the table above: A4 (Show and Tell reflection).** Decided
 2026-08-08 (Jeremy: "I want to see a PPR and SnTR for every week that we
@@ -60,7 +72,7 @@ two-week late window (see syllabus) — decide drop-lowest at finalization.
 plus the Light Build continuation band, mapped onto the historical
 effort-based ladder: gate not yet passed sits around 25% of the axis, gate
 passed with minimal continuation 50–75%, gate passed with a solid-to-strong
-continuation 100%. For checkpoint weeks (6, 9, 14, 16), the four-axis Full
+continuation 100%. For checkpoint weeks (6, 9, 14), the four-axis Full
 Build rubric (`docs/curriculum/judgment_toolkit.md` §2) stands in for this
 axis directly instead of the ladder.
 

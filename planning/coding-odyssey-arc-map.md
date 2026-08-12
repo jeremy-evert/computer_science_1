@@ -13,11 +13,13 @@ gate layer to the Monday lecture / weekly-focus track and deepens the
 existing Coding Odyssey checkpoints.
 
 **Arc boundaries follow the real checkpoints, not an invented 2-3 week
-rule.** The four Checkpoints (Wk 6/9/14/16) already carry Debrief-shaped
+rule.** The three Checkpoints (Wk 6/9/14) already carry Debrief-shaped
 mechanics ("submit a working version, explain what changed, and demonstrate
 it" — the existing A2 template). Reusing them as arc closes means no new
 due dates get invented; the arc structure formalizes spacing this course
-already has.
+already has. (Reconciled 2026-08-12, prompt 055: this paragraph said "four
+Checkpoints (Wk 6/9/14/16)" — stale from before Checkpoint 4 was retired;
+see the reconciliation note later in this file.)
 
 ## Arc structure
 
