@@ -34,7 +34,7 @@ Show-and-tell / reflection tie-in: demo the Coding Odyssey checkpoint 1 baby pro
 ## Due this week
 Coding Odyssey checkpoint 1 — baby project / dry run
 (`assignments/A2-coding-odyssey-project.md`), reviewing/consolidating
-chapter 5's loops. This checkpoint fulfills the weekly coding practice
-requirement (`assignments/A1-weekly-coding-practice.md`) for this week; no
-separate chapter problem set is due. No graded functions work is due this
-week — chapter 6 practice begins Week 7.
+loops. This checkpoint fulfills the weekly coding practice requirement
+(`assignments/A1-weekly-coding-practice.md`) for this week; no separate
+problem set is due. No graded functions work is due this week — functions
+practice begins Week 7.

@@ -91,40 +91,38 @@ creativity.
 
 - Python 3 in an approved development environment.
 - Canvas access and a reliable way to submit code, output, and explanations.
-- **Textbook (switched from ZyBooks, 2026-07-27):** Paul & Harvey Deitel,
-  *Intro to Python for Computer Science and Data Science*. Chosen over the
-  prior ZyBooks text (*Programming in Python 3*) because it's the more
-  complete standalone reference — see `docs/curriculum/judgment_toolkit.md`
-  and the reasoning in `assignments/A1-weekly-coding-practice.md`'s
-  scaffolding note. Each week's chapter supplies that week's concept; it's
-  applied inside the student's Coding Odyssey project
-  (`assignments/A2-coding-odyssey-project.md`), not through separate
-  textbook problem sets.
 
-> TODO: confirm the current Deitel edition/ISBN, access method (physical,
-> ebook, or an institutional license), and cost — none of that was carried
-> over from the ZyBooks-era TODO, since the two books aren't sold or
-> accessed the same way.
+**No required textbook or external course (reconciled 2026-08-12).** CS1 is
+built around an open-source core, not a purchased or required textbook.
+There is no required ZyBooks adoption and no required Deitel textbook —
+students must be able to complete the course successfully without buying
+either. CS50P (Harvard's free *Introduction to Programming with Python*) is
+used as a **recommended, not required**, concept/lecture/notes spine where
+it genuinely fits the week's topic; students are never required to enroll
+in CS50P as a separate course, submit its problem sets, or earn its
+certificate. See `docs/curriculum/recommended-resources.md` for the
+week-level resource map and `reports/012_pre_savnac_source_reconciliation.md`
+for the full reconciliation. Each week's concept comes from Jeremy's own
+lecture/materials and is applied inside the student's Coding Odyssey
+project (`assignments/A2-coding-odyssey-project.md`), not through a
+required textbook problem set.
 
-> **Chapter-numbering convention (added 2026-08-06, Jeremy's call):** every
-> "Chapter N" reference in this course's planning/assignment/rubric files
-> (e.g. `planning/week-05.md`'s "chapter 5's loops") uses the **zyBooks**
-> *Programming in Python 3* chapter numbering — the department-standard
-> scheme other CS1 faculty already use — confirmed directly against that
-> book's own table of contents. **It does not match the Deitel book's own
-> printed chapter numbers** (a different, incompatible scheme — e.g.
-> Deitel's ch.5 is "Sequences: Lists and Tuples," not loops). Deitel is the
-> assigned reading/content source; zyBooks numbering is only the shared
-> department label for "which week's concept." If a student reads the
-> Deitel chapter that matches a week's concept by topic, it will not be
-> under the same chapter number stated in that week's materials — this is
-> expected, not an error.
+> Historical note: this course briefly required Deitel's *Intro to Python
+> for Computer Science and Data Science* (2026-07-27) and then briefly
+> readopted ZyBooks as a required graded-practice track (2026-08-11,
+> `course_metadata.yaml`). Both were walked back 2026-08-12 in favor of the
+> open-source-core model above; neither book is deleted from the repo or
+> its historical citations, but neither is a Fall 2026 requirement. Deitel
+> may still be suggested as optional reading; ZyBooks may remain
+> internal/legacy/optional only if Jeremy later chooses to use it.
 
 ### Supplemental materials
 
 - Instructor recordings and examples: TODO: confirm current link.
+- Recommended: selected CS50P lecture/short/notes material — see
+  `docs/curriculum/recommended-resources.md`.
+- Python official documentation as the authoritative reference layer.
 - Optional readings: linked in Canvas as assigned.
-- Python documentation and other resources approved by the instructor.
 - GitHub or the current course repository when a project or demonstration
   requires source-control evidence.
 
@@ -149,23 +147,23 @@ items remain subject to instructor review and the official academic calendar.
 
 | Week | Technical focus | Typical evidence |
 |---:|---|---|
-| 1 | Foundations: `print`, `input`, execution, environment setup | Getting-to-know-you activity; first program |
-| 2 | Variables, expressions, and types | Chapter practice and explanation |
-| 3 | Types, conversion, formatting, and basic data representation | Chapter practice and show-and-tell |
+| 1 | Success Foundations — no programming content | Getting-to-know-you activity |
+| 2 | Run/read/change Python; `print`/`input`; variables, expressions, and types | Odyssey gate: first computed value |
+| 3 | Types, conversion, formatting; branching introduction | Odyssey gate and show-and-tell |
 | 4 | Branching and decision-making | Boundary-case practice |
 | 5 | Loops and repetition I | Loop practice and tracing |
-| 6 | Loops and repetition II; Coding Odyssey planning | Iteration practice; project checkpoint |
+| 6 | Loops and repetition II; Coding Odyssey checkpoint 1 (baby project) | Iteration practice; project checkpoint |
 | 7 | Functions and decomposition | Functions with parameters/returns |
 | 8 | Strings and text processing | String practice; project work |
-| 9 | Collections: lists and dictionaries | Collection practice; project checkpoint |
-| 10 | Collections continued; testing and edge cases | Search, update, and validation practice |
-| 11 | Collections applied; reliability and explanation | Demonstrated edge-case testing |
+| 9 | Strings continued; Coding Odyssey checkpoint 2 | Project checkpoint |
+| 10 | Collections: lists and dictionaries begin | Search, update, and validation practice |
+| 11 | Dictionaries / organized data; technical judgment (Decide/Compare #1) | Demonstrated edge-case testing |
 | 12 | Classes, objects, and modules I | Simple class with state and methods |
-| 13 | Classes, objects, and modules II | Multi-class/module explanation |
-| 14 | GitHub, pair programming, AI-aware coding, project checkpoint | Repository evidence and demonstration |
-| 15 | Consolidation and independent project work | Revision and self-check |
-| 16 | Coding Odyssey final pass; professional artifacts | Project demonstration and career artifacts |
-| 17 | Finals: final portfolio, reflection, and course wrap-up | Final project and reflection |
+| 13 | Classes, objects, and modules II; capstone Decide/Compare #2; substantial Odyssey build culminates | Multi-class/module explanation |
+| 14 | GitHub, pair programming, AI-aware coding; Coding Odyssey checkpoint 3 (Git-backed receipt, not a new build) | Repository evidence and demonstration |
+| 15 | Fully asynchronous (Thanksgiving); no new technical material | Professional-pathway portfolio submission |
+| 16 | Farkle / Machine Learning applied fun week — no Coding Odyssey checkpoint | Applied exploration; no new required deliverable |
+| 17 | Finals: final portfolio, reflection, and course wrap-up | Final project (evidence/receipt) and reflection |
 
 > TODO: replace this working sequence with the approved calendar dates and
 > final section-specific schedule after the Faculty Commons template is
@@ -175,17 +173,22 @@ items remain subject to instructor review and the official academic calendar.
 
 ### Weekly coding practice
 
-Complete three problems from the current chapter or propose comparable
-problems. A submission normally includes:
+**Reconciled 2026-08-12** (see `assignments/A1-weekly-coding-practice.md`):
+this is fulfilled by that week's Coding Odyssey gate or checkpoint, not a
+separate required problem set from a textbook chapter. A submission
+normally includes:
 
-1. A sentence describing what each problem asks.
+1. A sentence describing what the week's concept asks of the student's
+   world.
 2. An outline, flowchart, or pseudocode plan.
 3. The code.
 4. Representative output or test results.
 5. A short explanation of why the solution works and what was learned.
 
-Students may use the suggested Canvas/ZyBooks problems or an instructor-
-approved substitution that practices the same concept.
+Optional standalone practice problems (instructor-owned, selected CS50P
+problems that align with what's been taught, or other vetted open
+exercises) are available for additive bonus credit — never required, never
+a base-grade penalty if skipped. See `assignments/A1-weekly-coding-practice.md`.
 
 ### Paired programming
 
@@ -204,17 +207,24 @@ explanation.
 
 ### Coding Odyssey / Choose Your Own Adventure
 
-Build a small creative program or game through staged checkpoints:
+The spine of the course (`assignments/A2-coding-odyssey-project.md`): one
+persistent, student-chosen world (Frontier Settlement, Investigation
+Bureau, Starship Log, or Small Business), extended weekly and checked
+through three staged checkpoints (Weeks 6, 9, and 14) plus a Week 17 final
+submission — not a fourth Week 16 checkpoint (retired 2026-08-12; Week 16
+is the Farkle/ML fun week instead).
 
-1. Idea and design.
-2. Design plus initial code.
-3. A partially working version with explanation and revision.
-4. A working final version and reflection.
+1. Idea and design (Week 2 founding charter).
+2. Design plus initial code, extended weekly through each gate.
+3. Checkpoint passes with explanation and revision (Weeks 6, 9, 14).
+4. A working final version and reflection (Week 17).
 
 The final project should be understandable enough for another person to try,
 show meaningful use of course concepts, and include evidence of testing and
-revision. Creativity, clarity, playability/usefulness, explanation, and clean
-code may earn bonus recognition.
+revision. Inheritance/class hierarchies are not required — meaningful
+classes/objects with real state, behavior, and at least one interaction is
+the actual bar. Creativity, clarity, playability/usefulness, explanation,
+and clean code may earn bonus recognition.
 
 ### Professional pathway artifacts
 
@@ -414,7 +424,8 @@ decisions have been checked.
 - [ ] Obtain the official Faculty Commons face-to-face template.
 - [ ] Confirm term, section, modality, room, meeting time, and class Zoom link.
 - [ ] Confirm instructor office hours and current support links.
-- [ ] Confirm textbook/ZyBooks access, cost, and required status.
+- [x] No required textbook — confirmed 2026-08-12; CS50P is recommended,
+      not required. Confirm this framing survives Faculty Commons review.
 - [ ] Approve the technical sequence and calendar dates.
 - [ ] Approve grading weights, letter scale, attendance, and late-work policy.
 - [ ] Confirm AI language against current university policy.

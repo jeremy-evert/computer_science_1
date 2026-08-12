@@ -6,6 +6,12 @@ Full week.
 ## Weekly Focus
 Tools and authentic application: GitHub/source control, pair programming, AI-aware coding practice; Coding Odyssey checkpoint 3 (renumbered 2026-07-22 after adding Week 6's checkpoint 1 baby project — see `reports/007_coding_odyssey_baby_project_checkpoint.md`). See `lessons/09-projects-tools-and-reflection.md` and `assignments/A2-coding-odyssey-project.md`.
 
+**Pinned framing (2026-08-12 reconciliation):** the stressful creative
+building is already over by the end of Week 13. This week is a Git-backed
+project receipt/debrief on the student's real, already-existing Odyssey
+code — history, commits, pushes, GitHub, collaboration, and AI-aware
+verification — not another large new Odyssey feature sprint.
+
 **Professional-pathway portfolio — mid-semester update (Decision, 2026-07-22, `reports/005_apply_pre_semester_decisions.md`).** Since this week already has students working with GitHub, pair with a brief update pass on `assignments/A6-professional-pathway-artifacts.md`: refresh dream-job/role research, do a skill-gap comparison against it, update the resume, and update GitHub/LinkedIn evidence. Update the degree plan too if anything's changed. This is a light touchpoint tied to existing work, not a new standalone assignment — full completion/submission is Week 15.
 
 ## Monday — Nov 16 — Monday Moments

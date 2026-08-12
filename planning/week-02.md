@@ -4,9 +4,20 @@
 Full week.
 
 ## Weekly Focus
-Variables, expressions, and types. See `lessons/02-variables-expressions-types.md`.
+**The real technical on-ramp** (moved here 2026-08-12 reconciliation — Week 1
+carries no programming content at all): run/read/change Python, basic
+`print`/`input`, then variables, expressions, and types. See
+`lessons/01-foundations-print-input.md` and
+`lessons/02-variables-expressions-types.md`. This is the first CS1 week
+that isn't universal across all five courses, so it's also where the
+Coding Odyssey itself begins.
 
 ## Monday — Aug 24 — Monday Moments
+Short live walkthrough of running a Python program, `print`, and `input` —
+the "run/read/change Python" on-ramp (C01) that used to sit in Week 1.
+Keep this brief; the real repetition happens through the Odyssey gate below,
+not a separate first-program submission.
+
 **Coding Odyssey genre pick (moved here 2026-07-24 from Week 1 Friday — see
 `planning/coding-odyssey-arc-map.md`).** Before this week's technical work:
 pick one of 4 bounded genres (Frontier Settlement / Investigation Bureau /
@@ -26,7 +37,8 @@ Show-and-tell / reflection tie-in: share a program that uses variables and forma
 
 ## Due this week
 Coding Odyssey genre pick + founding charter, and Week 2's gate
-(`assignments/odyssey_gates/week-02.md`), applying chapters 1–2's variables
-and expressions to your world — this fulfills the weekly coding practice
-requirement (`assignments/A1-weekly-coding-practice.md`); no separate
-chapter problem set is due.
+(`assignments/odyssey_gates/week-02.md`), applying running/reading/changing
+Python and this week's variables/expressions/types to your world — this
+fulfills the weekly coding practice requirement
+(`assignments/A1-weekly-coding-practice.md`); no separate problem set is
+due (optional bonus practice exists — see A1).

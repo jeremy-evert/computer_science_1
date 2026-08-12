@@ -24,21 +24,20 @@ your gate submission is written in.
 
 ## Before class
 
-Read Deitel & Deitel, *Intro to Python for Computer Science and Data
-Science* (2020), **Chapter 2, "Introduction to Python Programming,"
-sections 2.1–2.4, 2.6, and 2.8** (pp. 49–61, 66–68) — variables and
-assignment, arithmetic, `print` and strings, getting input, and objects and
-dynamic typing. (Section 2.5, triple-quoted strings, and 2.7, the `if`
-statement, are previewed briefly below but belong to Week 3's branching
-lesson, `lessons/03-branching.md` — don't feel behind if those don't fully
-land yet.) This is ~10 pages; skim if you're short on time, but at least
-skim, per `docs/course-ethos.md`'s digest-first pattern.
+**No required textbook (reconciled 2026-08-12) — the reading below is
+optional, not assigned.** This course has no required textbook or external
+course; see `docs/syllabus.md` and `docs/curriculum/recommended-resources.md`
+for the recommended (not required) CS50P links for this week
+(`cs50.harvard.edu/python/weeks/0/`, `/1/`).
 
-**Chapter numbering note:** this course's planning files use zyBooks'
-chapter numbering as shorthand ("chapter 2" in `planning/week-02.md`), but
-Deitel is the assigned text and Deitel's own chapter 2 is the one that
-actually covers this week's material — see `docs/syllabus.md`'s
-chapter-numbering note if that's confusing.
+If you'd still like a book-style optional reading, Deitel & Deitel, *Intro
+to Python for Computer Science and Data Science* (2020), **Chapter 2,
+"Introduction to Python Programming," sections 2.1–2.4, 2.6, and 2.8**
+(pp. 49–61, 66–68) covers variables and assignment, arithmetic, `print` and
+strings, getting input, and objects and dynamic typing. (Section 2.5,
+triple-quoted strings, and 2.7, the `if` statement, are previewed briefly
+below but belong to Week 3's branching lesson, `lessons/03-branching.md`.)
+Nothing in this lesson or the Week 2 gate requires having read it.
 
 ## In class (Monday, ~35–40 minutes of live lecture + worked examples)
 

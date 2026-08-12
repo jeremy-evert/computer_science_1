@@ -25,7 +25,7 @@ data.
 - [ ] At least one input-validation or whitespace/edge case from the
       lesson's own focus is handled on purpose.
 
-## Suggested textbook problem (optional scaffolding)
+## Suggested practice problem (optional scaffolding)
 
 The general problem: write one short, made-up line of text relevant to
 your world, then pull one specific piece of information out of it with

@@ -23,7 +23,7 @@ behavior as before, now named and reusable.
       definition, and the world's behavior is unchanged from before the
       refactor (same output, cleaner structure).
 
-## Suggested textbook problem (optional scaffolding)
+## Suggested practice problem (optional scaffolding)
 
 The general problem: take a branching check you already wrote (Week 3 or
 4) and turn it into a function that takes the value as a parameter and

@@ -7,14 +7,18 @@ your process, not just your result. This is the "weekly topic
 reinforcement" artifact named in `docs/course-ethos.md`, worth 25% of the
 course grade (`docs/grading-model.md`).
 
-## Reconciled 2026-07-27: this is fulfilled by the Coding Odyssey, not a separate problem set
+## Reconciled 2026-07-27, then 2026-08-12: this is fulfilled by the Coding Odyssey, not a required separate problem set
 
-Every technical week of the semester is a Coding Odyssey week. The
-textbook's chapter for the week supplies the concept and the vocabulary —
-it's still worth reading, and it's still part of the Monday lecture and
-in-class conversation — but you don't practice it by solving standalone
-chapter problems. You practice it by using that concept, that week, inside
-your own persistent Odyssey world.
+Every technical week of the semester is a Coding Odyssey week. There is no
+required textbook or external course (2026-08-12 reconciliation — CS1 has
+no required ZyBooks, no required Deitel, and no required CS50P
+enrollment). The week's concept and vocabulary come from Jeremy's own
+lecture/materials, with recommended no-cost supplements (CS50P
+lecture/notes where they genuinely fit, Python docs as reference) linked
+where useful — see `docs/curriculum/course-sequence.md` and the
+week-level resource map. You don't practice the concept by solving a
+required standalone problem set. You practice it by using that concept,
+that week, inside your own persistent Odyssey world.
 
 - **Weeks with a gate (2–5, 7–8, 10–13):** this assignment *is* that week's
   Odyssey Gate plus its open continuation. Do
@@ -37,7 +41,7 @@ rather than doing both.
 ## Do
 
 1. If you want a concrete starting point before improvising your own
-   scenario, work the **suggested textbook problem** listed in that week's
+   scenario, work the **suggested practice problem** listed in that week's
    gate file first — it's the same concept, phrased as a plain practice
    problem with one version per genre. This is optional scaffolding, not a
    second assignment: do it privately for practice, then let it become (or
@@ -46,9 +50,27 @@ rather than doing both.
 2. Do the current week's Odyssey Gate or checkpoint (see above for which).
 3. Submit working code, representative output, and a short
    explanation/report of what it does and why — applying this week's
-   textbook concept to your world, not in the abstract.
+   concept to your world, not in the abstract.
 4. Demonstrate it in discussion or show-and-tell when scheduled.
 5. Log it in your World Bible (`assignments/A2-coding-odyssey-project.md`).
+
+## Optional bonus practice — standalone problems
+
+Coding Odyssey is the required technical practice path; skipping standalone
+problems never reduces your base grade. If you choose to also do optional
+standalone programming problems — instructor-owned problems, selected CS50P
+problems that align with what's actually been taught that week (not an
+entire CS50P problem set assuming concepts you haven't covered), or other
+already-vetted open/free exercises — you receive additive bonus/extra
+credit and **keep that earned credit**, even if you already satisfied the
+normal Odyssey requirement for the week. Do not copy/rehost third-party
+exercise text; linking to the problem is fine.
+
+**Exact numeric bonus-point weighting is not yet decided** — this repo has
+no pre-existing standalone-problem point convention to preserve, so no
+number is invented here (see `docs/grading-model.md`'s open items). This is
+a small remaining implementation decision, not a blocker to using this
+policy as written.
 
 ## Grading — two axes, graded and reported separately
 

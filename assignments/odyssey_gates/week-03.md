@@ -33,7 +33,7 @@ Examples, illustrative only:
       show your world in a state where the condition is true, and a state
       where it isn't.
 
-## Suggested textbook problem (optional scaffolding)
+## Suggested practice problem (optional scaffolding)
 
 The general problem: pick one number or flag you already track, and write
 one `if`/`else` that prints a different sentence depending on its value —

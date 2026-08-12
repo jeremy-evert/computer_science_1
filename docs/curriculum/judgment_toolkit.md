@@ -25,8 +25,8 @@ tone, they don't import a stricter one.
 | Instrument | Grain | Frequency | Ties to |
 |---|---|---|---|
 | Quick Check | one gate, one concept | ~weekly | the weekly technical topic |
-| Build | one checkpoint or continuation | ~weekly (light) + 4 checkpoints (full) | `assignments/A2-coding-odyssey-project.md` |
-| Decide/Compare | one real choice, defended | 2 points (Wk 10-11, Wk 16 capstone) | collections-era design choice; capstone |
+| Build | one checkpoint or continuation | ~weekly (light) + 3 checkpoints (full) | `assignments/A2-coding-odyssey-project.md` |
+| Decide/Compare | one real choice, defended | 2 points (Wk 10-11, Wk 13 capstone) | collections-era design choice; capstone |
 | Debrief | reflective, cyclical | 4 arc closes + finals | Checkpoints 1-4, Week 17 |
 | Judgment Log | cumulative, living | 3 checkpoints (Wk2 / mid / Wk17) | the World Bible |
 
@@ -77,7 +77,8 @@ or this checkpoint's concept, correctly, and does it run.
   rubric below — matches this course's existing "effort, then working
   solutions" pattern (`docs/philosophy/teaching-patterns.md`). Did the
   student do something real with the week's open continuation time.
-- **Full Build (the 4 Checkpoints + Week 17 final).** The existing
+- **Full Build (the 3 Checkpoints + Week 17 final — Checkpoint 4 retired
+  2026-08-12, see below).** The existing
   `assignments/A2-coding-odyssey-project.md` template already names the
   right shape ("submit a working version, explain what changed, and
   demonstrate it") — this rubric formalizes it, doesn't replace it.
@@ -111,8 +112,11 @@ then defend it against a genuine trade-off — not a retroactive rationalization
    original brainstorm's generic "Big-O algorithm choice at Week 11" framing
    — the real Week 11 topic is collections, not recursion/Big-O, so the
    decision point follows the real content instead.
-2. **Week 16 capstone**, alongside Checkpoint 4 — a bigger version of the
-   same move at the scale of the whole world.
+2. **Week 13 capstone** (**moved 2026-08-12** from Week 16 — Week 16 is now
+   the shared Farkle/ML fun week and Checkpoint 4 was retired; see
+   `planning/week-16.md` and `planning/coding-odyssey-arc-map.md`),
+   alongside the real build culmination — a bigger version of the same move
+   at the scale of the whole world.
 
 **Grading:** does the comparison name a real trade-off (not just restate the
 chosen option's benefits), and does the final choice follow from the
@@ -134,7 +138,8 @@ instructors get better results by walking through their own version of the
 cycle rather than assuming it's implicit (p.237). Debrief is that explicit
 practice, not a bonus reflection paragraph.
 
-**Placement — the 4 existing Checkpoints plus Week 17, not new dates:**
+**Placement — the 3 existing Checkpoints (Wk6/9/14) plus Week 17, not new
+dates:**
 - **Checkpoint 1 (Wk6):** light Debrief — "what broke when you refactored
   into a bigger loop-driven world?" Matches the checkpoint's own
   already-decided light weight.
@@ -148,9 +153,12 @@ practice, not a bonus reflection paragraph.
   scheduled there rather than adding a new due date. Prompts: what
   specifically broke in the OOP refactor, why, what would be designed
   differently starting fresh.
-- **Checkpoint 4 (Wk16) + Week 17 final:** capstone Debrief, paired with
-  full show-and-tell (already scheduled) and the final reflection
+- **Week 17 final:** capstone Debrief, paired with full show-and-tell
+  (already scheduled) and the final reflection
   (`assignments/A5-final-reflection.md`, already scheduled to start Wk16).
+  **Checkpoint 4 (formerly Wk16) is retired (2026-08-12)** — Week 16 is now
+  the Farkle/ML fun week; the Week 17 final Debrief absorbs what would have
+  been the capstone Debrief, without a separate Wk16 checkpoint event.
 
 ---
 

@@ -1,27 +1,22 @@
-# Odyssey Gate — Week 16 rubric: Checkpoint 4 (full Build) + Decide/Compare #2 (capstone)
+# Odyssey Gate — Week 16 rubric: retired (now the Farkle/ML fun week)
 
-Matches `docs/curriculum/judgment_toolkit.md` §2/§3.
+**Reconciled 2026-08-12.** There is no Build or Decide/Compare rubric for
+Week 16 anymore — Checkpoint 4 and Decide/Compare #2 (capstone) both moved
+to Week 13; see `rubrics/odyssey_gates/week-13_rubric.md`.
 
-## Part 1 — Full Build
+## Grading for this week
 
-Same four-axis rubric as Week 14 — see `rubrics/odyssey_gates/week-14_rubric.md`
-Part 1 and `judgment_toolkit.md` §2. At capstone scale, "concept use" should
-draw on multiple arcs' concepts, not just Weeks 15-16.
-
-## Part 2 — Decide/Compare #2 (capstone)
-
-| Band | What it looks like |
-|---|---|
-| Strong | Names a real, specific open decision in this student's actual world; the comparison identifies a genuine trade-off at *this* stage of the project (not a generic textbook one); the stated reason for the final call follows from the comparison. |
-| Solid | Real decision and real comparison, but the stakes or trade-off stay somewhat generic. |
-| Not yet | The "decision" is trivial or already obviously settled — no real trade-off was actually at stake. |
+No Odyssey gate is graded this week. If/when Farkle/ML session content
+gets a real graded component, that is a separate future authoring and
+weighting decision — **not decided here, and no numeric point value should
+be invented for it.** Until that decision is made, treat this week as
+ungraded applied exploration, consistent with the "no giant Odyssey
+deadline in Week 16" and "major building stress already over" pinned
+decisions (`planning/week-16.md`).
 
 ## Grading notes
 
-- Non-technical decisions (scope cuts, narrative choices) are valid
-  Decide/Compare material at this scale — the instrument grades judgment
-  quality, not "did they pick a CS-textbook trade-off."
-- Should read as a natural escalation of Week 11's Decide/Compare #1, not a
-  disconnected new exercise — if a student's Week 16 choice has nothing to
-  do with anything in their World Bible so far, that's worth a note back to
-  them.
+- Do not resurrect the old Checkpoint 4 four-axis Build rubric here — it
+  now lives at Week 13 (`rubrics/odyssey_gates/week-13_rubric.md`).
+- Do not resurrect the old Decide/Compare #2 capstone rubric here — same
+  file, same reason.

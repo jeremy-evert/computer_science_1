@@ -19,8 +19,8 @@ Show-and-tell / reflection tie-in: share a function with a passing unit test.
 
 ## Due this week
 Coding Odyssey weekly gate (`assignments/odyssey_gates/week-07.md`) —
-apply chapter 6's functions/decomposition concept by refactoring one world
+apply this week's functions/decomposition concept by refactoring one world
 action into a function with a parameter and return value; this week also
 requires a passing unit test for that function. Fulfills the weekly coding
 practice requirement (`assignments/A1-weekly-coding-practice.md`); no
-separate chapter problem set is due.
+separate problem set is due (optional bonus practice exists — see A1).

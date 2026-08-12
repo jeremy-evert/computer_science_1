@@ -25,7 +25,7 @@ not just a different sentence printed.
       clearly-above and clearly-below.
 - [ ] The decision changes real behavior downstream, not only output text.
 
-## Suggested textbook problem (optional scaffolding)
+## Suggested practice problem (optional scaffolding)
 
 The general problem: take the same value from Week 3 and sort it into
 three or more named bands (not just true/false), and deliberately test the

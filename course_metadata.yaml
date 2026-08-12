@@ -37,21 +37,36 @@ instructional_working_cadence:
   time: "10:00 AM"
   label: "Same as the official Banner meeting time above -- no separate planning cadence for this course."
 
-# ZyBooks adoption: Jeremy confirmed directly 2026-08-11 that CS1 has a
-# real, current adoption on the ZyBooks server, then supplied the exact
-# product (title/ISBN/URL/full TOC, pasted verbatim from his ZyBooks
-# instructor "About this material" page) later the same day -- this is
-# now equivalent in evidentiary weight to Architecture's
-# `EvertCOD(MIPS)Jul2021`. Historical precedent (Fall 2021-Fall 2025
-# Canvas archive) used "Programming in Python 3" via a ZyBooks LTI
-# 1.1-then-1.3 tool (see jeremy_task_tracking/reports/
-# 2026-08-11_zybooks_lti_real_integration_options.md); the current
-# adoption is a combined/updated custom zyBook built from 2 zyBook
-# titles (per its own About page) and is NOT assumed identical to that
-# older edition -- see prompts/049 and
-# planning/zybooks-assignment-map.md for the reconciliation.
+# Textbook status (RECONCILED 2026-08-12 -- supersedes the note below):
+# CS1 has NO required textbook or external course for Fall 2026. Jeremy
+# confirmed 2026-08-12 that after slurping ZyBooks content and digging into
+# course design, real gaps were found, and open-source CS50P (Harvard's
+# Introduction to Programming with Python) covers the ground better; CS1 is
+# built around an open-source core instead. This walks back BOTH the
+# 2026-07-27 Deitel-as-primary-text decision AND the 2026-08-11
+# ZyBooks-first decision described in the note immediately below -- neither
+# is deleted as history/provenance, but neither is a current requirement.
+# See reports/012_pre_savnac_source_reconciliation.md,
+# docs/curriculum/recommended-resources.md, and
+# assignments/A1-weekly-coding-practice.md.
+#
+# Historical note (2026-08-11, superseded 2026-08-12): Jeremy confirmed
+# directly that CS1 had a real, current adoption on the ZyBooks server,
+# then supplied the exact product (title/ISBN/URL/full TOC, pasted
+# verbatim from his ZyBooks instructor "About this material" page) later
+# the same day -- this was equivalent in evidentiary weight to
+# Architecture's `EvertCOD(MIPS)Jul2021`. Historical precedent (Fall
+# 2021-Fall 2025 Canvas archive) used "Programming in Python 3" via a
+# ZyBooks LTI 1.1-then-1.3 tool (see jeremy_task_tracking/reports/
+# 2026-08-11_zybooks_lti_real_integration_options.md); that adoption was a
+# combined/updated custom zyBook built from 2 zyBook titles (per its own
+# About page) and was NOT assumed identical to the older edition -- see
+# prompts/049 and planning/zybooks-assignment-map.md (now also marked
+# superseded) for the reconciliation. The identifiers below are kept as
+# historical/optional metadata only -- not a Fall 2026 requirement.
 textbook:
-  title: "COMSC 1033: Computer Science I (custom zyBook, built from 2 zyBook titles, zyLabs enabled)"
+  required: false
+  title: "No required textbook for Fall 2026 -- open-source core (CS50P recommended, not required). Historical/optional: custom zyBook (built from 2 zyBook titles, zyLabs enabled)"
   authors:
     - "Bailey Miller"
   senior_contributors:
@@ -130,7 +145,15 @@ textbook:
     - number: 33
       title: "Artificial Intelligence"
   note: >-
-    Fall 2026 strategy (Jeremy, 2026-08-11): focus on ZyBooks as the
+    SUPERSEDED 2026-08-12: the 2026-08-11 "ZyBooks as primary graded-
+    practice track" strategy described below did not survive contact with
+    course-design work -- Jeremy confirmed CS1 is built around an
+    open-source core (CS50P-anchored, not required) instead. This ZyBooks
+    product/TOC metadata is retained as historical/optional evidence only;
+    it is not wired into any active Fall 2026 CS1 requirement. See
+    reports/012_pre_savnac_source_reconciliation.md.
+
+    Original 2026-08-11 note, kept for provenance: "focus on ZyBooks as the
     primary graded-practice track for all four Fall 2026 courses; the
     2026-07-27 switch to Deitel as CS1's primary text is not being
     reversed by deleting existing Deitel-cited curriculum, but ZyBooks
@@ -141,7 +164,7 @@ textbook:
     planning/zybooks-assignment-map.md. Chapters 17-33 (Additional
     Material/Labs, Data Science, Practice Problems, AI) are extra
     inventory beyond the core 16-chapter teaching sequence, not assumed
-    to map 1:1 onto any existing week. See
+    to map 1:1 onto any existing week." See
     jeremy_task_tracking/DECISIONS.md's 2026-08-11 entries and
     prompts/049_cs1_zybooks_readoption_reconciliation.md.
 
@@ -149,6 +172,8 @@ provenance:
   - source: "computer_science_1/docs/syllabus.md (course/official blocks; sourced from Self-Service, confirmed 2026-07-14)"
     covers: "course/official blocks"
   - source: "Jeremy, directly, 2026-08-11 conversation (ZyBooks adoption confirmation for CS1 and Computer Architecture)"
-    covers: "textbook.title (adoption confirmed), textbook.note (Fall 2026 strategy)"
+    covers: "textbook.zybook_* identifiers (historical/optional only, superseded 2026-08-12)"
   - source: "Jeremy's ZyBooks instructor-page capture, supplied 2026-08-11 (prompt 049)"
-    covers: "textbook.zybook_identifier/textbook.zybook_isbn/textbook.zybook_url/current_release/main_chapters"
+    covers: "textbook.zybook_identifier/textbook.zybook_isbn/textbook.zybook_url/current_release/main_chapters (historical/optional only)"
+  - source: "Jeremy, directly, 2026-08-12 conversation; reports/012_pre_savnac_source_reconciliation.md (prompt 018)"
+    covers: "textbook.required=false, textbook.title (open-source-core reconciliation), textbook.note (supersession of the 2026-08-11 ZyBooks-first strategy)"

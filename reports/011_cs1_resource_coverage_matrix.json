@@ -42,7 +42,7 @@
       "accessibility": 3,
       "currency": 2,
       "friction": 2,
-      "summary_judgment": "SELECTED STARTING SOURCE. Highest strong-coverage count (six C-ids at 3) of any single general Python resource evaluated; only candidate with a dedicated Unit Tests week (C10) and a dedicated OOP week (C08); autograded practice loop is the strongest of the group. Does not cover Git/GitHub (C12) or AI-aware programming (C13) -- filled separately."
+      "summary_judgment": "SELECTED STARTING SOURCE. Highest strong-coverage count (seven C-ids at 3) of any single general Python resource evaluated; only candidate with a dedicated Unit Tests week (C10) and a dedicated OOP week (C08); autograded practice loop is the strongest of the group. Does not cover Git/GitHub (C12) or AI-aware programming (C13) -- filled separately."
     },
     {
       "resource": "Python official docs / tutorial (docs.python.org/3/tutorial)",

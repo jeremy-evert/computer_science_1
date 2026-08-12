@@ -19,6 +19,7 @@ Show-and-tell / reflection tie-in: reflect on the first hard bug of the semester
 
 ## Due this week
 Coding Odyssey weekly gate (`assignments/odyssey_gates/week-03.md`) —
-apply chapter 3's branching concept to your world. Fulfills the weekly
-coding practice requirement (`assignments/A1-weekly-coding-practice.md`);
-no separate chapter problem set is due.
+apply this week's branching-introduction concept to your world. Fulfills
+the weekly coding practice requirement
+(`assignments/A1-weekly-coding-practice.md`); no separate problem set is
+due (optional bonus practice exists — see A1).

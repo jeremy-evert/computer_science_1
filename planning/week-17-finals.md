@@ -16,8 +16,13 @@ Final exam period continues.
 Semester ends 10:00 PM.
 
 ## Due this week
-Final reflection (`assignments/A5-final-reflection.md`); chapter exam if
-used (`quizzes/Q2-chapter-exam.md`); final Coding Odyssey portfolio
-submission plus the Week 17 gate — Final Debrief and Judgment Log
-checkpoint 3 (`assignments/odyssey_gates/week-17.md`, rubric:
+Final reflection (`assignments/A5-final-reflection.md`); final Coding
+Odyssey portfolio submission plus the Week 17 gate — Final Debrief and
+Judgment Log checkpoint 3 (`assignments/odyssey_gates/week-17.md`, rubric:
 `rubrics/odyssey_gates/week-17_rubric.md`).
+
+**No chapter exam (2026-08-12 reconciliation).** The course's own
+reflection-first ending (`docs/course-ethos.md`, decided 2026-07-15)
+already replaces a traditional exam; `quizzes/Q2-chapter-exam.md` remains
+on file as a historical reusable quiz-type template, not an active Fall
+2026 requirement.

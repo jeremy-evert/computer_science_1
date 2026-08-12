@@ -19,8 +19,8 @@ Show-and-tell / reflection tie-in: share edge cases a collections program was te
 
 ## Due this week
 Coding Odyssey weekly gate + Decide/Compare #1
-(`assignments/odyssey_gates/week-11.md`) — apply chapter 8's dictionaries
-concept to your world, then defend the data-structure choice. Fulfills the
-weekly coding practice requirement
-(`assignments/A1-weekly-coding-practice.md`); no separate chapter problem
-set is due.
+(`assignments/odyssey_gates/week-11.md`) — apply this week's dictionaries/
+organized-data concept to your world, then defend the data-structure
+choice. Fulfills the weekly coding practice requirement
+(`assignments/A1-weekly-coding-practice.md`); no separate problem set is
+due (optional bonus practice exists — see A1).

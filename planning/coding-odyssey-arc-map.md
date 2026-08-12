@@ -23,16 +23,25 @@ already has.
 
 | Arc | Weeks | Real weekly-focus topics | Closes at |
 |---|---|---|---|
-| 1 — Foundations | 1-6 | Foundations → variables → types/branching-intro → branching → loops → loops consolidation | **Checkpoint 1** (Wk6, baby project — light Debrief) |
+| 1 — Foundations | 1-6 | Success Foundations (no programming) → on-ramp/variables → types/branching-intro → branching → loops → loops consolidation | **Checkpoint 1** (Wk6, baby project — light Debrief) |
 | 2 — First Real Choices | 7-9 | Functions/decomposition → strings → strings continued | **Checkpoint 2** (Wk9, first real Odyssey pass) |
-| 3 — Systems That Remember Themselves | 10-14 | Lists/dicts → lists/dicts continued → classes Round 1 → classes Round 2 → tools/GitHub/AI-aware coding | **Checkpoint 3** (Wk14, **Full Trail Debrief**, mandatory) |
-| 4 — The Reckoning | 15-16 | Portfolio-completion buffer (no new technical material) → final creative pass | **Checkpoint 4** (Wk16, capstone Build + Decide/Compare) |
+| 3 — Systems That Remember Themselves | 10-14 | Lists/dicts → dicts/organized data → classes Round 1 → classes Round 2 (+ capstone Decide/Compare #2) → tools/GitHub/AI-aware coding | **Checkpoint 3** (Wk14, **Full Trail Debrief**, mandatory) |
+| 4 — Thanksgiving / Farkle | 15-16 | Fully async, no new technical material → Farkle/ML applied fun week (no Odyssey gate) | No Odyssey checkpoint — building is already finished |
 | 5 — Finals | 17 | Wrap-up | Final Debrief + Judgment Log checkpoint 3, full show-and-tell |
 
 Arc 3 is deliberately the longest (5 weeks) — it's where this course's real
 sequence puts both collections *and* both OOP rounds *and* the tools week,
 so the Full Trail Debrief lands where the actual deliberate-refactor moment
 is (Weeks 12-13, OOP), not at an artificially even 2-3 week mark.
+
+**Reconciled 2026-08-12:** Checkpoint 4 (formerly Wk16, "final creative
+pass") is retired — Week 16 is now the shared Farkle/ML fun week and must
+not compete with a giant Odyssey deadline. Capstone Decide/Compare #2 moved
+from Wk16 to Wk13, alongside the real build culmination. Arc 4 (formerly
+"The Reckoning") is renamed to reflect what the weeks actually are:
+Thanksgiving (fully async, no new technical material) and Farkle/ML
+(applied fun week, no Odyssey gate) — not a project-completion buffer
+leading into a final creative pass that no longer exists at Wk16.
 
 ## Week-by-week gate map
 
@@ -56,11 +65,11 @@ Check — a starting call, not final; confirm during authoring
 | 10 | Lists and dictionaries | World must track a growing collection of named entities in a list. | Mechanical |
 | 11 | Lists and dictionaries continued | World must use a dict to look up an entity by name/ID. **Also hosts Decide/Compare #1** (structure choice, defended — see `judgment_toolkit.md`). | Mechanical (gate) / human (Decide-Compare) |
 | 12 | Classes/objects/modules — Round 1 | At least one major noun already tracked in the Wk10-11 collection becomes a class. | Human/frontier-agent |
-| 13 | Classes/objects/modules — Round 2 | At least two of the world's classes interact (method call between objects, not just standalone). | Human/frontier-agent |
-| 14 | Tools/GitHub/pair programming/AI-aware coding | *Gate = Checkpoint 3 itself*, **Full Trail Debrief mandatory** (see `judgment_toolkit.md` §4). Natural home for the LLM-API-call side-quest — this week is literally "AI-aware coding practice." | Build + Debrief (Checkpoint) |
-| 15 | No new technical material — portfolio buffer, async (Thanksgiving) | *No mandatory gate* — matches the week's own already-decided light/async framing. Optional side-quest slot (see below). | — |
-| 16 | Checkpoint 4 — final creative pass | *Gate = Checkpoint 4 itself.* **Also hosts Decide/Compare #2** (capstone-scale version). | Build + Decide/Compare (Checkpoint) |
-| 17 | Finals — wrap-up | Final Judgment Log checkpoint + Debrief, full show-and-tell (already scheduled). | Human |
+| 13 | Classes/objects/modules — Round 2 | At least two of the world's classes interact (method call between objects, not just standalone). **Also hosts Decide/Compare #2** (capstone-scale, moved here 2026-08-12 from Wk16). Substantial Odyssey building culminates this week. | Human/frontier-agent |
+| 14 | Tools/GitHub/pair programming/AI-aware coding | *Gate = Checkpoint 3 itself*, **Full Trail Debrief mandatory** (see `judgment_toolkit.md` §4) — a Git-backed receipt on Week 13's real code, not a new build sprint. Natural home for the LLM-API-call side-quest — this week is literally "AI-aware coding practice." | Build + Debrief (Checkpoint) |
+| 15 | No new technical material — fully async (Thanksgiving) | *No mandatory gate* — matches the week's own already-decided light/async framing. Optional side-quest slot (see below). | — |
+| 16 | Farkle / ML applied fun week (**not** Checkpoint 4 — retired 2026-08-12) | *No Odyssey gate.* Consumes the CS1 core (variables/state, branching, loops/simulation, functions, collections, objects, testing, files, Git, judgment) rather than expanding it. No RL math required. | — |
+| 17 | Finals — wrap-up | Final Judgment Log checkpoint + Debrief, full show-and-tell (already scheduled); final Odyssey code/World Bible submitted as evidence/receipt, not a new technical performance. | Human |
 
 ## Genre menu — Week 2 Monday (moved 2026-07-24 from Week 1 Friday)
 
@@ -77,9 +86,13 @@ universal week).
 
 **The menu (unchanged from the original design, still bounded at 4):**
 Frontier Settlement, Investigation Bureau, Starship Log, Small Business —
-each guaranteed to support collections, text data, save/load state, a class
-hierarchy, and a numeric feature by the Wk16-17 capstone. Genre content
-(full descriptions, ML-hook framing) is drafted separately — see task 5/6.
+each guaranteed to support collections, text data, save/load state,
+meaningful classes/objects with at least one meaningful interaction
+(**not** a required class hierarchy/inheritance — corrected 2026-08-12,
+see `assignments/A2-coding-odyssey-project.md`), and a numeric feature by
+the Wk13-17 capstone (moved from "Wk16-17" since Wk16 no longer hosts a
+capstone Odyssey event). Genre content (full descriptions, ML-hook framing)
+is drafted separately — see task 5/6.
 
 ## What didn't survive the merge from the original brainstorm, and why
 

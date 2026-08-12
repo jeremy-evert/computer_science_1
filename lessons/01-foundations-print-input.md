@@ -1,5 +1,10 @@
 # Foundations: printing, input, and execution
 
+**Note (2026-08-12 reconciliation):** this content is now taught in
+**Week 2**, not Week 1 — Week 1 is universal Success Foundations with no
+programming content at all. See `planning/week-01.md` and
+`planning/week-02.md`.
+
 ## Objectives
 
 - Run a Python program in an available environment.

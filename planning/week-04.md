@@ -20,7 +20,7 @@ Show-and-tell / reflection tie-in: share a branching program and its boundary/in
 
 ## Due this week
 Coding Odyssey weekly gate (`assignments/odyssey_gates/week-04.md`) —
-apply chapter 4's full branching/decision-making depth to your world.
+apply this week's full branching/decision-making depth to your world.
 Fulfills the weekly coding practice requirement
-(`assignments/A1-weekly-coding-practice.md`); no separate chapter problem
-set is due.
+(`assignments/A1-weekly-coding-practice.md`); no separate problem set is
+due (optional bonus practice exists — see A1).

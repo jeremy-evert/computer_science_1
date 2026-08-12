@@ -20,7 +20,7 @@ and never modified).
 - [ ] At least one operation traverses the list (a loop, `len()`-based
       report, or search) and reports something real about it.
 
-## Suggested textbook problem (optional scaffolding)
+## Suggested practice problem (optional scaffolding)
 
 The general problem: start an empty list, `.append()` at least two
 entities to it one at a time (not a list literal typed out once), then

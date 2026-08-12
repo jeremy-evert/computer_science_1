@@ -1,35 +1,37 @@
-# Odyssey Gate — Week 16: The Reckoning, capstone scale
+# Odyssey Gate — Week 16: retired (now the Farkle/ML fun week)
 
-**Concept:** none new — Coding Odyssey Checkpoint 4, final creative pass
-(`lessons/09-projects-tools-and-reflection.md`). **This week's gate is
-Checkpoint 4 itself** — see `assignments/A2-coding-odyssey-project.md` and
-`planning/week-16.md`. **Instruments:** full Build + **Decide/Compare #2
-(capstone)** — see `docs/curriculum/judgment_toolkit.md` §2/§3.
+**Reconciled 2026-08-12 (Jeremy's pinned decision).** This week no longer
+carries a Coding Odyssey checkpoint, gate, or Decide/Compare instrument.
+Week 16 is now the shared **Farkle / Machine Learning** applied fun week —
+see `planning/week-16.md`. The major Coding Odyssey building stress is
+over before this point.
 
-## Decide/Compare #2 — capstone scale
+## What moved where
 
-A bigger version of Week 11's move, applied to the whole world instead of
-one data structure. Pick one real design decision your world still has open
-(not necessarily technical — could be a scope choice, a feature you're
-cutting, a structure you're keeping despite knowing a "better" one exists)
-and:
+- **Checkpoint 4 (full Build, final creative pass)** — retired as a
+  separate Week 16 event. Substantial Odyssey building already culminates
+  by the end of Week 13 (see `assignments/odyssey_gates/week-13.md`); the
+  Week 17 final submission is evidence/receipt of the finished journey
+  (`assignments/A2-coding-odyssey-project.md`, `planning/week-17-finals.md`),
+  not a new large build deadline.
+- **Decide/Compare #2 (capstone)** — moved to Week 13, alongside the build
+  culmination. See `assignments/odyssey_gates/week-13.md` and
+  `rubrics/odyssey_gates/week-13_rubric.md`.
 
-1. Commit to the choice, in writing, before comparing.
-2. Compare against at least one real alternative, naming the actual
-   trade-off for *this* world at *this* stage of the semester (not a
-   textbook trade-off).
-3. State why the comparison, not the alternative, is what changed your
-   mind (or confirmed your original choice).
+## This week instead
 
-## Full Build
-
-Uses the same four-axis rubric as every other checkpoint
-(`judgment_toolkit.md` §2) — at capstone scale, "concept use" should show
-genuine range across the semester's concepts (variables through classes),
-not just the most recent week's material.
+No Odyssey coding gate is due. Students participate in the Farkle/ML
+applied session (`planning/week-16.md`) using the CS1 core they already
+have — variables/state, branching, loops/simulation, functions,
+collections, objects where useful, testing/debugging, files/data where
+useful, Git habits, technical judgment. No reinforcement-learning
+mathematics is required. Full Farkle/ML lesson content is a follow-up
+authoring task (there is historical Spring 2026 Farkle/Q-learning
+experimentation in the archive worth reusing —
+`docs/reports/curriculum-history-synthesis.md`), not written as part of
+this reconciliation pass.
 
 ## World Bible
 
-Log the Decide/Compare #2 choice and rationale. This feeds directly into
-the Week 17 final Judgment Log review — make sure it's actually written
-down, not just decided in your head.
+Optional: a line noting what was interesting or surprising about the
+Farkle/ML exploration. Not a graded gate entry.

@@ -1,6 +1,8 @@
-# Odyssey Gate — Week 13 rubric: Quick Check (pass/fail) + light Build
+# Odyssey Gate — Week 13 rubric: Quick Check (pass/fail) + light Build + Decide/Compare #2 (capstone)
 
-Matches `docs/curriculum/judgment_toolkit.md` §1/§2.
+Matches `docs/curriculum/judgment_toolkit.md` §1/§2/§3. **Decide/Compare #2
+moved here 2026-08-12** from Week 16 (now the Farkle/ML fun week) — see
+`rubrics/odyssey_gates/week-16_rubric.md`.
 
 ## Part 1 — Quick Check (pass/fail)
 
@@ -25,6 +27,19 @@ intention to escalate that week 13 to a human").
 ## Part 2 — Light Build (holistic)
 
 Same three-band shape as Week 2 — see `rubrics/odyssey_gates/week-02_rubric.md`.
+
+## Part 3 — Decide/Compare #2 (capstone)
+
+| Band | What it looks like |
+|---|---|
+| Strong | Names a real, specific open decision in this student's actual world; the comparison identifies a genuine trade-off at *this* stage of the project (not a generic textbook one); the stated reason for the final call follows from the comparison. |
+| Solid | Real decision and real comparison, but the stakes or trade-off stay somewhat generic. |
+| Not yet | The "decision" is trivial or already obviously settled — no real trade-off was actually at stake. |
+
+Non-technical decisions (scope cuts, narrative choices) are valid material
+at this scale — the instrument grades judgment quality, not "did they pick
+a CS-textbook trade-off." Should read as a natural escalation of Week 11's
+Decide/Compare #1.
 
 ## Grading notes
 

@@ -19,7 +19,7 @@ Show-and-tell / reflection tie-in: share a string-processing program with clean,
 
 ## Due this week
 Coding Odyssey weekly gate (`assignments/odyssey_gates/week-08.md`) —
-apply chapter 7's string/text-processing concept to your world. Fulfills
+apply this week's string/text-processing concept to your world. Fulfills
 the weekly coding practice requirement
-(`assignments/A1-weekly-coding-practice.md`); no separate chapter problem
-set is due.
+(`assignments/A1-weekly-coding-practice.md`); no separate problem set is
+due (optional bonus practice exists — see A1).

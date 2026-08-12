@@ -35,7 +35,7 @@ world's actual data — not a generic "dicts are faster" restatement. The
 choice should visibly follow from the comparison, not precede it
 cosmetically (don't write the code first and rationalize afterward).
 
-## Suggested textbook problem (optional scaffolding)
+## Suggested practice problem (optional scaffolding)
 
 The general problem: build a dictionary keyed by name or ID from your
 Week 10 list, then look up one entity by key and print a real result.

@@ -24,7 +24,7 @@ instance attributes, and at least one method beyond `__init__`.
 - [ ] At least one instance is created and its method called, replacing (or
       alongside, mid-refactor) the old dict/list-entry representation.
 
-## Suggested textbook problem (optional scaffolding)
+## Suggested practice problem (optional scaffolding)
 
 The general problem: turn one entity from your Week 10–11 dict/list into a
 class with `__init__` setting at least one real attribute, plus one method

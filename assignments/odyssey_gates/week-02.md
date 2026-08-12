@@ -53,7 +53,7 @@ you chose above — these are illustrations, not requirements):
 All three present → pass. Missing any → not yet; resubmit, this is a gate,
 not a one-shot.
 
-## Suggested textbook problem (optional scaffolding)
+## Suggested practice problem (optional scaffolding)
 
 If you'd rather start from concrete numbers than invent your own scenario,
 plug these straight into the genre examples above — same shapes, filled in:

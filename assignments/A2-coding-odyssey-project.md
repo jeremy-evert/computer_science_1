@@ -46,9 +46,21 @@ are not two separate things to submit.
 
 Bounded on purpose — four options, not open worldbuilding — so genre-based
 peer grouping and grading stay tractable across roughly 30 different worlds.
-Whichever you pick must be able to support, by the Week 16–17 capstone: a
-collection of things, text data, a save/load state, at least one class
-hierarchy, and a numeric feature.
+Whichever you pick must be able to support, by the Week 13–17 capstone: a
+collection of things, text data, a save/load state, **meaningful
+classes/objects whose state and behavior contribute to the program,
+including at least one meaningful interaction between objects** (not
+inheritance/class hierarchies — see the C08 note below), and a numeric
+feature.
+
+**Reconciled 2026-08-12:** inheritance/class hierarchies are not CS1 core
+and are not required for full credit. An earlier version of this
+requirement said "at least one class hierarchy" — that was stale wording
+that never matched the pinned C08 capability (meaningful class/object
+modeling: state, behavior, methods, and interaction among objects).
+Inheritance may still appear as optional enrichment/comparison where
+already pedagogically useful (e.g. the Week 13 Decide/Compare discussion of
+composition vs. inheritance), but it is never required.
 
 ## The four checkpoints
 
@@ -56,10 +68,18 @@ hierarchy, and a numeric feature.
 |---|---|---|
 | 1 | 6 | "Baby project" dry run — small, complete, low-stakes, using only what's been taught through loops. Rehearses submit/explain/demonstrate before the real project ramps up; a few dozen lines is a completely acceptable baby project. |
 | 2 | 9 | First real pass on the actual project — a real idea, meaningfully more code, closer to eventual scope. |
-| 3 | 14 | Expanded pass, paired with GitHub/tools work and a mandatory Full Trail Debrief — see `assignments/odyssey_gates/week-14.md`. |
-| 4 | 16 | Final creative-project pass, paired with full show-and-tell, a capstone Decide/Compare, and the final-reflection kickoff. |
+| 3 | 14 | Expanded pass, paired with GitHub/tools work and a mandatory Full Trail Debrief — see `assignments/odyssey_gates/week-14.md`. Substantial building already culminates the prior week (13), including capstone Decide/Compare #2 — this checkpoint is a receipt on that real code, not a new feature deadline. |
 
-The final Coding Odyssey portfolio submission is due Week 17 (finals week).
+**Reconciled 2026-08-12: Checkpoint 4 is retired.** It previously sat at
+Week 16 as a "final creative-project pass," but Week 16 is now the shared
+Farkle/ML fun week and must not compete with a giant Odyssey deadline. The
+capstone Decide/Compare (formerly paired with Checkpoint 4) moved to Week
+13 alongside the real build culmination — see
+`assignments/odyssey_gates/week-13.md`. The final Coding Odyssey portfolio
+submission is still due Week 17 (finals week), but as evidence/receipt of
+the finished journey alongside the Final Debrief and final reflection, not
+another large technical performance — see `planning/week-17-finals.md` and
+`assignments/A5-final-reflection.md`.
 
 ## Weekly gates
 
@@ -92,10 +112,21 @@ comparing it against a real alternative, then defend it — the choice should
 visibly follow from the comparison, not precede it cosmetically:
 
 - **Week 11** — a data-structure choice for something in your world.
-- **Week 16** — a capstone-scale choice for the whole project.
+- **Week 13** — a capstone-scale choice for the whole project (**moved
+  2026-08-12** from Week 16, which is now the Farkle/ML fun week).
 
 Full instrument definition: `docs/curriculum/judgment_toolkit.md` §3; each
 week's specifics: that week's own gate file.
+
+## Optional bonus practice (standalone problems)
+
+Coding Odyssey remains the required, sufficient technical practice path —
+you never need anything beyond the gates/checkpoints above to complete the
+course. If you *want* extra reps, optional standalone programming problems
+(instructor-owned, or selected CS50P problems that align with what's
+already been taught, or other vetted open exercises) are available for
+additive bonus/extra credit — see `assignments/A1-weekly-coding-practice.md`
+for the policy. Skipping them never reduces your base grade.
 
 ## Grading
 

@@ -23,7 +23,7 @@ hand.
 - [ ] An accumulator or running total/state changes across iterations (the
       loop does more than print the same thing N times).
 
-## Suggested textbook problem (optional scaffolding)
+## Suggested practice problem (optional scaffolding)
 
 The general problem: write a loop over a short list of 3–5 made-up events,
 printing something for each one and keeping a running total or count as

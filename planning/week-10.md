@@ -19,7 +19,8 @@ Show-and-tell / reflection tie-in: share a list/dictionary program and a peer's 
 
 ## Due this week
 Coding Odyssey weekly gate (`assignments/odyssey_gates/week-10.md`) —
-apply chapter 8's lists concept to your world (fulfills the weekly coding
-practice requirement, `assignments/A1-weekly-coding-practice.md`; no
-separate chapter problem set is due); pair programming session on this
-week's gate (`assignments/A3-pair-programming.md`).
+apply this week's lists/collections concept to your world (fulfills the
+weekly coding practice requirement,
+`assignments/A1-weekly-coding-practice.md`; no separate problem set is due
+— optional bonus practice exists, see A1); pair programming session on
+this week's gate (`assignments/A3-pair-programming.md`).

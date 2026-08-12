@@ -29,7 +29,7 @@ gate/checkpoint that results *is* the weekly reinforcement assignment. See
 | Fun Friday reflection | 6% | weekly | Tie-in to the week |
 | Paired-programming report | 5% | weekly | Student's own contribution, honestly assessed |
 | Friday feedback report | 5% | weekly | Quality of feedback the student *gave* |
-| Weekly reinforcement assignment | 25% | weekly | Two axes: result 15% + process 10% (rubric below). Result = that week's Coding Odyssey gate + Light Build continuation, weeks 2–5/7–8/10–13. |
+| Weekly reinforcement assignment | 25% | weekly | Two axes: result 15% + process 10% (rubric below). Result = that week's Coding Odyssey gate + Light Build continuation, weeks 2–5/7–8/10–13. Optional standalone bonus practice (`assignments/A1-weekly-coding-practice.md`) is additive on top of this row, not part of its 25% — exact point value not yet decided, see Open decisions. |
 | Coding Odyssey checkpoints | 15% | 4 checkpoints (Wk 6/9/14/16) | The bigger, periodic grading pass on the same project — full four-axis Build rubric, not the weekly gate's pass/fail. Keeps the historical effort ladder in spirit (70/80/90/100 → now the Functions/Concept-use/Explanation/Demonstrability axes, `judgment_toolkit.md` §2). |
 | Final reflection paper | 10% | finals week | Template basis: `assignments/A5-final-reflection.md`; sanity-check against university finals policy |
 | Professional pathway — Week 14 update | 5% | Week 14 | Reasoning-graded update pass + new changelog/diff artifact (`assignments/A6-professional-pathway-artifacts.md`, `rubrics/A6-week-14-update_rubric.md`). Decided 2026-08-06, reshaped from an ungraded prep checkpoint into its own graded row. |
@@ -95,6 +95,15 @@ student narrates their side.
 
 ## Open decisions
 
+- [ ] **Optional standalone bonus-practice point value/mechanism**
+      (flagged 2026-08-12, `reports/012_pre_savnac_source_reconciliation.md`):
+      Jeremy wants students who do optional standalone problems (see
+      `assignments/A1-weekly-coding-practice.md`) to earn additive bonus
+      credit and keep it even after satisfying the normal Odyssey
+      requirement. This repo has no pre-existing standalone-problem point
+      convention to preserve, so no number is invented here — a small
+      remaining implementation decision, not a blocker to using the policy
+      as written.
 - [ ] Confirm university finals policy accepts a reflection paper (small
       residual; decision itself is made).
 - [ ] Confirm or adjust every percentage above.

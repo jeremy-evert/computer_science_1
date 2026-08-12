@@ -19,7 +19,7 @@ Show-and-tell / reflection tie-in: share a first class definition (constructor, 
 
 ## Due this week
 Coding Odyssey weekly gate (`assignments/odyssey_gates/week-12.md`) —
-turn a major noun from chapter 9 Round 1's classes/objects concept into a
-real class in your world. Fulfills the weekly coding practice requirement
-(`assignments/A1-weekly-coding-practice.md`); no separate chapter problem
-set is due.
+turn a major noun from this week's classes/objects (Round 1) concept into
+a real class in your world. Fulfills the weekly coding practice
+requirement (`assignments/A1-weekly-coding-practice.md`); no separate
+problem set is due (optional bonus practice exists — see A1).

@@ -99,24 +99,32 @@ instructor's showcase; students watch, not operate, in CS1.
 Each needs: LaTeX section → Beamer deck → "meat" podcast; worked examples
 happen live in class.
 
+**Reconciled 2026-08-12** (matches `planning/week-NN.md` and
+`planning/coding-odyssey-arc-map.md`): Week 1 carries no programming
+content at all (L01 below); the run/read/change-Python + `print`/`input`
+on-ramp moved to Week 2. Week 9's technical topic is strings continued +
+Odyssey checkpoint 2, not collections — collections begin Week 10. Week 16
+is the Farkle/ML fun week, not a Coding Odyssey checkpoint 4 final pass
+(retired).
+
 | # | Date | Week | Technical topic | LaTeX | Deck | Podcast |
 |--|---|--|---|--|--|--|
-| L01 | Aug 17 | 1 | Foundations: `print`, `input`, execution, environment | ☐ | ☐ | ☐ |
-| L02 | Aug 24 | 2 | Variables, expressions, and types | ☐ | ☐ | ☐ |
-| L03 | Aug 31 | 3 | Types, conversion, formatting | ☐ | ☐ | ☐ |
+| L01 | Aug 17 | 1 | Success Foundations — no programming content | ☐ | ☐ | ☐ |
+| L02 | Aug 24 | 2 | Run/read/change Python; `print`, `input`; variables, expressions, and types | ☐ | ☐ | ☐ |
+| L03 | Aug 31 | 3 | Types, conversion, formatting; branching intro | ☐ | ☐ | ☐ |
 | — | — | 4 | **Branching — no Monday (Labor Day).** Lecture content moves to Wed/Fri active time or the podcast carries it | ☐ | ☐ | ☐ |
 | L04 | Sep 14 | 5 | Loops and repetition I | ☐ | ☐ | ☐ |
 | L05 | Sep 21 | 6 | Loops II; Coding Odyssey checkpoint 1 — baby project / dry run | ☐ | ☐ | ☐ |
 | L06 | Sep 28 | 7 | Functions and decomposition | ☐ | ☐ | ☐ |
 | L07 | Oct 5 | 8 | Strings and text processing | ☐ | ☐ | ☐ |
-| L08 | Oct 12 | 9 | Collections: lists and dictionaries | ☐ | ☐ | ☐ |
-| L09 | Oct 19 | 10 | Collections continued; testing and edge cases | ☐ | ☐ | ☐ |
-| L10 | Oct 26 | 11 | Collections applied; reliability | ☐ | ☐ | ☐ |
+| L08 | Oct 12 | 9 | Strings continued; Coding Odyssey checkpoint 2 | ☐ | ☐ | ☐ |
+| L09 | Oct 19 | 10 | Collections: lists and dictionaries begin | ☐ | ☐ | ☐ |
+| L10 | Oct 26 | 11 | Dictionaries / organized data; technical judgment (Decide/Compare #1) | ☐ | ☐ | ☐ |
 | L11 | Nov 2 | 12 | Classes, objects, modules I | ☐ | ☐ | ☐ |
-| L12 | Nov 9 | 13 | Classes, objects, modules II | ☐ | ☐ | ☐ |
-| L13 | Nov 16 | 14 | GitHub, pair programming, AI-aware coding | ☐ | ☐ | ☐ |
-| L14 | Nov 23 | 15 | Consolidation; independent project work | ☐ | ☐ | ☐ |
-| L15 | Nov 30 | 16 | Coding Odyssey checkpoint 4 — final pass | ☐ | ☐ | ☐ |
+| L12 | Nov 9 | 13 | Classes, objects, modules II; capstone Decide/Compare #2; substantial Odyssey build culminates | ☐ | ☐ | ☐ |
+| L13 | Nov 16 | 14 | GitHub, pair programming, AI-aware coding (Odyssey used as-is, not a new feature sprint) | ☐ | ☐ | ☐ |
+| L14 | Nov 23 | 15 | Fully async (Thanksgiving); no new technical material | ☐ | ☐ | ☐ |
+| L15 | Nov 30 | 16 | Farkle / Machine Learning applied fun week — no Odyssey checkpoint | ☐ | ☐ | ☐ |
 
 ## Production totals
 

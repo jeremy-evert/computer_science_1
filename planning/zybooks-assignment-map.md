@@ -1,3 +1,11 @@
+**SUPERSEDED 2026-08-12** (`reports/012_pre_savnac_source_reconciliation.md`,
+prompt 018): CS1 has no required textbook or external course for Fall
+2026. The "ZyBooks-first" strategy this draft was built against did not
+survive contact with course-design work — the course is now built around
+an open-source core (CS50P-anchored, not required). Nothing described
+below was ever created in Canvas/Savnac/ZyBooks, so there is nothing live
+to unwind. Kept as historical/provenance only; do not act on this plan.
+
 # CS1 ZyBooks assignment map — Fall 2026 (draft, prompt 049)
 
 Target list for the ZyBooks-graded-practice layer being added back on top

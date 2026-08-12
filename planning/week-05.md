@@ -19,7 +19,7 @@ Show-and-tell / reflection tie-in: share a loop that fixed an off-by-one or non-
 
 ## Due this week
 Coding Odyssey weekly gate (`assignments/odyssey_gates/week-05.md`) —
-apply chapter 5's loops/repetition concept to your world. Fulfills the
+apply this week's loops/repetition concept to your world. Fulfills the
 weekly coding practice requirement
-(`assignments/A1-weekly-coding-practice.md`); no separate chapter problem
-set is due.
+(`assignments/A1-weekly-coding-practice.md`); no separate problem set is
+due (optional bonus practice exists — see A1).
