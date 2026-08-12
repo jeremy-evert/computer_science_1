@@ -23,11 +23,24 @@ The old Coding Odyssey Checkpoint 4 and Decide/Compare #2 (capstone) are
 culminated by the end of Week 13, and Decide/Compare #2 (capstone) moved
 to Week 13 alongside that build (see `planning/week-13.md`,
 `assignments/odyssey_gates/week-13.md`). Students are not asked to
-complete a giant final Odyssey event and Farkle/ML at the same time. There
-is historical Spring 2026 Farkle/Q-learning experimentation in the archive
-(`docs/reports/curriculum-history-synthesis.md`) — reuse what is
-pedagogically useful from it; full Farkle/ML lesson content itself is a
-follow-up authoring task, not written in this reconciliation pass.
+complete a giant final Odyssey event and Farkle/ML at the same time.
+
+**Built 2026-08-12 (prompt 055):** the Farkle/ML lesson content now
+exists and is a real, tested, runnable Week 16 package — no longer a
+follow-up authoring task. Student lesson: `lessons/10-farkle-ml.md`.
+Instructor guide: `docs/curriculum/week-16-instructor-guide.md`. Runnable
+code: `lessons/code/farkle/` (engine, strategies, transparent
+experience-table learner, simulation/comparison, a CLI). Evidence
+artifact: `assignments/W16-farkle-ml-experiment-receipt.md`. Full build
+report with sample results: `reports/013_week16_farkle_ml_capstone.md`.
+Reused the historical Spring 2026 Farkle/Q-learning assignment
+(`docs/reports/curriculum-history-synthesis.md`; the real Canvas snapshot
+at `archive/spring-2026/canvas-71244-snapshot-20260714-194807.json`) for
+its state/action/reward framing — (turn_points, dice_remaining) state,
+ROLL/BANK action — but ruthlessly simplified the learning mechanism
+itself: a running-average dictionary, not real Q-learning with a discount
+factor. CS2 extensions deliberately deferred, not implemented:
+`docs/curriculum/cs2-farkle-ml-handoff.md`.
 
 **Decision, 2026-07-22** (`reports/005_apply_pre_semester_decisions.md`,
 still standing): the professional-pathway artifact set does not land here

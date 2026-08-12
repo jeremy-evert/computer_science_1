@@ -23,15 +23,13 @@ over before this point.
 ## This week instead
 
 No Odyssey coding gate is due. Students participate in the Farkle/ML
-applied session (`planning/week-16.md`) using the CS1 core they already
-have — variables/state, branching, loops/simulation, functions,
-collections, objects where useful, testing/debugging, files/data where
-useful, Git habits, technical judgment. No reinforcement-learning
-mathematics is required. Full Farkle/ML lesson content is a follow-up
-authoring task (there is historical Spring 2026 Farkle/Q-learning
-experimentation in the archive worth reusing —
-`docs/reports/curriculum-history-synthesis.md`), not written as part of
-this reconciliation pass.
+applied session (`planning/week-16.md`, `lessons/10-farkle-ml.md`) using
+the CS1 core they already have — variables/state, branching,
+loops/simulation, functions, collections, objects where useful,
+testing/debugging, files/data where useful, Git habits, technical
+judgment. No reinforcement-learning mathematics is required. The light
+evidence artifact for this week is
+`assignments/W16-farkle-ml-experiment-receipt.md`, not an Odyssey gate.
 
 ## World Bible
 
