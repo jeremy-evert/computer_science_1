@@ -1,5 +1,7 @@
 # Odyssey Gate — Week 12: The world becomes real things (Round 1)
 
+**Gate status:** active
+
 **Concept:** classes, objects, modules — Round 1 (`lessons/08-classes-and-modules.md`).
 **Arc:** 3 — Systems That Remember Themselves. **Instrument:** Quick Check
 (pass/fail) — see `docs/curriculum/judgment_toolkit.md` §1.

@@ -1,5 +1,7 @@
 # Odyssey Gate — Week 13: The world becomes real things (Round 2)
 
+**Gate status:** active
+
 **Concept:** classes, objects, modules — Round 2 (`lessons/08-classes-and-modules.md`).
 **Arc:** 3 — Systems That Remember Themselves. **Instrument:** Quick Check
 (pass/fail) + **Decide/Compare #2 (capstone)** — see

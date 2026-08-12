@@ -1,14 +1,14 @@
 # Odyssey Gate — Week 17 rubric: Final Debrief + Judgment Log checkpoint 3 (final)
 
 Matches `docs/curriculum/judgment_toolkit.md` §4/§5. Two separately-graded
-parts, neither pass/fail — this week uses full rubrics, like Weeks 14 and
-16, not a Quick Check.
+parts, neither pass/fail — this week uses full rubrics, like Week 14,
+not a Quick Check.
 
 ## Part 1 — Final Debrief
 
 | Band | What it looks like |
 |---|---|
-| Strong | Names a real, specific difference between the Week 2 founding charter and the world as it now exists, tied to an actual change in how the student thinks about building it (not just "more features"); takes a real position on whether a past Decide/Compare call (Week 11 or Week 16) still holds, with reasoning; names specific unresolved known debt and a real reason it wasn't fixed. |
+| Strong | Names a real, specific difference between the Week 2 founding charter and the world as it now exists, tied to an actual change in how the student thinks about building it (not just "more features"); takes a real position on whether a past Decide/Compare call (Week 11 or Week 13) still holds, with reasoning; names specific unresolved known debt and a real reason it wasn't fixed. |
 | Solid | Answers all three Debrief questions with real content, but one answer stays generic (e.g., "I learned a lot" without saying what changed, or a debt list without a reason it's still open). |
 | Not yet | Answers are present but could have been written without having actually done the semester's work — no specific charter/world comparison, no real position taken on the past Decide/Compare call, or no real debt list. |
 

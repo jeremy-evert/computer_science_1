@@ -1,5 +1,7 @@
 # Odyssey Gate — Week 11: The registry, and the first real trade-off
 
+**Gate status:** active
+
 **Concept:** lists and dictionaries continued (`lessons/07-collections.md`).
 **Arc:** 3 — Systems That Remember Themselves. **Instruments:** Quick Check
 (pass/fail) **and** Decide/Compare #1 — see

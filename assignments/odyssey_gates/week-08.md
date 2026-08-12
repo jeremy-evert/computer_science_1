@@ -1,5 +1,7 @@
 # Odyssey Gate — Week 8: The world starts reading its own mail
 
+**Gate status:** active
+
 **Concept:** strings and text processing (`lessons/06-strings.md`).
 **Arc:** 2 — First Real Choices. **Instrument:** Quick Check (pass/fail) —
 see `docs/curriculum/judgment_toolkit.md` §1.

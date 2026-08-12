@@ -1,5 +1,7 @@
 # Odyssey Gate — Week 9: Coding Odyssey Checkpoint 2 (first real pass)
 
+**Gate status:** active
+
 **Concept:** collections — lists and dictionaries (`lessons/06-collections.md`).
 **This week's gate is Coding Odyssey Checkpoint 2 itself** — see
 `assignments/A2-coding-odyssey-project.md`'s checkpoint table and

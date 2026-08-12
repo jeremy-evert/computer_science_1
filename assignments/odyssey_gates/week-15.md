@@ -1,5 +1,7 @@
 # Odyssey Gate — Week 15: No new technical material (buffer week)
 
+**Gate status:** optional_no_gate
+
 **Concept:** none new — portfolio-completion buffer, fully asynchronous
 (Thanksgiving; Jeremy traveling — see `planning/week-15.md` and
 `ROADMAP.md`). **No mandatory gate this week.** This matches the week's

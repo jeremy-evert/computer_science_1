@@ -1,5 +1,7 @@
 # Odyssey Gate — Week 14: The world works with others, and knows itself
 
+**Gate status:** active
+
 **Concept:** GitHub/source control, pair programming, AI-aware coding
 (`lessons/09-projects-tools-and-reflection.md`). **This week's gate is
 Coding Odyssey Checkpoint 3 itself** — see

@@ -1,5 +1,7 @@
 # Odyssey Gate — Week 3: The world starts noticing things
 
+**Gate status:** active
+
 **Concept:** types/formatting continued; branching introduced
 (`lessons/02-variables-expressions-types.md`, `lessons/03-branching.md`).
 **Arc:** 1 — Foundations. **Instrument:** Quick Check (pass/fail) — see

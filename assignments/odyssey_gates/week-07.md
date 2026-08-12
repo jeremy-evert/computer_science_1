@@ -1,5 +1,7 @@
 # Odyssey Gate — Week 7: Someone else must be able to run this
 
+**Gate status:** active
+
 **Concept:** functions and decomposition (`lessons/05-functions.md`).
 **Arc:** 2 — First Real Choices. **Instrument:** Quick Check (pass/fail) —
 see `docs/curriculum/judgment_toolkit.md` §1. Full graded functions

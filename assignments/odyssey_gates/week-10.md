@@ -1,5 +1,7 @@
 # Odyssey Gate — Week 10: The census
 
+**Gate status:** active
+
 **Concept:** lists and dictionaries — lists first (`lessons/07-collections.md`).
 **Arc:** 3 — Systems That Remember Themselves. **Instrument:** Quick Check
 (pass/fail) — see `docs/curriculum/judgment_toolkit.md` §1.

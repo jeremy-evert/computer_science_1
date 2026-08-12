@@ -1,5 +1,7 @@
 # Odyssey Gate — Week 16: retired (now the Farkle/ML fun week)
 
+**Gate status:** retired
+
 **Reconciled 2026-08-12 (Jeremy's pinned decision).** This week no longer
 carries a Coding Odyssey checkpoint, gate, or Decide/Compare instrument.
 Week 16 is now the shared **Farkle / Machine Learning** applied fun week —

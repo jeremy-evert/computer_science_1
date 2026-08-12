@@ -1,5 +1,7 @@
 # Odyssey Gate — Week 5: The first season passes
 
+**Gate status:** active
+
 **Concept:** loops and repetition (`lessons/04-loops.md`).
 **Arc:** 1 — Foundations. **Instrument:** Quick Check (pass/fail) — see
 `docs/curriculum/judgment_toolkit.md` §1.

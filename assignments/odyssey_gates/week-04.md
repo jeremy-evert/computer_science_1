@@ -1,5 +1,7 @@
 # Odyssey Gate — Week 4: The world weighs its options
 
+**Gate status:** active
+
 **Concept:** branching and decision-making, full depth
 (`lessons/03-branching.md`). No Monday session this week (Labor Day) — the
 lecture content moves to Wed/Fri active time or the podcast; this gate is

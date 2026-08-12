@@ -1,5 +1,7 @@
 # Odyssey Gate — Week 6: Coding Odyssey Checkpoint 1 (baby project)
 
+**Gate status:** active
+
 **Concept:** loops II (`lessons/04-loops.md`, continued) plus everything
 taught through Week 5. **This week's gate is Coding Odyssey Checkpoint 1
 itself** — see `assignments/A2-coding-odyssey-project.md`'s checkpoint

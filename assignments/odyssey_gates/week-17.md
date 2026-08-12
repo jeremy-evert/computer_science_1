@@ -1,5 +1,7 @@
 # Odyssey Gate — Week 17: Finals — the world, looked back on
 
+**Gate status:** active
+
 **Concept:** none new — final portfolio and Coding Odyssey show-and-tell,
 course wrap-up (`planning/week-17-finals.md`). **Instruments:** final
 Debrief + **Judgment Log checkpoint 3 (final)** — see
@@ -14,7 +16,7 @@ semester:
 1. What's the real difference between your Week 1 founding charter and
    your world as it exists now? Not "it has more features" — what actually
    changed about how you think about building it?
-2. Pick one Decide/Compare moment (Week 11 or Week 16) and say whether you'd
+2. Pick one Decide/Compare moment (Week 11 or Week 13) and say whether you'd
    still make the same call today. Why or why not?
 3. What's still on your "known debt" list, and why didn't it get fixed?
    (An honest, unresolved debt list is a pass condition, not a penalty —
