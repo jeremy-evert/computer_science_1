@@ -150,7 +150,5 @@ provenance:
     covers: "course/official blocks"
   - source: "Jeremy, directly, 2026-08-11 conversation (ZyBooks adoption confirmation for CS1 and Computer Architecture)"
     covers: "textbook.title (adoption confirmed), textbook.note (Fall 2026 strategy)"
-  - note: >-
-      textbook.zybook_identifier/zybook_url/main_chapters are intentionally
-      TBD -- no exact product identifier has been supplied yet; do not
-      fabricate one.
+  - source: "Jeremy's ZyBooks instructor-page capture, supplied 2026-08-11 (prompt 049)"
+    covers: "textbook.zybook_identifier/textbook.zybook_isbn/textbook.zybook_url/current_release/main_chapters"
