@@ -9,8 +9,8 @@ students, no CS2. Date: 2026-08-12.
 
 | Repo | Starting SHA | Ending SHA |
 |---|---|---|
-| `computer_science_1` | `e8e125f` | *(recorded at commit time, below)* |
-| `course_foundry` | `ae1d330` | *(recorded at commit time, below)* |
+| `computer_science_1` | `e8e125f` | `b86dd11` |
+| `course_foundry` | `ae1d330` | `c171fd6` |
 | `jeremy_task_tracking` | `49ba67d` | unchanged (read-only this pass) |
 
 ## 1. Every previously-open grading decision, and the final decision made
