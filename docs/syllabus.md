@@ -252,40 +252,36 @@ activities are intended to support the technical work, not replace it.
 
 ## Grading
 
-### Working grading model
+### Grading model
 
-The course historically uses effort-based, demonstrative grading. For weekly
-chapter practice, the baseline pattern is:
+The course uses effort-based, demonstrative grading, formalized into the
+two-axis weekly reinforcement rubric and the four-axis Coding Odyssey
+Full Build rubric — see `docs/grading-model.md` for the complete,
+finalized rubric detail (2026-08-12). Historical effort-ladder framing
+(design exists → some code → partially working → working project) is kept
+in spirit inside those rubrics' point bands, not as a separate scale.
 
-| Evidence | Suggested points |
-|---|---:|
-| Meaningful effort, no working solution yet | 25 |
-| One working solution | 50 |
-| Two working solutions | 75 |
-| Three working solutions / complete core task | 100 |
-| Optional improvement, presentation, or repository evidence | bonus |
-
-For Coding Odyssey checkpoints, a working pattern is:
-
-| Evidence | Suggested points |
-|---|---:|
-| Design exists | 70 |
-| Design plus some code | 80 |
-| Design plus partially working code | 90 |
-| Working project | 100 |
-
-### Working grade weights
-
-The newer Canvas syllabus uses the following starting point:
+### Final grade weights (finalized 2026-08-12)
 
 | Category | Weight |
 |---|---:|
-| Homework / weekly practice / project work | 68% |
-| End-of-semester reflection | 10% |
-| Attendance and participation | 20% |
+| Monday Moment quiz | 6% |
+| Wacky Wednesday reflection | 6% |
+| Fun Friday reflection | 6% |
+| Paired-programming report (A3) | 5% |
+| Friday feedback report (A7) | 5% |
+| Show-and-Tell reflection (A4) | 5% |
+| Weekly reinforcement assignment | 25% |
+| Coding Odyssey checkpoints | 15% |
+| Final reflection paper (A5) | 10% |
+| Professional pathway — Week 14 update | 5% |
+| Professional pathway — Week 15 submission | 5% |
+| Attendance and participation | 5% |
 | Course evaluation | 2% |
+| **Total** | **100%** |
 
-> TODO: confirm or revise these weights in the official current template.
+Full rationale, bonus mechanism, drop-lowest policy, and the Canvas
+submission-location mapping: `docs/grading-model.md`.
 
 ### Working letter scale
 
@@ -311,11 +307,14 @@ Attendance is part of learning because students learn from one another through
 paired programming, discussion, and demonstration. If attendance will be a
 problem, communicate with the instructor early so we can identify solutions.
 
-> **TODO: confirm policy language.** The 2026 source syllabus includes a
-> one-letter bonus for fewer than three absences with no skipped Canvas weeks,
-> escalating penalties after six absences or two inactive weeks, and withdrawal
-> thresholds. Those consequences should not be published here until they are
-> confirmed against the official current template and university policy.
+**Finalized 2026-08-12.** Attendance and participation is worth 5% of the
+course grade (`docs/grading-model.md`), gradebook-only, instructor-entered.
+Being present and engaged — in person or via the approved Zoom arrangement
+— earns the week's attendance credit. This course does not use an
+escalating-penalty ladder or a withdrawal-threshold policy for attendance;
+that draft language from an earlier source syllabus is retired, not
+adopted, as it did not match this course's evidence-based, non-punitive
+design.
 
 ### Cameras and remote participation
 
@@ -427,7 +426,9 @@ decisions have been checked.
 - [x] No required textbook — confirmed 2026-08-12; CS50P is recommended,
       not required. Confirm this framing survives Faculty Commons review.
 - [ ] Approve the technical sequence and calendar dates.
-- [ ] Approve grading weights, letter scale, attendance, and late-work policy.
+- [x] Grading weights and attendance policy finalized 2026-08-12
+      (`docs/grading-model.md`); confirm letter scale and late-work
+      policy against the official Faculty Commons template.
 - [ ] Confirm AI language against current university policy.
 - [ ] Confirm accessibility, academic-integrity, and student-support links.
 - [ ] Link every assignment name to its final Canvas location.

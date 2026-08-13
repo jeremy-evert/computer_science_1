@@ -127,7 +127,7 @@ Once, then reused weekly:
 - [ ] Canvas automated-feedback reply (pipeline exists; wire to this course)
 - [ ] Shared class repository (structure + contribution norms)
 
-## Grading direction (decided 2026-07-15; percentages still open)
+## Grading direction (decided 2026-07-15; percentages finalized 2026-08-12, `docs/grading-model.md`)
 
 - **No traditional tests.** Points come from the weekly artifacts.
 - Points attach to: (a) the Monday Moment quiz, (b) the Wednesday
@@ -135,7 +135,7 @@ Once, then reused weekly:
   and the two weekly reports. If we want students to do the work, it earns
   points and gets graded.
 - **The homework category splits up** — the old single 68% "homework" bucket
-  becomes named categories. Draft split: `docs/grading-model.md`.
+  becomes named categories. Final split: `docs/grading-model.md`.
 - **The weekly reinforcement assignment is graded on two axes:** the working
   result, and the process — rhetoric (challenged the question or answered
   it as written?), planning (plan first or winged it?), tool transparency

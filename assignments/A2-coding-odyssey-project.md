@@ -134,8 +134,9 @@ Each gate and checkpoint is graded from its own paired files —
 `assignments/odyssey_gates/week-NN.md` and
 `rubrics/odyssey_gates/week-NN_rubric.md` — using the five instruments
 (Quick Check, Build, Decide/Compare, Debrief, Judgment Log) defined in full
-in `docs/curriculum/judgment_toolkit.md`. Point values and the exact Canvas
-weighting are not yet finalized — see that document's open items.
+in `docs/curriculum/judgment_toolkit.md`. Point values and Canvas weighting
+are final — Weekly reinforcement assignment 25%, Coding Odyssey checkpoints
+15%; see `docs/grading-model.md`.
 
 ## Design history
 

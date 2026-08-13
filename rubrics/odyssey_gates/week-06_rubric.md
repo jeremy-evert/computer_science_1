@@ -4,11 +4,12 @@ Per Jeremy's 2026-08-06 decision (course_foundry prompt 026): checkpoint
 weeks reuse the same two-axis rubric already defined for weekly
 reinforcement (`docs/grading-model.md`, "The two-axis rubric for the
 weekly reinforcement assignment") rather than a new checkpoint-specific
-shape. This is not the four-axis Full Build rubric used at Weeks 14/16 —
-those are the two *later* checkpoints, kept on the four-axis shape they
+shape. This is not the four-axis Full Build rubric used at Week 14 —
+that is the later checkpoint, kept on the four-axis shape it
 already had; Weeks 6 and 9 (newly authored) use the simpler two-axis
 shape by explicit decision, since the "baby project" and "first real pass"
-checkpoints are earlier and lower-stakes than the Week 14/16 pair.
+checkpoints are earlier and lower-stakes than the Week 14 checkpoint.
+(Checkpoint 4, formerly Week 16, is retired — see `docs/grading-model.md`.)
 
 ## Axis 1 — working result (15 of 25 points)
 

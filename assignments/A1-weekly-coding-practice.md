@@ -24,12 +24,14 @@ that week, inside your own persistent Odyssey world.
   Odyssey Gate plus its open continuation. Do
   `assignments/odyssey_gates/week-NN.md` — nothing else is due under this
   name that week.
-- **Checkpoint weeks (6, 9, 14, 16):** this assignment *is* that week's
+- **Checkpoint weeks (6, 9, 14):** this assignment *is* that week's
   Coding Odyssey checkpoint. See `assignments/A2-coding-odyssey-project.md`.
-- **Week 1, Week 15, Week 17:** no chapter-concept gate that week (Week 1 is
-  universal across all five courses; Week 15 is a buffer/async week; Week
-  17 is finals) — see each week's own `planning/week-NN.md` for what's
-  actually due.
+- **Week 1, Week 15, Week 16, Week 17:** no chapter-concept gate that week
+  (Week 1 is universal across all five courses; Week 15 is a buffer/async
+  week; Week 16 is the Farkle/ML fun week, no gate or checkpoint, and no
+  graded weekly categories at all per the dead-days finding in
+  `docs/grading-model.md`; Week 17 is finals) — see each week's own
+  `planning/week-NN.md` for what's actually due.
 
 **This supersedes the previous framing of this file**, which described an
 independent chapter-problem-set assignment running in parallel with the
@@ -66,11 +68,12 @@ credit and **keep that earned credit**, even if you already satisfied the
 normal Odyssey requirement for the week. Do not copy/rehost third-party
 exercise text; linking to the problem is fine.
 
-**Exact numeric bonus-point weighting is not yet decided** — this repo has
-no pre-existing standalone-problem point convention to preserve, so no
-number is invented here (see `docs/grading-model.md`'s open items). This is
-a small remaining implementation decision, not a blocker to using this
-policy as written.
+**Decided 2026-08-12 (prompt 067):** each of the 10 weekly-reinforcement
+weeks, one optional bonus-practice submission earns up to 5 flat bonus
+points, added as a 0-points-possible extra-credit item inside the Weekly
+Reinforcement Assignment Canvas group — capped at 10 counted weeks (50
+points) for the whole semester. Full rationale and Canvas mechanics:
+`docs/grading-model.md`'s "Bonus mechanism" section.
 
 ## Grading — two axes, graded and reported separately
 

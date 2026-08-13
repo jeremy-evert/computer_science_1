@@ -5,7 +5,8 @@ weeks reuse the same two-axis rubric already defined for weekly
 reinforcement (`docs/grading-model.md`, "The two-axis rubric for the
 weekly reinforcement assignment") rather than a new checkpoint-specific
 shape — see `rubrics/odyssey_gates/week-06_rubric.md`'s note for why this
-differs from the four-axis Full Build rubric Weeks 14/16 use.
+differs from the four-axis Full Build rubric Week 14 uses (Checkpoint 4,
+formerly Week 16, is retired — see `docs/grading-model.md`).
 
 ## Axis 1 — working result (15 of 25 points)
 

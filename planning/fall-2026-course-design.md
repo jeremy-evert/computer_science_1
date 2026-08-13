@@ -69,13 +69,17 @@ Jeremy later chooses to use it. A student must be able to complete the
 required course successfully without buying either and without enrolling
 in CS50P as a separate course.
 
-## Open decisions
+## Closed decisions
 
-1. Exact numeric bonus-point value/mechanism for optional standalone
-   practice — not yet decided; see `docs/grading-model.md`'s open items.
-   No number is invented here.
-2. Full Farkle/ML lesson content for Week 16 — flagged as a follow-up
-   authoring task, not written in this reconciliation pass.
+1. **Exact numeric bonus-point value/mechanism for optional standalone
+   practice** — decided 2026-08-12 (prompt 067): up to 5 bonus points/week,
+   capped at 10 counted weeks (50 points) per semester. See
+   `docs/grading-model.md`'s "Bonus mechanism" section.
+2. **Full Farkle/ML lesson content for Week 16** — built 2026-08-12
+   (prompt 055); see `reports/013_week16_farkle_ml_capstone.md`.
+
+## Still open (out of this repo's scope)
+
 3. Whether/how a fuller CS50P link map gets published into Canvas/Savnac
    week pages — that is publication work, out of scope for source
    reconciliation (see `reports/011_cs1_core_resource_coverage_and_slurp.md`
