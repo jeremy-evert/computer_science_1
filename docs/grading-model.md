@@ -155,20 +155,18 @@ receipt.
 
 ## Drop-lowest policy
 
-**Decided 2026-08-12 (prompt 067).** The policy (which categories drop
-what) is decided; the *mechanism* is Canvas's native per-assignment-group
-"drop lowest N scores" rule, which is the intended implementation and
-requires no bespoke drop-lowest code of our own — but as of this pass it
-is **not yet pushed automatically by `course_foundry`**: verified via
-independent review that `imprint.schema.DesiredAssignmentGroup` currently
-carries only `name`/`group_weight`, no drop-lowest/rules field, so
-`cs1_desired_course.py` cannot express this rule end-to-end today. Until
-that schema gap is closed (a real, disclosed implementation yellow — see
-`reports/014_cs1_grading_and_pre_savnac_closeout.md` §14), each group's
-drop-lowest rule must be configured once, by hand, in Canvas's own
-assignment-group UI after the initial Savnac push — a one-time
-per-semester setup step, not a per-push regression risk, since Canvas
-persists the rule on the group once set. Applied per category:
+**Decided 2026-08-12 (prompt 067). Automated 2026-08-12 (prompt 068).**
+The policy (which categories drop what) is implemented end-to-end via
+Canvas's native per-assignment-group "drop lowest N scores" rule — no
+bespoke drop-lowest code of our own. `imprint.schema.DesiredAssignmentGroup`
+now carries a `drop_lowest: int | None` field, `imprint.reconcile`'s
+assignment-group create/update path sends/diffs Canvas's `rules[drop_lowest]`
+rule (create/update/idempotent-skip/clear all covered), and
+`cs1_desired_course.py`'s `_ASSIGNMENT_GROUPS` table sets it per category
+below. The rule is now pushed automatically on every Savnac/Canvas
+reconciliation — no manual post-push Canvas configuration step remains.
+See `course_foundry/reports/2026-08-12_prompt_068_drop_lowest_automation.md`
+for the implementation receipt. Applied per category:
 
 | Category | Drop-lowest? | Why |
 |---|---|---|
