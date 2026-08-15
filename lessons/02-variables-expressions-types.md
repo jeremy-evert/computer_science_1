@@ -13,7 +13,7 @@ Assignment, operators, precedence, input conversion, formatted strings, and comm
 
 ## Why this matters this week
 
-This week's Coding Odyssey Gate (`assignments/odyssey_gates/week-02.md`)
+This week's Reasoning Odyssey Gate (`assignments/odyssey_gates/week-02.md`)
 asks your world to state its own founding condition: a settlement's opening
 food stock, a case's hours-cold clock, a starship's fuel remaining after a
 jump, a business's opening cash on hand. Every one of those is the same
@@ -236,7 +236,7 @@ two disconnected artifacts.
 ## Optional extra practice — no story, just the mechanics (ungraded)
 
 **This is not the assignment.** Your real graded weekly deliverable is the
-Coding Odyssey Gate
+Reasoning Odyssey Gate
 (`assignments/odyssey_gates/week-02.md`) — see
 `assignments/A1-weekly-coding-practice.md`: "no separate chapter problem
 set is due." The gate file already has its own optional "Suggested

@@ -1,0 +1,7 @@
+Completed the Reasoning Odyssey reconciliation and wrote the required audit: [reports/015_reasoning_odyssey_fabric_reconciliation.md](/mnt/brandy_nvme/jevert/git/computer_science_1/reports/015_reasoning_odyssey_fabric_reconciliation.md).
+
+Key outcome: A2 is now the explicit Week-2 kickoff/home base; Weeks 6, 9, and 14 are paid synthesis checkpoints with unchanged 25-point contracts.
+
+I left Weeks 15–16 as documented exceptions because making them paid Odyssey check-ins would require a new gradebook allocation, contrary to the pinned model. All remaining “Coding Odyssey” hits are explicitly archival/provenance or instructor planning.
+
+Validation passed: `pytest -q` — 27 passed. No grading weights, categories, point values, or `course_metadata.yaml` grading block were changed.

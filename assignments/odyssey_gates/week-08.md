@@ -53,7 +53,7 @@ One line: what gate you passed, what broke.
 
 ## Looking ahead
 
-Week 9 (strings continued) is **Coding Odyssey Checkpoint 2** — your first
+Week 9 (strings continued) is **Reasoning Odyssey Checkpoint 2** — your first
 real project pass, not a dry run this time. See
 `assignments/A2-coding-odyssey-project.md` and `planning/week-09.md`. No
 separate gate; the checkpoint is the gate, graded with the full Build

@@ -1,4 +1,4 @@
-# Odyssey Gate — Week 6 rubric: Checkpoint 1 (two-axis, 25 points)
+# Reasoning Odyssey Gate — Week 6 rubric: Synthesis Checkpoint 1 (two-axis, 25 points)
 
 Per Jeremy's 2026-08-06 decision (course_foundry prompt 026): checkpoint
 weeks reuse the same two-axis rubric already defined for weekly
@@ -13,7 +13,7 @@ checkpoints are earlier and lower-stakes than the Week 14 checkpoint.
 
 ## Axis 1 — working result (15 of 25 points)
 
-For this checkpoint, "the result" is Week 6's submit/explain/demonstrate
+For this checkpoint, "the result" is Week 6's submit/explain/demonstrate/reflect
 checkpoint itself, mapped onto the same historical effort-based ladder
 `grading-model.md` describes for gate weeks: checkpoint not yet passed
 (project doesn't run, or nothing new since Week 2) sits around 25% of this
@@ -34,5 +34,5 @@ whole package being organized and reusable = 10.
   completely acceptable baby project" (`assignments/odyssey_gates/week-06.md`).
   Do not penalize small scope; penalize a missing explain/demonstrate step
   or a project that doesn't actually run.
-- The World Bible one-line log entry is required but not separately
+- The World Bible one-line log entry and brief reflection are required but not separately
   scored here, same convention as every other gate week.

@@ -6,7 +6,7 @@ A light, honest record of the Wednesday/Friday Farkle experiment
 (`lessons/10-farkle-ml.md`) — proof you played, ran the experiment, and
 can reason about what it showed. This is the fun week; keep it short.
 
-**Not a Coding Odyssey checkpoint or gate.** No Odyssey gate is due this
+**Not a Reasoning Odyssey checkpoint or gate.** No Odyssey gate is due this
 week (see `assignments/odyssey_gates/week-16.md`). This receipt is a
 separate, small, applied-session artifact — see
 `docs/grading-model.md`'s participation/reflection evidence categories

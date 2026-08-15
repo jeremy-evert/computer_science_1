@@ -1,4 +1,4 @@
-# Odyssey Gate — Week 14 rubric: Checkpoint 3 (full Build) + Full Trail Debrief (mandatory)
+# Reasoning Odyssey Gate — Week 14 rubric: Synthesis Checkpoint 3 (full Build) + Full Trail Debrief (mandatory)
 
 Matches `docs/curriculum/judgment_toolkit.md` §2/§4. Two separately-graded
 parts, neither pass/fail — this week uses full rubrics, not a Quick Check.

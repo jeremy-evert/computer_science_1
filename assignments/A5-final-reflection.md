@@ -21,7 +21,7 @@ the course grade (`docs/grading-model.md`).
 3. Share one favorite meme, quote, or moment from the semester — optional,
    but a nice way to close it out. This is just a nice way to close things
    out, not a graded rubric row.
-4. If your section's Coding Odyssey Week 17 work includes the **Final
+4. If your section's Reasoning Odyssey Week 17 work includes the **Final
    Debrief** and Judgment Log review
    (`assignments/odyssey_gates/week-17.md`), that *is* this reflection's
    Odyssey-specific half — don't write two separate reflections. Use one of

@@ -51,7 +51,7 @@ One line: what gate you passed, what broke.
 
 ## Looking ahead
 
-Week 6 folds loops review directly into **Coding Odyssey Checkpoint 1**
+Week 6 folds loops review directly into **Reasoning Odyssey Checkpoint 1**
 (the "baby project" dry run) — see `assignments/A2-coding-odyssey-project.md`
 and `planning/week-06.md`. No separate gate next week; the checkpoint is
 the gate.

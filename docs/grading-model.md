@@ -11,8 +11,8 @@ reconciliation passes below. The percentages in this file are the real,
 final Canvas weights, not a proposal.
 
 **Reconciled 2026-07-27:** the "weekly reinforcement assignment" row and the
-"Coding Odyssey checkpoints" row below are two grains of the *same* project,
-not two separate assignments. Every technical week is a Coding Odyssey week
+"Reasoning Odyssey checkpoints" row below are two grains of the *same* project,
+not two separate assignments. Every technical week is a Reasoning Odyssey week
 (`assignments/A2-coding-odyssey-project.md`) — the week's concept comes from
 Jeremy's own lecture/materials, applied inside the student's own world; the
 weekly gate/checkpoint that results *is* the weekly reinforcement assignment.
@@ -47,8 +47,8 @@ retired the required-textbook framing entirely; see
 | Paired-programming report (A3) | 5% | weekly | Student's own contribution, honestly assessed |
 | Friday feedback report (A7) | 5% | weekly | Quality of feedback the student *gave* — distinct from A4 below |
 | Show-and-Tell reflection (A4) | 5% | weekly | The student's own four-question journal on their own week's work — distinct from Fun Friday reflection and the Friday feedback report; see §"A4 disposition" below |
-| Weekly reinforcement assignment | 25% | weekly | Two axes: result 15% + process 10% (rubric below). Result = that week's Coding Odyssey gate + Light Build continuation, weeks 2–5/7–8/10–13. Optional standalone bonus practice is additive on top of this row via a separate 0-points-possible bonus object — see §"Bonus mechanism" below |
-| Coding Odyssey checkpoints | 15% | 3 checkpoints (Wk 6/9/14) | The bigger, periodic grading pass on the same project — full four-axis Build rubric, not the weekly gate's pass/fail. Keeps the historical effort ladder in spirit (70/80/90/100 → now the Functions/Concept-use/Explanation/Demonstrability axes, `judgment_toolkit.md` §2). Checkpoint 4 (formerly Wk16) is retired — see `planning/week-16.md` |
+| Weekly reinforcement assignment | 25% | weekly | Two axes: result 15% + process 10% (rubric below). Result = that week's Reasoning Odyssey gate + Light Build continuation, weeks 2–5/7–8/10–13. Optional standalone bonus practice is additive on top of this row via a separate 0-points-possible bonus object — see §"Bonus mechanism" below |
+| Reasoning Odyssey checkpoints | 15% | 3 checkpoints (Wk 6/9/14) | The bigger, periodic synthesis/checkpoint pass on the same project — full four-axis Build rubric, not the weekly gate's pass/fail. Keeps the historical effort ladder in spirit (70/80/90/100 → now the Functions/Concept-use/Explanation/Demonstrability axes, `judgment_toolkit.md` §2). Checkpoint 4 (formerly Wk16) is retired — see `planning/week-16.md` |
 | Final reflection paper (A5) | 8% | finals week | Template basis: `assignments/A5-final-reflection.md`; finals-slot use verified against SWOSU policy above |
 | Professional pathway — Week 14 update | 5% | Week 14 | Reasoning-graded update pass + changelog/diff artifact (`assignments/A6-professional-pathway-artifacts.md`, `rubrics/A6-week-14-update_rubric.md`) |
 | Professional pathway — Week 15 submission | 5% | Week 15 | Completion + submission of the full artifact set + next-steps reflection (`rubrics/A6-week-15-submission_rubric.md`) |
@@ -56,7 +56,7 @@ retired the required-textbook framing entirely; see
 | Course evaluation | 2% | end of term | Carried from current model |
 | **Total** | **100%** | | Final 2026-08-14 (prompt 070 bounded-fix pass) — see §"How the final 100% was reached" |
 
-**Week 16 (Farkle/ML) grading:** Week 16 carries no Coding Odyssey
+**Week 16 (Farkle/ML) grading:** Week 16 carries no Reasoning Odyssey
 checkpoint/gate (retired 2026-08-12, `reports/013_week16_farkle_ml_capstone.md`)
 and none is invented here. **Additionally, Week 16 carries no *graded*
 instance of any weekly recurring category at all** — see §"Dead-days
@@ -93,7 +93,7 @@ class of call without further sign-off:
   with, not below, the other small weekly categories (5–6% each), and
   nowhere near becoming the dominant grade driver.
 - Programming/technical work remains clearly the largest component:
-  Weekly reinforcement (25%) + Coding Odyssey checkpoints (15%) = **40%**
+  Weekly reinforcement (25%) + Reasoning Odyssey checkpoints (15%) = **40%**
   of the course grade, more than double the next-largest single category.
 
 ### 2026-08-14 — the Week-1 kickoff row (prompt 070 bounded-fix pass, finding F02)
@@ -139,7 +139,7 @@ formally uncounted — was considered and explicitly rejected.
   anchored to rubric math (a single 10-point paper, and the 10% was
   inherited wholesale from the pre-2026 syllabus's "reflection 10%"), and
   at 8% it remains the third-largest row in the model.
-- **Deliberately untouched.** Weekly reinforcement (25%) + Coding Odyssey
+- **Deliberately untouched.** Weekly reinforcement (25%) + Reasoning Odyssey
   checkpoints (15%) = **40%**, the technical core prompt 067 pinned;
   Attendance & participation stays at 5%, having already absorbed two
   prior reconciliations (20% → 10% → 5%) and being at its floor.
@@ -246,7 +246,7 @@ for the implementation receipt. Applied per category:
 | Friday feedback report (A7) | Drop lowest 1 | Same reasoning |
 | Show-and-Tell reflection (A4) | Drop lowest 1 | Same reasoning |
 | Weekly reinforcement assignment | Drop lowest 1 (of 10 gate weeks) | Same reasoning; illness/a bad week during a gate week is exactly what this absorbs |
-| Coding Odyssey checkpoints | **No drop** | Only 3 all semester — each is a real milestone, not interchangeable with the others |
+| Reasoning Odyssey checkpoints | **No drop** | Only 3 all semester — each is a real milestone, not interchangeable with the others |
 | Professional pathway — Week 14 / Week 15 | **No drop** | Each is a single required checkpoint, not a repeated weekly artifact |
 | Final reflection paper (A5) | **No drop** | Single final event |
 | Attendance & participation | **No drop** | Daily cadence, not a "weekly artifact" category this mechanism fits; handled by the attendance policy itself |
@@ -307,7 +307,7 @@ maintained copy.
 | Show-and-Tell reflection (A4) | Show-and-Tell reflection (5%) | 10 pts (rubric, `rubrics/A4_rubric.md`), points | online_text_entry | Weekly (not Wk 1, 16) | Yes (1) | Required |
 | Weekly Odyssey gate (reinforcement) | Weekly reinforcement assignment (25%) | 25 pts (15 result + 10 process), points | online_text_entry, online_upload | Weekly, weeks 2–5/7–8/10–13 | Yes (1) | Required |
 | Optional bonus-practice submission | Weekly reinforcement assignment (25%) | 0 pts possible, up to 5 pts earned | online_text_entry, online_upload | Weekly, weeks 2–5/7–8/10–13 (opt-in) | N/A | Optional/bonus, capped 10 weeks/50 pts semester |
-| Odyssey checkpoints (Wk 6/9/14) | Coding Odyssey checkpoints (15%) | 25 pts (full 4-axis Build), points | online_text_entry, online_upload | 3x/semester | No | Required |
+| Odyssey checkpoints (Wk 6/9/14) | Reasoning Odyssey checkpoints (15%) | 25 pts (full 4-axis Build), points | online_text_entry, online_upload | 3x/semester | No | Required |
 | Farkle/ML W16 experience receipt | *(ungrouped, not_graded)* | Not graded | online_text_entry | Once, Week 16 | N/A | Required participation, ungraded (dead-days) |
 | Final reflection paper (A5) | Final reflection paper (8%) | 10 pts base + 2 pts extra credit, points | online_text_entry | Once, conceptually due finals week (Week 17) — **actual Canvas module placement is Week 16**, per `cs1_desired_course.py`'s canonicalization rule (A5's first textual "kicks off" reference is Week 16's planning text); no `due_at` is set, so this does not create a Week-16 due-date conflict, only a module-location one | No | Required |
 | Professional pathway — Week 14 update | Professional pathway — Wk 14 (5%) | Rubric total, points | online_text_entry | Once, Week 14 | No | Required |

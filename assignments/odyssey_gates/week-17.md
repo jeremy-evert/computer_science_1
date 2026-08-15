@@ -1,8 +1,8 @@
-# Odyssey Gate — Week 17: Finals — the world, looked back on
+# Reasoning Odyssey Gate — Week 17: Finals — the world, looked back on
 
 **Gate status:** active
 
-**Concept:** none new — final portfolio and Coding Odyssey show-and-tell,
+**Concept:** none new — final portfolio and Reasoning Odyssey show-and-tell,
 course wrap-up (`planning/week-17-finals.md`). **Instruments:** final
 Debrief + **Judgment Log checkpoint 3 (final)** — see
 `docs/curriculum/judgment_toolkit.md` §4/§5.

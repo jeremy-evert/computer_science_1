@@ -7,7 +7,7 @@ previously exist. Source evidence:
 `reports/011_cs1_resource_coverage_matrix.csv`/`.json`.
 
 **None of this is required.** CS50P and the other links below are
-recommended concept/notes support only — Coding Odyssey supplies the
+recommended concept/notes support only — Reasoning Odyssey supplies the
 required, sufficient authentic practice (`assignments/A2-coding-odyssey-project.md`).
 Nothing here forces CS50P's own week order onto this semester; each row
 maps CS50P's material *to* our pinned sequence, not the reverse.

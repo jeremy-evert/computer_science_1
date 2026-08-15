@@ -9,7 +9,7 @@
 
 ## Key content
 
-Coding Odyssey/CYOAG, show-and-tell, pair programming, GitHub, AI-assisted work with verification/credit, professional artifacts, and end-of-semester reflection.
+Reasoning Odyssey/CYOAG, show-and-tell, pair programming, GitHub, AI-assisted work with verification/credit, professional artifacts, and end-of-semester reflection.
 
 ## Historical materials
 

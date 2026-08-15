@@ -7,9 +7,9 @@ your process, not just your result. This is the "weekly topic
 reinforcement" artifact named in `docs/course-ethos.md`, worth 25% of the
 course grade (`docs/grading-model.md`).
 
-## Reconciled 2026-07-27, then 2026-08-12: this is fulfilled by the Coding Odyssey, not a required separate problem set
+## This is fulfilled by the Reasoning Odyssey, not a required separate problem set
 
-Every technical week of the semester is a Coding Odyssey week. There is no
+Every technical week of the semester is a Reasoning Odyssey week. There is no
 required textbook or external course (2026-08-12 reconciliation — CS1 has
 no required ZyBooks, no required Deitel, and no required CS50P
 enrollment). The week's concept and vocabulary come from Jeremy's own
@@ -25,7 +25,7 @@ that week, inside your own persistent Odyssey world.
   `assignments/odyssey_gates/week-NN.md` — nothing else is due under this
   name that week.
 - **Checkpoint weeks (6, 9, 14):** this assignment *is* that week's
-  Coding Odyssey checkpoint. See `assignments/A2-coding-odyssey-project.md`.
+  Reasoning Odyssey synthesis checkpoint. See `assignments/A2-coding-odyssey-project.md`.
 - **Week 1, Week 15, Week 16, Week 17:** no chapter-concept gate that week
   (Week 1 is universal across all five courses; Week 15 is a buffer/async
   week; Week 16 is the Farkle/ML fun week, no gate or checkpoint, and no
@@ -58,7 +58,7 @@ rather than doing both.
 
 ## Optional bonus practice — standalone problems
 
-Coding Odyssey is the required technical practice path; skipping standalone
+Reasoning Odyssey is the required technical practice path; skipping standalone
 problems never reduces your base grade. If you choose to also do optional
 standalone programming problems — instructor-owned problems, selected CS50P
 problems that align with what's actually been taught that week (not an

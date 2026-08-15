@@ -1,10 +1,12 @@
-# Odyssey Gate — Week 14: The world works with others, and knows itself
+# Reasoning Odyssey Gate — Week 14: Synthesis Checkpoint 3 — the world works with others, and knows itself
 
 **Gate status:** active
 
 **Concept:** GitHub/source control, pair programming, AI-aware coding
 (`lessons/09-projects-tools-and-reflection.md`). **This week's gate is
-Coding Odyssey Checkpoint 3 itself** — see
+Reasoning Odyssey Checkpoint 3 itself** — a deeper synthesis and
+consolidation check-in on the prior build, not a new technical-concept
+deadline. See
 `assignments/A2-coding-odyssey-project.md` and `planning/week-14.md`. No
 separate parallel gate. **Instruments:** Build (full) + **Full Trail
 Debrief (mandatory)** — see `docs/curriculum/judgment_toolkit.md` §2/§4.

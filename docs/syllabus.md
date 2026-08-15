@@ -80,7 +80,7 @@ creativity.
   and revising working programs.
 - **Critical thinking:** defining a problem, identifying assumptions, checking
   evidence, comparing approaches, and evaluating AI output.
-- **Creativity:** designing and building a Coding Odyssey / Choose Your Own
+- **Creativity:** designing and building a Reasoning Odyssey / Choose Your Own
   Adventure project.
 - **Professional development:** degree planning, career research, resume and
   GitHub/LinkedIn artifacts, and reflection on next steps.
@@ -103,7 +103,7 @@ in CS50P as a separate course, submit its problem sets, or earn its
 certificate. See `docs/curriculum/recommended-resources.md` for the
 week-level resource map and `reports/012_pre_savnac_source_reconciliation.md`
 for the full reconciliation. Each week's concept comes from Jeremy's own
-lecture/materials and is applied inside the student's Coding Odyssey
+lecture/materials and is applied inside the student's Reasoning Odyssey
 project (`assignments/A2-coding-odyssey-project.md`), not through a
 required textbook problem set.
 
@@ -152,17 +152,17 @@ items remain subject to instructor review and the official academic calendar.
 | 3 | Types, conversion, formatting; branching introduction | Odyssey gate and show-and-tell |
 | 4 | Branching and decision-making | Boundary-case practice |
 | 5 | Loops and repetition I | Loop practice and tracing |
-| 6 | Loops and repetition II; Coding Odyssey checkpoint 1 (baby project) | Iteration practice; project checkpoint |
+| 6 | Loops and repetition II; Reasoning Odyssey synthesis checkpoint 1 (baby project) | Iteration practice; project checkpoint |
 | 7 | Functions and decomposition | Functions with parameters/returns |
 | 8 | Strings and text processing | String practice; project work |
-| 9 | Strings continued; Coding Odyssey checkpoint 2 | Project checkpoint |
+| 9 | Strings continued; Reasoning Odyssey synthesis checkpoint 2 | Project checkpoint |
 | 10 | Collections: lists and dictionaries begin | Search, update, and validation practice |
 | 11 | Dictionaries / organized data; technical judgment (Decide/Compare #1) | Demonstrated edge-case testing |
 | 12 | Classes, objects, and modules I | Simple class with state and methods |
 | 13 | Classes, objects, and modules II; capstone Decide/Compare #2; substantial Odyssey build culminates | Multi-class/module explanation |
-| 14 | GitHub, pair programming, AI-aware coding; Coding Odyssey checkpoint 3 (Git-backed receipt, not a new build) | Repository evidence and demonstration |
+| 14 | GitHub, pair programming, AI-aware coding; Reasoning Odyssey synthesis checkpoint 3 (Git-backed receipt, not a new build) | Repository evidence and demonstration |
 | 15 | Fully asynchronous (Thanksgiving); no new technical material | Professional-pathway portfolio submission |
-| 16 | Farkle / Machine Learning applied fun week — no Coding Odyssey checkpoint | Applied exploration; no new required deliverable |
+| 16 | Farkle / Machine Learning applied fun week — no Reasoning Odyssey checkpoint | Applied exploration; no new required deliverable |
 | 17 | Finals: final portfolio, reflection, and course wrap-up | Final project (evidence/receipt) and reflection |
 
 > TODO: replace this working sequence with the approved calendar dates and
@@ -174,7 +174,7 @@ items remain subject to instructor review and the official academic calendar.
 ### Weekly coding practice
 
 **Reconciled 2026-08-12** (see `assignments/A1-weekly-coding-practice.md`):
-this is fulfilled by that week's Coding Odyssey gate or checkpoint, not a
+this is fulfilled by that week's Reasoning Odyssey gate or checkpoint, not a
 separate required problem set from a textbook chapter. A submission
 normally includes:
 
@@ -205,7 +205,7 @@ what was difficult, what changed, and what you learned. If you cannot present
 in class, submit a written or recorded demonstration with code, output, and
 explanation.
 
-### Coding Odyssey / Choose Your Own Adventure
+### Reasoning Odyssey / Choose Your Own Adventure
 
 The spine of the course (`assignments/A2-coding-odyssey-project.md`): one
 persistent, student-chosen world (Frontier Settlement, Investigation
@@ -255,7 +255,7 @@ activities are intended to support the technical work, not replace it.
 ### Grading model
 
 The course uses effort-based, demonstrative grading, formalized into the
-two-axis weekly reinforcement rubric and the four-axis Coding Odyssey
+two-axis weekly reinforcement rubric and the four-axis Reasoning Odyssey
 Full Build rubric — see `docs/grading-model.md` for the complete,
 finalized rubric detail (2026-08-12). Historical effort-ladder framing
 (design exists → some code → partially working → working project) is kept
@@ -272,7 +272,7 @@ in spirit inside those rubrics' point bands, not as a separate scale.
 | Friday feedback report (A7) | 5% |
 | Show-and-Tell reflection (A4) | 5% |
 | Weekly reinforcement assignment | 25% |
-| Coding Odyssey checkpoints | 15% |
+| Reasoning Odyssey checkpoints | 15% |
 | Final reflection paper (A5) | 10% |
 | Professional pathway — Week 14 update | 5% |
 | Professional pathway — Week 15 submission | 5% |

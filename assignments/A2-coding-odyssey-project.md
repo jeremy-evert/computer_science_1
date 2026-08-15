@@ -1,13 +1,13 @@
-# Coding Odyssey / Choose Your Own Adventure
+# Reasoning Odyssey / Choose Your Own Adventure
 
 ## Purpose
 
-One persistent, student-chosen project that runs the whole semester and
-applies each week's concepts as they're taught. As of the 2026-07-24 pivot,
-reconciled 2026-07-27, this is the spine of the course: every technical
-week's textbook chapter gets applied here, inside the student's own world,
-rather than through a separate standalone problem set. See the Design
-history section at the bottom for why.
+Welcome to the Week-2 kickoff and home base for the **Reasoning Odyssey**:
+one persistent, student-chosen project that runs the whole semester and
+applies each week's concepts as they're taught. This is the spine of the
+course: every technical week's learning feeds back into the same world,
+rather than becoming a separate standalone problem set. The World Bible
+below is the living record of that work.
 
 **This is the weekly coding practice assignment.** Each gate below also
 fulfills `assignments/A1-weekly-coding-practice.md` for that week — they
@@ -28,9 +28,11 @@ are not two separate things to submit.
    these files also includes an optional **suggested textbook problem** —
    the same concept as a plain practice problem, with one version per
    genre.
-3. **Checkpoints (Weeks 6, 9, 14):** submit a working version, explain
-   in your own words what changed, and demonstrate it. Table below; full
-   grading criteria in that week's own gate file.
+3. **Synthesis checkpoints (Weeks 6, 9, 14):** submit a working version,
+   explain in your own words what changed, demonstrate it, and reflect on
+   what you consolidated. These are deeper check-ins on work already
+   learned, not a new technical-concept deadline. Table below; full grading
+   criteria in that week's own gate file.
 4. **Week 17 (finals):** submit the final portfolio version — playable or
    usable, clear enough for someone else to try — with a final reflection.
 5. Keep your World Bible current every week (below). It's graded evidence,
@@ -66,16 +68,16 @@ composition vs. inheritance), but it is never required.
 
 | Checkpoint | Week | What it is |
 |---|---|---|
-| 1 | 6 | "Baby project" dry run — small, complete, low-stakes, using only what's been taught through loops. Rehearses submit/explain/demonstrate before the real project ramps up; a few dozen lines is a completely acceptable baby project. |
-| 2 | 9 | First real pass on the actual project — a real idea, meaningfully more code, closer to eventual scope. |
-| 3 | 14 | Expanded pass, paired with GitHub/tools work and a mandatory Full Trail Debrief — see `assignments/odyssey_gates/week-14.md`. Substantial building already culminates the prior week (13), including capstone Decide/Compare #2 — this checkpoint is a receipt on that real code, not a new feature deadline. |
+| 1 | 6 | "Baby project" synthesis dry run — small, complete, low-stakes, consolidating work already learned through loops. Rehearses submit/explain/demonstrate/reflect before the real project ramps up; a few dozen lines is a completely acceptable baby project. |
+| 2 | 9 | First real synthesis pass on the actual project — consolidate prior work into a real idea, with meaningfully more code and a reflection on what changed. It is not a new-concept deadline. |
+| 3 | 14 | Expanded synthesis pass, paired with GitHub/tools work and a mandatory Full Trail Debrief — see `assignments/odyssey_gates/week-14.md`. Substantial building already culminates the prior week (13), including capstone Decide/Compare #2 — this checkpoint is a receipt on that real code, not a new feature deadline. |
 
 **Reconciled 2026-08-12: Checkpoint 4 is retired.** It previously sat at
 Week 16 as a "final creative-project pass," but Week 16 is now the shared
 Farkle/ML fun week and must not compete with a giant Odyssey deadline. The
 capstone Decide/Compare (formerly paired with Checkpoint 4) moved to Week
 13 alongside the real build culmination — see
-`assignments/odyssey_gates/week-13.md`. The final Coding Odyssey portfolio
+`assignments/odyssey_gates/week-13.md`. The final Reasoning Odyssey portfolio
 submission is still due Week 17 (finals week), but as evidence/receipt of
 the finished journey alongside the Final Debrief and final reflection, not
 another large technical performance — see `planning/week-17-finals.md` and
@@ -120,7 +122,7 @@ week's specifics: that week's own gate file.
 
 ## Optional bonus practice (standalone problems)
 
-Coding Odyssey remains the required, sufficient technical practice path —
+Reasoning Odyssey remains the required, sufficient technical practice path —
 you never need anything beyond the gates/checkpoints above to complete the
 course. If you *want* extra reps, optional standalone programming problems
 (instructor-owned, or selected CS50P problems that align with what's
@@ -135,7 +137,7 @@ Each gate and checkpoint is graded from its own paired files —
 `rubrics/odyssey_gates/week-NN_rubric.md` — using the five instruments
 (Quick Check, Build, Decide/Compare, Debrief, Judgment Log) defined in full
 in `docs/curriculum/judgment_toolkit.md`. Point values and Canvas weighting
-are final — Weekly reinforcement assignment 25%, Coding Odyssey checkpoints
+are final — Weekly reinforcement assignment 25%, Reasoning Odyssey checkpoints
 15%; see `docs/grading-model.md`.
 
 ## Design history

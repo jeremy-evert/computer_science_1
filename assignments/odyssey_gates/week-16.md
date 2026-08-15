@@ -3,9 +3,9 @@
 **Gate status:** retired
 
 **Reconciled 2026-08-12 (Jeremy's pinned decision).** This week no longer
-carries a Coding Odyssey checkpoint, gate, or Decide/Compare instrument.
+carries a Reasoning Odyssey checkpoint, gate, or Decide/Compare instrument.
 Week 16 is now the shared **Farkle / Machine Learning** applied fun week —
-see `planning/week-16.md`. The major Coding Odyssey building stress is
+see `planning/week-16.md`. The major Reasoning Odyssey building stress is
 over before this point.
 
 ## What moved where
@@ -22,7 +22,7 @@ over before this point.
 
 ## This week instead
 
-No Odyssey coding gate is due. Students participate in the Farkle/ML
+No Reasoning Odyssey coding gate is due. Students participate in the Farkle/ML
 applied session (`planning/week-16.md`, `lessons/10-farkle-ml.md`) using
 the CS1 core they already have — variables/state, branching,
 loops/simulation, functions, collections, objects where useful,
