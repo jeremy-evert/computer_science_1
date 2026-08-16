@@ -1,17 +1,18 @@
-"""farkle -- a small, transparent Farkle simulator and learner for CS1 Week 16.
+"""CS1 Week 16 doorway into the canonical shared Farkle + ML machine.
 
-This package is intentionally simple. Every file is meant to be readable by
-a student who has finished CS1: variables, branching, loops, functions,
-strings, lists, dictionaries, and a little bit of classes/objects. There is
-no machine-learning library dependency and no reinforcement-learning math
-(no Bellman equation, no discount factor, no neural network). The "learner"
-in learner.py is a dictionary that keeps a running average of what happened
-after each decision -- see its docstring for the plain-language explanation.
+Students still run ``python3 -m farkle.cli ...``. The computational truth now
+lives in the provenance-pinned sibling package ``farkle_ml`` generated from
+``jeremy-evert/Farkle_and_Machine_Learning``.
 
-Modules:
-    engine.py      -- dice, scoring, and one turn of Farkle
-    strategies.py  -- human-readable, rule-based strategies (functions)
-    learner.py     -- the transparent "experience table" learner
-    simulate.py    -- run many turns/games and summarize results
-    cli.py         -- runnable command-line entry point for the Week 16 lab
+This package deliberately re-exports the four CS1-facing computational modules
+so existing lesson code and regression tests keep their simple imports:
+
+    from farkle import engine, learner, simulate, strategies
+
+CS1 owns the beginner-friendly CLI, lesson, examples, and interpretation. It no
+longer owns a second copy of the game/learner/simulation implementation.
 """
+
+from farkle_ml import engine, learner, simulate, strategies
+
+__all__ = ["engine", "learner", "simulate", "strategies"]
