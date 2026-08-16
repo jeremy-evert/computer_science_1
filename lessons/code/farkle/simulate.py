@@ -1,12 +1,8 @@
-"""simulate.py -- run many turns and games, and summarize the results.
+"""simulate.py -- run many Farkle games and summarize honest evidence.
 
-Everything here is "evidence generation": play the game a lot of times
-under controlled conditions (a fixed seed, or a range of seeds) and boil
-the results down into numbers a person can reason about -- win rate,
-average score, how often a strategy farkles. No inferential statistics
-required; the point is closer to "did I run enough games that a few
-lucky rolls can't explain the whole difference," which the lesson asks
-students to reason about directly.
+Repeated comparisons deliberately alternate the starting player so the
+reported strategy difference is not silently also a first-move difference.
+Farkle rates are computed per strategy turn, not over both players' turns.
 """
 
 import random
@@ -17,24 +13,25 @@ DEFAULT_MAX_TURNS = 400
 
 
 def play_game(rng, strategy_a, strategy_b, target_score=engine.DEFAULT_TARGET_SCORE,
-              max_turns=DEFAULT_MAX_TURNS):
-    """Play one two-player game to the target score and return a summary.
+              max_turns=DEFAULT_MAX_TURNS, starting_player=0):
+    """Play one two-player game and return a strategy-indexed summary.
 
-    Players alternate turns starting with strategy_a. The first player to
-    reach or pass target_score at the end of their own turn wins
-    immediately -- our variant does not give the trailing player a bonus
-    "final round" the way some house rules do. That is a documented
-    simplification, not an oversight: it keeps a game's winner fully
-    decided by the moment target_score is reached, which is easier for a
-    CS1 student to trace by hand.
+    ``starting_player`` is 0 for strategy A or 1 for strategy B. The first
+    player to reach the target still wins immediately under the documented
+    classroom variant; repeated experiments balance that positional advantage
+    by alternating starters.
     """
+    if starting_player not in (0, 1):
+        raise ValueError("starting_player must be 0 or 1")
+
     scores = [0, 0]
     farkles = [0, 0]
+    turns_by_player = [0, 0]
     turns_played = 0
     strategies = [strategy_a, strategy_b]
 
     while turns_played < max_turns:
-        current_player = turns_played % 2
+        current_player = (starting_player + turns_played) % 2
         opponent_player = 1 - current_player
         points = engine.take_turn(
             rng,
@@ -43,6 +40,7 @@ def play_game(rng, strategy_a, strategy_b, target_score=engine.DEFAULT_TARGET_SC
             target_score=target_score,
             opponent_score=scores[opponent_player],
         )
+        turns_by_player[current_player] += 1
         if points == 0:
             farkles[current_player] += 1
         scores[current_player] += points
@@ -60,40 +58,54 @@ def play_game(rng, strategy_a, strategy_b, target_score=engine.DEFAULT_TARGET_SC
     return {
         "scores": scores,
         "farkles": farkles,
+        "turns_by_player": turns_by_player,
         "turns_played": turns_played,
+        "starting_player": starting_player,
         "winner": winner,
     }
 
 
 def run_many_games(strategy_a, strategy_b, num_games, seed,
                     target_score=engine.DEFAULT_TARGET_SCORE):
-    """Play `num_games` games between two strategies and summarize results.
+    """Play a balanced, reproducible comparison between two strategies.
 
-    Uses one random.Random seeded with `seed`, advanced across every
-    game in sequence -- so the exact same `seed` always reproduces the
-    exact same sequence of games, but the games are not identical to
-    each other (this is deliberate: real evidence needs many different
-    situations, not one situation repeated).
+    One seeded ``random.Random`` advances across every game. Starting player
+    alternates A, B, A, B... so an even game count gives exactly equal starts;
+    an odd game count differs by only one start and the starter counts are
+    returned in the receipt.
     """
+    if num_games <= 0:
+        raise ValueError("num_games must be positive")
+
     rng = random.Random(seed)
     wins = [0, 0]
     ties = 0
     total_scores = [0, 0]
     total_farkles = [0, 0]
+    total_player_turns = [0, 0]
+    starter_counts = [0, 0]
     total_turns = 0
 
-    for _ in range(num_games):
-        result = play_game(rng, strategy_a, strategy_b, target_score=target_score)
+    for game_index in range(num_games):
+        starting_player = game_index % 2
+        starter_counts[starting_player] += 1
+        result = play_game(
+            rng,
+            strategy_a,
+            strategy_b,
+            target_score=target_score,
+            starting_player=starting_player,
+        )
         if result["winner"] == 0:
             wins[0] += 1
         elif result["winner"] == 1:
             wins[1] += 1
         else:
             ties += 1
-        total_scores[0] += result["scores"][0]
-        total_scores[1] += result["scores"][1]
-        total_farkles[0] += result["farkles"][0]
-        total_farkles[1] += result["farkles"][1]
+        for player in (0, 1):
+            total_scores[player] += result["scores"][player]
+            total_farkles[player] += result["farkles"][player]
+            total_player_turns[player] += result["turns_by_player"][player]
         total_turns += result["turns_played"]
 
     name_a = getattr(strategy_a, "__name__", "strategy_a")
@@ -104,27 +116,38 @@ def run_many_games(strategy_a, strategy_b, num_games, seed,
         "seed": seed,
         "strategy_a": name_a,
         "strategy_b": name_b,
+        "starts_a": starter_counts[0],
+        "starts_b": starter_counts[1],
+        "turns_a": total_player_turns[0],
+        "turns_b": total_player_turns[1],
         "win_rate_a": wins[0] / num_games,
         "win_rate_b": wins[1] / num_games,
         "tie_rate": ties / num_games,
         "avg_score_a": total_scores[0] / num_games,
         "avg_score_b": total_scores[1] / num_games,
         "avg_turns_per_game": total_turns / num_games,
-        "farkle_rate_a": total_farkles[0] / total_turns if total_turns else 0.0,
-        "farkle_rate_b": total_farkles[1] / total_turns if total_turns else 0.0,
+        "farkle_rate_a": (
+            total_farkles[0] / total_player_turns[0]
+            if total_player_turns[0] else 0.0
+        ),
+        "farkle_rate_b": (
+            total_farkles[1] / total_player_turns[1]
+            if total_player_turns[1] else 0.0
+        ),
     }
 
 
 def format_comparison(summary):
-    """Turn a run_many_games summary dict into a short, readable report."""
+    """Turn a ``run_many_games`` summary into readable evidence."""
     lines = [
-        f"{summary['num_games']} games, seed={summary['seed']}",
+        f"{summary['num_games']} games, seed={summary['seed']} "
+        f"(starts A/B={summary['starts_a']}/{summary['starts_b']})",
         f"  {summary['strategy_a']:<28} win rate {summary['win_rate_a']:.1%}"
         f"   avg score {summary['avg_score_a']:.0f}"
-        f"   farkle rate {summary['farkle_rate_a']:.1%}",
+        f"   farkle/own-turn {summary['farkle_rate_a']:.1%}",
         f"  {summary['strategy_b']:<28} win rate {summary['win_rate_b']:.1%}"
         f"   avg score {summary['avg_score_b']:.0f}"
-        f"   farkle rate {summary['farkle_rate_b']:.1%}",
+        f"   farkle/own-turn {summary['farkle_rate_b']:.1%}",
         f"  ties: {summary['tie_rate']:.1%}"
         f"   avg turns/game: {summary['avg_turns_per_game']:.1f}",
     ]
