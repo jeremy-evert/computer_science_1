@@ -1,5 +1,9 @@
 """cli.py -- the runnable CS1 Week 16 Farkle experiment.
 
+The student-facing command remains ``python3 -m farkle.cli ...`` while the
+computational engine, strategies, learner, and simulation come from the
+provenance-pinned canonical ``farkle_ml`` package.
+
 Strategy arguments accept the named built-ins or a custom positive threshold
 such as ``bank_at_425``. Every command remains seed-driven and reproducible.
 """
@@ -8,7 +12,7 @@ import argparse
 import random
 import sys
 
-from . import engine, learner, simulate, strategies
+from farkle_ml import engine, learner, simulate, strategies
 
 
 def _strategy(name):
