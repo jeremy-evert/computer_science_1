@@ -2,9 +2,28 @@
 
 **Status:** READY
 **Owner:** assigned Golem (Codex), reviewed/accepted by Foreman
-**Worksite:** `jeremy-evert/course_foundry` (cross-repo from `computer_science_1`'s Prompt 103, explicitly authorized by that prompt's "Shared Course Foundry/Harbor repairs are allowed when they are necessary to complete CS1 correctly and are covered by tests")
+**Worksite:** `jeremy-evert/course_foundry`, via an **isolated disposable clone** at
+`/mnt/brandy_nvme/jevert/git/course_foundry.worktrees/103a-production-deploy-tool`
+(cross-repo from `computer_science_1`'s Prompt 103, explicitly authorized by
+that prompt's "Shared Course Foundry/Harbor repairs are allowed when they
+are necessary to complete CS1 correctly and are covered by tests")
 **Worker branch:** `golem/103a-production-deploy-tool`
-**Mode:** Work (mutating, `course_foundry` only), isolated branch, **no live credentials, no network calls of any kind — mock-tested only**
+**Mode:** Work (mutating, isolated clone only), isolated branch, **no live credentials, no network calls of any kind — mock-tested only**
+
+**Critical: do not touch `/mnt/brandy_nvme/jevert/git/course_foundry` (the
+main checkout, without `.worktrees` in its path).** A real, live
+`submission-listener.service` (systemd, 23h+ uptime, polling every 60s) runs
+against that exact directory right now — it has its own uncommitted,
+in-flight state (`submission_listener/config.py`, `runs/submission_listener/
+state.sqlite3*`). This dispatch is pointed at a disposable local clone
+specifically so this unit's `git checkout -b` and file writes never touch
+that live directory. Confirm you are operating inside the `.worktrees/
+103a-production-deploy-tool` path before any write — if `pwd` doesn't show
+that path, stop immediately.
+
+`imprint/imprint/config.py`'s `PRODUCTION_HOST_MARKER` constant is already
+landed (Foreman tiny-work, commit `7745fe1`) — this unit only needs to
+import it, not add it. Do not re-add or edit anything in `imprint`.
 
 ## Why this matters
 
@@ -51,28 +70,14 @@ step, not part of this unit.
 
 ## Task
 
-0. Run `git status --short` in `course_foundry`. Ignore untracked files
-   under wherever `run_codex_leaf.sh`'s own raw receipt lands — anything
-   else modified/untracked means stop and report instead of proceeding.
-   Then run `git checkout -b golem/103a-production-deploy-tool`.
+0. Run `pwd` and confirm it shows the `.worktrees/103a-production-deploy-tool`
+   path, not the bare `course_foundry` path. Then run `git status --short`.
+   Ignore untracked files under wherever `run_codex_leaf.sh`'s own raw
+   receipt lands — anything else modified/untracked means stop and report
+   instead of proceeding. Then run
+   `git checkout -b golem/103a-production-deploy-tool`.
 
-1. In `imprint/imprint/config.py`, add a new constant immediately after
-   `SAVNAC_HOST_MARKER`'s definition, mirroring its exact style:
-
-   ```python
-   # Real production SWOSU Canvas host (`https://swosu.instructure.com`) --
-   # a convenience constant for callers that want to *refuse* a run against
-   # a mismatched CANVAS_API_BASE_URL, never to select or hardcode which
-   # course a given push targets. The actual course_id and base URL are
-   # always supplied by the caller/environment; this is only ever compared
-   # against, never assumed.
-   PRODUCTION_HOST_MARKER = "swosu.instructure.com"
-   ```
-
-   Add `"PRODUCTION_HOST_MARKER"` to the module's `__all__` list, alongside
-   `"SAVNAC_HOST_MARKER"`. Do not otherwise change this file.
-
-2. Create `course_foundry/course_foundry/production_deploy.py`, structured
+1. Create `course_foundry/course_foundry/production_deploy.py`, structured
    as closely as possible to `savnac_deploy.py` (reuse its `SourcePaths`,
    `DeploymentError`, `_build_cs1`, `_git_head` equivalents by importing
    them from `savnac_deploy` rather than duplicating logic, where that's
@@ -101,7 +106,7 @@ step, not part of this unit.
      adding another course here requires that course's own target-lock
      evidence first.
 
-3. Write tests in `course_foundry/tests/test_production_deploy.py`
+2. Write tests in `course_foundry/tests/test_production_deploy.py`
    (mirroring `tests/test_savnac_deploy.py`'s mocking approach — no real
    network calls anywhere in the test suite) covering at minimum:
 
@@ -123,19 +128,25 @@ step, not part of this unit.
 
 ## Authority
 
-- Edit `imprint/imprint/config.py` — only the addition specified in step 1.
 - Create `course_foundry/course_foundry/production_deploy.py`.
 - Create `course_foundry/tests/test_production_deploy.py`.
+- Operate only inside the isolated clone at
+  `course_foundry.worktrees/103a-production-deploy-tool` — never the bare
+  `course_foundry` path.
 
 ## Forbidden
 
-- Any change to `course_foundry/course_foundry/savnac_deploy.py` or its
-  existing guard behavior.
+- Any file or directory outside the isolated clone, especially
+  `/mnt/brandy_nvme/jevert/git/course_foundry` itself (the live-service
+  directory).
+- Any change to `imprint/` (already landed) or to
+  `course_foundry/course_foundry/savnac_deploy.py` or its existing guard
+  behavior.
 - Any real network call, live or mocked-as-live, against any Canvas
   instance, real or Savnac, anywhere in this unit's code or tests.
 - Adding Architecture, DSCT, or CS2 to `PRODUCTION_COURSE_REGISTRY`.
 - Touching `computer_science_1`, `harbor`, or any other repo.
-- `git add -A`/`git add .` — stage only the three files named above.
+- `git add -A`/`git add .` — stage only the two files named above.
 
 ## Validation (acceptance test)
 
@@ -159,9 +170,9 @@ changed, both pytest outputs in full, and branch/commit pushed.
 
 ## Done when
 
-- `imprint/imprint/config.py`, `course_foundry/course_foundry/production_deploy.py`,
-  and `course_foundry/tests/test_production_deploy.py` created/edited exactly
-  as specified;
+- `course_foundry/course_foundry/production_deploy.py` and
+  `course_foundry/tests/test_production_deploy.py` created exactly as
+  specified, inside the isolated clone only;
 - new tests pass, full suite has zero regressions;
 - committed to `golem/103a-production-deploy-tool` and pushed. If `git
   commit` fails with "Author identity unknown" (a known container plumbing
