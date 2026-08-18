@@ -1,23 +1,41 @@
-# Sidecar Prompt 103 - Fully imprint Computer Science I Online into production Canvas
+# Sidecar Prompt 103 - Fully imprint Computer Science I into the shared production Canvas host
 
-**Status:** READY AFTER 102 GREEN  
-**Scope:** One exact Fall 2026 Computer Science I Online production Canvas course  
-**Owner:** Foreman  
-**Mode:** verify target lock -> snapshot -> reconcile -> read back -> repair -> rerun -> report
+**Status:** READY AFTER 102 GREEN + 102A GREEN (AMENDED 2026-08-18)
+**Scope:** One exact Fall 2026 Computer Science I production Canvas course — the shared host, `74029`
+**Owner:** Foreman
+**Mode:** verify target lock -> verify cross-list topology -> snapshot -> reconcile -> read back -> repair -> rerun -> report
+
+## Amendment note (2026-08-18, supersedes the original target)
+
+Prompt 102 locked target identity to course `74033` under a two-separate-
+shells topology. That topology was superseded the same night: Jeremy
+established that CS1 Online (section 1414) and CS1 face-to-face (section
+1415) form **one shared Canvas learning community** — one gradebook, one
+Discussions board, one Zoom LTI context — so students in both sections see
+each other's shared work. Prompt 102A (GREEN, `sidecar/reports/102A_cs1_online_cross_list_into_1415.md`)
+executed the resulting cross-list: section `76388` (1414) is now merged
+into course `74029` (1415's course, previously `COMSC-1033-1415`), which
+is now the single shared host for both sections. Course `74033` is now an
+empty, unenrolled shell — orphaned, not the target, not a fallback.
+
+**Course `74033` is off-limits for this prompt.** Do not read it as a
+migration source, do not write to it, do not treat its earlier partial
+content push as something to copy over. `74029` gets its content the same
+way `74033` almost did: recreated fresh from Git via the same compiler/
+reconcile path. Furnish the classroom; don't renovate the abandoned
+hallway.
 
 ## Mission
 
-Prompt 102 proved the exact production Canvas target and the desired Git-compiled state.
+Now **fully deploy Computer Science I** into the shared host, `74029`.
 
-Now **fully deploy Computer Science I Online** into that exact Fall 2026 shell.
-
-This is not a migration experiment. It is a production reconcile. The desired state comes from Git and the active Course Foundry compiler; Canvas is the deployed representation.
+This is not a migration experiment. It is a production reconcile. The desired state comes from Git and the active Course Foundry compiler; Canvas is the deployed representation. The compiler has no concept of "two sections, one shell" beyond what it already does for any single course id — point it at `74029` and let the ordinary reconcile path run; the shared-classroom effect comes from the cross-list Prompt 102A already did, not from anything special this prompt needs to do differently.
 
 The governing rule is:
 
-> Make the locked course match the intended course, then prove that it matches.
+> Make the locked, now-shared course match the intended course, then prove that it matches.
 
-Do not touch any other Canvas course.
+Do not touch any other Canvas course. **`74033` is explicitly "any other Canvas course" for the purposes of this rule**, despite its history — it is no longer this course's identity.
 
 ---
 
@@ -25,14 +43,18 @@ Do not touch any other Canvas course.
 
 Before any write:
 
-1. Read `sidecar/reports/102_cs1_online_launch_recon_and_target_lock.md`.
-2. Require a GREEN verdict.
-3. Extract the exact locked production Canvas course id from that report.
-4. Re-query that course read-only and verify its identity again immediately before write.
-5. Confirm the current repository/compiler SHAs still match the state Prompt 102 validated, or rerun the relevant dry run/diff if they changed.
-6. Create a pre-write Canvas snapshot/read-back artifact sufficient to reconstruct what existed before this run.
+1. Read `sidecar/reports/102_cs1_online_launch_recon_and_target_lock.md` (target identity/evidence) and `sidecar/reports/102A_cs1_online_cross_list_into_1415.md` (topology change). Require GREEN on both.
+2. The production target for this prompt is **course `74029`**, not `74033`. `74033`'s original 102 target-lock evidence for *section identity* (1414 = online) still stands; only the deployment destination changed.
+3. **Re-verify the two-section topology immediately before any write**, independently, not by trusting 102A's report alone:
+   - `GET /courses/74029/sections` must show exactly two sections: native (1415) and merged `76388` (`nonxlist_course_id: 74033`).
+   - `GET /courses/74029/enrollments?type[]=StudentEnrollment` must show both sections' students present (expect ~41, allowing for real add/drop since 102A).
+   If the topology has changed or reverted, stop before writes and report the discrepancy — do not proceed on stale topology evidence.
+4. Confirm the current repository/compiler SHAs still match the state Prompt 102 validated, or rerun the relevant dry run/diff if they changed.
+5. Create a pre-write Canvas snapshot/read-back artifact of `74029` sufficient to reconstruct what existed before this run. `74029` is not empty going in — it already carries its own native-section content (5 modules/7 pages/13 assignments per 102A's count) - capture that baseline precisely so the reconcile's create/update/skip counts are meaningful.
 
-If the course identity no longer matches the target-lock evidence, stop before writes.
+If the course identity or topology no longer matches the target-lock/cross-list evidence, stop before writes.
+
+**Do not query, read, or write `74033` at any point in this prompt.** Its content is understood to still exist there, unreachable and irrelevant to this reconcile; treating it as a source to inspect or migrate from is explicitly out of scope, per the amendment note above.
 
 ---
 
@@ -217,7 +239,7 @@ If a second run updates the same objects again without a source change, treat th
 
 Do not:
 
-- touch CS1 face-to-face;
+- read, write, or otherwise touch course `74033` — it is orphaned post-cross-list, not a fallback or migration source (see amendment note);
 - touch Computer Architecture;
 - touch Discrete Structures;
 - touch CS2;
@@ -226,7 +248,10 @@ Do not:
 - change grading policy to make deployment easier;
 - delete instructor-created Canvas objects whose ownership is unknown;
 - publish a different course because its name looks similar;
+- alter section/cross-list topology in any way — that is 102A's completed job, not this prompt's;
 - use Savnac course id 1 or Harbor 24298 as the production destination.
+
+(The original "touch CS1 face-to-face" boundary no longer applies as written — `74029` now *is* the shared host for both the online and face-to-face sections by deliberate design; see the amendment note.)
 
 Shared Course Foundry/Harbor repairs are allowed when they are necessary to complete CS1 correctly and are covered by tests.
 
