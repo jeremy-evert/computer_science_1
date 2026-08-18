@@ -7,16 +7,19 @@ Full week.
 **The real technical on-ramp** (moved here 2026-08-12 reconciliation — Week 1
 carries no programming content at all): run/read/change Python, basic
 `print`/`input`, then variables, expressions, and types. See
-`lessons/01-foundations-print-input.md` and
-`lessons/02-variables-expressions-types.md`. This is the first CS1 week
-that isn't universal across all five courses, so it's also where the
-Coding Odyssey itself begins.
+[the Week 2 Monday technical slides]({{link:week02_monday_slides}}) for the
+run/read/change Python, `print`/`input`, variables, expressions, and types
+walkthrough. This is the first CS1 week that isn't universal across all five
+courses, so it's also where the Coding Odyssey itself begins.
 
 ## Monday — Aug 24 — Monday Moments
 Short live walkthrough of running a Python program, `print`, and `input` —
 the "run/read/change Python" on-ramp (C01) that used to sit in Week 1.
 Keep this brief; the real repetition happens through the Odyssey gate below,
 not a separate first-program submission.
+
+For the technical walkthrough and examples, open [the Week 2 Monday
+technical slides]({{link:week02_monday_slides}}) from this module.
 
 **Coding Odyssey genre pick (moved here 2026-07-24 from Week 1 Friday — see
 `planning/coding-odyssey-arc-map.md`).** Before this week's technical work:

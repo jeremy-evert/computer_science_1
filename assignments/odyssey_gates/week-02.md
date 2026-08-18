@@ -2,7 +2,8 @@
 
 **Gate status:** active
 
-**Concept:** variables, expressions, types (`lessons/02-variables-expressions-types.md`).
+**Concept:** this week's technical concept (variables, expressions, and
+types) — see [the Week 2 Monday technical slides]({{link:week02_monday_slides}}).
 **Arc:** 1 — Foundations. **Instrument:** Quick Check (pass/fail) — see
 `docs/curriculum/judgment_toolkit.md` §1. Full map: `planning/coding-odyssey-arc-map.md`.
 
