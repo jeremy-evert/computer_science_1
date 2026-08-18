@@ -9,8 +9,10 @@ carries no programming content at all): run/read/change Python, basic
 `print`/`input`, then variables, expressions, and types. See
 [the Week 2 Monday technical slides]({{link:week02_monday_slides}}) for the
 run/read/change Python, `print`/`input`, variables, expressions, and types
-walkthrough. This is the first CS1 week that isn't universal across all five
-courses, so it's also where the Coding Odyssey itself begins.
+walkthrough (source lesson notes: `lessons/01-foundations-print-input.md`,
+`lessons/02-variables-expressions-types.md`). This is the first CS1 week
+that isn't universal across all five courses, so it's also where the
+Coding Odyssey itself begins.
 
 ## Monday — Aug 24 — Monday Moments
 Short live walkthrough of running a Python program, `print`, and `input` —
