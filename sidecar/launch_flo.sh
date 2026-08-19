@@ -21,12 +21,31 @@ require_repo() {
     || fail "$label has no origin remote: $path"
 }
 
+require_canonical_remote_main() {
+  local path="$1" label="$2" local_sha remote_line remote_sha
+  local_sha="$(git -C "$path" rev-parse HEAD)"
+  remote_line="$(git -C "$path" ls-remote origin refs/heads/main 2>/dev/null)" \
+    || fail "cannot resolve $label origin/main without modifying the checkout; check Git/network access."
+  remote_sha="${remote_line%%$'\t'*}"
+  [[ -n "$remote_sha" ]] \
+    || fail "$label origin does not expose refs/heads/main."
+  [[ "$local_sha" == "$remote_sha" ]] || fail \
+    "$label checkout is not at canonical origin/main (local HEAD: $local_sha; remote main: $remote_sha). Synchronize/reconcile it first. For a normal stale checkout run: git -C \"$path\" pull --ff-only"
+}
+
 command -v git >/dev/null 2>&1 || fail "git is not available on PATH."
 command -v claude >/dev/null 2>&1 || fail "claude is not available on PATH."
 
 require_repo "$CS1_ROOT" "computer_science_1"
 require_repo "$FOREMAN_INTERFACE_DIR" "foreman_interface"
 require_repo "$COURSE_FOUNDRY_DIR" "course_foundry"
+
+# The Foreman contracts are a launch-time safety dependency. Verify the local
+# checkout matches canonical remote main without fetching, pulling, checking
+# out, or otherwise mutating that sibling repository. This turns a stale
+# contract checkout into an actionable stop instead of a misleading
+# "required file missing" failure.
+require_canonical_remote_main "$FOREMAN_INTERFACE_DIR" "foreman_interface"
 
 for required in \
   "$JOB_PROMPT" \
