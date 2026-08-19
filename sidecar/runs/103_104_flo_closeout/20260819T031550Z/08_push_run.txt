@@ -1,0 +1,5 @@
+note: --skip-files active; 32 file object(s) excluded from this reconcile
+Live push plan: course=74029 label='CS1'; 292 objects, 16 modules, 14 grading groups
+Reconcile summary: create=0, update=0, skip=306, delete=0
+Detail: Reconciled CS1: 0 created, 0 updated, 306 unchanged, 0 deleted.
+Assignment-group self-check: 100% across 15 groups (100%).

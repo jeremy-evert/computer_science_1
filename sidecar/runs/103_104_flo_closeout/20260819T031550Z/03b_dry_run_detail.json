@@ -1,0 +1,2843 @@
+{
+  "course_id": 74029,
+  "succeeded": true,
+  "created_count": 0,
+  "updated_count": 32,
+  "skipped_count": 306,
+  "deleted_count": 0,
+  "detail": "Would reconcile CS1: 0 to create, 32 to update, 306 unchanged, 0 to delete.",
+  "log": [
+    {
+      "module_title": "",
+      "object_title": "Semester kickoff week",
+      "kind": "assignment_group",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": ""
+    },
+    {
+      "module_title": "",
+      "object_title": "Monday Moment quiz",
+      "kind": "assignment_group",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": ""
+    },
+    {
+      "module_title": "",
+      "object_title": "Wacky Wednesday reflection",
+      "kind": "assignment_group",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": ""
+    },
+    {
+      "module_title": "",
+      "object_title": "Fun Friday reflection",
+      "kind": "assignment_group",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": ""
+    },
+    {
+      "module_title": "",
+      "object_title": "Paired-programming report",
+      "kind": "assignment_group",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": ""
+    },
+    {
+      "module_title": "",
+      "object_title": "Friday feedback report",
+      "kind": "assignment_group",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": ""
+    },
+    {
+      "module_title": "",
+      "object_title": "Show-and-Tell reflection",
+      "kind": "assignment_group",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": ""
+    },
+    {
+      "module_title": "",
+      "object_title": "Weekly reinforcement assignment",
+      "kind": "assignment_group",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": ""
+    },
+    {
+      "module_title": "",
+      "object_title": "Coding Odyssey checkpoints",
+      "kind": "assignment_group",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": ""
+    },
+    {
+      "module_title": "",
+      "object_title": "Final reflection paper",
+      "kind": "assignment_group",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": ""
+    },
+    {
+      "module_title": "",
+      "object_title": "Professional pathway \u2014 Week 14 update",
+      "kind": "assignment_group",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": ""
+    },
+    {
+      "module_title": "",
+      "object_title": "Professional pathway \u2014 Week 15 submission",
+      "kind": "assignment_group",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": ""
+    },
+    {
+      "module_title": "",
+      "object_title": "Attendance & participation",
+      "kind": "assignment_group",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": ""
+    },
+    {
+      "module_title": "",
+      "object_title": "Course evaluation",
+      "kind": "assignment_group",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": ""
+    },
+    {
+      "module_title": "Week 2: Learning Science",
+      "object_title": "",
+      "kind": "module",
+      "action": "update",
+      "reason": "metadata refreshed unconditionally, not counted in the summary tally",
+      "source_ref": ""
+    },
+    {
+      "module_title": "Week 2: Learning Science",
+      "object_title": "01-foundations-print-input",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/lessons/01-foundations-print-input.md"
+    },
+    {
+      "module_title": "Week 2: Learning Science",
+      "object_title": "02-variables-expressions-types",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/lessons/02-variables-expressions-types.md"
+    },
+    {
+      "module_title": "Week 2: Learning Science",
+      "object_title": "Monday Moment \u2014 week_02_gather_context",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_02_gather_context/monday_moment.md"
+    },
+    {
+      "module_title": "Week 2: Learning Science",
+      "object_title": "Monday Moment Activity \u2014 week_02_gather_context",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_02_gather_context/student_activity.md"
+    },
+    {
+      "module_title": "Week 2: Learning Science",
+      "object_title": "Monday Moment Rubric \u2014 week_02_gather_context",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_02_gather_context/assessment_rubric.md"
+    },
+    {
+      "module_title": "Week 2: Learning Science",
+      "object_title": "week 02 wed retrieval practice",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/readings/week_02_wed_retrieval_practice.md"
+    },
+    {
+      "module_title": "Week 2: Learning Science",
+      "object_title": "Slides \u2014 Week 02 Wednesday (PDF)",
+      "kind": "file",
+      "action": "update",
+      "reason": "content changed",
+      "source_ref": "professional_minds/presentations/beamer/week_02_wed/week02_wed.pdf"
+    },
+    {
+      "module_title": "Week 2: Learning Science",
+      "object_title": "week 02 wed reading assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_02_wed_reading_assignment.md"
+    },
+    {
+      "module_title": "Week 2: Learning Science",
+      "object_title": "week 02 wed reading rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_02_wed_reading_rubric.md"
+    },
+    {
+      "module_title": "Week 2: Learning Science",
+      "object_title": "week 02 wed slides assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_02_wed_slides_assignment.md"
+    },
+    {
+      "module_title": "Week 2: Learning Science",
+      "object_title": "week 02 wed slides rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_02_wed_slides_rubric.md"
+    },
+    {
+      "module_title": "Week 2: Learning Science",
+      "object_title": "week 02 fri mindset at work",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/readings/week_02_fri_mindset_at_work.md"
+    },
+    {
+      "module_title": "Week 2: Learning Science",
+      "object_title": "Slides \u2014 Week 02 Friday (PDF)",
+      "kind": "file",
+      "action": "update",
+      "reason": "content changed",
+      "source_ref": "professional_minds/presentations/beamer/week_02_fri/week02_fri.pdf"
+    },
+    {
+      "module_title": "Week 2: Learning Science",
+      "object_title": "week 02 fri reading assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_02_fri_reading_assignment.md"
+    },
+    {
+      "module_title": "Week 2: Learning Science",
+      "object_title": "week 02 fri reading rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_02_fri_reading_rubric.md"
+    },
+    {
+      "module_title": "Week 2: Learning Science",
+      "object_title": "week 02 fri slides assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_02_fri_slides_assignment.md"
+    },
+    {
+      "module_title": "Week 2: Learning Science",
+      "object_title": "week 02 fri slides rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_02_fri_slides_rubric.md"
+    },
+    {
+      "module_title": "Week 2: Learning Science",
+      "object_title": "A3 \u2014 Paired Programming Report (Week 02)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A3-pair-programming.md (week 02)"
+    },
+    {
+      "module_title": "Week 2: Learning Science",
+      "object_title": "A7 \u2014 Friday Feedback Report (Week 02)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A7-friday-feedback-report.md (week 02)"
+    },
+    {
+      "module_title": "Week 2: Learning Science",
+      "object_title": "A4 \u2014 Show and Tell Reflection (Week 02)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A4-show-and-tell-reflection.md (week 02)"
+    },
+    {
+      "module_title": "Week 2: Learning Science",
+      "object_title": "Bonus Practice (Week 02)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A1-weekly-coding-practice.md (bonus, week 02)"
+    },
+    {
+      "module_title": "Week 2: Learning Science",
+      "object_title": "Slides \u2014 Week 02 Monday (PDF)",
+      "kind": "file",
+      "action": "update",
+      "reason": "content changed",
+      "source_ref": "computer_science_1/presentations/beamer/week_02_mon/week02_mon.pdf"
+    },
+    {
+      "module_title": "Week 2: Learning Science",
+      "object_title": "Slides \u2014 Week 02 Monday PM (PDF)",
+      "kind": "file",
+      "action": "update",
+      "reason": "content changed",
+      "source_ref": "professional_minds/presentations/beamer/week_02_mon_pm/week02_mon_pm.pdf"
+    },
+    {
+      "module_title": "Week 2: Learning Science",
+      "object_title": "week-02",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/odyssey_gates/week-02.md"
+    },
+    {
+      "module_title": "Week 2: Learning Science",
+      "object_title": "week-02_rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/rubrics/odyssey_gates/week-02_rubric.md"
+    },
+    {
+      "module_title": "Week 2: Learning Science",
+      "object_title": "Attendance & Participation",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/docs/attendance.md"
+    },
+    {
+      "module_title": "Week 2: Learning Science",
+      "object_title": "Course Evaluation",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/docs/course-evaluation.md"
+    },
+    {
+      "module_title": "Week 2: Learning Science",
+      "object_title": "The Judgment-Building Toolkit",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/docs/curriculum/judgment_toolkit.md"
+    },
+    {
+      "module_title": "Week 3: Growth",
+      "object_title": "",
+      "kind": "module",
+      "action": "update",
+      "reason": "metadata refreshed unconditionally, not counted in the summary tally",
+      "source_ref": ""
+    },
+    {
+      "module_title": "Week 3: Growth",
+      "object_title": "03-branching",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/lessons/03-branching.md"
+    },
+    {
+      "module_title": "Week 3: Growth",
+      "object_title": "Monday Moment \u2014 week_03_plan_the_work",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_03_plan_the_work/monday_moment.md"
+    },
+    {
+      "module_title": "Week 3: Growth",
+      "object_title": "Monday Moment Activity \u2014 week_03_plan_the_work",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_03_plan_the_work/student_activity.md"
+    },
+    {
+      "module_title": "Week 3: Growth",
+      "object_title": "Monday Moment Rubric \u2014 week_03_plan_the_work",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_03_plan_the_work/assessment_rubric.md"
+    },
+    {
+      "module_title": "Week 3: Growth",
+      "object_title": "week 03 wed growing through mistakes",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/readings/week_03_wed_growing_through_mistakes.md"
+    },
+    {
+      "module_title": "Week 3: Growth",
+      "object_title": "Slides \u2014 Week 03 Wednesday (PDF)",
+      "kind": "file",
+      "action": "update",
+      "reason": "content changed",
+      "source_ref": "professional_minds/presentations/beamer/week_03_wed/week03_wed.pdf"
+    },
+    {
+      "module_title": "Week 3: Growth",
+      "object_title": "week 03 wed reading assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_03_wed_reading_assignment.md"
+    },
+    {
+      "module_title": "Week 3: Growth",
+      "object_title": "week 03 wed reading rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_03_wed_reading_rubric.md"
+    },
+    {
+      "module_title": "Week 3: Growth",
+      "object_title": "week 03 wed slides assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_03_wed_slides_assignment.md"
+    },
+    {
+      "module_title": "Week 3: Growth",
+      "object_title": "week 03 wed slides rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_03_wed_slides_rubric.md"
+    },
+    {
+      "module_title": "Week 3: Growth",
+      "object_title": "week 03 fri resilience and risk competence",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/readings/week_03_fri_resilience_and_risk_competence.md"
+    },
+    {
+      "module_title": "Week 3: Growth",
+      "object_title": "Slides \u2014 Week 03 Friday (PDF)",
+      "kind": "file",
+      "action": "update",
+      "reason": "content changed",
+      "source_ref": "professional_minds/presentations/beamer/week_03_fri/week03_fri.pdf"
+    },
+    {
+      "module_title": "Week 3: Growth",
+      "object_title": "week 03 fri reading assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_03_fri_reading_assignment.md"
+    },
+    {
+      "module_title": "Week 3: Growth",
+      "object_title": "week 03 fri reading rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_03_fri_reading_rubric.md"
+    },
+    {
+      "module_title": "Week 3: Growth",
+      "object_title": "week 03 fri slides assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_03_fri_slides_assignment.md"
+    },
+    {
+      "module_title": "Week 3: Growth",
+      "object_title": "week 03 fri slides rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_03_fri_slides_rubric.md"
+    },
+    {
+      "module_title": "Week 3: Growth",
+      "object_title": "A3 \u2014 Paired Programming Report (Week 03)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A3-pair-programming.md (week 03)"
+    },
+    {
+      "module_title": "Week 3: Growth",
+      "object_title": "A7 \u2014 Friday Feedback Report (Week 03)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A7-friday-feedback-report.md (week 03)"
+    },
+    {
+      "module_title": "Week 3: Growth",
+      "object_title": "A4 \u2014 Show and Tell Reflection (Week 03)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A4-show-and-tell-reflection.md (week 03)"
+    },
+    {
+      "module_title": "Week 3: Growth",
+      "object_title": "Bonus Practice (Week 03)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A1-weekly-coding-practice.md (bonus, week 03)"
+    },
+    {
+      "module_title": "Week 3: Growth",
+      "object_title": "week-03",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/odyssey_gates/week-03.md"
+    },
+    {
+      "module_title": "Week 3: Growth",
+      "object_title": "week-03_rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/rubrics/odyssey_gates/week-03_rubric.md"
+    },
+    {
+      "module_title": "Week 4: Thinking",
+      "object_title": "",
+      "kind": "module",
+      "action": "update",
+      "reason": "metadata refreshed unconditionally, not counted in the summary tally",
+      "source_ref": ""
+    },
+    {
+      "module_title": "Week 4: Thinking",
+      "object_title": "Monday Moment \u2014 week_04_decompose_the_task",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_04_decompose_the_task/monday_moment.md"
+    },
+    {
+      "module_title": "Week 4: Thinking",
+      "object_title": "Monday Moment Activity \u2014 week_04_decompose_the_task",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_04_decompose_the_task/student_activity.md"
+    },
+    {
+      "module_title": "Week 4: Thinking",
+      "object_title": "Monday Moment Rubric \u2014 week_04_decompose_the_task",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_04_decompose_the_task/assessment_rubric.md"
+    },
+    {
+      "module_title": "Week 4: Thinking",
+      "object_title": "week 04 wed spelling out arguments",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/readings/week_04_wed_spelling_out_arguments.md"
+    },
+    {
+      "module_title": "Week 4: Thinking",
+      "object_title": "Slides \u2014 Week 04 Wednesday (PDF)",
+      "kind": "file",
+      "action": "update",
+      "reason": "content changed",
+      "source_ref": "professional_minds/presentations/beamer/week_04_wed/week04_wed.pdf"
+    },
+    {
+      "module_title": "Week 4: Thinking",
+      "object_title": "week 04 wed reading assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_04_wed_reading_assignment.md"
+    },
+    {
+      "module_title": "Week 4: Thinking",
+      "object_title": "week 04 wed reading rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_04_wed_reading_rubric.md"
+    },
+    {
+      "module_title": "Week 4: Thinking",
+      "object_title": "week 04 wed slides assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_04_wed_slides_assignment.md"
+    },
+    {
+      "module_title": "Week 4: Thinking",
+      "object_title": "week 04 wed slides rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_04_wed_slides_rubric.md"
+    },
+    {
+      "module_title": "Week 4: Thinking",
+      "object_title": "week 04 fri the outside view",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/readings/week_04_fri_the_outside_view.md"
+    },
+    {
+      "module_title": "Week 4: Thinking",
+      "object_title": "Slides \u2014 Week 04 Friday (PDF)",
+      "kind": "file",
+      "action": "update",
+      "reason": "content changed",
+      "source_ref": "professional_minds/presentations/beamer/week_04_fri/week04_fri.pdf"
+    },
+    {
+      "module_title": "Week 4: Thinking",
+      "object_title": "week 04 fri reading assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_04_fri_reading_assignment.md"
+    },
+    {
+      "module_title": "Week 4: Thinking",
+      "object_title": "week 04 fri reading rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_04_fri_reading_rubric.md"
+    },
+    {
+      "module_title": "Week 4: Thinking",
+      "object_title": "week 04 fri slides assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_04_fri_slides_assignment.md"
+    },
+    {
+      "module_title": "Week 4: Thinking",
+      "object_title": "week 04 fri slides rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_04_fri_slides_rubric.md"
+    },
+    {
+      "module_title": "Week 4: Thinking",
+      "object_title": "A3 \u2014 Paired Programming Report (Week 04)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A3-pair-programming.md (week 04)"
+    },
+    {
+      "module_title": "Week 4: Thinking",
+      "object_title": "A7 \u2014 Friday Feedback Report (Week 04)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A7-friday-feedback-report.md (week 04)"
+    },
+    {
+      "module_title": "Week 4: Thinking",
+      "object_title": "A4 \u2014 Show and Tell Reflection (Week 04)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A4-show-and-tell-reflection.md (week 04)"
+    },
+    {
+      "module_title": "Week 4: Thinking",
+      "object_title": "Bonus Practice (Week 04)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A1-weekly-coding-practice.md (bonus, week 04)"
+    },
+    {
+      "module_title": "Week 4: Thinking",
+      "object_title": "week-04",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/odyssey_gates/week-04.md"
+    },
+    {
+      "module_title": "Week 4: Thinking",
+      "object_title": "week-04_rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/rubrics/odyssey_gates/week-04_rubric.md"
+    },
+    {
+      "module_title": "Week 5: Reasoning",
+      "object_title": "",
+      "kind": "module",
+      "action": "update",
+      "reason": "metadata refreshed unconditionally, not counted in the summary tally",
+      "source_ref": ""
+    },
+    {
+      "module_title": "Week 5: Reasoning",
+      "object_title": "04-loops",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/lessons/04-loops.md"
+    },
+    {
+      "module_title": "Week 5: Reasoning",
+      "object_title": "Monday Moment \u2014 week_05_select_the_right_model",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_05_select_the_right_model/monday_moment.md"
+    },
+    {
+      "module_title": "Week 5: Reasoning",
+      "object_title": "Monday Moment Activity \u2014 week_05_select_the_right_model",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_05_select_the_right_model/student_activity.md"
+    },
+    {
+      "module_title": "Week 5: Reasoning",
+      "object_title": "Monday Moment Rubric \u2014 week_05_select_the_right_model",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_05_select_the_right_model/assessment_rubric.md"
+    },
+    {
+      "module_title": "Week 5: Reasoning",
+      "object_title": "week 05 wed never judge a decision by its outcome",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/readings/week_05_wed_never_judge_a_decision_by_its_outcome.md"
+    },
+    {
+      "module_title": "Week 5: Reasoning",
+      "object_title": "Slides \u2014 Week 05 Wednesday (PDF)",
+      "kind": "file",
+      "action": "update",
+      "reason": "content changed",
+      "source_ref": "professional_minds/presentations/beamer/week_05_wed/week05_wed.pdf"
+    },
+    {
+      "module_title": "Week 5: Reasoning",
+      "object_title": "week 05 wed reading assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_05_wed_reading_assignment.md"
+    },
+    {
+      "module_title": "Week 5: Reasoning",
+      "object_title": "week 05 wed reading rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_05_wed_reading_rubric.md"
+    },
+    {
+      "module_title": "Week 5: Reasoning",
+      "object_title": "week 05 wed slides assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_05_wed_slides_assignment.md"
+    },
+    {
+      "module_title": "Week 5: Reasoning",
+      "object_title": "week 05 wed slides rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_05_wed_slides_rubric.md"
+    },
+    {
+      "module_title": "Week 5: Reasoning",
+      "object_title": "week 05 fri regression to the mean",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/readings/week_05_fri_regression_to_the_mean.md"
+    },
+    {
+      "module_title": "Week 5: Reasoning",
+      "object_title": "Slides \u2014 Week 05 Friday (PDF)",
+      "kind": "file",
+      "action": "update",
+      "reason": "content changed",
+      "source_ref": "professional_minds/presentations/beamer/week_05_fri/week05_fri.pdf"
+    },
+    {
+      "module_title": "Week 5: Reasoning",
+      "object_title": "week 05 fri reading assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_05_fri_reading_assignment.md"
+    },
+    {
+      "module_title": "Week 5: Reasoning",
+      "object_title": "week 05 fri reading rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_05_fri_reading_rubric.md"
+    },
+    {
+      "module_title": "Week 5: Reasoning",
+      "object_title": "week 05 fri slides assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_05_fri_slides_assignment.md"
+    },
+    {
+      "module_title": "Week 5: Reasoning",
+      "object_title": "week 05 fri slides rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_05_fri_slides_rubric.md"
+    },
+    {
+      "module_title": "Week 5: Reasoning",
+      "object_title": "A3 \u2014 Paired Programming Report (Week 05)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A3-pair-programming.md (week 05)"
+    },
+    {
+      "module_title": "Week 5: Reasoning",
+      "object_title": "A7 \u2014 Friday Feedback Report (Week 05)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A7-friday-feedback-report.md (week 05)"
+    },
+    {
+      "module_title": "Week 5: Reasoning",
+      "object_title": "A4 \u2014 Show and Tell Reflection (Week 05)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A4-show-and-tell-reflection.md (week 05)"
+    },
+    {
+      "module_title": "Week 5: Reasoning",
+      "object_title": "Bonus Practice (Week 05)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A1-weekly-coding-practice.md (bonus, week 05)"
+    },
+    {
+      "module_title": "Week 5: Reasoning",
+      "object_title": "week-05",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/odyssey_gates/week-05.md"
+    },
+    {
+      "module_title": "Week 5: Reasoning",
+      "object_title": "week-05_rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/rubrics/odyssey_gates/week-05_rubric.md"
+    },
+    {
+      "module_title": "Week 6: Evidence",
+      "object_title": "",
+      "kind": "module",
+      "action": "update",
+      "reason": "metadata refreshed unconditionally, not counted in the summary tally",
+      "source_ref": ""
+    },
+    {
+      "module_title": "Week 6: Evidence",
+      "object_title": "05-functions",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/lessons/05-functions.md"
+    },
+    {
+      "module_title": "Week 6: Evidence",
+      "object_title": "Monday Moment \u2014 week_06_engineer_the_prompt",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_06_engineer_the_prompt/monday_moment.md"
+    },
+    {
+      "module_title": "Week 6: Evidence",
+      "object_title": "Monday Moment Activity \u2014 week_06_engineer_the_prompt",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_06_engineer_the_prompt/student_activity.md"
+    },
+    {
+      "module_title": "Week 6: Evidence",
+      "object_title": "Monday Moment Rubric \u2014 week_06_engineer_the_prompt",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_06_engineer_the_prompt/assessment_rubric.md"
+    },
+    {
+      "module_title": "Week 6: Evidence",
+      "object_title": "week 06 wed the base rate fallacy",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/readings/week_06_wed_the_base_rate_fallacy.md"
+    },
+    {
+      "module_title": "Week 6: Evidence",
+      "object_title": "Slides \u2014 Week 06 Wednesday (PDF)",
+      "kind": "file",
+      "action": "update",
+      "reason": "content changed",
+      "source_ref": "professional_minds/presentations/beamer/week_06_wed/week06_wed.pdf"
+    },
+    {
+      "module_title": "Week 6: Evidence",
+      "object_title": "week 06 wed reading assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_06_wed_reading_assignment.md"
+    },
+    {
+      "module_title": "Week 6: Evidence",
+      "object_title": "week 06 wed reading rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_06_wed_reading_rubric.md"
+    },
+    {
+      "module_title": "Week 6: Evidence",
+      "object_title": "week 06 wed slides assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_06_wed_slides_assignment.md"
+    },
+    {
+      "module_title": "Week 6: Evidence",
+      "object_title": "week 06 wed slides rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_06_wed_slides_rubric.md"
+    },
+    {
+      "module_title": "Week 6: Evidence",
+      "object_title": "week 06 fri understanding replication",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/readings/week_06_fri_understanding_replication.md"
+    },
+    {
+      "module_title": "Week 6: Evidence",
+      "object_title": "Slides \u2014 Week 06 Friday (PDF)",
+      "kind": "file",
+      "action": "update",
+      "reason": "content changed",
+      "source_ref": "professional_minds/presentations/beamer/week_06_fri/week06_fri.pdf"
+    },
+    {
+      "module_title": "Week 6: Evidence",
+      "object_title": "week 06 fri reading assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_06_fri_reading_assignment.md"
+    },
+    {
+      "module_title": "Week 6: Evidence",
+      "object_title": "week 06 fri reading rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_06_fri_reading_rubric.md"
+    },
+    {
+      "module_title": "Week 6: Evidence",
+      "object_title": "week 06 fri slides assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_06_fri_slides_assignment.md"
+    },
+    {
+      "module_title": "Week 6: Evidence",
+      "object_title": "week 06 fri slides rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_06_fri_slides_rubric.md"
+    },
+    {
+      "module_title": "Week 6: Evidence",
+      "object_title": "A3 \u2014 Paired Programming Report (Week 06)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A3-pair-programming.md (week 06)"
+    },
+    {
+      "module_title": "Week 6: Evidence",
+      "object_title": "A7 \u2014 Friday Feedback Report (Week 06)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A7-friday-feedback-report.md (week 06)"
+    },
+    {
+      "module_title": "Week 6: Evidence",
+      "object_title": "A4 \u2014 Show and Tell Reflection (Week 06)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A4-show-and-tell-reflection.md (week 06)"
+    },
+    {
+      "module_title": "Week 6: Evidence",
+      "object_title": "week-06",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/odyssey_gates/week-06.md"
+    },
+    {
+      "module_title": "Week 6: Evidence",
+      "object_title": "week-06_rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/rubrics/odyssey_gates/week-06_rubric.md"
+    },
+    {
+      "module_title": "Week 7: Design",
+      "object_title": "",
+      "kind": "module",
+      "action": "update",
+      "reason": "metadata refreshed unconditionally, not counted in the summary tally",
+      "source_ref": ""
+    },
+    {
+      "module_title": "Week 7: Design",
+      "object_title": "Monday Moment \u2014 week_07_research_and_retrieve",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_07_research_and_retrieve/monday_moment.md"
+    },
+    {
+      "module_title": "Week 7: Design",
+      "object_title": "Monday Moment Activity \u2014 week_07_research_and_retrieve",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_07_research_and_retrieve/student_activity.md"
+    },
+    {
+      "module_title": "Week 7: Design",
+      "object_title": "Monday Moment Rubric \u2014 week_07_research_and_retrieve",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_07_research_and_retrieve/assessment_rubric.md"
+    },
+    {
+      "module_title": "Week 7: Design",
+      "object_title": "week 07 wed backward design",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/readings/week_07_wed_backward_design.md"
+    },
+    {
+      "module_title": "Week 7: Design",
+      "object_title": "Slides \u2014 Week 07 Wednesday (PDF)",
+      "kind": "file",
+      "action": "update",
+      "reason": "content changed",
+      "source_ref": "professional_minds/presentations/beamer/week_07_wed/week07_wed.pdf"
+    },
+    {
+      "module_title": "Week 7: Design",
+      "object_title": "week 07 wed reading assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_07_wed_reading_assignment.md"
+    },
+    {
+      "module_title": "Week 7: Design",
+      "object_title": "week 07 wed reading rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_07_wed_reading_rubric.md"
+    },
+    {
+      "module_title": "Week 7: Design",
+      "object_title": "week 07 wed slides assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_07_wed_slides_assignment.md"
+    },
+    {
+      "module_title": "Week 7: Design",
+      "object_title": "week 07 wed slides rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_07_wed_slides_rubric.md"
+    },
+    {
+      "module_title": "Week 7: Design",
+      "object_title": "week 07 fri grading for mastery",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/readings/week_07_fri_grading_for_mastery.md"
+    },
+    {
+      "module_title": "Week 7: Design",
+      "object_title": "Slides \u2014 Week 07 Friday (PDF)",
+      "kind": "file",
+      "action": "update",
+      "reason": "content changed",
+      "source_ref": "professional_minds/presentations/beamer/week_07_fri/week07_fri.pdf"
+    },
+    {
+      "module_title": "Week 7: Design",
+      "object_title": "week 07 fri reading assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_07_fri_reading_assignment.md"
+    },
+    {
+      "module_title": "Week 7: Design",
+      "object_title": "week 07 fri reading rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_07_fri_reading_rubric.md"
+    },
+    {
+      "module_title": "Week 7: Design",
+      "object_title": "week 07 fri slides assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_07_fri_slides_assignment.md"
+    },
+    {
+      "module_title": "Week 7: Design",
+      "object_title": "week 07 fri slides rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_07_fri_slides_rubric.md"
+    },
+    {
+      "module_title": "Week 7: Design",
+      "object_title": "A3 \u2014 Paired Programming Report (Week 07)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A3-pair-programming.md (week 07)"
+    },
+    {
+      "module_title": "Week 7: Design",
+      "object_title": "A7 \u2014 Friday Feedback Report (Week 07)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A7-friday-feedback-report.md (week 07)"
+    },
+    {
+      "module_title": "Week 7: Design",
+      "object_title": "A4 \u2014 Show and Tell Reflection (Week 07)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A4-show-and-tell-reflection.md (week 07)"
+    },
+    {
+      "module_title": "Week 7: Design",
+      "object_title": "Bonus Practice (Week 07)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A1-weekly-coding-practice.md (bonus, week 07)"
+    },
+    {
+      "module_title": "Week 7: Design",
+      "object_title": "week-07",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/odyssey_gates/week-07.md"
+    },
+    {
+      "module_title": "Week 7: Design",
+      "object_title": "week-07_rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/rubrics/odyssey_gates/week-07_rubric.md"
+    },
+    {
+      "module_title": "Week 8: Craftsmanship",
+      "object_title": "",
+      "kind": "module",
+      "action": "update",
+      "reason": "metadata refreshed unconditionally, not counted in the summary tally",
+      "source_ref": ""
+    },
+    {
+      "module_title": "Week 8: Craftsmanship",
+      "object_title": "06-strings",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/lessons/06-strings.md"
+    },
+    {
+      "module_title": "Week 8: Craftsmanship",
+      "object_title": "Monday Moment \u2014 week_08_reason",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_08_reason/monday_moment.md"
+    },
+    {
+      "module_title": "Week 8: Craftsmanship",
+      "object_title": "Monday Moment Activity \u2014 week_08_reason",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_08_reason/student_activity.md"
+    },
+    {
+      "module_title": "Week 8: Craftsmanship",
+      "object_title": "Monday Moment Rubric \u2014 week_08_reason",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_08_reason/assessment_rubric.md"
+    },
+    {
+      "module_title": "Week 8: Craftsmanship",
+      "object_title": "week 08 wed pragmatic philosophy",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/readings/week_08_wed_pragmatic_philosophy.md"
+    },
+    {
+      "module_title": "Week 8: Craftsmanship",
+      "object_title": "Slides \u2014 Week 08 Wednesday (PDF)",
+      "kind": "file",
+      "action": "update",
+      "reason": "content changed",
+      "source_ref": "professional_minds/presentations/beamer/week_08_wed/week08_wed.pdf"
+    },
+    {
+      "module_title": "Week 8: Craftsmanship",
+      "object_title": "week 08 wed reading assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_08_wed_reading_assignment.md"
+    },
+    {
+      "module_title": "Week 8: Craftsmanship",
+      "object_title": "week 08 wed reading rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_08_wed_reading_rubric.md"
+    },
+    {
+      "module_title": "Week 8: Craftsmanship",
+      "object_title": "week 08 wed slides assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_08_wed_slides_assignment.md"
+    },
+    {
+      "module_title": "Week 8: Craftsmanship",
+      "object_title": "week 08 wed slides rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_08_wed_slides_rubric.md"
+    },
+    {
+      "module_title": "Week 8: Craftsmanship",
+      "object_title": "week 08 fri meaningful names",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/readings/week_08_fri_meaningful_names.md"
+    },
+    {
+      "module_title": "Week 8: Craftsmanship",
+      "object_title": "Slides \u2014 Week 08 Friday (PDF)",
+      "kind": "file",
+      "action": "update",
+      "reason": "content changed",
+      "source_ref": "professional_minds/presentations/beamer/week_08_fri/week08_fri.pdf"
+    },
+    {
+      "module_title": "Week 8: Craftsmanship",
+      "object_title": "week 08 fri reading assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_08_fri_reading_assignment.md"
+    },
+    {
+      "module_title": "Week 8: Craftsmanship",
+      "object_title": "week 08 fri reading rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_08_fri_reading_rubric.md"
+    },
+    {
+      "module_title": "Week 8: Craftsmanship",
+      "object_title": "week 08 fri slides assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_08_fri_slides_assignment.md"
+    },
+    {
+      "module_title": "Week 8: Craftsmanship",
+      "object_title": "week 08 fri slides rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_08_fri_slides_rubric.md"
+    },
+    {
+      "module_title": "Week 8: Craftsmanship",
+      "object_title": "A3 \u2014 Paired Programming Report (Week 08)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A3-pair-programming.md (week 08)"
+    },
+    {
+      "module_title": "Week 8: Craftsmanship",
+      "object_title": "A7 \u2014 Friday Feedback Report (Week 08)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A7-friday-feedback-report.md (week 08)"
+    },
+    {
+      "module_title": "Week 8: Craftsmanship",
+      "object_title": "A4 \u2014 Show and Tell Reflection (Week 08)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A4-show-and-tell-reflection.md (week 08)"
+    },
+    {
+      "module_title": "Week 8: Craftsmanship",
+      "object_title": "Bonus Practice (Week 08)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A1-weekly-coding-practice.md (bonus, week 08)"
+    },
+    {
+      "module_title": "Week 8: Craftsmanship",
+      "object_title": "week-08",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/odyssey_gates/week-08.md"
+    },
+    {
+      "module_title": "Week 8: Craftsmanship",
+      "object_title": "week-08_rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/rubrics/odyssey_gates/week-08_rubric.md"
+    },
+    {
+      "module_title": "Week 9: Evolution",
+      "object_title": "",
+      "kind": "module",
+      "action": "update",
+      "reason": "metadata refreshed unconditionally, not counted in the summary tally",
+      "source_ref": ""
+    },
+    {
+      "module_title": "Week 9: Evolution",
+      "object_title": "Monday Moment \u2014 week_09_generate",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_09_generate/monday_moment.md"
+    },
+    {
+      "module_title": "Week 9: Evolution",
+      "object_title": "Monday Moment Activity \u2014 week_09_generate",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_09_generate/student_activity.md"
+    },
+    {
+      "module_title": "Week 9: Evolution",
+      "object_title": "Monday Moment Rubric \u2014 week_09_generate",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_09_generate/assessment_rubric.md"
+    },
+    {
+      "module_title": "Week 9: Evolution",
+      "object_title": "week 09 wed principles in refactoring",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/readings/week_09_wed_principles_in_refactoring.md"
+    },
+    {
+      "module_title": "Week 9: Evolution",
+      "object_title": "Slides \u2014 Week 09 Wednesday (PDF)",
+      "kind": "file",
+      "action": "update",
+      "reason": "content changed",
+      "source_ref": "professional_minds/presentations/beamer/week_09_wed/week09_wed.pdf"
+    },
+    {
+      "module_title": "Week 9: Evolution",
+      "object_title": "week 09 wed reading assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_09_wed_reading_assignment.md"
+    },
+    {
+      "module_title": "Week 9: Evolution",
+      "object_title": "week 09 wed reading rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_09_wed_reading_rubric.md"
+    },
+    {
+      "module_title": "Week 9: Evolution",
+      "object_title": "week 09 wed slides assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_09_wed_slides_assignment.md"
+    },
+    {
+      "module_title": "Week 9: Evolution",
+      "object_title": "week 09 wed slides rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_09_wed_slides_rubric.md"
+    },
+    {
+      "module_title": "Week 9: Evolution",
+      "object_title": "week 09 fri component coupling",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/readings/week_09_fri_component_coupling.md"
+    },
+    {
+      "module_title": "Week 9: Evolution",
+      "object_title": "Slides \u2014 Week 09 Friday (PDF)",
+      "kind": "file",
+      "action": "update",
+      "reason": "content changed",
+      "source_ref": "professional_minds/presentations/beamer/week_09_fri/week09_fri.pdf"
+    },
+    {
+      "module_title": "Week 9: Evolution",
+      "object_title": "week 09 fri reading assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_09_fri_reading_assignment.md"
+    },
+    {
+      "module_title": "Week 9: Evolution",
+      "object_title": "week 09 fri reading rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_09_fri_reading_rubric.md"
+    },
+    {
+      "module_title": "Week 9: Evolution",
+      "object_title": "week 09 fri slides assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_09_fri_slides_assignment.md"
+    },
+    {
+      "module_title": "Week 9: Evolution",
+      "object_title": "week 09 fri slides rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_09_fri_slides_rubric.md"
+    },
+    {
+      "module_title": "Week 9: Evolution",
+      "object_title": "A3 \u2014 Paired Programming Report (Week 09)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A3-pair-programming.md (week 09)"
+    },
+    {
+      "module_title": "Week 9: Evolution",
+      "object_title": "A7 \u2014 Friday Feedback Report (Week 09)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A7-friday-feedback-report.md (week 09)"
+    },
+    {
+      "module_title": "Week 9: Evolution",
+      "object_title": "A4 \u2014 Show and Tell Reflection (Week 09)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A4-show-and-tell-reflection.md (week 09)"
+    },
+    {
+      "module_title": "Week 9: Evolution",
+      "object_title": "week-09",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/odyssey_gates/week-09.md"
+    },
+    {
+      "module_title": "Week 9: Evolution",
+      "object_title": "week-09_rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/rubrics/odyssey_gates/week-09_rubric.md"
+    },
+    {
+      "module_title": "Week 10: Engineering",
+      "object_title": "",
+      "kind": "module",
+      "action": "update",
+      "reason": "metadata refreshed unconditionally, not counted in the summary tally",
+      "source_ref": ""
+    },
+    {
+      "module_title": "Week 10: Engineering",
+      "object_title": "07-collections",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/lessons/07-collections.md"
+    },
+    {
+      "module_title": "Week 10: Engineering",
+      "object_title": "Monday Moment \u2014 week_10_critique",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_10_critique/monday_moment.md"
+    },
+    {
+      "module_title": "Week 10: Engineering",
+      "object_title": "Monday Moment Activity \u2014 week_10_critique",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_10_critique/student_activity.md"
+    },
+    {
+      "module_title": "Week 10: Engineering",
+      "object_title": "Monday Moment Rubric \u2014 week_10_critique",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_10_critique/assessment_rubric.md"
+    },
+    {
+      "module_title": "Week 10: Engineering",
+      "object_title": "week 10 wed quality assurance",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/readings/week_10_wed_quality_assurance.md"
+    },
+    {
+      "module_title": "Week 10: Engineering",
+      "object_title": "Slides \u2014 Week 10 Wednesday (PDF)",
+      "kind": "file",
+      "action": "update",
+      "reason": "content changed",
+      "source_ref": "professional_minds/presentations/beamer/week_10_wed/week10_wed.pdf"
+    },
+    {
+      "module_title": "Week 10: Engineering",
+      "object_title": "week 10 wed reading assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_10_wed_reading_assignment.md"
+    },
+    {
+      "module_title": "Week 10: Engineering",
+      "object_title": "week 10 wed reading rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_10_wed_reading_rubric.md"
+    },
+    {
+      "module_title": "Week 10: Engineering",
+      "object_title": "week 10 wed slides assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_10_wed_slides_assignment.md"
+    },
+    {
+      "module_title": "Week 10: Engineering",
+      "object_title": "week 10 wed slides rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_10_wed_slides_rubric.md"
+    },
+    {
+      "module_title": "Week 10: Engineering",
+      "object_title": "week 10 fri agile practices",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/readings/week_10_fri_agile_practices.md"
+    },
+    {
+      "module_title": "Week 10: Engineering",
+      "object_title": "Slides \u2014 Week 10 Friday (PDF)",
+      "kind": "file",
+      "action": "update",
+      "reason": "content changed",
+      "source_ref": "professional_minds/presentations/beamer/week_10_fri/week10_fri.pdf"
+    },
+    {
+      "module_title": "Week 10: Engineering",
+      "object_title": "week 10 fri reading assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_10_fri_reading_assignment.md"
+    },
+    {
+      "module_title": "Week 10: Engineering",
+      "object_title": "week 10 fri reading rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_10_fri_reading_rubric.md"
+    },
+    {
+      "module_title": "Week 10: Engineering",
+      "object_title": "week 10 fri slides assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_10_fri_slides_assignment.md"
+    },
+    {
+      "module_title": "Week 10: Engineering",
+      "object_title": "week 10 fri slides rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_10_fri_slides_rubric.md"
+    },
+    {
+      "module_title": "Week 10: Engineering",
+      "object_title": "A3 \u2014 Paired Programming Report (Week 10)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A3-pair-programming.md (week 10)"
+    },
+    {
+      "module_title": "Week 10: Engineering",
+      "object_title": "A7 \u2014 Friday Feedback Report (Week 10)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A7-friday-feedback-report.md (week 10)"
+    },
+    {
+      "module_title": "Week 10: Engineering",
+      "object_title": "A4 \u2014 Show and Tell Reflection (Week 10)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A4-show-and-tell-reflection.md (week 10)"
+    },
+    {
+      "module_title": "Week 10: Engineering",
+      "object_title": "Bonus Practice (Week 10)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A1-weekly-coding-practice.md (bonus, week 10)"
+    },
+    {
+      "module_title": "Week 10: Engineering",
+      "object_title": "week-10",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/odyssey_gates/week-10.md"
+    },
+    {
+      "module_title": "Week 10: Engineering",
+      "object_title": "week-10_rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/rubrics/odyssey_gates/week-10_rubric.md"
+    },
+    {
+      "module_title": "Week 11: Delivery",
+      "object_title": "",
+      "kind": "module",
+      "action": "update",
+      "reason": "metadata refreshed unconditionally, not counted in the summary tally",
+      "source_ref": ""
+    },
+    {
+      "module_title": "Week 11: Delivery",
+      "object_title": "Monday Moment \u2014 week_11_verify",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_11_verify/monday_moment.md"
+    },
+    {
+      "module_title": "Week 11: Delivery",
+      "object_title": "Monday Moment Activity \u2014 week_11_verify",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_11_verify/student_activity.md"
+    },
+    {
+      "module_title": "Week 11: Delivery",
+      "object_title": "Monday Moment Rubric \u2014 week_11_verify",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_11_verify/assessment_rubric.md"
+    },
+    {
+      "module_title": "Week 11: Delivery",
+      "object_title": "week 11 wed monitoring and control",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/readings/week_11_wed_monitoring_and_control.md"
+    },
+    {
+      "module_title": "Week 11: Delivery",
+      "object_title": "Slides \u2014 Week 11 Wednesday (PDF)",
+      "kind": "file",
+      "action": "update",
+      "reason": "content changed",
+      "source_ref": "professional_minds/presentations/beamer/week_11_wed/week11_wed.pdf"
+    },
+    {
+      "module_title": "Week 11: Delivery",
+      "object_title": "week 11 wed reading assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_11_wed_reading_assignment.md"
+    },
+    {
+      "module_title": "Week 11: Delivery",
+      "object_title": "week 11 wed reading rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_11_wed_reading_rubric.md"
+    },
+    {
+      "module_title": "Week 11: Delivery",
+      "object_title": "week 11 wed slides assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_11_wed_slides_assignment.md"
+    },
+    {
+      "module_title": "Week 11: Delivery",
+      "object_title": "week 11 wed slides rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_11_wed_slides_rubric.md"
+    },
+    {
+      "module_title": "Week 11: Delivery",
+      "object_title": "week 11 fri point of tdd",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/readings/week_11_fri_point_of_tdd.md"
+    },
+    {
+      "module_title": "Week 11: Delivery",
+      "object_title": "Slides \u2014 Week 11 Friday (PDF)",
+      "kind": "file",
+      "action": "update",
+      "reason": "content changed",
+      "source_ref": "professional_minds/presentations/beamer/week_11_fri/week11_fri.pdf"
+    },
+    {
+      "module_title": "Week 11: Delivery",
+      "object_title": "week 11 fri reading assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_11_fri_reading_assignment.md"
+    },
+    {
+      "module_title": "Week 11: Delivery",
+      "object_title": "week 11 fri reading rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_11_fri_reading_rubric.md"
+    },
+    {
+      "module_title": "Week 11: Delivery",
+      "object_title": "week 11 fri slides assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_11_fri_slides_assignment.md"
+    },
+    {
+      "module_title": "Week 11: Delivery",
+      "object_title": "week 11 fri slides rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_11_fri_slides_rubric.md"
+    },
+    {
+      "module_title": "Week 11: Delivery",
+      "object_title": "A3 \u2014 Paired Programming Report (Week 11)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A3-pair-programming.md (week 11)"
+    },
+    {
+      "module_title": "Week 11: Delivery",
+      "object_title": "A7 \u2014 Friday Feedback Report (Week 11)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A7-friday-feedback-report.md (week 11)"
+    },
+    {
+      "module_title": "Week 11: Delivery",
+      "object_title": "A4 \u2014 Show and Tell Reflection (Week 11)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A4-show-and-tell-reflection.md (week 11)"
+    },
+    {
+      "module_title": "Week 11: Delivery",
+      "object_title": "Bonus Practice (Week 11)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A1-weekly-coding-practice.md (bonus, week 11)"
+    },
+    {
+      "module_title": "Week 11: Delivery",
+      "object_title": "week-11",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/odyssey_gates/week-11.md"
+    },
+    {
+      "module_title": "Week 11: Delivery",
+      "object_title": "week-11_rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/rubrics/odyssey_gates/week-11_rubric.md"
+    },
+    {
+      "module_title": "Week 12: Productivity",
+      "object_title": "",
+      "kind": "module",
+      "action": "update",
+      "reason": "metadata refreshed unconditionally, not counted in the summary tally",
+      "source_ref": ""
+    },
+    {
+      "module_title": "Week 12: Productivity",
+      "object_title": "08-classes-and-modules",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/lessons/08-classes-and-modules.md"
+    },
+    {
+      "module_title": "Week 12: Productivity",
+      "object_title": "Monday Moment \u2014 week_12_revise",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_12_revise/monday_moment.md"
+    },
+    {
+      "module_title": "Week 12: Productivity",
+      "object_title": "Monday Moment Activity \u2014 week_12_revise",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_12_revise/student_activity.md"
+    },
+    {
+      "module_title": "Week 12: Productivity",
+      "object_title": "Monday Moment Rubric \u2014 week_12_revise",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_12_revise/assessment_rubric.md"
+    },
+    {
+      "module_title": "Week 12: Productivity",
+      "object_title": "week 12 wed path of gtd mastery",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/readings/week_12_wed_path_of_gtd_mastery.md"
+    },
+    {
+      "module_title": "Week 12: Productivity",
+      "object_title": "Slides \u2014 Week 12 Wednesday (PDF)",
+      "kind": "file",
+      "action": "update",
+      "reason": "content changed",
+      "source_ref": "professional_minds/presentations/beamer/week_12_wed/week12_wed.pdf"
+    },
+    {
+      "module_title": "Week 12: Productivity",
+      "object_title": "week 12 wed reading assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_12_wed_reading_assignment.md"
+    },
+    {
+      "module_title": "Week 12: Productivity",
+      "object_title": "week 12 wed reading rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_12_wed_reading_rubric.md"
+    },
+    {
+      "module_title": "Week 12: Productivity",
+      "object_title": "week 12 wed slides assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_12_wed_slides_assignment.md"
+    },
+    {
+      "module_title": "Week 12: Productivity",
+      "object_title": "week 12 wed slides rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_12_wed_slides_rubric.md"
+    },
+    {
+      "module_title": "Week 12: Productivity",
+      "object_title": "week 12 fri settling the mind",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/readings/week_12_fri_settling_the_mind.md"
+    },
+    {
+      "module_title": "Week 12: Productivity",
+      "object_title": "Slides \u2014 Week 12 Friday (PDF)",
+      "kind": "file",
+      "action": "update",
+      "reason": "content changed",
+      "source_ref": "professional_minds/presentations/beamer/week_12_fri/week12_fri.pdf"
+    },
+    {
+      "module_title": "Week 12: Productivity",
+      "object_title": "week 12 fri reading assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_12_fri_reading_assignment.md"
+    },
+    {
+      "module_title": "Week 12: Productivity",
+      "object_title": "week 12 fri reading rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_12_fri_reading_rubric.md"
+    },
+    {
+      "module_title": "Week 12: Productivity",
+      "object_title": "week 12 fri slides assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_12_fri_slides_assignment.md"
+    },
+    {
+      "module_title": "Week 12: Productivity",
+      "object_title": "week 12 fri slides rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_12_fri_slides_rubric.md"
+    },
+    {
+      "module_title": "Week 12: Productivity",
+      "object_title": "A3 \u2014 Paired Programming Report (Week 12)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A3-pair-programming.md (week 12)"
+    },
+    {
+      "module_title": "Week 12: Productivity",
+      "object_title": "A7 \u2014 Friday Feedback Report (Week 12)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A7-friday-feedback-report.md (week 12)"
+    },
+    {
+      "module_title": "Week 12: Productivity",
+      "object_title": "A4 \u2014 Show and Tell Reflection (Week 12)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A4-show-and-tell-reflection.md (week 12)"
+    },
+    {
+      "module_title": "Week 12: Productivity",
+      "object_title": "Bonus Practice (Week 12)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A1-weekly-coding-practice.md (bonus, week 12)"
+    },
+    {
+      "module_title": "Week 12: Productivity",
+      "object_title": "week-12",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/odyssey_gates/week-12.md"
+    },
+    {
+      "module_title": "Week 12: Productivity",
+      "object_title": "week-12_rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/rubrics/odyssey_gates/week-12_rubric.md"
+    },
+    {
+      "module_title": "Week 13: People",
+      "object_title": "",
+      "kind": "module",
+      "action": "update",
+      "reason": "metadata refreshed unconditionally, not counted in the summary tally",
+      "source_ref": ""
+    },
+    {
+      "module_title": "Week 13: People",
+      "object_title": "Monday Moment \u2014 week_13_decide",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_13_decide/monday_moment.md"
+    },
+    {
+      "module_title": "Week 13: People",
+      "object_title": "Monday Moment Activity \u2014 week_13_decide",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_13_decide/student_activity.md"
+    },
+    {
+      "module_title": "Week 13: People",
+      "object_title": "Monday Moment Rubric \u2014 week_13_decide",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_13_decide/assessment_rubric.md"
+    },
+    {
+      "module_title": "Week 13: People",
+      "object_title": "week 13 wed two heads",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/readings/week_13_wed_two_heads.md"
+    },
+    {
+      "module_title": "Week 13: People",
+      "object_title": "Slides \u2014 Week 13 Wednesday (PDF)",
+      "kind": "file",
+      "action": "update",
+      "reason": "content changed",
+      "source_ref": "professional_minds/presentations/beamer/week_13_wed/week13_wed.pdf"
+    },
+    {
+      "module_title": "Week 13: People",
+      "object_title": "week 13 wed reading assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_13_wed_reading_assignment.md"
+    },
+    {
+      "module_title": "Week 13: People",
+      "object_title": "week 13 wed reading rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_13_wed_reading_rubric.md"
+    },
+    {
+      "module_title": "Week 13: People",
+      "object_title": "week 13 wed slides assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_13_wed_slides_assignment.md"
+    },
+    {
+      "module_title": "Week 13: People",
+      "object_title": "week 13 wed slides rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_13_wed_slides_rubric.md"
+    },
+    {
+      "module_title": "Week 13: People",
+      "object_title": "week 13 fri the big secret",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/readings/week_13_fri_the_big_secret.md"
+    },
+    {
+      "module_title": "Week 13: People",
+      "object_title": "Slides \u2014 Week 13 Friday (PDF)",
+      "kind": "file",
+      "action": "update",
+      "reason": "content changed",
+      "source_ref": "professional_minds/presentations/beamer/week_13_fri/week13_fri.pdf"
+    },
+    {
+      "module_title": "Week 13: People",
+      "object_title": "week 13 fri reading assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_13_fri_reading_assignment.md"
+    },
+    {
+      "module_title": "Week 13: People",
+      "object_title": "week 13 fri reading rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_13_fri_reading_rubric.md"
+    },
+    {
+      "module_title": "Week 13: People",
+      "object_title": "week 13 fri slides assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_13_fri_slides_assignment.md"
+    },
+    {
+      "module_title": "Week 13: People",
+      "object_title": "week 13 fri slides rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_13_fri_slides_rubric.md"
+    },
+    {
+      "module_title": "Week 13: People",
+      "object_title": "A3 \u2014 Paired Programming Report (Week 13)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A3-pair-programming.md (week 13)"
+    },
+    {
+      "module_title": "Week 13: People",
+      "object_title": "A7 \u2014 Friday Feedback Report (Week 13)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A7-friday-feedback-report.md (week 13)"
+    },
+    {
+      "module_title": "Week 13: People",
+      "object_title": "A4 \u2014 Show and Tell Reflection (Week 13)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A4-show-and-tell-reflection.md (week 13)"
+    },
+    {
+      "module_title": "Week 13: People",
+      "object_title": "Bonus Practice (Week 13)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A1-weekly-coding-practice.md (bonus, week 13)"
+    },
+    {
+      "module_title": "Week 13: People",
+      "object_title": "week-13",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/odyssey_gates/week-13.md"
+    },
+    {
+      "module_title": "Week 13: People",
+      "object_title": "week-13_rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/rubrics/odyssey_gates/week-13_rubric.md"
+    },
+    {
+      "module_title": "Week 14: Communication",
+      "object_title": "",
+      "kind": "module",
+      "action": "update",
+      "reason": "metadata refreshed unconditionally, not counted in the summary tally",
+      "source_ref": ""
+    },
+    {
+      "module_title": "Week 14: Communication",
+      "object_title": "09-projects-tools-and-reflection",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/lessons/09-projects-tools-and-reflection.md"
+    },
+    {
+      "module_title": "Week 14: Communication",
+      "object_title": "Monday Moment \u2014 week_14_automate",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_14_automate/monday_moment.md"
+    },
+    {
+      "module_title": "Week 14: Communication",
+      "object_title": "Monday Moment Activity \u2014 week_14_automate",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_14_automate/student_activity.md"
+    },
+    {
+      "module_title": "Week 14: Communication",
+      "object_title": "Monday Moment Rubric \u2014 week_14_automate",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_14_automate/assessment_rubric.md"
+    },
+    {
+      "module_title": "Week 14: Communication",
+      "object_title": "week 14 wed understanding your audience",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/readings/week_14_wed_understanding_your_audience.md"
+    },
+    {
+      "module_title": "Week 14: Communication",
+      "object_title": "Slides \u2014 Week 14 Wednesday (PDF)",
+      "kind": "file",
+      "action": "update",
+      "reason": "content changed",
+      "source_ref": "professional_minds/presentations/beamer/week_14_wed/week14_wed.pdf"
+    },
+    {
+      "module_title": "Week 14: Communication",
+      "object_title": "week 14 wed reading assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_14_wed_reading_assignment.md"
+    },
+    {
+      "module_title": "Week 14: Communication",
+      "object_title": "week 14 wed reading rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_14_wed_reading_rubric.md"
+    },
+    {
+      "module_title": "Week 14: Communication",
+      "object_title": "week 14 wed slides assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_14_wed_slides_assignment.md"
+    },
+    {
+      "module_title": "Week 14: Communication",
+      "object_title": "week 14 wed slides rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_14_wed_slides_rubric.md"
+    },
+    {
+      "module_title": "Week 14: Communication",
+      "object_title": "week 14 fri five principles of prompting",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/readings/week_14_fri_five_principles_of_prompting.md"
+    },
+    {
+      "module_title": "Week 14: Communication",
+      "object_title": "Slides \u2014 Week 14 Friday (PDF)",
+      "kind": "file",
+      "action": "update",
+      "reason": "content changed",
+      "source_ref": "professional_minds/presentations/beamer/week_14_fri/week14_fri.pdf"
+    },
+    {
+      "module_title": "Week 14: Communication",
+      "object_title": "week 14 fri reading assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_14_fri_reading_assignment.md"
+    },
+    {
+      "module_title": "Week 14: Communication",
+      "object_title": "week 14 fri reading rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_14_fri_reading_rubric.md"
+    },
+    {
+      "module_title": "Week 14: Communication",
+      "object_title": "week 14 fri slides assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_14_fri_slides_assignment.md"
+    },
+    {
+      "module_title": "Week 14: Communication",
+      "object_title": "week 14 fri slides rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_14_fri_slides_rubric.md"
+    },
+    {
+      "module_title": "Week 14: Communication",
+      "object_title": "A3 \u2014 Paired Programming Report (Week 14)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A3-pair-programming.md (week 14)"
+    },
+    {
+      "module_title": "Week 14: Communication",
+      "object_title": "A7 \u2014 Friday Feedback Report (Week 14)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A7-friday-feedback-report.md (week 14)"
+    },
+    {
+      "module_title": "Week 14: Communication",
+      "object_title": "A4 \u2014 Show and Tell Reflection (Week 14)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A4-show-and-tell-reflection.md (week 14)"
+    },
+    {
+      "module_title": "Week 14: Communication",
+      "object_title": "A6 \u2014 Professional Pathway (Week 14 Update)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A6-professional-pathway-artifacts.md (Week 14 Update)"
+    },
+    {
+      "module_title": "Week 14: Communication",
+      "object_title": "week-14",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/odyssey_gates/week-14.md"
+    },
+    {
+      "module_title": "Week 14: Communication",
+      "object_title": "week-14_rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/rubrics/odyssey_gates/week-14_rubric.md"
+    },
+    {
+      "module_title": "Week 15: Modern AI",
+      "object_title": "",
+      "kind": "module",
+      "action": "update",
+      "reason": "metadata refreshed unconditionally, not counted in the summary tally",
+      "source_ref": ""
+    },
+    {
+      "module_title": "Week 15: Modern AI",
+      "object_title": "Monday Moment \u2014 week_15_measure",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_15_measure/monday_moment.md"
+    },
+    {
+      "module_title": "Week 15: Modern AI",
+      "object_title": "Monday Moment Activity \u2014 week_15_measure",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_15_measure/student_activity.md"
+    },
+    {
+      "module_title": "Week 15: Modern AI",
+      "object_title": "Monday Moment Rubric \u2014 week_15_measure",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_15_measure/assessment_rubric.md"
+    },
+    {
+      "module_title": "Week 15: Modern AI",
+      "object_title": "week 15 wed evaluating llms",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/readings/week_15_wed_evaluating_llms.md"
+    },
+    {
+      "module_title": "Week 15: Modern AI",
+      "object_title": "Slides \u2014 Week 15 Wednesday (PDF)",
+      "kind": "file",
+      "action": "update",
+      "reason": "content changed",
+      "source_ref": "professional_minds/presentations/beamer/week_15_wed/week15_wed.pdf"
+    },
+    {
+      "module_title": "Week 15: Modern AI",
+      "object_title": "week 15 wed reading assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_15_wed_reading_assignment.md"
+    },
+    {
+      "module_title": "Week 15: Modern AI",
+      "object_title": "week 15 wed reading rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_15_wed_reading_rubric.md"
+    },
+    {
+      "module_title": "Week 15: Modern AI",
+      "object_title": "week 15 wed slides assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_15_wed_slides_assignment.md"
+    },
+    {
+      "module_title": "Week 15: Modern AI",
+      "object_title": "week 15 wed slides rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_15_wed_slides_rubric.md"
+    },
+    {
+      "module_title": "Week 15: Modern AI",
+      "object_title": "week 15 fri evaluating ai harms",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/readings/week_15_fri_evaluating_ai_harms.md"
+    },
+    {
+      "module_title": "Week 15: Modern AI",
+      "object_title": "Slides \u2014 Week 15 Friday (PDF)",
+      "kind": "file",
+      "action": "update",
+      "reason": "content changed",
+      "source_ref": "professional_minds/presentations/beamer/week_15_fri/week15_fri.pdf"
+    },
+    {
+      "module_title": "Week 15: Modern AI",
+      "object_title": "week 15 fri reading assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_15_fri_reading_assignment.md"
+    },
+    {
+      "module_title": "Week 15: Modern AI",
+      "object_title": "week 15 fri reading rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_15_fri_reading_rubric.md"
+    },
+    {
+      "module_title": "Week 15: Modern AI",
+      "object_title": "week 15 fri slides assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_15_fri_slides_assignment.md"
+    },
+    {
+      "module_title": "Week 15: Modern AI",
+      "object_title": "week 15 fri slides rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_15_fri_slides_rubric.md"
+    },
+    {
+      "module_title": "Week 15: Modern AI",
+      "object_title": "A3 \u2014 Paired Programming Report (Week 15)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A3-pair-programming.md (week 15)"
+    },
+    {
+      "module_title": "Week 15: Modern AI",
+      "object_title": "A7 \u2014 Friday Feedback Report (Week 15)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A7-friday-feedback-report.md (week 15)"
+    },
+    {
+      "module_title": "Week 15: Modern AI",
+      "object_title": "A4 \u2014 Show and Tell Reflection (Week 15)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A4-show-and-tell-reflection.md (week 15)"
+    },
+    {
+      "module_title": "Week 15: Modern AI",
+      "object_title": "A6 \u2014 Professional Pathway (Week 15 Submission)",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A6-professional-pathway-artifacts.md (Week 15 Submission)"
+    },
+    {
+      "module_title": "Week 16: Farkle / Machine Learning fun week",
+      "object_title": "",
+      "kind": "module",
+      "action": "update",
+      "reason": "metadata refreshed unconditionally, not counted in the summary tally",
+      "source_ref": ""
+    },
+    {
+      "module_title": "Week 16: Farkle / Machine Learning fun week",
+      "object_title": "10-farkle-ml",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/lessons/10-farkle-ml.md"
+    },
+    {
+      "module_title": "Week 16: Farkle / Machine Learning fun week",
+      "object_title": "W16-farkle-ml-experiment-receipt",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/W16-farkle-ml-experiment-receipt.md"
+    },
+    {
+      "module_title": "Week 16: Farkle / Machine Learning fun week",
+      "object_title": "Monday Moment \u2014 week_16_reflect_and_improve",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_16_reflect_and_improve/monday_moment.md"
+    },
+    {
+      "module_title": "Week 16: Farkle / Machine Learning fun week",
+      "object_title": "Monday Moment Activity \u2014 week_16_reflect_and_improve",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_16_reflect_and_improve/student_activity.md"
+    },
+    {
+      "module_title": "Week 16: Farkle / Machine Learning fun week",
+      "object_title": "Monday Moment Rubric \u2014 week_16_reflect_and_improve",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "ai_fluency/ai_i/monday_moments/week_16_reflect_and_improve/assessment_rubric.md"
+    },
+    {
+      "module_title": "Week 16: Farkle / Machine Learning fun week",
+      "object_title": "week 16 wed patterns for production ai",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/readings/week_16_wed_patterns_for_production_ai.md"
+    },
+    {
+      "module_title": "Week 16: Farkle / Machine Learning fun week",
+      "object_title": "Slides \u2014 Week 16 Wednesday (PDF)",
+      "kind": "file",
+      "action": "update",
+      "reason": "content changed",
+      "source_ref": "professional_minds/presentations/beamer/week_16_wed/week16_wed.pdf"
+    },
+    {
+      "module_title": "Week 16: Farkle / Machine Learning fun week",
+      "object_title": "week 16 wed reading assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_16_wed_reading_assignment.md"
+    },
+    {
+      "module_title": "Week 16: Farkle / Machine Learning fun week",
+      "object_title": "week 16 wed reading rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_16_wed_reading_rubric.md"
+    },
+    {
+      "module_title": "Week 16: Farkle / Machine Learning fun week",
+      "object_title": "week 16 wed slides assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_16_wed_slides_assignment.md"
+    },
+    {
+      "module_title": "Week 16: Farkle / Machine Learning fun week",
+      "object_title": "week 16 wed slides rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_16_wed_slides_rubric.md"
+    },
+    {
+      "module_title": "Week 16: Farkle / Machine Learning fun week",
+      "object_title": "week 16 fri studying vs learning",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/readings/week_16_fri_studying_vs_learning.md"
+    },
+    {
+      "module_title": "Week 16: Farkle / Machine Learning fun week",
+      "object_title": "Slides \u2014 Week 16 Friday (PDF)",
+      "kind": "file",
+      "action": "update",
+      "reason": "content changed",
+      "source_ref": "professional_minds/presentations/beamer/week_16_fri/week16_fri.pdf"
+    },
+    {
+      "module_title": "Week 16: Farkle / Machine Learning fun week",
+      "object_title": "week 16 fri reading assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_16_fri_reading_assignment.md"
+    },
+    {
+      "module_title": "Week 16: Farkle / Machine Learning fun week",
+      "object_title": "week 16 fri reading rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_16_fri_reading_rubric.md"
+    },
+    {
+      "module_title": "Week 16: Farkle / Machine Learning fun week",
+      "object_title": "week 16 fri slides assignment",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_16_fri_slides_assignment.md"
+    },
+    {
+      "module_title": "Week 16: Farkle / Machine Learning fun week",
+      "object_title": "week 16 fri slides rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "professional_minds/assignments/week_16_fri_slides_rubric.md"
+    },
+    {
+      "module_title": "Week 16: Farkle / Machine Learning fun week",
+      "object_title": "A5-final-reflection",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/A5-final-reflection.md"
+    },
+    {
+      "module_title": "Week 17: Finals Week",
+      "object_title": "",
+      "kind": "module",
+      "action": "update",
+      "reason": "metadata refreshed unconditionally, not counted in the summary tally",
+      "source_ref": ""
+    },
+    {
+      "module_title": "Week 17: Finals Week",
+      "object_title": "week-17",
+      "kind": "assignment",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/assignments/odyssey_gates/week-17.md"
+    },
+    {
+      "module_title": "Week 17: Finals Week",
+      "object_title": "week-17_rubric",
+      "kind": "page",
+      "action": "skip",
+      "reason": "unchanged",
+      "source_ref": "computer_science_1/rubrics/odyssey_gates/week-17_rubric.md"
+    }
+  ]
+}
