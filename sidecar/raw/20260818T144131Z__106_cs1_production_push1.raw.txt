@@ -1,0 +1,7 @@
+warning: unresolved CS1 link token 'week02_monday_slides'; rendered readable fallback
+Live push plan: course=74029 label='CS1'; 324 objects, 16 modules, 14 grading groups
+Reconcile summary: create=353, update=0, skip=1, delete=0
+Detail: Reconciled CS1: 353 created, 0 updated, 1 unchanged, 0 deleted.
+Assignment-group self-check: 100% across 15 groups (100%).
+
+[exited with code 0]

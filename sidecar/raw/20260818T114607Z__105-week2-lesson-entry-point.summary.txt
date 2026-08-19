@@ -1,0 +1,22 @@
+Implemented Week 2’s source-owned slides entry point.
+
+- CS1 gate, Weekly Focus, and Monday guidance now use `{{link:week02_monday_slides}}`.
+- Foundry resolves that token to the existing Week 2 Monday deck File item before adapter/unified deployment reconciliation; no duplicate deck object.
+- Added resolver tests; 40 focused tests pass.
+- Coordinating evidence report: [105_week2_lesson_entry_point.md](/mnt/brandy_nvme/jevert/git/computer_science_1/sidecar/reports/105_week2_lesson_entry_point.md)
+
+Commits/status:
+
+- Course Foundry committed: `c99314d Wire Week 2 slides link tokens for CS1`
+- CS1 changes and report are staged but uncommitted: Git author identity is not configured, exactly as the prompt’s fallback describes.
+- No push attempted.
+- Pre-existing `computer_science_1/sidecar/raw/` remains untouched.
+
+Validation:
+
+- `pytest tests/test_cs1_desired_course.py tests/test_cs1_reference_links.py tests/test_cs1_savnac_adapters.py`: 40 passed.
+- `git diff --check` passed in both worktrees.
+- `make task-check` / `make check`: unavailable (`make: command not found`).
+- Week-at-a-Glance tests could not run because their hard-coded CSV location is outside the two authorized worktrees; documented in the report.
+
+AGENTS.md was not changed. Next: configure/authorize the CS1 Git identity so Foreman can commit the staged CS1 source and report, then perform the authorized Savnac review.

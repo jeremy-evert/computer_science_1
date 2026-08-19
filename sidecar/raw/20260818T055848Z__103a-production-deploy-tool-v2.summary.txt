@@ -1,0 +1,23 @@
+Implemented and staged on `golem/103a-production-deploy-tool`:
+
+- [production_deploy.py](/mnt/brandy_nvme/jevert/git/course_foundry.worktrees/103a-production-deploy-tool/course_foundry/production_deploy.py)
+- [test_production_deploy.py](/mnt/brandy_nvme/jevert/git/course_foundry.worktrees/103a-production-deploy-tool/tests/test_production_deploy.py)
+
+The deployer is production-host-gated, single-course allowlisted to CS1 `74029`, requires `--confirm-live` for push, and has no changes to Savnac or Imprint.
+
+Validation was blocked by missing dependencies in this disposable clone:
+
+```text
+python3 -m pytest tests/test_production_deploy.py -v
+ERROR tests/test_production_deploy.py
+ModuleNotFoundError: No module named 'imprint'
+```
+
+```text
+python3 -m pytest -q
+56 collection errors, including missing imprint, harbor, pydantic, requests, coach, marker, markdown, and yaml.
+```
+
+Static validation passed: Python compilation and `git diff --check`.
+
+Commit could not be created because Git author identity is unset; both files remain staged exactly as requested. No push was attempted, since the dispatch prohibits network calls.
