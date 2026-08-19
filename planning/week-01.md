@@ -25,6 +25,28 @@ first Odyssey gate.
 > The strand topics below supersede the earlier AI-lens/book pairings for
 > this week; those shift to Week 2 onward.
 
+## Week 1 student reset message
+
+The durable cross-course source for the Week 1 semester → degree/education →
+career → life message is:
+
+`jeremy-evert/swosu_cs_curriculum/shared/first-week/semester-degree-career-map-announcement.md`
+
+The CS1 Canvas-delivery copy is:
+
+`canvas/announcements/week-01-semester-degree-career-reset.md`
+
+This message is part of the Week 1 curriculum, not merely a Fall 2026 launch
+apology. The semester-specific dates and incident language may change, but the
+core student task and ownership arc should survive term to term.
+
+**Online-section invariant:** students enrolled in an online section are never
+required to attend a face-to-face class meeting or other face-to-face course
+interaction. Live classroom or Zoom participation may be offered as optional
+enrichment. Any activity described as “in-class” must have an asynchronous
+path for online students. The online course must always be completable without
+physical presence on campus.
+
 ## Monday — Aug 17 — Monday Moments
 **Getting the most out of this class and this semester** — best practices for the course itself, and how to get the most from this semester specifically. No technical content.
 
