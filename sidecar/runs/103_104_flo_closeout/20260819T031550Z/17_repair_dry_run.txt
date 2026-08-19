@@ -1,0 +1,4 @@
+note: --skip-files active; 32 file object(s) excluded from this reconcile
+Dry-run plan: course=74029 label='CS1'; 292 objects, 16 modules, 14 grading groups
+Reconcile summary: create=0, update=0, skip=306, delete=0
+Detail: Would reconcile CS1: 0 to create, 0 to update, 306 unchanged, 0 to delete.
