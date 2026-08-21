@@ -1,4 +1,4 @@
-# Week 12 — Productivity (Nov 2–6)
+# Week 12 — Delivery (Nov 2–6)
 
 ## Status
 Full week.
@@ -11,10 +11,10 @@ Classes, objects, and modules — Round 1. See `lessons/08-classes-and-modules.m
 Technical tie-in: refactoring a first-pass class based on peer/instructor feedback is a direct analogue of the lens's revise-from-critique cycle.
 
 ## Wednesday — Nov 4 — Wacky Wednesday
-**Professional Minds Week 12** — Book: *Getting Things Done* — Question: How do professionals sustain performance?
+**Professional Minds Week 12** — Book: *Software Project Management* — Question: How do projects become reliable products?
 
 ## Friday — Nov 6 — Fun Friday
-**Professional Minds Week 12** — Book: *Joy on Demand* — Question: How do professionals sustain performance?
+**Professional Minds Week 12** — Book: *Growing Object-Oriented Software, Guided by Tests* — Question: How do projects become reliable products?
 Show-and-tell / reflection tie-in: share a first class definition (constructor, `self`, one method).
 
 ## Due this week

@@ -1,4 +1,4 @@
-# Week 15 — Modern AI (Nov 23–27)
+# Week 15 — Communication (Nov 23–27)
 
 ## Status
 **Wed+Fri holiday — Thanksgiving break begins Tue 10pm.** Only Monday meets; Professional Minds is skipped entirely this week per the holiday-adjustment policy.
@@ -12,11 +12,11 @@ Technical tie-in: using a rubric to self-check Coding Odyssey progress against i
 
 ## Wednesday — Nov 25
 No class — Thanksgiving break.
-Book of record: *The LLM Engineer's Handbook* — Question: How do we engineer AI systems responsibly?
+Book of record: *Docs for Developers* — Question: How do we communicate with humans and AI?
 
 ## Friday — Nov 27
 No class — Thanksgiving break.
-Book of record: *AI Engineering* — Question: How do we engineer AI systems responsibly?
+Book of record: *Prompt Engineering for Generative AI* — Question: How do we communicate with humans and AI?
 
 ## Due this week
 No new assignment due; independent work time only.

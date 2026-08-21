@@ -1,4 +1,4 @@
-# Week 11 — Delivery (Oct 26–30)
+# Week 11 — Engineering (Oct 26–30)
 
 ## Status
 Full week.
@@ -11,10 +11,10 @@ Lists and dictionaries continued. See `lessons/07-collections.md`.
 Technical tie-in: verifying a collection-processing program against edge cases (empty list, duplicate keys) is the programming form of claim verification.
 
 ## Wednesday — Oct 28 — Wacky Wednesday
-**Professional Minds Week 11** — Book: *Software Project Management* — Question: How do projects become reliable products?
+**Professional Minds Week 11** — Book: *Software Engineering* — Question: How do teams build quality software?
 
 ## Friday — Oct 30 — Fun Friday
-**Professional Minds Week 11** — Book: *Growing Object-Oriented Software, Guided by Tests* — Question: How do projects become reliable products?
+**Professional Minds Week 11** — Book: *Agile Software Development* — Question: How do teams build quality software?
 Show-and-tell / reflection tie-in: share edge cases a collections program was tested against.
 
 ## Due this week

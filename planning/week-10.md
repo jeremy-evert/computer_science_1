@@ -1,4 +1,4 @@
-# Week 10 — Engineering (Oct 19–23)
+# Week 10 — Evolution (Oct 19–23)
 
 ## Status
 Full week.
@@ -11,10 +11,10 @@ Lists and dictionaries. See `lessons/07-collections.md`.
 Technical tie-in: reviewing a classmate's list/dictionary code for mutation hazards is the same critique habit applied to program review instead of AI output review.
 
 ## Wednesday — Oct 21 — Wacky Wednesday
-**Professional Minds Week 10** — Book: *Software Engineering* — Question: How do teams build quality software?
+**Professional Minds Week 10** — Book: *Refactoring* — Question: How do systems stay healthy over time?
 
 ## Friday — Oct 23 — Fun Friday
-**Professional Minds Week 10** — Book: *Agile Software Development* — Question: How do teams build quality software?
+**Professional Minds Week 10** — Book: *Clean Architecture* — Question: How do systems stay healthy over time?
 Show-and-tell / reflection tie-in: share a list/dictionary program and a peer's critique of it.
 
 ## Due this week

@@ -1,4 +1,4 @@
-# Week 14 — Communication (Nov 16–20)
+# Week 14 — People (Nov 16–20)
 
 ## Status
 Full week.
@@ -11,10 +11,10 @@ Tools and authentic application: GitHub/source control, pair programming, AI-awa
 Technical tie-in: a Git commit/push routine is a repeatable workflow in the same sense the lens asks students to build for AI tasks.
 
 ## Wednesday — Nov 18 — Wacky Wednesday
-**Professional Minds Week 14** — Book: *Docs for Developers* — Question: How do we communicate with humans and AI?
+**Professional Minds Week 14** — Book: *97 Things Every Programmer Should Know* — Question: How do professionals work with others?
 
 ## Friday — Nov 20 — Fun Friday
-**Professional Minds Week 14** — Book: *Prompt Engineering for Generative AI* — Question: How do we communicate with humans and AI?
+**Professional Minds Week 14** — Book: *How to Win Friends and Influence People* — Question: How do professionals work with others?
 Show-and-tell / reflection tie-in: show-and-tell reflection on Coding Odyssey checkpoint 2 (`assignments/show-and-tell-reflection.md`).
 
 ## Due this week

@@ -1,4 +1,4 @@
-# Week 13 — People (Nov 9–13)
+# Week 13 — Productivity (Nov 9–13)
 
 ## Status
 Full week.
@@ -11,10 +11,10 @@ Classes, objects, and modules — Round 2. See `lessons/08-classes-and-modules.m
 Technical tie-in: choosing between two class designs (composition vs. inheritance, one module vs. several) is the same kind of options-comparison the lens teaches.
 
 ## Wednesday — Nov 11 — Wacky Wednesday
-**Professional Minds Week 13** — Book: *97 Things Every Programmer Should Know* — Question: How do professionals work with others?
+**Professional Minds Week 13** — Book: *Getting Things Done* — Question: How do professionals sustain performance?
 
 ## Friday — Nov 13 — Fun Friday
-**Professional Minds Week 13** — Book: *How to Win Friends and Influence People* — Question: How do professionals work with others?
+**Professional Minds Week 13** — Book: *Joy on Demand* — Question: How do professionals sustain performance?
 Show-and-tell / reflection tie-in: pair-programming demo of a multi-class/module program.
 
 ## Due this week

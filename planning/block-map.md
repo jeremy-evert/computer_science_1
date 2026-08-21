@@ -51,43 +51,52 @@ merge Lens 16 into the final reflection.
 
 | # | Date | Week | Book / topic | Weekly question | Digest | Deck | Podcast |
 |--|---|--|---|---|--|--|--|
+**Renumbering note (2026-07-19):** Week 1 was reassigned to universal
+non-book content on 2026-07-15; every book session below has since been
+cascaded forward one week to make room (see
+`professional_minds/books/session_book_ledger.md`'s renumbering note). The
+Future Systems pairing (*Generative AI Design Patterns* / Semester
+Reflection, "What kind of professional do I want to become?") no longer
+has a landing week — Week 17 (finals) carries zero Professional Minds
+capacity — and is dropped; see `planning/week-17-finals.md`.
+
 | W01 | Aug 19 | 1 | Getting the most out of your degree (universal Week 1: LinkedIn Learning, degree check/plan, progress report, subs, audits) | — | ☐ | ☐ | ☐ |
-| W02 | Aug 26 | 2 | *Make It Stick* | How does the brain improve? | ☐ | ☐ | ☐ |
-| W03 | Sep 2 | 3 | *Limitless Mind* | How do we keep growing through challenges? | ☐ | ☐ | ☐ |
-| W04 | Sep 9 | 4 | *Critical Thinking* (+ Lens 4 folded intro) | How do we make better decisions? | ☐ | ☐ | ☐ |
-| W05 | Sep 16 | 5 | *The Art of Thinking Clearly* | How do we avoid common thinking mistakes? | ☐ | ☐ | ☐ |
-| W06 | Sep 23 | 6 | *Statistics Done Wrong* | How do we know something is true? | ☐ | ☐ | ☐ |
-| W07 | Sep 30 | 7 | *Understanding by Design* | How do we design meaningful learning? | ☐ | ☐ | ☐ |
-| W08 | Oct 7 | 8 | *The Pragmatic Programmer* | What does professional software craftsmanship look like? | ☐ | ☐ | ☐ |
-| W09 | Oct 14 | 9 | *Refactoring* (Fall Break begins 10 PM — class meets) | How do systems stay healthy over time? | ☐ | ☐ | ☐ |
-| W10 | Oct 21 | 10 | *Software Engineering* | How do teams build quality software? | ☐ | ☐ | ☐ |
-| W11 | Oct 28 | 11 | *Software Project Management* | How do projects become reliable products? | ☐ | ☐ | ☐ |
-| W12 | Nov 4 | 12 | *Getting Things Done* | How do professionals sustain performance? | ☐ | ☐ | ☐ |
-| W13 | Nov 11 | 13 | *97 Things Every Programmer Should Know* | How do professionals work with others? | ☐ | ☐ | ☐ |
-| W14 | Nov 18 | 14 | *Docs for Developers* | How do we communicate with humans and AI? | ☐ | ☐ | ☐ |
-| — | ~~Nov 25~~ | 15 | **Thanksgiving — no class** | | | | |
-| W15 | Dec 2 | 16 | *Generative AI Design Patterns* | What kind of professional do I want to become? | ☐ | ☐ | ☐ |
+| W02 | Aug 26 | 2 | *How Learning Works* | How do successful professionals learn? | ☐ | ☐ | ☐ |
+| W03 | Sep 2 | 3 | *Make It Stick* | How does the brain improve? | ☐ | ☐ | ☐ |
+| W04 | Sep 9 | 4 | *Limitless Mind* (+ Lens 4 folded intro) | How do we keep growing through challenges? | ☐ | ☐ | ☐ |
+| W05 | Sep 16 | 5 | *Critical Thinking* | How do we make better decisions? | ☐ | ☐ | ☐ |
+| W06 | Sep 23 | 6 | *The Art of Thinking Clearly* | How do we avoid common thinking mistakes? | ☐ | ☐ | ☐ |
+| W07 | Sep 30 | 7 | *Statistics Done Wrong* | How do we know something is true? | ☐ | ☐ | ☐ |
+| W08 | Oct 7 | 8 | *Understanding by Design* | How do we design meaningful learning? | ☐ | ☐ | ☐ |
+| W09 | Oct 14 | 9 | *The Pragmatic Programmer* (Fall Break begins 10 PM — class meets) | What does professional software craftsmanship look like? | ☐ | ☐ | ☐ |
+| W10 | Oct 21 | 10 | *Refactoring* | How do systems stay healthy over time? | ☐ | ☐ | ☐ |
+| W11 | Oct 28 | 11 | *Software Engineering* | How do teams build quality software? | ☐ | ☐ | ☐ |
+| W12 | Nov 4 | 12 | *Software Project Management* | How do projects become reliable products? | ☐ | ☐ | ☐ |
+| W13 | Nov 11 | 13 | *Getting Things Done* | How do professionals sustain performance? | ☐ | ☐ | ☐ |
+| W14 | Nov 18 | 14 | *97 Things Every Programmer Should Know* | How do professionals work with others? | ☐ | ☐ | ☐ |
+| — | ~~Nov 25~~ | 15 | **Thanksgiving — no class.** Book of record: *Docs for Developers* | How do we communicate with humans and AI? | | | |
+| W15 | Dec 2 | 16 | *The LLM Engineer's Handbook* | How do we engineer AI systems responsibly? | ☐ | ☐ | ☐ |
 
 ## Fun Fridays (professional minds — `professional_minds/`)
 
 | # | Date | Week | Book / topic | Weekly question | Digest | Deck | Podcast |
 |--|---|--|---|---|--|--|--|
 | F01 | Aug 21 | 1 | Getting the most out of your career (universal Week 1: daily 3-things journal; weekly vita paragraphs; monthly resume→CV rotation; internships, resume tips, job search) | — | ☐ | ☐ | ☐ |
-| F02 | Aug 28 | 2 | *Mindset* | How does the brain improve? | ☐ | ☐ | ☐ |
-| F03 | Sep 4 | 3 | *Resilience Education* | How do we keep growing through challenges? | ☐ | ☐ | ☐ |
-| F04 | Sep 11 | 4 | *Thinking, Fast and Slow* | How do we make better decisions? | ☐ | ☐ | ☐ |
-| F05 | Sep 18 | 5 | *How Not to Be Wrong* | How do we avoid common thinking mistakes? | ☐ | ☐ | ☐ |
-| F06 | Sep 25 | 6 | *Understanding Statistics and Experimental Design* | How do we know something is true? | ☐ | ☐ | ☐ |
-| F07 | Oct 2 | 7 | *Rethinking Grading* | How do we design meaningful learning? | ☐ | ☐ | ☐ |
-| F08 | Oct 9 | 8 | *Clean Code* | What does professional software craftsmanship look like? | ☐ | ☐ | ☐ |
-| — | ~~Oct 16~~ | 9 | **Fall Break — no class.** *Growing Object-Oriented Software* pairing skipped, not made up | | | | |
-| F09 | Oct 23 | 10 | *Agile Software Development* | How do teams build quality software? | ☐ | ☐ | ☐ |
-| F10 | Oct 30 | 11 | *Growing Object-Oriented Software, Guided by Tests* | How do projects become reliable products? | ☐ | ☐ | ☐ |
-| F11 | Nov 6 | 12 | *Joy on Demand* | How do professionals sustain performance? | ☐ | ☐ | ☐ |
-| F12 | Nov 13 | 13 | *How to Win Friends and Influence People* | How do professionals work with others? | ☐ | ☐ | ☐ |
-| F13 | Nov 20 | 14 | *Prompt Engineering for Generative AI* | How do we communicate with humans and AI? | ☐ | ☐ | ☐ |
-| — | ~~Nov 27~~ | 15 | **Thanksgiving — no class** | | | | |
-| F14 | Dec 4 | 16 | Semester Reflection | What kind of professional do I want to become? | ☐ | ☐ | ☐ |
+| F02 | Aug 28 | 2 | *Teach Students How to Learn* | How do successful professionals learn? | ☐ | ☐ | ☐ |
+| F03 | Sep 4 | 3 | *Mindset* | How does the brain improve? | ☐ | ☐ | ☐ |
+| F04 | Sep 11 | 4 | *Resilience Education* | How do we keep growing through challenges? | ☐ | ☐ | ☐ |
+| F05 | Sep 18 | 5 | *Thinking, Fast and Slow* | How do we make better decisions? | ☐ | ☐ | ☐ |
+| F06 | Sep 25 | 6 | *How Not to Be Wrong* | How do we avoid common thinking mistakes? | ☐ | ☐ | ☐ |
+| F07 | Oct 2 | 7 | *Understanding Statistics and Experimental Design* | How do we know something is true? | ☐ | ☐ | ☐ |
+| F08 | Oct 9 | 8 | *Rethinking Grading* | How do we design meaningful learning? | ☐ | ☐ | ☐ |
+| — | ~~Oct 16~~ | 9 | **Fall Break — no class.** Book of record: *Clean Code* | What does professional software craftsmanship look like? | | | |
+| F09 | Oct 23 | 10 | *Clean Architecture* | How do systems stay healthy over time? | ☐ | ☐ | ☐ |
+| F10 | Oct 30 | 11 | *Agile Software Development* | How do teams build quality software? | ☐ | ☐ | ☐ |
+| F11 | Nov 6 | 12 | *Growing Object-Oriented Software, Guided by Tests* | How do projects become reliable products? | ☐ | ☐ | ☐ |
+| F12 | Nov 13 | 13 | *Joy on Demand* | How do professionals sustain performance? | ☐ | ☐ | ☐ |
+| F13 | Nov 20 | 14 | *How to Win Friends and Influence People* | How do professionals work with others? | ☐ | ☐ | ☐ |
+| — | ~~Nov 27~~ | 15 | **Thanksgiving — no class.** Book of record: *Prompt Engineering for Generative AI* | How do we communicate with humans and AI? | | | |
+| F14 | Dec 4 | 16 | *AI Engineering* | How do we engineer AI systems responsibly? | ☐ | ☐ | ☐ |
 
 **Friday NRP spotlight:** a recurring instructor-driven segment inside
 show-and-tell — Jeremy demos something real on the National Research

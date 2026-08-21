@@ -1,0 +1,83 @@
+{
+  "captured_at": "2026-07-19T03:11:54.203126+00:00",
+  "course_id": 74033,
+  "semester_slug": "fall-2026",
+  "course_code": "COMSC-1033-1414.2026FA",
+  "workflow_state": "unpublished",
+  "modules": [
+    {
+      "id": 210940,
+      "position": 2,
+      "name": "Week 2 \u2014 Success Foundations",
+      "unlock_at": null,
+      "require_sequential_progress": false,
+      "requirement_type": "all",
+      "publish_final_grade": false,
+      "prerequisite_module_ids": [],
+      "published": false,
+      "items_count": 4,
+      "items_url": "https://swosu.instructure.com/api/v1/courses/74033/modules/210940/items",
+      "items": [
+        {
+          "id": 1476794,
+          "position": 1,
+          "title": "Week 2 Wednesday: Building Mastery for Real-World Work",
+          "indent": 0,
+          "quiz_lti": false,
+          "type": "Page",
+          "module_id": 210940,
+          "html_url": "https://swosu.instructure.com/courses/74033/modules/items/1476794",
+          "page_url": "week-2-wednesday-building-mastery-for-real-world-work",
+          "publish_at": null,
+          "url": "https://swosu.instructure.com/api/v1/courses/74033/pages/week-2-wednesday-building-mastery-for-real-world-work",
+          "published": false,
+          "unpublishable": true
+        },
+        {
+          "id": 1476795,
+          "position": 2,
+          "title": "Week 2 Friday: From Studying to Learning",
+          "indent": 0,
+          "quiz_lti": false,
+          "type": "Page",
+          "module_id": 210940,
+          "html_url": "https://swosu.instructure.com/courses/74033/modules/items/1476795",
+          "page_url": "week-2-friday-from-studying-to-learning",
+          "publish_at": null,
+          "url": "https://swosu.instructure.com/api/v1/courses/74033/pages/week-2-friday-from-studying-to-learning",
+          "published": false,
+          "unpublishable": true
+        },
+        {
+          "id": 1476796,
+          "position": 3,
+          "title": "Week 2 Wednesday Slides",
+          "indent": 0,
+          "quiz_lti": false,
+          "type": "File",
+          "module_id": 210940,
+          "html_url": "https://swosu.instructure.com/courses/74033/modules/items/1476796",
+          "content_id": 6473945,
+          "url": "https://swosu.instructure.com/api/v1/courses/74033/files/6473945",
+          "published": false,
+          "unpublishable": false
+        },
+        {
+          "id": 1476797,
+          "position": 4,
+          "title": "Week 2 Friday Slides",
+          "indent": 0,
+          "quiz_lti": false,
+          "type": "File",
+          "module_id": 210940,
+          "html_url": "https://swosu.instructure.com/courses/74033/modules/items/1476797",
+          "content_id": 6473946,
+          "url": "https://swosu.instructure.com/api/v1/courses/74033/files/6473946",
+          "published": false,
+          "unpublishable": false
+        }
+      ]
+    }
+  ],
+  "note": "Post-write snapshot after adding the Week 2 Success Foundations module (readings + Beamer slides, all unpublished)."
+}

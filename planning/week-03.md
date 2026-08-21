@@ -1,4 +1,4 @@
-# Week 3 — Growth (Aug 31–Sep 4)
+# Week 3 — Learning Science (Aug 31–Sep 4)
 
 ## Status
 Full week.
@@ -11,10 +11,10 @@ Types and formatted output continued; introduce branching. See `lessons/02-varia
 Technical tie-in: tracing a decision table before writing an `if`/`elif`/`else` chain is the same discipline as asking AI to plan before drafting.
 
 ## Wednesday — Sep 2 — Wacky Wednesday
-**Professional Minds Week 3** — Book: *Limitless Mind* — Question: How do we keep growing through challenges?
+**Professional Minds Week 3** — Book: *Make It Stick* — Question: How does the brain improve?
 
 ## Friday — Sep 4 — Fun Friday
-**Professional Minds Week 3** — Book: *Resilience Education* — Question: How do we keep growing through challenges?
+**Professional Minds Week 3** — Book: *Mindset* — Question: How does the brain improve?
 Show-and-tell / reflection tie-in: reflect on the first hard bug of the semester.
 
 ## Due this week

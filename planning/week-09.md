@@ -1,4 +1,4 @@
-# Week 9 — Evolution (Oct 12–16)
+# Week 9 — Craftsmanship (Oct 12–16)
 
 ## Status
 **Friday holiday — Fall Break begins Wed 10pm.** Monday and Wednesday meet; Friday does not.
@@ -11,11 +11,11 @@ Strings continued; Coding Odyssey checkpoint 1 (first applied-project pass). See
 Technical tie-in: writing the same program's output for different audiences (a quick debug print vs. a polished user-facing message) mirrors the lens's audience-adaptation focus.
 
 ## Wednesday — Oct 14 — Wacky Wednesday
-**Professional Minds Week 9** — Book: *Refactoring* — Question: How do systems stay healthy over time?
+**Professional Minds Week 9** — Book: *The Pragmatic Programmer* — Question: What does professional software craftsmanship look like?
 
 ## Friday — Oct 16 — Fun Friday
 No class — Fall Break. Fun Friday / show-and-tell is skipped this week, not made up.
-Book of record: *Clean Architecture* — Question: How do systems stay healthy over time?
+Book of record: *Clean Code* — Question: What does professional software craftsmanship look like?
 
 ## Due this week
 Coding Odyssey checkpoint 1 (`assignments/coding-odyssey-project.md`).

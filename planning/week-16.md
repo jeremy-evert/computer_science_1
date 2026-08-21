@@ -1,4 +1,4 @@
-# Week 16 — Future Systems (Nov 30–Dec 4)
+# Week 16 — Modern AI (Nov 30–Dec 4)
 
 ## Status
 Full week — last full week of instruction before finals.
@@ -11,10 +11,10 @@ Coding Odyssey checkpoint 3 (final creative project pass); professional reflecti
 Technical tie-in: the final AI thinking portfolio pairs naturally with the course's own final-reflection assignment.
 
 ## Wednesday — Dec 2 — Wacky Wednesday
-**Professional Minds Week 16** — Book: *Generative AI Design Patterns* — Question: What kind of professional do I want to become?
+**Professional Minds Week 16** — Book: *The LLM Engineer's Handbook* — Question: How do we engineer AI systems responsibly?
 
 ## Friday — Dec 4 — Fun Friday
-**Professional Minds Week 16** — Book: *Semester Reflection* — Question: What kind of professional do I want to become?
+**Professional Minds Week 16** — Book: *AI Engineering* — Question: How do we engineer AI systems responsibly?
 Show-and-tell / reflection tie-in: full show-and-tell of Coding Odyssey checkpoint 3; kicks off `assignments/final-reflection.md`.
 
 ## Due this week

@@ -1,4 +1,4 @@
-# Week 6 — Evidence (Sep 21–25)
+# Week 6 — Reasoning (Sep 21–25)
 
 ## Status
 Full week.
@@ -11,10 +11,10 @@ Loops continued; introduce functions. See `lessons/04-loops.md` and `lessons/05-
 Technical tie-in: a function signature (parameters, return value) is a specification in the same way a well-engineered prompt is — both name inputs, constraints, and expected output.
 
 ## Wednesday — Sep 23 — Wacky Wednesday
-**Professional Minds Week 6** — Book: *Statistics Done Wrong* — Question: How do we know something is true?
+**Professional Minds Week 6** — Book: *The Art of Thinking Clearly* — Question: How do we avoid common thinking mistakes?
 
 ## Friday — Sep 25 — Fun Friday
-**Professional Minds Week 6** — Book: *Understanding Statistics and Experimental Design* — Question: How do we know something is true?
+**Professional Minds Week 6** — Book: *How Not to Be Wrong* — Question: How do we avoid common thinking mistakes?
 Show-and-tell / reflection tie-in: share a first function and explain what evidence shows it works.
 
 ## Due this week

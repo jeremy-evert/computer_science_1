@@ -1,4 +1,4 @@
-# Week 7 — Design (Sep 28–Oct 2)
+# Week 7 — Evidence (Sep 28–Oct 2)
 
 ## Status
 Full week.
@@ -11,10 +11,10 @@ Functions and decomposition. See `lessons/05-functions.md`.
 Technical tie-in: grounding a function's behavior in a unit test is the programming analogue of grounding an AI answer in a source document.
 
 ## Wednesday — Sep 30 — Wacky Wednesday
-**Professional Minds Week 7** — Book: *Understanding by Design* — Question: How do we design meaningful learning?
+**Professional Minds Week 7** — Book: *Statistics Done Wrong* — Question: How do we know something is true?
 
 ## Friday — Oct 2 — Fun Friday
-**Professional Minds Week 7** — Book: *Rethinking Grading* — Question: How do we design meaningful learning?
+**Professional Minds Week 7** — Book: *Understanding Statistics and Experimental Design* — Question: How do we know something is true?
 Show-and-tell / reflection tie-in: share a function with a passing unit test.
 
 ## Due this week

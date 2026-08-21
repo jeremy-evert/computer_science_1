@@ -1,4 +1,4 @@
-# Week 5 — Reasoning (Sep 14–18)
+# Week 5 — Thinking (Sep 14–18)
 
 ## Status
 Full week.
@@ -11,10 +11,10 @@ Loops and repetition. See `lessons/04-loops.md`.
 Technical tie-in: choosing `for` vs. `while` for a repetition problem is the same kind of fit-to-task decision as choosing which AI tool to use.
 
 ## Wednesday — Sep 16 — Wacky Wednesday
-**Professional Minds Week 5** — Book: *The Art of Thinking Clearly* — Question: How do we avoid common thinking mistakes?
+**Professional Minds Week 5** — Book: *Critical Thinking* — Question: How do we make better decisions?
 
 ## Friday — Sep 18 — Fun Friday
-**Professional Minds Week 5** — Book: *How Not to Be Wrong* — Question: How do we avoid common thinking mistakes?
+**Professional Minds Week 5** — Book: *Thinking, Fast and Slow* — Question: How do we make better decisions?
 Show-and-tell / reflection tie-in: share a loop that fixed an off-by-one or non-terminating bug.
 
 ## Due this week
