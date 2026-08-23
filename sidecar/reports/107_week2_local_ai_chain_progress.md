@@ -22,8 +22,8 @@ owner-Windows-dry-run boundary. No package changes are authorized in this chain.
   `sidecar/reports/108B_cs1_local_ai_website_adversarial_review.md`, verdict
   `PASS`, CS1 commit `503e2d0135ce381e70347ac98d6b9dfa9aca2f0b`.
 - 109 LANDED — `sidecar/reports/109_week2_local_ai_launch_readiness_manifest.md`,
-  verdict `READY FOR OWNER WINDOWS DRY RUN`, CS1 commit pending in this final
-  landing.
+  verdict `READY FOR OWNER WINDOWS DRY RUN`, CS1 commit
+  `d64c6092020b9b1a2cfd3a4f265f8a2c1f9c83d9`.
 - No repair round was inserted: neither adversarial review produced
   `REPAIR REQUIRED`.
 - `swosu-computing` main's pre-existing dirty work remains protected; its
