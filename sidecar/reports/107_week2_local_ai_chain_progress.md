@@ -11,10 +11,22 @@ owner-Windows-dry-run boundary. No package changes are authorized in this chain.
 
 ## Round state
 
-- 107A WIP SAVED — `sidecar/prompts/107A_week2_local_ai_curriculum_integration.md`
-  on `campaign/week2-local-ai-launch`. Source implementation and static checks
-  are saved; the adversarial review has not started.
-- Course Foundry WIP SAVED — `campaign/cs1-week2-local-ai-launch` contains the
-  minimal source-order and zero-point online-text-entry seam plus focused tests.
-- `swosu-computing` was not modified; its pre-existing dirty work remains
-  protected on its original branch.
+- 107A LANDED — `sidecar/reports/107A_week2_local_ai_curriculum_integration.md`,
+  verdict `INTEGRATED`, CS1 commit `9afba8842aa9ae507ed62a4818b13abbfee5d91e`,
+  Course Foundry commit `f292c185f13c6fc6fce03f1312da80c7a758ad6b`.
+- 107B LANDED — `sidecar/reports/107B_week2_local_ai_adversarial_review.md`,
+  verdict `PASS`, CS1 commit `3e02034d179bf1a4996d496e03a4e4325463aaa9`.
+- 108A LANDED — `sidecar/reports/108A_stage_cs1_local_ai_website.md`, verdict
+  `STAGED`, website commit `11dcbe10f941544cfdaae5913ba17e1a8046e563`.
+- 108B LANDED —
+  `sidecar/reports/108B_cs1_local_ai_website_adversarial_review.md`, verdict
+  `PASS`, CS1 commit `503e2d0135ce381e70347ac98d6b9dfa9aca2f0b`.
+- 109 LANDED — `sidecar/reports/109_week2_local_ai_launch_readiness_manifest.md`,
+  verdict `READY FOR OWNER WINDOWS DRY RUN`, CS1 commit pending in this final
+  landing.
+- No repair round was inserted: neither adversarial review produced
+  `REPAIR REQUIRED`.
+- `swosu-computing` main's pre-existing dirty work remains protected; its
+  isolated campaign branch is clean and pushed.
+
+CHAIN STOPPED: OWNER WINDOWS DRY RUN REQUIRED
