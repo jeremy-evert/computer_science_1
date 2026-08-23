@@ -15,10 +15,22 @@ that isn't universal across all five courses, so it's also where the
 Coding Odyssey itself begins.
 
 ## Monday — Aug 24 — Monday Moments
-Short live walkthrough of running a Python program, `print`, and `input` —
-the "run/read/change Python" on-ramp (C01) that used to sit in Week 1.
-Keep this brief; the real repetition happens through the Odyssey gate below,
-not a separate first-program submission.
+This week begins with one Local AI Lab journey: use the numbered CS1 route to
+inventory the machine, verify the Windows foundation, and reach a direct local
+model hello. The exact commands remain in the accepted package source; the
+course page supplies the learning purpose and evidence to preserve.
+
+1. [00 START HERE — Local AI Week 2 mission](../lessons/week02-local-ai-00-start-here.md)
+2. [01 INVENTORY](../lessons/week02-local-ai-01-inventory.md)
+3. [02 VERIFY WINDOWS FOUNDATION](../lessons/week02-local-ai-02-verify-windows-foundation.md)
+4. [03 GET/VERIFY OLLAMA](../lessons/week02-local-ai-03-get-verify-ollama.md)
+5. [04 GET/VERIFY qwen3:8b](../lessons/week02-local-ai-04-get-verify-qwen3-8b.md)
+6. [05 HELLO OLLAMA](../lessons/week02-local-ai-05-hello-ollama.md)
+
+Then submit the [Monday Local AI exit ticket](../assignments/week02-local-ai-exit-ticket-monday.md).
+
+Short live help still includes running/read/change Python, `print`, and
+`input` — the technical on-ramp that used to sit in Week 1.
 
 For the technical walkthrough and examples, open [the Week 2 Monday
 technical slides]({{link:week02_monday_slides}}) from this module.
@@ -34,9 +46,20 @@ genre menu and details in `assignments/odyssey_gates/week-02.md`.
 Technical tie-in: naming and typing a variable well is itself a context decision — the variable's name and type are context the rest of the program depends on.
 
 ## Wednesday — Aug 26 — Wacky Wednesday
+Continue the same route: [06 GET/VERIFY AIDER](../lessons/week02-local-ai-06-get-verify-aider.md),
+[07 PREPARE TINY GIT WORKTREE](../lessons/week02-local-ai-07-prepare-tiny-git-worktree.md),
+[08 HELLO AIDER](../lessons/week02-local-ai-08-hello-aider.md), and
+[09 AIDER TOY EXERCISES](../lessons/week02-local-ai-09-aider-toy-exercises.md).
+Use only a tiny visible edit and an independent test. Then submit the
+[Wednesday Local AI exit ticket](../assignments/week02-local-ai-exit-ticket-wednesday.md).
+
 **Professional Minds Week 2** — Book: *Make It Stick* — Question: How does the brain improve?
 
 ## Friday — Aug 28 — Fun Friday
+Use the Toy 3 continuation in [09 AIDER TOY EXERCISES](../lessons/week02-local-ai-09-aider-toy-exercises.md),
+then complete the [Friday Local AI exit ticket](../assignments/week02-local-ai-exit-ticket-friday.md)
+alongside the Coding Odyssey founding charter and Week 2 gate below.
+
 **Professional Minds Week 2** — Book: *Mindset* — Question: How does the brain improve?
 Show-and-tell / reflection tie-in: share a program that uses variables and formatted output.
 
