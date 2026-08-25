@@ -1,0 +1,942 @@
+{
+  "run_at": "2026-08-25T03:01:47.179657+00:00",
+  "dry_run": false,
+  "course_id": 74029,
+  "recon_count": 161,
+  "candidates_matched": 117,
+  "actions": [
+    {
+      "id": 912505,
+      "name": "Monday Moment Activity \u2014 week_16_reflect_and_improve",
+      "cls": "Monday Moment (AI Fluency)",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912506,
+      "name": "week 16 wed reading assignment",
+      "cls": "Professional Minds Wednesday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912507,
+      "name": "week 16 wed slides assignment",
+      "cls": "Professional Minds Wednesday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912508,
+      "name": "week 16 fri reading assignment",
+      "cls": "Professional Minds Friday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912509,
+      "name": "week 16 fri slides assignment",
+      "cls": "Professional Minds Friday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912363,
+      "name": "Monday Moment Activity \u2014 week_02_gather_context",
+      "cls": "Monday Moment (AI Fluency)",
+      "due_at": "2026-08-25T04:59:00Z",
+      "result": "SKIP_NEAR_TERM_DUE"
+    },
+    {
+      "id": 912375,
+      "name": "Monday Moment Activity \u2014 week_03_plan_the_work",
+      "cls": "Monday Moment (AI Fluency)",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912385,
+      "name": "Monday Moment Activity \u2014 week_04_decompose_the_task",
+      "cls": "Monday Moment (AI Fluency)",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912395,
+      "name": "Monday Moment Activity \u2014 week_05_select_the_right_model",
+      "cls": "Monday Moment (AI Fluency)",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912405,
+      "name": "Monday Moment Activity \u2014 week_06_engineer_the_prompt",
+      "cls": "Monday Moment (AI Fluency)",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912414,
+      "name": "Monday Moment Activity \u2014 week_07_research_and_retrieve",
+      "cls": "Monday Moment (AI Fluency)",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912424,
+      "name": "Monday Moment Activity \u2014 week_08_reason",
+      "cls": "Monday Moment (AI Fluency)",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912434,
+      "name": "Monday Moment Activity \u2014 week_09_generate",
+      "cls": "Monday Moment (AI Fluency)",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912444,
+      "name": "Monday Moment Activity \u2014 week_10_critique",
+      "cls": "Monday Moment (AI Fluency)",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912454,
+      "name": "Monday Moment Activity \u2014 week_11_verify",
+      "cls": "Monday Moment (AI Fluency)",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912464,
+      "name": "Monday Moment Activity \u2014 week_12_revise",
+      "cls": "Monday Moment (AI Fluency)",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912474,
+      "name": "Monday Moment Activity \u2014 week_13_decide",
+      "cls": "Monday Moment (AI Fluency)",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912484,
+      "name": "Monday Moment Activity \u2014 week_14_automate",
+      "cls": "Monday Moment (AI Fluency)",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912495,
+      "name": "Monday Moment Activity \u2014 week_15_measure",
+      "cls": "Monday Moment (AI Fluency)",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912364,
+      "name": "week 02 wed reading assignment",
+      "cls": "Professional Minds Wednesday",
+      "due_at": "2026-08-27T04:59:00Z",
+      "result": "SKIP_NEAR_TERM_DUE"
+    },
+    {
+      "id": 912365,
+      "name": "week 02 wed slides assignment",
+      "cls": "Professional Minds Wednesday",
+      "due_at": "2026-08-27T04:59:00Z",
+      "result": "SKIP_NEAR_TERM_DUE"
+    },
+    {
+      "id": 912376,
+      "name": "week 03 wed reading assignment",
+      "cls": "Professional Minds Wednesday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912377,
+      "name": "week 03 wed slides assignment",
+      "cls": "Professional Minds Wednesday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912386,
+      "name": "week 04 wed reading assignment",
+      "cls": "Professional Minds Wednesday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912387,
+      "name": "week 04 wed slides assignment",
+      "cls": "Professional Minds Wednesday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912396,
+      "name": "week 05 wed reading assignment",
+      "cls": "Professional Minds Wednesday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912397,
+      "name": "week 05 wed slides assignment",
+      "cls": "Professional Minds Wednesday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912406,
+      "name": "week 06 wed reading assignment",
+      "cls": "Professional Minds Wednesday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912407,
+      "name": "week 06 wed slides assignment",
+      "cls": "Professional Minds Wednesday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912415,
+      "name": "week 07 wed reading assignment",
+      "cls": "Professional Minds Wednesday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912416,
+      "name": "week 07 wed slides assignment",
+      "cls": "Professional Minds Wednesday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912425,
+      "name": "week 08 wed reading assignment",
+      "cls": "Professional Minds Wednesday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912426,
+      "name": "week 08 wed slides assignment",
+      "cls": "Professional Minds Wednesday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912435,
+      "name": "week 09 wed reading assignment",
+      "cls": "Professional Minds Wednesday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912436,
+      "name": "week 09 wed slides assignment",
+      "cls": "Professional Minds Wednesday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912445,
+      "name": "week 10 wed reading assignment",
+      "cls": "Professional Minds Wednesday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912446,
+      "name": "week 10 wed slides assignment",
+      "cls": "Professional Minds Wednesday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912455,
+      "name": "week 11 wed reading assignment",
+      "cls": "Professional Minds Wednesday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912456,
+      "name": "week 11 wed slides assignment",
+      "cls": "Professional Minds Wednesday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912465,
+      "name": "week 12 wed reading assignment",
+      "cls": "Professional Minds Wednesday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912466,
+      "name": "week 12 wed slides assignment",
+      "cls": "Professional Minds Wednesday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912475,
+      "name": "week 13 wed reading assignment",
+      "cls": "Professional Minds Wednesday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912476,
+      "name": "week 13 wed slides assignment",
+      "cls": "Professional Minds Wednesday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912485,
+      "name": "week 14 wed reading assignment",
+      "cls": "Professional Minds Wednesday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912487,
+      "name": "week 14 wed slides assignment",
+      "cls": "Professional Minds Wednesday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912496,
+      "name": "week 15 wed reading assignment",
+      "cls": "Professional Minds Wednesday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912497,
+      "name": "week 15 wed slides assignment",
+      "cls": "Professional Minds Wednesday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912366,
+      "name": "week 02 fri reading assignment",
+      "cls": "Professional Minds Friday",
+      "due_at": "2026-08-29T04:59:00Z",
+      "result": "SKIP_NEAR_TERM_DUE"
+    },
+    {
+      "id": 912367,
+      "name": "week 02 fri slides assignment",
+      "cls": "Professional Minds Friday",
+      "due_at": "2026-08-29T04:59:00Z",
+      "result": "SKIP_NEAR_TERM_DUE"
+    },
+    {
+      "id": 912378,
+      "name": "week 03 fri reading assignment",
+      "cls": "Professional Minds Friday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912379,
+      "name": "week 03 fri slides assignment",
+      "cls": "Professional Minds Friday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912388,
+      "name": "week 04 fri reading assignment",
+      "cls": "Professional Minds Friday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912389,
+      "name": "week 04 fri slides assignment",
+      "cls": "Professional Minds Friday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912398,
+      "name": "week 05 fri reading assignment",
+      "cls": "Professional Minds Friday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912399,
+      "name": "week 05 fri slides assignment",
+      "cls": "Professional Minds Friday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912408,
+      "name": "week 06 fri reading assignment",
+      "cls": "Professional Minds Friday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912409,
+      "name": "week 06 fri slides assignment",
+      "cls": "Professional Minds Friday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912417,
+      "name": "week 07 fri reading assignment",
+      "cls": "Professional Minds Friday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912418,
+      "name": "week 07 fri slides assignment",
+      "cls": "Professional Minds Friday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912427,
+      "name": "week 08 fri reading assignment",
+      "cls": "Professional Minds Friday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912428,
+      "name": "week 08 fri slides assignment",
+      "cls": "Professional Minds Friday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912437,
+      "name": "week 09 fri reading assignment",
+      "cls": "Professional Minds Friday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912438,
+      "name": "week 09 fri slides assignment",
+      "cls": "Professional Minds Friday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912447,
+      "name": "week 10 fri reading assignment",
+      "cls": "Professional Minds Friday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912448,
+      "name": "week 10 fri slides assignment",
+      "cls": "Professional Minds Friday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912457,
+      "name": "week 11 fri reading assignment",
+      "cls": "Professional Minds Friday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912458,
+      "name": "week 11 fri slides assignment",
+      "cls": "Professional Minds Friday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912467,
+      "name": "week 12 fri reading assignment",
+      "cls": "Professional Minds Friday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912468,
+      "name": "week 12 fri slides assignment",
+      "cls": "Professional Minds Friday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912477,
+      "name": "week 13 fri reading assignment",
+      "cls": "Professional Minds Friday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912478,
+      "name": "week 13 fri slides assignment",
+      "cls": "Professional Minds Friday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912488,
+      "name": "week 14 fri reading assignment",
+      "cls": "Professional Minds Friday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912489,
+      "name": "week 14 fri slides assignment",
+      "cls": "Professional Minds Friday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912498,
+      "name": "week 15 fri reading assignment",
+      "cls": "Professional Minds Friday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912499,
+      "name": "week 15 fri slides assignment",
+      "cls": "Professional Minds Friday",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912368,
+      "name": "A3 \u2014 Paired Programming Report (Week 02)",
+      "cls": "A3 Paired Programming Report",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912380,
+      "name": "A3 \u2014 Paired Programming Report (Week 03)",
+      "cls": "A3 Paired Programming Report",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912390,
+      "name": "A3 \u2014 Paired Programming Report (Week 04)",
+      "cls": "A3 Paired Programming Report",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912400,
+      "name": "A3 \u2014 Paired Programming Report (Week 05)",
+      "cls": "A3 Paired Programming Report",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912410,
+      "name": "A3 \u2014 Paired Programming Report (Week 06)",
+      "cls": "A3 Paired Programming Report",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912419,
+      "name": "A3 \u2014 Paired Programming Report (Week 07)",
+      "cls": "A3 Paired Programming Report",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912429,
+      "name": "A3 \u2014 Paired Programming Report (Week 08)",
+      "cls": "A3 Paired Programming Report",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912439,
+      "name": "A3 \u2014 Paired Programming Report (Week 09)",
+      "cls": "A3 Paired Programming Report",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912449,
+      "name": "A3 \u2014 Paired Programming Report (Week 10)",
+      "cls": "A3 Paired Programming Report",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912459,
+      "name": "A3 \u2014 Paired Programming Report (Week 11)",
+      "cls": "A3 Paired Programming Report",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912469,
+      "name": "A3 \u2014 Paired Programming Report (Week 12)",
+      "cls": "A3 Paired Programming Report",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912479,
+      "name": "A3 \u2014 Paired Programming Report (Week 13)",
+      "cls": "A3 Paired Programming Report",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912490,
+      "name": "A3 \u2014 Paired Programming Report (Week 14)",
+      "cls": "A3 Paired Programming Report",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912500,
+      "name": "A3 \u2014 Paired Programming Report (Week 15)",
+      "cls": "A3 Paired Programming Report",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912369,
+      "name": "A7 \u2014 Friday Feedback Report (Week 02)",
+      "cls": "A7 Friday Feedback Report",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912381,
+      "name": "A7 \u2014 Friday Feedback Report (Week 03)",
+      "cls": "A7 Friday Feedback Report",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912391,
+      "name": "A7 \u2014 Friday Feedback Report (Week 04)",
+      "cls": "A7 Friday Feedback Report",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912401,
+      "name": "A7 \u2014 Friday Feedback Report (Week 05)",
+      "cls": "A7 Friday Feedback Report",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912411,
+      "name": "A7 \u2014 Friday Feedback Report (Week 06)",
+      "cls": "A7 Friday Feedback Report",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912420,
+      "name": "A7 \u2014 Friday Feedback Report (Week 07)",
+      "cls": "A7 Friday Feedback Report",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912430,
+      "name": "A7 \u2014 Friday Feedback Report (Week 08)",
+      "cls": "A7 Friday Feedback Report",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912441,
+      "name": "A7 \u2014 Friday Feedback Report (Week 09)",
+      "cls": "A7 Friday Feedback Report",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912450,
+      "name": "A7 \u2014 Friday Feedback Report (Week 10)",
+      "cls": "A7 Friday Feedback Report",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912460,
+      "name": "A7 \u2014 Friday Feedback Report (Week 11)",
+      "cls": "A7 Friday Feedback Report",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912470,
+      "name": "A7 \u2014 Friday Feedback Report (Week 12)",
+      "cls": "A7 Friday Feedback Report",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912480,
+      "name": "A7 \u2014 Friday Feedback Report (Week 13)",
+      "cls": "A7 Friday Feedback Report",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912491,
+      "name": "A7 \u2014 Friday Feedback Report (Week 14)",
+      "cls": "A7 Friday Feedback Report",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912501,
+      "name": "A7 \u2014 Friday Feedback Report (Week 15)",
+      "cls": "A7 Friday Feedback Report",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912370,
+      "name": "A4 \u2014 Show and Tell Reflection (Week 02)",
+      "cls": "A4 Show and Tell Reflection",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912382,
+      "name": "A4 \u2014 Show and Tell Reflection (Week 03)",
+      "cls": "A4 Show and Tell Reflection",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912392,
+      "name": "A4 \u2014 Show and Tell Reflection (Week 04)",
+      "cls": "A4 Show and Tell Reflection",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912402,
+      "name": "A4 \u2014 Show and Tell Reflection (Week 05)",
+      "cls": "A4 Show and Tell Reflection",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912412,
+      "name": "A4 \u2014 Show and Tell Reflection (Week 06)",
+      "cls": "A4 Show and Tell Reflection",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912421,
+      "name": "A4 \u2014 Show and Tell Reflection (Week 07)",
+      "cls": "A4 Show and Tell Reflection",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912431,
+      "name": "A4 \u2014 Show and Tell Reflection (Week 08)",
+      "cls": "A4 Show and Tell Reflection",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912442,
+      "name": "A4 \u2014 Show and Tell Reflection (Week 09)",
+      "cls": "A4 Show and Tell Reflection",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912451,
+      "name": "A4 \u2014 Show and Tell Reflection (Week 10)",
+      "cls": "A4 Show and Tell Reflection",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912461,
+      "name": "A4 \u2014 Show and Tell Reflection (Week 11)",
+      "cls": "A4 Show and Tell Reflection",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912471,
+      "name": "A4 \u2014 Show and Tell Reflection (Week 12)",
+      "cls": "A4 Show and Tell Reflection",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912481,
+      "name": "A4 \u2014 Show and Tell Reflection (Week 13)",
+      "cls": "A4 Show and Tell Reflection",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912492,
+      "name": "A4 \u2014 Show and Tell Reflection (Week 14)",
+      "cls": "A4 Show and Tell Reflection",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    },
+    {
+      "id": 912502,
+      "name": "A4 \u2014 Show and Tell Reflection (Week 15)",
+      "cls": "A4 Show and Tell Reflection",
+      "result": "DELETED",
+      "delete_status": 200,
+      "readback_workflow_state": "404_CONFIRMED_GONE"
+    }
+  ],
+  "deleted": 112,
+  "skipped": 5
+}
