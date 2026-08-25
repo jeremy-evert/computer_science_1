@@ -1,0 +1,83 @@
+{
+  "course_id": 74029,
+  "job": "cs1-visible-shell-week03-plus-20260825",
+  "week02_verified_untouched": {
+    "items": 25
+  },
+  "weeks_after": {
+    "3": [
+      "03-branching",
+      "Bonus Practice (Week 03)",
+      "week-03",
+      "week-03_rubric"
+    ],
+    "4": [
+      "Bonus Practice (Week 04)",
+      "week-04",
+      "week-04_rubric"
+    ],
+    "5": [
+      "04-loops",
+      "Bonus Practice (Week 05)",
+      "week-05",
+      "week-05_rubric"
+    ],
+    "6": [
+      "week-06",
+      "week-06_rubric"
+    ],
+    "7": [
+      "05-functions",
+      "Bonus Practice (Week 07)",
+      "week-07",
+      "week-07_rubric"
+    ],
+    "8": [
+      "06-strings",
+      "Bonus Practice (Week 08)",
+      "week-08",
+      "week-08_rubric"
+    ],
+    "9": [
+      "week-09",
+      "week-09_rubric"
+    ],
+    "10": [
+      "07-collections",
+      "Bonus Practice (Week 10)",
+      "week-10",
+      "week-10_rubric"
+    ],
+    "11": [
+      "Bonus Practice (Week 11)",
+      "week-11",
+      "week-11_rubric"
+    ],
+    "12": [
+      "08-classes-and-modules",
+      "Bonus Practice (Week 12)",
+      "week-12",
+      "week-12_rubric"
+    ],
+    "13": [
+      "Bonus Practice (Week 13)",
+      "week-13",
+      "week-13_rubric"
+    ],
+    "14": [
+      "09-projects-tools-and-reflection",
+      "week-14",
+      "week-14_rubric"
+    ],
+    "15": [
+      "Monday Moment - week_15_measure"
+    ],
+    "16": [
+      "10-farkle-ml",
+      "W16-farkle-ml-experiment-receipt"
+    ]
+  },
+  "bug_found_and_fixed": "first automated pass guessed a wrong lesson-topic-page naming pattern (assumed NN-topic matches week NN); actual lesson chapters do not map 1:1 to calendar weeks (topic pages are introduced only on weeks with new concepts, confirmed via each week assignment description own Concept: lessons/NN-x.md citation). Wrongly unlinked topic pages for weeks 5,7,8,10,12,14 and fully emptied weeks 15/16 (which have no week-NN gate assignment at all). Fixed via create_module_item re-links after verifying the correct owning week from each assignment description and page content, before any report was written.",
+  "week15_content_gap_flagged": "No dedicated disciplinary object (no week-15 gate assignment, no topic page) was found live for Week 15 - only the standard Monday Moment/Professional Minds shared strand exists. Restored Monday Moment as a minimal anchor so the module is not empty; flagged for Jeremy, not invented content.",
+  "run_at": "2026-08-25T20:18:07.651163+00:00"
+}
