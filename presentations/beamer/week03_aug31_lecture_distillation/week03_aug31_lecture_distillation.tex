@@ -1,0 +1,129 @@
+\documentclass{beamer}
+\input{../theme/preamble.tex}
+
+\title{Files, Terminals, and Your First Python Program}
+\subtitle{CS1 Week 3 — Monday, August 31, 2026}
+\author{Computer Science I}
+\date{}
+
+\begin{document}
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{The lesson in one sentence}
+  \Large
+  The file manager and terminal are two views of the same filesystem; the computer follows exact instructions.
+  \vfill
+  \normalsize Predict. Try one small change. Read the result. Verify.
+\end{frame}
+
+\begin{frame}{Two views, one location}
+  \begin{columns}[T]
+    \column{.48\textwidth}
+    \textbf{File manager}
+    \begin{itemize}
+      \item Visual folders and files
+      \item Create and open items
+      \item Save changes explicitly
+    \end{itemize}
+    \column{.48\textwidth}
+    \textbf{Terminal}
+    \begin{itemize}
+      \item Text commands
+      \item Exact current location
+      \item Ask it to list or inspect
+    \end{itemize}
+  \end{columns}
+\end{frame}
+
+\begin{frame}[fragile]{Where am I? What is here?}
+\begin{verbatim}
+ls
+cd GIT
+\end{verbatim}
+\vspace{1em}
+\begin{itemize}
+  \item \texttt{ls} lists the current directory.
+  \item \texttt{cd} changes the current directory.
+  \item After creating a file, list again: the terminal will not guess.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Files have jobs and names}
+  \begin{center}
+  \begin{tabular}{lll}
+    \textbf{Extension} & \textbf{Kind} & \textbf{Use} \\
+    \hline
+    \texttt{.txt} & plain text & notes or simple text \\
+    \texttt{.md} & Markdown & structured readable notes \\
+    \texttt{.py} & Python source & instructions Python can execute
+  \end{tabular}
+  \end{center}
+  \vspace{1em}
+  A \texttt{.py} file is text on disk; it becomes a program when its contents and execution context are correct.
+\end{frame}
+
+\begin{frame}[fragile]{Your first tiny Python file}
+\begin{verbatim}
+# A short note for another human
+print("hello world")
+\end{verbatim}
+\begin{itemize}
+  \item \texttt{\#} begins a comment: useful to humans, ignored by Python.
+  \item \texttt{print()} is a function that sends text to output.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Literal machine, useful partner}
+  \begin{itemize}
+    \item Python does not infer your intention.
+    \item Names, punctuation, capitalization, and location matter.
+    \item Once you learn the language, the machine becomes a resource instead of a mystery.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Case sensitivity is a rule}
+\begin{verbatim}
+print("hello world")   # works
+Print("hello world")   # different name: error
+\end{verbatim}
+\vspace{1em}
+Humans see the intended word. Python sees two different spellings.
+\end{frame}
+
+\begin{frame}{Errors are information}
+  \begin{enumerate}
+    \item Read the error and locate the line.
+    \item Predict one small correction.
+    \item Change one thing and run again.
+    \item Ask a person or tool to translate unfamiliar language.
+  \end{enumerate}
+  \vfill
+  An error costs a little time; the correction teaches you what the rule is.
+\end{frame}
+
+\begin{frame}{Small tools from the lecture}
+  \begin{itemize}
+    \item \textbf{Up arrow:} recall the previous terminal command.
+    \item \textbf{Tab:} complete a name and check available choices.
+    \item \textbf{Ctrl+S:} save the file before testing it.
+    \item \textbf{File inspection:} look at the text before asking what it does.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Before Wednesday}
+  \begin{itemize}
+    \item Save a tiny \texttt{.py} file with one comment and one \texttt{print()} line.
+    \item Predict its output before running it.
+    \item Wednesday: paired reasoning with the Week 3 material.
+    \item Friday: show-and-tell/check-in on what worked and what you learned.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Takeaway}
+  \Huge
+  \centering
+  Be precise, be curious, and use errors as evidence.
+\end{frame}
+\end{document}
