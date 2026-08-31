@@ -6,6 +6,15 @@
 \author{Computer Science I}
 \date{}
 
+% Screenshots are real, de-identified frames from the class recording.
+\newcommand{\classshot}[2]{%
+  \begin{frame}{From class: #2}
+    \begin{center}
+      \includegraphics[width=.98\linewidth,height=.82\textheight,keepaspectratio]{img/#1}
+    \end{center}
+  \end{frame}%
+}
+
 \begin{document}
 \begin{frame}
   \titlepage
@@ -37,6 +46,8 @@
   \end{columns}
 \end{frame}
 
+\classshot{0540_ls_cd_git}{the same \texttt{git} folder, in the file manager and in PowerShell}
+
 \begin{frame}[fragile]{Where am I? What is here?}
 \begin{verbatim}
 ls
@@ -49,6 +60,8 @@ cd GIT
   \item After creating a file, list again: the terminal will not guess.
 \end{itemize}
 \end{frame}
+
+\classshot{0780_save_txt_unsaved}{\texttt{Hello\_class.txt} now shows up in the folder after we saved it}
 
 \begin{frame}{Files have jobs and names}
   \begin{center}
@@ -75,6 +88,10 @@ print("hello world")
 \end{itemize}
 \end{frame}
 
+\classshot{1380_comments_hash}{a real comment line inside the file, read back with \texttt{cat}}
+
+\classshot{2820_print_function}{naming the parts: the function, the argument, the string}
+
 \begin{frame}{Literal machine, useful partner}
   \begin{itemize}
     \item Python does not infer your intention.
@@ -92,6 +109,8 @@ Print("hello world")   # different name: error
 Humans see the intended word. Python sees two different spellings.
 \end{frame}
 
+\classshot{1800_case_sensitive_print}{\texttt{Print} vs \texttt{print} --- ``\,name 'Print' is not defined. Did you mean: 'print'?\,''}
+
 \begin{frame}{Errors are information}
   \begin{enumerate}
     \item Read the error and locate the line.
@@ -103,6 +122,8 @@ Humans see the intended word. Python sees two different spellings.
   An error costs a little time; the correction teaches you what the rule is.
 \end{frame}
 
+\classshot{2100_powershell_herestring}{one small fix, then run it: \texttt{python .\textbackslash hello\_in\_python.py}}
+
 \begin{frame}{Small tools from the lecture}
   \begin{itemize}
     \item \textbf{Up arrow:} recall the previous terminal command.
@@ -111,6 +132,8 @@ Humans see the intended word. Python sees two different spellings.
     \item \textbf{File inspection:} look at the text before asking what it does.
   \end{itemize}
 \end{frame}
+
+\classshot{2970_syntax_error_fix}{experimenting: \texttt{TWO\_PRINTS.py} and the repeated output it makes}
 
 \begin{frame}{Before Wednesday}
   \begin{itemize}
