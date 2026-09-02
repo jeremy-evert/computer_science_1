@@ -1,0 +1,131 @@
+\documentclass{beamer}
+\input{../theme/preamble.tex}
+
+\title{Reading and Running AI-Generated Code}
+\subtitle{CS1 Week 3 --- Wednesday, September 2, 2026}
+\author{Computer Science I}
+\date{}
+
+% Screenshots are real, de-identified frames from the class recording.
+\newcommand{\classshot}[2]{%
+  \begin{frame}{From class: #2}
+    \begin{center}
+      \includegraphics[width=.98\linewidth,height=.82\textheight,keepaspectratio]{img/#1}
+    \end{center}
+  \end{frame}%
+}
+
+\begin{document}
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{The lesson in one sentence}
+  \Large
+  A chat AI tool gives you a fast first draft; it only knows what you told it. Read what it wrote, notice the gaps, and verify.
+  \vfill
+  \normalsize Predict. Read the code. Try one small change. Verify.
+\end{frame}
+
+\begin{frame}{Today's example: the World Bible}
+  \begin{itemize}
+    \item CS1 is deliberately freeform --- no textbook, four possible starter ``worlds'' to build from.
+    \item Today's world: a frontier settlement with a food stock, a settler count, and a warning rule.
+    \item The rule in plain English: \emph{if the food stock is below a threshold, print a warning.}
+  \end{itemize}
+\end{frame}
+
+\classshot{1024_gpt_generated}{a plain-English rule turned into a first-draft Python script}
+
+\begin{frame}{What the tool did --- and didn't --- know}
+  \begin{itemize}
+    \item The prompt only said: check a threshold, print a warning, use a ``settler'' voice.
+    \item It did \textbf{not} say where to save the file or how to run it.
+    \item That's expected: those are things you're expected to notice and supply yourself.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Reading the generated code}
+  \begin{itemize}
+    \item \texttt{\#} comment lines --- notes for humans, ignored by Python.
+    \item \texttt{print(...)} --- sends text to the screen.
+    \item \texttt{settlement\_name = "Dusty Trail"} --- a variable: a name that gives a bare value context.
+  \end{itemize}
+  \vspace{0.5em}
+  A number alone (``8'') means nothing. \texttt{food\_stock = 8} means something.
+\end{frame}
+
+\begin{frame}[fragile]{Moving the code into a file: here-string + pipe}
+\footnotesize
+\begin{verbatim}
+$code = @'
+# generated Python code goes here
+'@
+$code | Set-Content -Path frontiersettlement.py -Encoding utf8
+\end{verbatim}
+\normalsize
+\begin{itemize}
+  \item \texttt{@' ... '@} is a \textbf{here-string}: a block of multi-line text.
+  \item \texttt{|} is the \textbf{pipe}: what goes in one end comes out the other, unchanged.
+  \item \texttt{Set-Content} writes the piped text into a file.
+\end{itemize}
+\end{frame}
+
+\classshot{1744_paste_warning}{PowerShell's multi-line-paste warning --- expected, not an error}
+
+\begin{frame}{Reading the warning}
+  \begin{itemize}
+    \item PowerShell is confirming you meant to run \emph{all} of the pasted text, not just the first line.
+    \item Stray characters --- an extra quote, an extra space, a smart quote or emoji some tools insert --- can break a paste like this.
+    \item If a pasted block looks off, reread it before choosing ``Paste anyway.''
+  \end{itemize}
+\end{frame}
+
+\classshot{1815_run_output}{running \texttt{frontiersettlement.py} and reading its output}
+
+\classshot{2045_notepad_view}{the same file, opened in Notepad --- still just text on disk}
+
+\begin{frame}[fragile]{The \texttt{if} block, read line by line}
+\footnotesize
+\begin{verbatim}
+if food_stock < 10:
+    print("Hold onto yer hat! Our food stores are runnin' mighty low!")
+\end{verbatim}
+\normalsize
+\begin{itemize}
+  \item An \texttt{if} block runs only when its condition is true.
+  \item Study this shape, then copy one line and change it to see what happens.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Tool posture}
+  \begin{itemize}
+    \item If something is a mystery, confusing, or seems wrong: ask the tool to explain it.
+    \item You stay the one deciding whether the explanation makes sense.
+    \item The tool is only guessing at what will help you --- it can't read your mind.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Paired reasoning starts today}
+  \begin{itemize}
+    \item \textbf{Foreman:} plans on paper, doesn't type.
+    \item \textbf{Worker:} has the keyboard, executes the plan.
+    \item If you were a worker last week, try being the foreman this week.
+    \item Keep the same partner from last week where you can.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Before Friday}
+  \begin{itemize}
+    \item Continue the paired work started in class.
+    \item Be ready to explain what each variable represents.
+    \item Be ready to explain what the \texttt{if} condition is checking.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Takeaway}
+  \Huge
+  \centering
+  Read before you run. Ask when it's unclear. You decide what makes sense.
+\end{frame}
+\end{document}
