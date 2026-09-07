@@ -12,10 +12,10 @@ No class — Labor Day.
 Technical tie-in: breaking a large branching problem into nested, testable conditions is the same move as decomposing a large AI task into stages.
 
 ## Wednesday — Sep 9 — Wacky Wednesday
-**Professional Minds Week 4** — Book: *Critical Thinking* — Question: How do we make better decisions?
+**Professional Minds Week 4** — Reading: *Spelling Out Arguments* — Question: How do we make better decisions?
 
 ## Friday — Sep 11 — Fun Friday
-**Professional Minds Week 4** — Book: *Thinking, Fast and Slow* — Question: How do we make better decisions?
+**Professional Minds Week 4** — Reading: *The Outside View* — Question: How do we make better decisions?
 Show-and-tell / reflection tie-in: share a branching program and its boundary/invalid test cases.
 
 ## Due this week

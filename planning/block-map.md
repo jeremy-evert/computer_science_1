@@ -54,7 +54,7 @@ merge Lens 16 into the final reflection.
 | W01 | Aug 19 | 1 | Getting the most out of your degree (universal Week 1: LinkedIn Learning, degree check/plan, progress report, subs, audits) | — | ☐ | ☐ | ☐ |
 | W02 | Aug 26 | 2 | *Make It Stick* | How does the brain improve? | ☐ | ☐ | ☐ |
 | W03 | Sep 2 | 3 | *Limitless Mind* | How do we keep growing through challenges? | ☐ | ☐ | ☐ |
-| W04 | Sep 9 | 4 | *Critical Thinking* (+ Lens 4 folded intro) | How do we make better decisions? | ☐ | ☐ | ☐ |
+| W04 | Sep 9 | 4 | *Spelling Out Arguments* (+ Lens 4 folded intro) | How do we make better decisions? | ☐ | ☐ | ☐ |
 | W05 | Sep 16 | 5 | *The Art of Thinking Clearly* | How do we avoid common thinking mistakes? | ☐ | ☐ | ☐ |
 | W06 | Sep 23 | 6 | *Statistics Done Wrong* | How do we know something is true? | ☐ | ☐ | ☐ |
 | W07 | Sep 30 | 7 | *Understanding by Design* | How do we design meaningful learning? | ☐ | ☐ | ☐ |
@@ -75,7 +75,7 @@ merge Lens 16 into the final reflection.
 | F01 | Aug 21 | 1 | Getting the most out of your career (universal Week 1: daily 3-things journal; weekly vita paragraphs; monthly resume→CV rotation; internships, resume tips, job search) | — | ☐ | ☐ | ☐ |
 | F02 | Aug 28 | 2 | *Mindset* | How does the brain improve? | ☐ | ☐ | ☐ |
 | F03 | Sep 4 | 3 | *Resilience Education* | How do we keep growing through challenges? | ☐ | ☐ | ☐ |
-| F04 | Sep 11 | 4 | *Thinking, Fast and Slow* | How do we make better decisions? | ☐ | ☐ | ☐ |
+| F04 | Sep 11 | 4 | *The Outside View* | How do we make better decisions? | ☐ | ☐ | ☐ |
 | F05 | Sep 18 | 5 | *How Not to Be Wrong* | How do we avoid common thinking mistakes? | ☐ | ☐ | ☐ |
 | F06 | Sep 25 | 6 | *Understanding Statistics and Experimental Design* | How do we know something is true? | ☐ | ☐ | ☐ |
 | F07 | Oct 2 | 7 | *Rethinking Grading* | How do we design meaningful learning? | ☐ | ☐ | ☐ |
