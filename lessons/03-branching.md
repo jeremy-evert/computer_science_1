@@ -140,6 +140,54 @@ A condition like `food_stock < 20` has an edge: what happens at exactly
 This is the same discipline as last week's type-conversion errors: the
 case that breaks your program is rarely the obvious one.
 
+## 9. Decision tables: plan the branches before you code
+
+When a decision has more than two outcomes, write the cases down before
+writing Python. A decision table makes the boundaries visible and gives you
+test cases instead of leaving the logic to guesswork:
+
+| Food stock | Outcome | Stored status | Next action |
+|---|---|---|---|
+| below 5 | critical | `"critical"` | ration immediately |
+| 5 through 14 | low | `"low"` | warn the settlement |
+| 15 or more | stable | `"stable"` | continue normal work |
+
+The row order becomes the condition order. Test the exact boundaries (`5`
+and `15`) as well as a value inside each band. Also test invalid input, such
+as a negative stock value, when your world allows it; decide whether to
+reject it or give it a deliberate outcome.
+
+```python
+food_stock = 15
+
+if food_stock < 0:
+    status = "invalid"
+elif food_stock < 5:
+    status = "critical"
+elif food_stock < 15:
+    status = "low"
+else:
+    status = "stable"
+
+print(f"Settlement status: {status}.")
+```
+
+Notice that the decision changes `status`, not only the sentence printed at
+the end. That downstream state is what lets the rest of a larger program
+take a different path.
+
+## 10. The AI Fluency connection: decompose the task
+
+The same habit helps when you ask an AI tool for help. Decompose the task
+into small, checkable stages: list outcomes and boundaries, make a decision
+table, write the conditions in order, and test representative and boundary
+values. Ask the tool to explain or review one stage at a time.
+
+For this week's paired work, the foreman can plan the table and test cases
+while the worker types and runs the code. Both roles should explain why
+every input lands in the row it does. That is the programming version of AI
+Fluency Lens 4, **Decompose the Task**.
+
 ## Worked example, tied to the gate
 
 ```python

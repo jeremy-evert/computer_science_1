@@ -3,13 +3,18 @@
 **Gate status:** active
 
 **Concept:** branching and decision-making, full depth
-(`lessons/03-branching.md`). No Monday session this week (Labor Day) — the
+([branching and decision-making lesson]({{link:week04_branching_lesson}})).
+No Monday session this week (Labor Day) — the
 lecture content moves to Wed/Fri active time or the podcast; this gate is
 unaffected.
 **Arc:** 1 — Foundations. **Instrument:** Quick Check (pass/fail) — see
 `docs/curriculum/judgment_toolkit.md` §1.
 
 ## The gate (do this first)
+
+Use the [Week 4 decision-logic lesson]({{link:week04_branching_lesson}}) to
+write a small decision table before you code. The table should name each
+outcome, its boundary, and the downstream behavior it changes.
 
 Deepen last week's single `if` into a real decision with **at least three
 distinct outcomes** (an `if`/`elif`/`else` chain, or nested conditions) that
