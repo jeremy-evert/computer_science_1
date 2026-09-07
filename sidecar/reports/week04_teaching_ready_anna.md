@@ -86,7 +86,15 @@ CS1. The canonical CS1 checkout had pre-existing untracked
 `sidecar/runs/104A_owner_repair/`; it was not touched. Both task worktrees
 were created through `grace_work_farm.py`.
 
-Commits and push status will be filled below after the atomic commits.
+Commits:
+
+- CS1 implementation: `52b63b2` (`Prepare CS1 Week 4 decision-logic path`)
+- CS1 report: `1cd7e45` (`Document CS1 Week 4 readiness evidence`)
+- Course Foundry resolver/test: `5eeb917` (`Resolve CS1 Week 4 lesson links`)
+
+The CS1 branch and Course Foundry branch were pushed to `origin` after
+commit. The isolated worktrees are clean. The canonical CS1 checkout retains
+its pre-existing untracked `sidecar/runs/104A_owner_repair/` only.
 
 ## Proposed student walk
 
