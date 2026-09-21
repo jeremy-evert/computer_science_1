@@ -4,15 +4,20 @@
 
 **Concept:** no new technical concept — consolidate loops and everything
 taught through Week 5. **This week's gate is Reasoning Odyssey Checkpoint 1
-itself** — see `assignments/A2-coding-odyssey-project.md`'s checkpoint
-table and `planning/week-06.md`. No separate parallel gate; this file was
-previously missing even though Week 5's own gate file already pointed here
-("Week 6 folds loops review directly into Coding Odyssey Checkpoint 1 —
-no separate gate next week; the checkpoint is the gate," see
-`assignments/odyssey_gates/week-05.md`). Authored 2026-08-06 (course_foundry
-prompt 026) to close that gap. **Instrument:** the two-axis rubric
-(result 15 + process 10 = 25 points) defined in `docs/grading-model.md` —
-reused as-is, not a new shape, per Jeremy's 2026-08-06 decision.
+itself** — see the Reasoning Odyssey Project Home Base page's checkpoint
+table. There is no separate parallel gate this week — as Week 5's gate
+already said, this checkpoint folds loops review directly in. **Instrument:**
+the two-axis rubric (result 15 + process 10 = 25 points) — see the Week 6
+rubric page, reused as-is from the weekly reinforcement rubric.
+
+<!-- Authoring note (not student-facing): this gate file was previously
+missing even though Week 5's own gate file already pointed here. Authored
+2026-08-06 (course_foundry prompt 026) to close that gap. Rubric reuse is
+per Jeremy's 2026-08-06 decision. Publish pipeline: convert the two
+Canvas-page references above and the Week 5 reference into real links
+(reasoning-odyssey-project-home-base page, week-06_rubric page, Week 5's
+discussion_topics/543062) — do not push `docs/grading-model.md`-style repo
+paths verbatim to students. -->
 
 ## The checkpoint (do this first)
 
