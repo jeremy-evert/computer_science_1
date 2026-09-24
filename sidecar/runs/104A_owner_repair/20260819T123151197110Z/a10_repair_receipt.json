@@ -1,0 +1,123 @@
+{
+  "after": {
+    "a10": {
+      "assignment_group_id": 151253,
+      "due_at": null,
+      "grading_type": "points",
+      "id": 910505,
+      "name": "A10 (Optional / Bonus) \u2014 Success Foundations Reflection",
+      "omit_from_final_grade": false,
+      "points_possible": 10.0,
+      "published": true,
+      "submission_types": [
+        "online_text_entry"
+      ]
+    },
+    "assignment_count": 160,
+    "assignment_group_count": 15,
+    "default_group": {
+      "group_weight": 0.0,
+      "id": 151253,
+      "name": "Assignments",
+      "rules": {}
+    },
+    "drop_lowest_groups": [
+      "Friday feedback report",
+      "Fun Friday reflection",
+      "Monday Moment quiz",
+      "Paired-programming report",
+      "Show-and-Tell reflection",
+      "Wacky Wednesday reflection",
+      "Weekly reinforcement assignment"
+    ],
+    "kickoff_group": {
+      "group_weight": 5.0,
+      "id": 156895,
+      "name": "Semester kickoff week",
+      "rules": {}
+    },
+    "kickoff_member_count": 12,
+    "topology": {
+      "course_code": "COMSC-1033-1415.2026FA",
+      "course_id": 74029,
+      "sections": {
+        "76384": {
+          "course_id": 74029,
+          "nonxlist_course_id": null
+        },
+        "76388": {
+          "course_id": 74029,
+          "nonxlist_course_id": 74033
+        }
+      }
+    },
+    "total_group_weight": 100.0
+  },
+  "before": {
+    "a10": {
+      "assignment_group_id": 156895,
+      "due_at": null,
+      "grading_type": "points",
+      "id": 910505,
+      "name": "A10 (Optional / Bonus) \u2014 Success Foundations Reflection",
+      "omit_from_final_grade": false,
+      "points_possible": 10.0,
+      "published": true,
+      "submission_types": [
+        "online_text_entry"
+      ]
+    },
+    "assignment_count": 160,
+    "assignment_group_count": 15,
+    "default_group": {
+      "group_weight": 0.0,
+      "id": 151253,
+      "name": "Assignments",
+      "rules": {}
+    },
+    "drop_lowest_groups": [
+      "Friday feedback report",
+      "Fun Friday reflection",
+      "Monday Moment quiz",
+      "Paired-programming report",
+      "Show-and-Tell reflection",
+      "Wacky Wednesday reflection",
+      "Weekly reinforcement assignment"
+    ],
+    "kickoff_group": {
+      "group_weight": 5.0,
+      "id": 156895,
+      "name": "Semester kickoff week",
+      "rules": {}
+    },
+    "kickoff_member_count": 13,
+    "topology": {
+      "course_code": "COMSC-1033-1415.2026FA",
+      "course_id": 74029,
+      "sections": {
+        "76384": {
+          "course_id": 74029,
+          "nonxlist_course_id": null
+        },
+        "76388": {
+          "course_id": 74029,
+          "nonxlist_course_id": 74033
+        }
+      }
+    },
+    "total_group_weight": 100.0
+  },
+  "changed_assignment_ids": [
+    910505
+  ],
+  "diagnosis": "REPAIRED",
+  "forbidden_course_id": 74033,
+  "mode": "apply",
+  "note": "No token, student names, enrollments, submissions, or grades are stored in this receipt.",
+  "prompt": "104A",
+  "source_policy": {
+    "path": "/mnt/brandy_nvme/jevert/git/semester_kickoff_week/assignments/A10_success_foundations_reflection.md",
+    "policy": "optional bonus; 10 real points; default 0%-weighted Assignments group"
+  },
+  "target_course_id": 74029
+}
