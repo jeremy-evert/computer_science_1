@@ -1,41 +1,3 @@
-"""
-SURVIVING THE MALL
-A beginner-friendly choose-your-own-adventure game.
-
-Programming ideas used in this adventure:
-
-1. Variables
-2. Strings
-3. Integers
-4. Lists
-5. Boolean values
-6. input()
-7. print()
-8. if, elif, and else selections
-9. while loops
-10. for loops
-11. Simple functions
-12. Returning values from functions
-13. Inventory management
-14. Player statistics
-15. Multiple possible endings
-
-The goal is to survive a shopping trip to the mall.
-
-Primary objectives:
-- Buy ferret food
-- Buy boxing gloves for the ferret
-- Survive pushy salespeople
-- Survive pushy customers
-- Stay within the shopping budget
-- Keep the ferret happy
-"""
-
-
-# ============================================================
-# TITLE
-# ============================================================
-
 print()
 print("=" * 70)
 print("                    SURVIVING THE MALL")
@@ -58,10 +20,6 @@ print("=" * 70)
 print()
 
 
-# ============================================================
-# PLAYER SETUP
-# ============================================================
-
 player_name = input("What is your name, brave shopper? ").strip()
 
 if player_name == "":
@@ -81,10 +39,6 @@ print("You are not certain how a ferret learned to write.")
 print("You are even less certain where the ferret found a crayon.")
 print()
 
-
-# ============================================================
-# PLAYER VARIABLES
-# ============================================================
 
 money = 100
 energy = 10
@@ -112,31 +66,18 @@ game_running = True
 turn_number = 1
 
 
-# ============================================================
-# HELPER FUNCTIONS
-# ============================================================
-
-def pause():
-    """
-    Gives the player a chance to read the story before continuing.
-    """
+def wait_for_player_to_continue():
     input("\nPress Enter to continue...")
 
 
-def show_divider():
-    """
-    Prints a line between major sections.
-    """
+def print_section_divider():
     print()
     print("-" * 70)
     print()
 
 
-def show_status():
-    """
-    Displays the player's current game statistics.
-    """
-    show_divider()
+def display_current_shopping_status():
+    print_section_divider()
     print("CURRENT SHOPPING STATUS")
     print()
     print("Shopper:", player_name)
@@ -169,14 +110,11 @@ def show_status():
     else:
         print("  [INCOMPLETE] Buy boxing gloves for", ferret_name)
 
-    show_divider()
+    print_section_divider()
 
 
-def show_help():
-    """
-    Explains the available mall locations.
-    """
-    show_divider()
+def display_mall_directory():
+    print_section_divider()
     print("MALL DIRECTORY")
     print()
     print("1. Pet store")
@@ -200,13 +138,10 @@ def show_help():
     print("7. Check your status")
     print()
     print("8. Attempt to leave the mall")
-    show_divider()
+    print_section_divider()
 
 
-def handle_zero_stats():
-    """
-    Checks whether the player has run out of energy or patience.
-    """
+def end_game_if_player_resources_are_depleted():
     global game_running
 
     if energy <= 0:
@@ -245,10 +180,7 @@ def handle_zero_stats():
         game_running = False
 
 
-def pet_store():
-    """
-    Handles the adventure inside the pet store.
-    """
+def visit_pet_store():
     global money
     global energy
     global patience
@@ -257,7 +189,7 @@ def pet_store():
     global has_ferret_food
     global has_coupon
 
-    show_divider()
+    print_section_divider()
     print("THE PET STORE")
     print()
     print("A bell jingles as you enter the pet store.")
@@ -457,13 +389,10 @@ def pet_store():
     if "Pet Store" not in visited_stores:
         visited_stores.append("Pet Store")
 
-    pause()
+    wait_for_player_to_continue()
 
 
-def sporting_goods_store():
-    """
-    Handles the boxing-glove shopping trip.
-    """
+def visit_sporting_goods_store():
     global money
     global energy
     global patience
@@ -471,7 +400,7 @@ def sporting_goods_store():
     global mall_reputation
     global has_boxing_gloves
 
-    show_divider()
+    print_section_divider()
     print("THE SPORTING GOODS STORE")
     print()
     print("You enter a store filled with basketballs, camping equipment,")
@@ -635,13 +564,10 @@ def sporting_goods_store():
     if "Sporting Goods Store" not in visited_stores:
         visited_stores.append("Sporting Goods Store")
 
-    pause()
+    wait_for_player_to_continue()
 
 
-def food_court():
-    """
-    Handles food, samples, and a pushy customer encounter.
-    """
+def visit_food_court():
     global money
     global energy
     global patience
@@ -649,7 +575,7 @@ def food_court():
     global has_snack
     global has_emergency_pretzel
 
-    show_divider()
+    print_section_divider()
     print("THE FOOD COURT")
     print()
     print("The smell of pizza, cinnamon, fried potatoes, and")
@@ -837,19 +763,16 @@ def food_court():
     if "Food Court" not in visited_stores:
         visited_stores.append("Food Court")
 
-    pause()
+    wait_for_player_to_continue()
 
 
-def sunglasses_kiosk():
-    """
-    Handles a pushy kiosk salesperson.
-    """
+def visit_sunglasses_kiosk():
     global money
     global patience
     global mall_reputation
     global has_sunglasses
 
-    show_divider()
+    print_section_divider()
     print("THE SUNGLASSES KIOSK")
     print()
     print("You walk past a kiosk covered with hundreds of sunglasses.")
@@ -964,19 +887,16 @@ def sunglasses_kiosk():
     if "Sunglasses Kiosk" not in visited_stores:
         visited_stores.append("Sunglasses Kiosk")
 
-    pause()
+    wait_for_player_to_continue()
 
 
-def customer_service():
-    """
-    Provides a map or coupon.
-    """
+def visit_customer_service_desk():
     global patience
     global mall_reputation
     global has_mall_map
     global has_coupon
 
-    show_divider()
+    print_section_divider()
     print("CUSTOMER SERVICE")
     print()
     print("You approach the mall's customer-service desk.")
@@ -1066,19 +986,16 @@ def customer_service():
     if "Customer Service" not in visited_stores:
         visited_stores.append("Customer Service")
 
-    pause()
+    wait_for_player_to_continue()
 
 
-def department_store():
-    """
-    Adds an exploration encounter in the department store.
-    """
+def visit_department_store():
     global money
     global energy
     global patience
     global mall_reputation
 
-    show_divider()
+    print_section_divider()
     print("THE DEPARTMENT STORE")
     print()
     print("You enter the department store.")
@@ -1185,13 +1102,10 @@ def department_store():
     if "Department Store" not in visited_stores:
         visited_stores.append("Department Store")
 
-    pause()
+    wait_for_player_to_continue()
 
 
-def random_hallway_encounter():
-    """
-    Produces a small event between major locations.
-    """
+def trigger_hallway_encounter():
     global money
     global energy
     global patience
@@ -1243,14 +1157,11 @@ def random_hallway_encounter():
         mall_reputation += 1
 
 
-def final_escape():
-    """
-    Handles the player's attempt to leave the mall.
-    """
+def attempt_to_leave_the_mall():
     global game_running
     global completed_objectives
 
-    show_divider()
+    print_section_divider()
     print("THE FINAL ESCAPE")
     print()
     print("You stand near the main mall exit.")
@@ -1462,10 +1373,6 @@ def final_escape():
             print("You return to the mall.")
 
 
-# ============================================================
-# OPENING STORY
-# ============================================================
-
 print("It is Saturday morning.")
 print()
 print("You are sitting peacefully at home when", ferret_name)
@@ -1486,9 +1393,9 @@ print("You check your wallet.")
 print("You have $" + str(money) + ".")
 print()
 print("You grab your keys and begin the expedition.")
-pause()
+wait_for_player_to_continue()
 
-show_divider()
+print_section_divider()
 
 print("You arrive at the mall.")
 print()
@@ -1509,20 +1416,16 @@ print()
 print("Somewhere in the distance, a child demands a pretzel.")
 print()
 print("Your adventure has begun.")
-pause()
+wait_for_player_to_continue()
 
-
-# ============================================================
-# MAIN GAME LOOP
-# ============================================================
 
 while game_running:
-    handle_zero_stats()
+    end_game_if_player_resources_are_depleted()
 
     if not game_running:
         break
 
-    show_divider()
+    print_section_divider()
 
     print("MALL TURN:", turn_number)
     print()
@@ -1541,31 +1444,31 @@ while game_running:
     location_choice = input("\nChoose 1 through 9: ").strip()
 
     if location_choice == "1":
-        pet_store()
+        visit_pet_store()
 
     elif location_choice == "2":
-        sporting_goods_store()
+        visit_sporting_goods_store()
 
     elif location_choice == "3":
-        food_court()
+        visit_food_court()
 
     elif location_choice == "4":
-        sunglasses_kiosk()
+        visit_sunglasses_kiosk()
 
     elif location_choice == "5":
-        customer_service()
+        visit_customer_service_desk()
 
     elif location_choice == "6":
-        department_store()
+        visit_department_store()
 
     elif location_choice == "7":
-        show_status()
+        display_current_shopping_status()
 
     elif location_choice == "8":
-        show_help()
+        display_mall_directory()
 
     elif location_choice == "9":
-        final_escape()
+        attempt_to_leave_the_mall()
 
     else:
         print()
@@ -1580,15 +1483,11 @@ while game_running:
 
     if game_running and location_choice not in ["7", "8", "9"]:
         turn_number += 1
-        random_hallway_encounter()
-        handle_zero_stats()
+        trigger_hallway_encounter()
+        end_game_if_player_resources_are_depleted()
 
 
-# ============================================================
-# FINAL REPORT
-# ============================================================
-
-show_divider()
+print_section_divider()
 
 print("FINAL SHOPPING REPORT")
 print()
