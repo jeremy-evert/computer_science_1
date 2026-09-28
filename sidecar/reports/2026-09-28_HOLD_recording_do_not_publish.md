@@ -1,6 +1,19 @@
 # HOLD — 2026-09-28 CS1 class recording: do NOT publish
 
-**Status: ACTIVE HOLD.** Set by Jeremy directly, 2026-09-28, to Anna
+**Status: LIFTED, 2026-09-28, same day.** Jeremy trimmed the recording
+himself and provided the real SharePoint link directly to Anna (run
+`ba8e0940aa62beb521c67300930cb724`) to use as the recording source.
+**Do not use** Susie's earlier staged/protected copy of the raw,
+untrimmed Teams recording for anything -- that copy still contains the
+private conversation and was never meant to be published; only the
+trimmed SharePoint link Jeremy provided is the real source. Published:
+`courses/74029/pages/sept-28-class-recording-and-recap`, module 218509,
+recording link live. Recap text is still pending -- see
+`sidecar/reports/2026-09-28_sept28_recap_publish.md`.
+
+Original hold text below, kept for the record.
+
+**Status was: ACTIVE HOLD.** Set by Jeremy directly, 2026-09-28, to Anna
 (run `ba8e0940aa62beb521c67300930cb724`, on April).
 
 Jeremy had a private conversation during today's (2026-09-28) CS1 class.
