@@ -120,7 +120,7 @@ for score in scores:
     if score < 50:
         print(f"Score {score:3d}: Fail")
         continue  # Skip to the next iteration immediately
-    
+
     # Rest of code runs only for passing scores
     grade = "High Distinction" if score >= 90 else "Pass"
     print(f"Score {score:3d}: {grade}")
@@ -154,16 +154,16 @@ def run_hackathon_sim():
     # MAIN LOOP: Game continues while conditions are met
     while hacks_completed < required_hacks and ram_gb > 0 and time_remaining_hrs > 0:
         target = servers[hacks_completed]
-        
+
         print(f"--- STATUS: RAM {ram_gb}GB | Time Left: {time_remaining_hrs}h | Hacks: {hacks_completed}/{required_hacks} ---")
         print(f"Current Target: {target['name']} (Diff: {target['difficulty']}%, RAM Cost: {target['ram_cost']}GB)")
-        
+
         # Action prompt loop
         print("\nChoose Action:")
         print("1. Launch Cyber-Attack")
         print("2. Optimize Memory (Restore RAM)")
         print("3. Take a Nap (Restore Time/RAM)")
-        
+
         # Simulating automated strategic decisions
         # (In interactive mode, this could be input())
         if ram_gb < target['ram_cost']:
@@ -181,7 +181,7 @@ def run_hackathon_sim():
             # Attempt Hack
             ram_gb -= target['ram_cost']
             time_remaining_hrs -= 1
-            
+
             # Roll random success percentage
             hack_power = random.randint(1, 100)
             print(f"Executing exploit... Hack Power Rolled: {hack_power}%")

@@ -3,14 +3,14 @@
     PYTHON FOUNDATIONS: FROM DECISIONS TO LOOPS & CREATIVE SYSTEMS
 ===============================================================================
 
-Welcome! Python is built around readability and logic. This guide takes you from 
+Welcome! Python is built around readability and logic. This guide takes you from
 making simple single decisions to orchestrating complex loops and structures.
 """
 
 # =============================================================================
 # PART 1: CONDITIONAL LOGIC (IF / ELIF / ELSE)
 # =============================================================================
-# Programs use conditional statements to evaluate expressions that return 
+# Programs use conditional statements to evaluate expressions that return
 # Boolean values: True or False.
 
 player_score = 85
@@ -65,7 +65,7 @@ print("Energy depleted! Resting...")
 # =============================================================================
 # PART 4: CONNECTING LOOPS AND IF STATEMENTS
 # =============================================================================
-# Combining loops with conditionals allows you to filter, modify, or react to 
+# Combining loops with conditionals allows you to filter, modify, or react to
 # data dynamically during iteration.
 
 print("\n--- Filtering Data inside a Loop ---")
@@ -108,18 +108,18 @@ TILES = {
 # Nested loop to generate rows (y) and columns (x)
 for y in range(HEIGHT):
     row_visuals = []
-    
+
     for x in range(WIDTH):
         # Determine tile type using coordinate rules and conditionals
-        
+
         # 1. Outer boundary is deep ocean / water
         if y == 0 or y == HEIGHT - 1 or x == 0 or x == WIDTH - 1:
             tile_symbol = TILES["WATER"]
-            
+
         # 2. Coastal shoreline rule (adjacent to boundaries)
         elif y == 1 or y == HEIGHT - 2 or x == 1 or x == WIDTH - 2:
             tile_symbol = TILES["SAND"]
-            
+
         # 3. Central features based on coordinates
         else:
             # Create a mountain range in the upper-right section
@@ -131,9 +131,9 @@ for y in range(HEIGHT):
             # Default land cover
             else:
                 tile_symbol = TILES["GRASS"]
-                
+
         row_visuals.append(tile_symbol)
-    
+
     # Print the constructed row as a single string
     print(" ".join(row_visuals))
 
