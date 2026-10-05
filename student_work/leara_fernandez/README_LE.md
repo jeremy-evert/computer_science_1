@@ -4,6 +4,8 @@ Hey Leara! This guide gets your Chromebook ready for Git, GitHub, and Codex, the
 
 Git records snapshots of your files. GitHub hosts repositories online. SSH lets your Chromebook prove it is you when connecting to GitHub. Codex is a coding assistant you can ask to explain code and help you practice.
 
+Once setup is finished, continue with [Leara's guide to writing and running Python on a Chromebook](PYTHON_CHROMEBOOK_LE.md), including Gemini prompts and project ideas.
+
 ## 1. Turn on Linux
 
 Open **Settings → About ChromeOS → Developers → Linux development environment → Set up**. Follow the prompts, then open the **Terminal** app and select your Linux environment. Setup can take ten minutes or more. If Linux is missing or blocked on a school-managed Chromebook, ask Jeremy or your school administrator for help.
