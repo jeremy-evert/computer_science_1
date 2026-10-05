@@ -29,7 +29,23 @@ Every phase is a hard boundary:
 
 A later Codex session should be able to continue from the repository alone. Do not rely on chat history from a previous Codex session.
 
-Each completed phase should leave the repository in a coherent, commit-ready state. If a phase discovers an idea for later work, record it briefly in the report or planning file rather than implementing it early.
+Each completed phase should leave the repository in a coherent, commit-ready state. If a phase discovers an idea for later work, record it briefly rather than implementing it early.
+
+## Breadcrumb contract
+
+Every phase must follow:
+
+`planning/2026-10-05_strings_are_objects_breadcrumb_protocol.md`
+
+Each session creates or updates its own phase-specific status file:
+
+`planning/2026-10-05_strings_are_objects_phase_0N_status.md`
+
+The status file must be committed with the phase work and must say whether the phase is `IN_PROGRESS`, `COMPLETE`, or `BLOCKED`.
+
+If blocked, record the exact failing command, useful error text, what was attempted, and the safest next action. Do not silently work around a blocker.
+
+Future sessions must read all earlier phase status files before working.
 
 ---
 
