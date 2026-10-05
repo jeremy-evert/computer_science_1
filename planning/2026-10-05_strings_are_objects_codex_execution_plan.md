@@ -14,6 +14,23 @@ The core through-line is:
 
 The build should happen in small, independently useful pieces. Do not attempt the entire lesson in one giant edit.
 
+## Session contract
+
+**One Codex session = one phase.**
+
+Every phase is a hard boundary:
+
+1. Start a fresh Codex session.
+2. Read the required context files.
+3. Work only on the named phase.
+4. Validate that phase.
+5. Report files changed, commands run, and validation results.
+6. **STOP. Do not begin the next phase.**
+
+A later Codex session should be able to continue from the repository alone. Do not rely on chat history from a previous Codex session.
+
+Each completed phase should leave the repository in a coherent, commit-ready state. If a phase discovers an idea for later work, record it briefly in the report or planning file rather than implementing it early.
+
 ---
 
 # Build order
@@ -81,6 +98,18 @@ Confirm that:
 - capitalization transformations are visible
 - the final story is coherent and funny enough to use live
 - no unexplained advanced feature appears
+
+## Phase 1 stopping point
+
+After validation:
+
+- summarize what changed
+- list the exact file path used
+- list the command used to run the program
+- note any question or idea for Phase 2
+- **STOP**
+
+Do not build the String Laboratory in this session.
 
 ---
 
@@ -151,6 +180,19 @@ Students should see:
 The script must run without modification.
 
 Output should be labeled clearly enough that it can be used during live teaching.
+
+## Phase 2 stopping point
+
+After validation:
+
+- summarize what changed
+- list the exact file path used
+- list the command used to run the program
+- confirm the immutability example behaves as intended
+- note any idea that should influence the canonical lesson
+- **STOP**
+
+Do not expand `lessons/06-strings.md` in this session.
 
 ---
 
@@ -421,37 +463,66 @@ Before declaring the lesson complete:
 
 # Recommended Codex workflow
 
-Work one phase at a time.
+Work **exactly one phase per Codex session**.
 
-For each phase:
+Every new session should begin by reading:
 
-1. read the companion lesson map
-2. inspect relevant repository files
-3. implement only that phase
-4. run or compile what was created
-5. report:
+1. `AGENTS.md`
+2. `NAMING.md`
+3. `planning/2026-10-05_strings_are_objects_lesson_map.md`
+4. `planning/2026-10-05_strings_are_objects_codex_execution_plan.md`
+5. the files produced or modified by earlier phases that are relevant to the current phase
+
+Then:
+
+1. implement only the named phase
+2. run or compile what was created
+3. report:
    - files changed
    - commands run
    - validation result
    - any design question that should be deferred to Jeremy
+4. **STOP**
 
 Do not rewrite unrelated course materials.
 
 Do not perform broad repository cleanup while working on this lesson.
 
+Do not begin the next phase, even if time remains.
+
 ---
 
-# Best first Codex assignment
+# Codex session prompts
 
-Start with **Phase 1 and Phase 2 only**.
+## Session 1 — Phase 1 only: Mad Lib
 
-Prompt:
+> Read `AGENTS.md`, `NAMING.md`, `lessons/06-strings.md`, `planning/2026-10-05_strings_are_objects_lesson_map.md`, and `planning/2026-10-05_strings_are_objects_codex_execution_plan.md`. Execute **Phase 1 only**. Build and validate the Mad Lib. Follow existing repo conventions for code placement rather than guessing. Do not begin Phase 2. When Phase 1 is validated, report files changed, commands run, results, and any note for the next phase, then STOP.
 
-> Read `AGENTS.md`, `NAMING.md`, `lessons/06-strings.md`, and both strings planning files. Build the Mad Lib and String Laboratory described in `planning/2026-10-05_strings_are_objects_codex_execution_plan.md`. Follow existing repo conventions for example code placement rather than guessing. Run both scripts. Do not edit the Beamer deck or expand the lesson yet. Commit-ready changes only, then report what you changed and how you validated it.
+## Session 2 — Phase 2 only: String Laboratory
 
-This is deliberately small.
+> Read the two strings planning files plus the completed Mad Lib and relevant repo guidance. Execute **Phase 2 only**. Build and validate the String Laboratory, including string methods, dot notation, immutability, `type()`, `dir()`, and `help()`. Do not edit the canonical lesson yet. When Phase 2 is validated, report files changed, commands run, results, and any note for Phase 3, then STOP.
 
-Once those examples feel right, the examples become the raw material for both the lesson text and the slide deck.
+## Session 3 — Phase 3 only: Canonical lesson
+
+> Read the two strings planning files, the completed Mad Lib, the completed String Laboratory, `lessons/06-strings.md`, and relevant course guidance. Execute **Phase 3 only**. Expand the canonical strings lesson using the tested examples as source material. Do not create the Beamer deck. Validate links and code references, report changes, then STOP.
+
+## Session 4 — Phase 4 only: Beamer deck
+
+> Read the two strings planning files, completed examples, and expanded canonical lesson. Execute **Phase 4 only**. Create the Beamer presentation, follow repository naming/placement conventions, and compile it if a LaTeX toolchain is available. Do not begin the student activity. Report files changed and compile results, then STOP.
+
+## Session 5 — Phase 5 only: Object Detective
+
+> Read the planning files and completed lesson materials. Execute **Phase 5 only**. Create the Object Detective student activity consistent with the course's shared-learning design rules. Validate references and student instructions. Do not begin Phase 6. Report changes, then STOP.
+
+## Session 6 — Phase 6 only: Game-object bridge
+
+> Read the planning files and completed lesson materials. Execute **Phase 6 only**. Add the optional game-object conceptual bridge without prematurely teaching full class syntax unless clearly warranted. Report changes, then STOP.
+
+## Session 7 — Phase 7 only: Validation and polish
+
+> Read all completed strings lesson artifacts. Execute **Phase 7 only**. Run the Python examples, compile the Beamer deck if possible, reconcile code snippets, verify terminology and cross-domain accuracy, remove duplication, and report final validation. Do not perform unrelated repository cleanup. STOP when validation is complete.
+
+The repository, not Codex chat history, is the handoff mechanism between sessions.
 
 ---
 
