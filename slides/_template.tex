@@ -1,0 +1,76 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+% Portable on purpose: no shell-escape, custom fonts, or external theme packages.
+\usetheme{Madrid}
+\usecolortheme{default}
+\setbeamertemplate{navigation symbols}{}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{booktabs}
+
+% Keep code readable from the back of the room.
+\lstdefinestyle{python}{
+  language=Python,
+  basicstyle=\ttfamily\small,
+  showstringspaces=false,
+  columns=fullflexible,
+  keepspaces=true,
+  breaklines=true,
+  frame=single,
+  tabsize=4
+}
+\lstset{style=python}
+
+\title{Presentation Title}
+\subtitle{Optional subtitle}
+\author{Jeremy Evert}
+\institute{SWOSU}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+% Question slide: one idea, lots of air.
+\begin{frame}{A useful question}
+  \centering
+  \Huge What is this thing, and what can it do?
+\end{frame}
+
+% Code slide: add [fragile] whenever listings/verbatim appear.
+\begin{frame}[fragile]{Tiny code, big idea}
+\begin{lstlisting}
+text = "hello"
+print(text.upper())
+\end{lstlisting}
+\end{frame}
+
+% Comparison / concept slide.
+\begin{frame}{Three pieces}
+  \begin{columns}[T,onlytextwidth]
+    \column{0.31\textwidth}
+      \centering
+      \Large Type
+
+    \column{0.31\textwidth}
+      \centering
+      \Large State
+
+    \column{0.31\textwidth}
+      \centering
+      \Large Behavior
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Exit question}
+  \centering
+  \LARGE What object are you holding, and what can it do?
+\end{frame}
+
+\end{document}
