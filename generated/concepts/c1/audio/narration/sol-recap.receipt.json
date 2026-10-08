@@ -4,12 +4,12 @@
   "output": {
     "bytes": 1346707,
     "channels": 1,
-    "decoded_peak": 0.7713958024978638,
-    "decoded_rms": 0.11577083564923846,
+    "decoded_peak": 0.7712429761886597,
+    "decoded_rms": 0.11570229269481905,
     "duration_seconds": 56.05,
     "path": "/home/jevert/concept_pipeline/d6eb71615204/sol-recap.mp3",
     "sample_rate": 44100,
-    "sha256": "4589fd4c5315ab377b2eec11f219c55fc672ea0c80db08e421d51f8f3394852e"
+    "sha256": "ebb2d7ed4c41c86bbb3ab69240aa02dd3331ae1c217143daea1acf2cb05c91dc"
   },
   "post_processing": {
     "bitrate": 192000,

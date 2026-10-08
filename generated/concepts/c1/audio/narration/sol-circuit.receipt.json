@@ -4,12 +4,12 @@
   "output": {
     "bytes": 1726632,
     "channels": 1,
-    "decoded_peak": 0.7714916467666626,
-    "decoded_rms": 0.11851722883115089,
+    "decoded_peak": 0.7736948728561401,
+    "decoded_rms": 0.11844068859776737,
     "duration_seconds": 71.875011,
     "path": "/home/jevert/concept_pipeline/d6eb71615204/sol-circuit.mp3",
     "sample_rate": 44100,
-    "sha256": "f14a543f22e8393c731d3c656e7e0fc3c0fc52606730866ef441ff4e073dd899"
+    "sha256": "bc2d2a024fe35a907bf77e26a54ba74562a320057a18017bd60d93734ab8623c"
   },
   "post_processing": {
     "bitrate": 192000,

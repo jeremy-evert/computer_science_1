@@ -4,12 +4,12 @@
   "output": {
     "bytes": 1068346,
     "channels": 1,
-    "decoded_peak": 0.772264838218689,
-    "decoded_rms": 0.11566598589760095,
+    "decoded_peak": 0.7723853588104248,
+    "decoded_rms": 0.11564690707198952,
     "duration_seconds": 44.45,
     "path": "/home/jevert/concept_pipeline/d6eb71615204/sol-debug.mp3",
     "sample_rate": 44100,
-    "sha256": "243b4099e77ba60424f97b755079bfe078736d1f5476e955348e4ae31ce30cba"
+    "sha256": "fbccc9a7abb461d596a540d17cb111fd3d3467ba8c979c060b3746b994cdabb2"
   },
   "post_processing": {
     "bitrate": 192000,

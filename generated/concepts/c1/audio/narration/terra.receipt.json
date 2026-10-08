@@ -4,12 +4,12 @@
   "output": {
     "bytes": 1489649,
     "channels": 1,
-    "decoded_peak": 0.7699253559112549,
-    "decoded_rms": 0.11507569942814483,
+    "decoded_peak": 0.7716033458709717,
+    "decoded_rms": 0.1149454318956702,
     "duration_seconds": 62.0,
     "path": "/home/jevert/concept_pipeline/d6eb71615204/terra.mp3",
     "sample_rate": 44100,
-    "sha256": "52e30a968de9f52880575945e39a5e8879e5957f4374cf7798f44e283dc0dd7e"
+    "sha256": "f9c4cec1361f6c6b30a9462abf17d49a6619ace93339ff50ab753e19dcab9a18"
   },
   "post_processing": {
     "bitrate": 192000,

@@ -4,12 +4,12 @@
   "output": {
     "bytes": 2072702,
     "channels": 1,
-    "decoded_peak": 0.7747665643692017,
-    "decoded_rms": 0.11852701471323429,
+    "decoded_peak": 0.7746707201004028,
+    "decoded_rms": 0.11859200898614093,
     "duration_seconds": 86.3,
     "path": "/home/jevert/concept_pipeline/d6eb71615204/luna-return.mp3",
     "sample_rate": 44100,
-    "sha256": "5fcc2a60a557f1a1443c9640ae3c0eecea0ce918feecb2dcc4270d097b3aeacc"
+    "sha256": "d75e9c999424537d8e9e7dde486e6545cc8e53e9846108770596c4a50eed775d"
   },
   "post_processing": {
     "bitrate": 192000,

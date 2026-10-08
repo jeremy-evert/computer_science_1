@@ -4,12 +4,12 @@
   "output": {
     "bytes": 1705943,
     "channels": 1,
-    "decoded_peak": 0.7741292715072632,
-    "decoded_rms": 0.1176190991803088,
+    "decoded_peak": 0.7746649980545044,
+    "decoded_rms": 0.11755475204246421,
     "duration_seconds": 71.025011,
     "path": "/home/jevert/concept_pipeline/d6eb71615204/sol-check.mp3",
     "sample_rate": 44100,
-    "sha256": "5431e580c6bbe4268f2f724a3a59b7be6a388027c634c63b4e32b4be0ed102aa"
+    "sha256": "e6ae96683c7d3c099433e7110c7cbe555f4c7dfe9606f3afd0f61596554597e7"
   },
   "post_processing": {
     "bitrate": 192000,

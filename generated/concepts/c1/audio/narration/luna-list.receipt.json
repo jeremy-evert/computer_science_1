@@ -4,12 +4,12 @@
   "output": {
     "bytes": 1601244,
     "channels": 1,
-    "decoded_peak": 0.7798193693161011,
-    "decoded_rms": 0.11711169247415437,
+    "decoded_peak": 0.7741153240203857,
+    "decoded_rms": 0.11691076682981986,
     "duration_seconds": 66.65,
     "path": "/home/jevert/concept_pipeline/d6eb71615204/luna-list.mp3",
     "sample_rate": 44100,
-    "sha256": "74d08c0082b4da681e488d44a83c56fb9ed50b9f69de69867de5a1dba430cb8a"
+    "sha256": "f2804beef202f6f75d7426ab0d5c8f0eccc5baadb9e753e35cf004c98b36cd52"
   },
   "post_processing": {
     "bitrate": 192000,

@@ -4,12 +4,12 @@
   "output": {
     "bytes": 1551716,
     "channels": 1,
-    "decoded_peak": 0.7738192677497864,
-    "decoded_rms": 0.115526289316714,
+    "decoded_peak": 0.7727885246276855,
+    "decoded_rms": 0.1154890338745806,
     "duration_seconds": 64.6,
     "path": "/home/jevert/concept_pipeline/d6eb71615204/sol-discover.mp3",
     "sample_rate": 44100,
-    "sha256": "83b3316a89934211bc92f65372173b8cadb9e9ecb0b9849e01838de67b7829d8"
+    "sha256": "acc0aa5505dd4ddf702970396bd614db32679899af0303601c7d965e5fedb91c"
   },
   "post_processing": {
     "bitrate": 192000,

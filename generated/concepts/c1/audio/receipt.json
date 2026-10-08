@@ -4,12 +4,12 @@
   "output": {
     "bytes": 18731719,
     "channels": 1,
-    "decoded_peak": 0.7744280099868774,
-    "decoded_rms": 0.1123690087227786,
+    "decoded_peak": 0.773909330368042,
+    "decoded_rms": 0.11231444858559249,
     "duration_seconds": 780.425011,
     "path": "/home/jevert/concept_pipeline/d6eb71615204/podcast.mp3",
     "sample_rate": 44100,
-    "sha256": "4f7a66f9c26552fb7f7be01afcc19c4173b5efd71887784e99dec2d3e1e46698"
+    "sha256": "a6044f3305056e6ed93d0d4373142dcf812d3eeb6ff3ca9b2d5627054fcec13b"
   },
   "post_processing": {
     "bitrate": 192000,

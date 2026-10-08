@@ -4,12 +4,12 @@
   "output": {
     "bytes": 1650772,
     "channels": 1,
-    "decoded_peak": 0.7734114527702332,
-    "decoded_rms": 0.1158384789392673,
+    "decoded_peak": 0.7727125883102417,
+    "decoded_rms": 0.11575293865479286,
     "duration_seconds": 68.725011,
     "path": "/home/jevert/concept_pipeline/d6eb71615204/luna-dot.mp3",
     "sample_rate": 44100,
-    "sha256": "b841e1979bea27cd9ec9517f7564f37d767b0f347a3f91e8106cddd78caed310"
+    "sha256": "4abebfb8261c37b6cec625dae0e3bff3c3efb2eb0f06a0e65973722571d9f6ec"
   },
   "post_processing": {
     "bitrate": 192000,
