@@ -7,7 +7,7 @@ week: 9
 objectives:
   - Describe a value as an object with a type, state, and behaviors.
   - Read dot notation for string and list methods.
-  - Distinguish a string method that returns a new value from a list method that mutates in place.
+  - Distinguish a string method that returns a value from a list method that mutates in place.
   - Use type, dir, and help to investigate an unfamiliar object.
 canvas:
   overview_page: /courses/comsc-1033/pages/week-09-concept-1-objects-you-already-use
@@ -16,7 +16,7 @@ sources:
     url: https://docs.python.org/3/reference/datamodel.html#objects-values-and-types
     accessed: '2026-10-08'
   - id: S2
-    url: https://docs.python.org/3/tutorial/introduction.html#strings
+    url: https://docs.python.org/3/tutorial/introduction.html#text
     accessed: '2026-10-08'
   - id: S3
     url: https://docs.python.org/3/tutorial/datastructures.html#more-on-lists
@@ -33,6 +33,12 @@ sources:
   - id: S7
     url: https://docs.python.org/3/library/functions.html#help
     accessed: '2026-10-08'
+  - id: S8
+    url: https://docs.python.org/3/reference/datamodel.html#the-standard-type-hierarchy
+    accessed: '2026-10-08'
+  - id: S9
+    url: https://docs.python.org/3/reference/executionmodel.html#naming-and-binding
+    accessed: '2026-10-08'
 ---
 
 ## Claims
@@ -40,21 +46,23 @@ sources:
 | id | claim | kind | checked_by | source |
 | --- | --- | --- | --- | --- |
 | C1 | A Python value is an object with a type, a current value or state, and behaviors supplied by its type. | model | doc citation: S1, “Objects, values and types” | S1 |
-| C2 | A string is an object of type `str`, and dot notation selects a named attribute; parentheses call it when that attribute is a method. | explanation | doc citation: S1, “Objects, values and types” and “Method objects” | S1 |
-| C3 | String methods such as `upper`, `strip`, and `replace` return a string result and never change the original string; in CPython an unchanged operation may return the same object. | fact | code run: worked example string-new-value; doc citation: S2, “Strings” and S4, “Text Sequence Type” | S4 |
-| C4 | The `split` method on a string returns a list of pieces rather than a string. | fact | code run: worked example string-new-value; doc citation: S4, “String Methods” | S4 |
-| C5 | A list is a mutable sequence, and methods such as `append`, `extend`, `remove`, and `reverse` change the list in place. | fact | doc citation: S3, “Methods of List Objects”; S5, “Mutable Sequence Types” | S5 |
-| C6 | A list mutation method such as `append` returns `None` while changing the list. | fact | code run: worked example list-in-place; doc citation: S3, “Methods of List Objects” | S3 |
-| C7 | `dir` lists attribute names and `help` on a type or method provides focused documentation for investigation. | practice | doc citation: S6, `dir`; S7, `help` | S6 |
-| C8 | A method can return a value that you save and use, or can mutate its receiver; the method’s type and documentation determine which behavior occurs. | principle | code run: worked examples string-new-value and list-in-place; doc citation: S3, “More on Lists” and S4, “Text Sequence Type” | S3 |
-| C9 | A variable name is a reference that is bound to an object; the name itself is not the object’s type. | fact | doc citation: S1, “Names and bindings” | S1 |
+| C2 | A string is an object of type `str`, and dot notation selects a named attribute; parentheses call it when that attribute is a method. | explanation | doc citation: S1, “Objects, values and types”; S8, “The standard type hierarchy” | S1 |
+| C3 | String methods such as `upper`, `strip`, and `replace` return a string result; the original is unchanged. CPython may hand back the same object when nothing changed, so compare values, not identity. | fact | code run: worked example string-new-value; doc citation: S2, “Text” and S4, “Text Sequence Type — str” | S4 |
+| C4 | The `split` method on a string returns a list of pieces rather than a string. | fact | code run: worked example string-new-value; doc citation: S4, “Text Sequence Type — str” | S4 |
+| C5 | A list is a mutable sequence, and methods such as `append`, `extend`, `remove`, and `reverse` change the list in place. | fact | doc citation: S3, “More on Lists”; S5, “Mutable Sequence Types” | S5 |
+| C6 | A list mutation method such as `append` returns `None` while changing the list. | fact | code run: worked example list-in-place; doc citation: S3, “More on Lists” | S3 |
+| C7 | `dir` lists attribute names and `help` on a type or method provides focused documentation for investigation. | practice | doc citation: S6, “dir()”; S7, “help()” | S6 |
+| C8 | A method can return a value that you save and use, or can mutate its receiver; the method’s type and documentation determine which behavior occurs. | principle | code run: worked examples string-new-value and list-in-place; doc citation: S3, “More on Lists” and S4, “Text Sequence Type — str” | S3 |
+| C9 | A variable name is a reference that is bound to an object; the name itself is not the object’s type. | fact | doc citation: S9, “Naming and binding” | S9 |
 | C10 | `type` identifies the type of an object, including that a string value has type `str`. | fact | code run: worked example discover; doc citation: S1, “Objects, values and types” | S1 |
-| C11 | Leaving off method-call parentheses refers to the method attribute instead of calling it. | fact | code run: worked example discover; doc citation: S1, “Method objects” | S1 |
-| C12 | `find` returns an integer position, while `startswith` returns a Boolean result. | fact | code run: worked example discover; doc citation: S4, “String Methods” | S4 |
-| C13 | `list.copy` returns a list containing a shallow copy of the original list. | fact | code run: worked example list-in-place; doc citation: S3, “Methods of List Objects” | S3 |
-| C14 | `dir` lists names but does not explain every name or guarantee that every name is callable. | practice | doc citation: S6, `dir` | S6 |
-| C15 | `help` provides interactive documentation about a module, type, method, or other object. | practice | doc citation: S7, `help` | S7 |
-| C16 | A method call can return a value to save and use, while the receiver is the object before the dot whose state may or may not change. | principle | code run: worked examples string-new-value and list-in-place; doc citation: S3, “More on Lists” and S4, “Text Sequence Type” | S3 |
+| C11 | Leaving off method-call parentheses refers to the method attribute instead of calling it. | fact | code run: worked example discover; doc citation: S8, “The standard type hierarchy” | S8 |
+| C12 | `find` returns an integer position, while `startswith` returns a Boolean result. | fact | code run: worked example discover; doc citation: S4, “Text Sequence Type — str” | S4 |
+| C13 | `list.copy` returns a list containing a shallow copy of the original list. | fact | code run: worked example list-in-place; doc citation: S3, “More on Lists” | S3 |
+| C14 | `dir` lists names but does not explain every name or guarantee that every name is callable. | practice | doc citation: S6, “dir()” | S6 |
+| C15 | `help` provides interactive documentation about a module, type, method, or other object. | practice | doc citation: S7, “help()” | S7 |
+| C16 | A method call can return a value to save and use, while the receiver is the object before the dot whose state may or may not change. | principle | code run: worked examples string-new-value and list-in-place; doc citation: S3, “More on Lists” and S4, “Text Sequence Type — str” | S3 |
+| C17 | String indexing starts at zero and `len` returns the number of characters; for `word = "Luna"`, `word[1]` is `"u"` and `len(word)` is `4`. | fact | doc citation: S2, “Text” | S2 |
+| C18 | An f-string evaluates expressions inside braces and inserts their values into the surrounding text; `f"{place}: {count}"` with `place = "Sol"` and `count = 2` produces `"Sol: 2"`. | fact | doc citation: S2, “Text” | S2 |
 
 ## Script
 
@@ -66,11 +74,11 @@ The next clue is a dot. When you see a value followed by a dot and a name, Pytho
 <!-- show: code example="string-new-value" -->
 
 <!-- slide id="luna-return" title="A string method gives back a value" claims="C3,C4,C8,C12,C16" -->
-Strings give us a useful surprise. A string method such as uppercase does not edit the original string in place. Strings are immutable, which means their contents cannot be changed in place. The method gives back a string result, never changes the original, and in CPython an operation that leaves the text unchanged may return the same object. If you call the method and throw away its result, the original reference still leads to the original text. If you assign the result back to the same variable, that variable now refers to the returned string. The important habit is to ask what came back. Some string methods return another string. The split method returns a list of pieces. The find method returns an integer position, while startswith returns a Boolean. A method call is not automatically an instruction that changes the object you started with. It may be a computation that produces a new value. This distinction explains a common beginner error: saying that an uppercase call changes the string, then being surprised when printing the string shows the old text. Nothing mysterious happened. The call produced a result, and no one saved it. If you do save it, you have not repaired the old string; you have made your variable refer to the returned string. Think of a string method as sending a request to a text object and receiving a result in reply, then check the result's type instead of guessing from the receiver's type.
+Strings give us a useful surprise. A string method such as uppercase does not edit the original string in place. Strings are immutable, which means their contents cannot be changed in place. The method returns a string; the original is unchanged. CPython may hand back the same object when nothing changed, so compare values, not identity. If you call the method and throw away its result, the original reference still leads to the original text. If you assign the result back to the same variable, that variable now refers to the returned string. The important habit is to ask what came back. Some string methods return a string. The split method returns a list of pieces. The find method returns an integer position, while startswith returns a Boolean. A method call is not automatically an instruction that changes the object you started with. It may be a computation that produces a value. This distinction explains a common beginner error: saying that an uppercase call changes the string, then being surprised when printing the string shows the old text. Nothing mysterious happened. The call produced a result, and no one saved it. If you do save it, you have not repaired the old string; you have made your variable refer to the returned string. Think of a string method as sending a request to a text object and receiving a result in reply, then check the result's type instead of guessing from the receiver's type.
 <!-- show: code example="string-new-value" -->
 
-<!-- slide id="luna-list" title="A list can change in place" claims="C5,C6,C8,C13,C16" -->
-Now compare a list. Lists are also objects, but a list is a mutable sequence. Mutable means the list can be changed in place. A method such as append adds an item to the existing list. The list after the call contains the new item. The return value is a different question: append returns None. That is why the useful result is usually the changed list, not a new list stored from append. The same pattern appears with other list methods that add, remove, or rearrange items. They act on the list itself. This is a place where type matters. The string method upper gives back a new string because strings are immutable. The list method append changes a mutable list. Neither behavior is the definition of all methods. It is a property you check for the particular type and method. A safe routine is: predict the object’s state before the call, predict whether the call returns a value, run it, and inspect both. If you assign the result of append to a variable, that variable holds None while the original list has changed. The list and the returned value are two separate things to keep track of.
+<!-- slide id="luna-list" title="A list can change in place" claims="C3,C5,C6,C8,C13,C16" -->
+Now compare a list. Lists are also objects, but a list is a mutable sequence. Mutable means the list can be changed in place. A method such as append adds an item to the existing list. The list after the call contains the new item. The return value is a different question: append returns None. That is why the useful result is usually the changed list, not a new list stored from append. The same pattern appears with other list methods that add, remove, or rearrange items. They act on the list itself. This is a place where type matters. The string method upper returns a string; the original is unchanged because strings are immutable. The list method append changes a mutable list. Neither behavior is the definition of all methods. It is a property you check for the particular type and method. A safe routine is: predict the object’s state before the call, predict whether the call returns a value, run it, and inspect both. If you assign the result of append to a variable, that variable holds None while the original list has changed. The list and the returned value are two separate things to keep track of.
 <!-- show: code example="list-in-place" -->
 
 <!-- slide id="sol-check" title="Use the return value as evidence" claims="C3,C4,C5,C6,C8,C13,C16" -->
@@ -90,12 +98,12 @@ You do not need to memorize every method. Python can help you investigate. Type 
 <!-- show: code example="discover" -->
 
 <!-- slide id="sol-recap" title="Recap the evidence" claims="C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C13,C14,C15,C16" -->
-Let’s collect the evidence before the final orbit. An object is a value with a type, state, and available behavior. A variable name is a reference to the current object, so the name does not tell us the whole story. A dot performs attribute lookup, and parentheses call a method; without the parentheses we have only referred to the method attribute. For strings, immutability means methods such as `upper`, `strip`, and `replace` return a string result and never change the original. `split` is a useful reminder that the result can be a list, while `find` gives an integer position and `startswith` gives a Boolean. For lists, mutability allows in-place changes. `append` changes the receiver and returns `None`; `copy` returns a list. There is no universal “all methods return” or “all methods mutate” rule. The method’s documentation is the contract.
+Let’s collect the evidence before the final orbit. An object is a value with a type, state, and available behavior. A variable name is a reference to the current object, so the name does not tell us the whole story. A dot performs attribute lookup, and parentheses call a method; without the parentheses we have only referred to the method attribute. For strings, immutability means methods such as `upper`, `strip`, and `replace` return a string; the original is unchanged. CPython may hand back the same object when nothing changed, so compare values, not identity. `split` is a useful reminder that the result can be a list, while `find` gives an integer position and `startswith` gives a Boolean. For lists, mutability allows in-place changes. `append` changes the receiver and returns `None`; `copy` returns a list. There is no universal “all methods return” or “all methods mutate” rule. The method’s documentation is the contract.
 
 When a line surprises you, debug it in a fixed order. Identify the receiver and its type. Read the call carefully, including its parentheses. Save the return value if you need it. Inspect the receiver after the call. Then use `dir` to discover names, `help` to read focused documentation, and a tiny run to test one prediction. This routine makes the invisible parts of a method call visible: the object before the dot, the result sent back, and the state that remains afterward. You are not memorizing isolated tricks. You are building a repeatable way to learn an unfamiliar object.
 
 <!-- slide id="sol-circuit" title="Carry the object question forward" claims="C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C13,C14,C15,C16" -->
-The circuit is complete. On Terra, we met values we already use. On Luna, we followed the dot and compared what string and list methods do. At Sol, the bright center is a reusable habit: when Python gives you a thing, ask what type it has, what state it holds, what behavior it offers, what it returns, and whether it changes in place. Strings and lists are not merely containers for syntax practice. They are early examples of a much larger way to organize software. Later, objects may represent files, paths, game entities, or connections. The exact methods will come from their types and documentation, so do not assume that a conceptual example is a real API. For today, keep the contrast sharp. Uppercase on a string returns new text, and the old string remains unchanged unless you save the new result. Append on a list changes the list and returns None. Dir and help make unfamiliar behavior discoverable. If you can explain those observations, you already have a working first model of objects. The next time a method surprises you, do not guess that all objects behave like strings or all methods behave like append. Identify the type, read the method’s contract, and run the smallest useful check.
+The circuit is complete. On Terra, we met values we already use. On Luna, we followed the dot and compared what string and list methods do. At Sol, the bright center is a reusable habit: when Python gives you a thing, ask what type it has, what state it holds, what behavior it offers, what it returns, and whether it changes in place. Strings and lists are not merely containers for syntax practice. They are early examples of a much larger way to organize software. Later, objects may represent files, paths, game entities, or connections. The exact methods will come from their types and documentation, so do not assume that a conceptual example is a real API. For today, keep the contrast sharp. Uppercase on a string returns a string; the original is unchanged. Append on a list changes the list and returns None. Dir and help make unfamiliar behavior discoverable. If you can explain those observations, you already have a working first model of objects. The next time a method surprises you, do not guess that all objects behave like strings or all methods behave like append. Identify the type, read the method’s contract, and run the smallest useful check.
 
 ## Podcast
 
@@ -120,7 +128,7 @@ The circuit is complete. On Terra, we met values we already use. On Luna, we fol
 <!-- claims: C3 -->
 **DANA:** Last week’s strings lesson showed an uppercase method. I used the call, printed my string, and it looked unchanged. I assumed the method had failed.
 
-**MARCUS:** That is the classic misconception. String objects are immutable. Their contents cannot be changed in place. The uppercase method returns a new string. If you call it and discard the returned value, your original variable still refers to the original text. If you assign the returned value back to the variable, the variable now refers to the new uppercase string.
+**MARCUS:** That is the classic misconception. String objects are immutable. Their contents cannot be changed in place. The uppercase method returns a string; the original is unchanged. If you call it and discard the returned value, your original variable still refers to the original text. If you assign the returned value back to the variable, the variable now refers to the returned uppercase text. If nothing changes, CPython may hand back the same object, so compare values, not identity.
 
 **DANA:** So the call did work, but I did not keep the answer?
 
@@ -129,7 +137,7 @@ The circuit is complete. On Terra, we met values we already use. On Luna, we fol
 <!-- claims: C4,C12 -->
 **DANA:** Does every string method return another string?
 
-**MARCUS:** No. That is another useful caution. Uppercase, strip, and replace return strings. Split returns a list of pieces. Search methods can return numbers, and checks can return true or false. A method belongs to the string object, but its result can have a different type. Always ask what came back instead of assuming the result has the same type as the receiver.
+**MARCUS:** No. That is another useful caution. Uppercase, strip, and replace return a string; the original is unchanged. Split returns a list of pieces. Search methods can return numbers, and checks can return true or false. A method belongs to the string object, but its result can have a different type. Always ask what came back instead of assuming the result has the same type as the receiver.
 
 <!-- claims: C5,C6 -->
 **DANA:** Then a list gives us a contrast. Lists can change, right?
@@ -157,7 +165,7 @@ The circuit is complete. On Terra, we met values we already use. On Luna, we fol
 
 **MARCUS:** Exactly. Copy returns a list containing a shallow copy. That is why “list methods mutate” is too broad: append mutates and returns `None`, while copy returns a list. You predicted the result, ran the check, and identified the receiver.
 
-<!-- claims: C13,C8,C16 -->
+<!-- claims: C4,C5,C6,C8,C13,C16 -->
 **DANA:** Is it fair to memorize “strings return and lists mutate”?
 
 **MARCUS:** It is a useful first contrast, but it is too broad as a permanent rule. A string method can return a list, as split does. A list method such as copy can return a list, while append mutates. The better rule is to ask two questions for the particular method: what does it return, and does it change the receiver? The type and the method documentation answer those questions.
@@ -169,7 +177,7 @@ The circuit is complete. On Terra, we met values we already use. On Luna, we fol
 <!-- claims: C3,C4,C5,C6,C8,C13,C16 -->
 **DANA:** Can we walk through one bug slowly? I want to see how those two sides help.
 
-**MARCUS:** Start with `label = " luna "`. You call `clean = label.strip()`, then write `clean.upper()`, then print `clean`. The output is `luna`, not `LUNA`. The call did run, but its string result was discarded. Save it with `clean = clean.upper()`, and the next print is `LUNA`. The receiver was the string reached through `clean`; the result was another string, and the assignment rebound the name to that result.
+**MARCUS:** Start with `label = " luna "`. You call `clean = label.strip()`, then write `clean.upper()`, then print `clean`. The output is `luna`, not `LUNA`. The call did run, but its string result was discarded. Save it with `clean = clean.upper()`, and the next print is `LUNA`. The receiver was the string reached through `clean`; the result was a string, and the original was unchanged until the assignment rebound the name to that result.
 
 **DANA:** So if I see the old text, I should ask whether I saved the return value before blaming the method.
 
@@ -197,12 +205,12 @@ The circuit is complete. On Terra, we met values we already use. On Luna, we fol
 
 **MARCUS:** Right. The name is simply bound to the value returned by that call. This is the same reasoning as `upper_text = text.upper()` and `returned = route.append("Sol")`; inspect the result instead of guessing from the receiver. The method's documentation tells you whether the result is a string, list, integer, Boolean, or `None`, and whether the receiver changed.
 
-<!-- claims: C1,C2,C3,C5,C6,C7,C8,C9,C10,C11,C13,C14,C15,C16 -->
+<!-- claims: C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C13,C14,C15,C16 -->
 **DANA:** Here is my recap. A value is an object, so I ask about its type, current state, and available behaviors. A variable is a reference to the current object.
 
 **MARCUS:** Good. A dot selects an attribute, and parentheses call it when it is a method. Without parentheses, you refer to the method instead of running it.
 
-**DANA:** `upper` returns string text and leaves the original unchanged. `split` can return a list. A list is mutable, so `append` changes it in place and returns `None`, while `copy` returns a list.
+**DANA:** `upper` returns a string; the original is unchanged. `split` can return a list. A list is mutable, so `append` changes it in place and returns `None`, while `copy` returns a list.
 
 **MARCUS:** Yes. Do not assume every method on a type behaves alike. Ask what the method returns and whether its receiver changes. Use `type`, `dir`, and focused `help` instead of guessing.
 
@@ -219,7 +227,7 @@ The circuit is complete. On Terra, we met values we already use. On Luna, we fol
 
 **MARCUS:** Yes. Strings and lists are safe, visible examples of a general object model. Later, an object may represent a path, a file, a game entity, or a connection. It will have a type, state, and behaviors, but the actual names and side effects will come from its documentation. Do not assume a conceptual object has a real method until its API says so.
 
-**DANA:** Let me try the whole explanation. A string is an object with type, text state, and methods. The dot selects a named behavior, and parentheses call it. Uppercase returns new text because strings are immutable. A list is mutable, so append changes the list and returns None. Then type, dir, and help let me investigate.
+**DANA:** Let me try the whole explanation. A string is an object with type, text state, and methods. The dot selects a named behavior, and parentheses call it. Uppercase returns a string; the original is unchanged because strings are immutable. A list is mutable, so append changes the list and returns None. Then type, dir, and help let me investigate.
 
 **MARCUS:** That is the circuit. When a method surprises you, return to the questions: what type is the receiver, what state does it hold, what does the method return, and does it mutate in place? Run a tiny example and read the documentation. You do not need to memorize everything to work effectively with objects.
 
@@ -263,7 +271,7 @@ print(signal.startswith("Terra"))  # expect: True
 
 ## Misconception
 
-Calling the uppercase method changes the original string, so `s.upper()` should make later uses of `s` uppercase even when its result was not saved. In fact, strings are immutable: the call returns a string result, never changes the original, and the original name stays bound to the old text unless the returned value is assigned.
+Calling the uppercase method changes the original string, so `s.upper()` should make later uses of `s` uppercase even when its result was not saved. In fact, strings are immutable: the call returns a string; the original is unchanged, and the original name stays bound to the old text unless the returned value is assigned. If nothing changes, CPython may hand back the same object, so compare values, not identity. Related confusions: a name is the type; `dir` lists only methods you must call.
 
 claims: C3
 
@@ -275,10 +283,10 @@ claims: C3
 - choices:
   - A: An object with a type, state or value, and behaviors
   - B: A variable name that permanently is the object's type
-  - C: A user-defined class that must be written before the value exists
+  - C: A value whose methods must change it in place and return nothing
   - D: A mutable container, because every object can change in place
 - answer: A
-- rationale: The first object model asks what kind of thing a value is, what it holds, and what it can do.
+- rationale: The first object model asks what kind of thing a value is, what it holds, and what it can do. B targets the related confusion that a name is the type. C and D target the misconception that methods must change objects in place or return nothing.
 - claims: C1,C9
 
 ### Q2
@@ -288,9 +296,9 @@ claims: C3
   - A: It changes the original string in place
   - B: It returns a string result and leaves the original unchanged
   - C: It returns `None` after changing the original string
-  - D: It returns a list because every method result has a different type
+  - D: It returns `None` and leaves the original unchanged
 - answer: B
-- rationale: Strings are immutable. The call returns a string result and never changes the original; assigning that result is what makes a name refer to the returned text.
+- rationale: Strings are immutable. The call returns a string; the original is unchanged. A targets the misconception that a method changes the original. C targets expecting an in-place change and no useful return value. D targets expecting a method to return nothing instead of a value; assigning the string result is what makes a name refer to the returned text.
 - claims: C3
 
 ### Q3
@@ -300,21 +308,21 @@ claims: C3
   - A: The list is unchanged and append returns an expanded list
   - B: The list changes in place and append returns None
   - C: The list changes in place and append returns the changed list
-  - D: The list is immutable, so Python always raises an error
+  - D: The list changes in place, but append returns a new list
 - answer: B
-- rationale: Lists are mutable sequences; append adds to the existing list and returns None. A and C confuse an in-place mutation with returning an updated list, while D reverses list mutability.
+- rationale: Lists are mutable sequences; append adds to the existing list and returns None. A targets expecting no mutation and an expanded return value. C targets expecting the in-place method to return the changed list. D targets expecting a new list value instead of the documented no-value return.
 - claims: C5,C6
 
 ### Q4
 
 - prompt: What kind of value does a string split method return?
 - choices:
-  - A: A string containing the original text with separators removed
+  - A: The original string changes in place and becomes the pieces
   - B: A list of pieces
-  - C: An integer position, like find
-  - D: A Boolean indicating whether the split succeeded
+  - C: Nothing is returned; split only changes the original string
+  - D: The original string changes in place and split returns `None`
 - answer: B
-- rationale: Split is a string method whose result is a list, so a method on an immutable string can still return a different type.
+- rationale: Split is a string method whose result is a list; the original string is unchanged. A targets expecting a method to mutate the original. C targets expecting a method to return nothing. D combines both parts of the misconception: it expects an in-place change and a `None` result.
 - claims: C4,C12
 
 ### Q5
@@ -322,11 +330,11 @@ claims: C3
 - prompt: Which investigation sequence is the best way to explore an unfamiliar object?
 - choices:
   - A: Use `type`, inspect names with `dir`, read focused `help`, then run a small test
-  - B: Use `type` to predict every return value, call every name from `dir`, and skip `help`
-  - C: Call every name from `dir`, save every return value, and assume errors mean the object is broken
-  - D: Assume every object behaves like a string and every method returns text
+  - B: Use `type`, call every name from `dir` because `dir` lists only methods you must call, and skip `help`
+  - C: Call every name from `dir` because `dir` lists only methods you must call; errors mean the object is broken
+  - D: Assume every method changes the original and returns nothing
 - answer: A
-- rationale: `type` identifies the object, `dir` helps discover names, `help` explains a type or method, and a small experiment checks a prediction. B and C misuse discovery tools, while D assumes a universal method contract.
+- rationale: `type` identifies the object, `dir` helps discover names, `help` explains a type or method, and a small experiment checks a prediction. B and C target the related confusion that `dir` lists only methods you must call. D targets the misconception that every method changes the original and returns nothing.
 - claims: C7,C8,C10,C14,C15,C16
 
 ## Review
@@ -341,7 +349,7 @@ claims: C3
   - D: `word[len(word)]`
 - answer: A
 - rationale: String indexing starts at zero, so index 1 selects the second character, `u`; the length is four.
-- claims: external
+- claims: C17
 
 ### R2
 
@@ -353,7 +361,7 @@ claims: C3
   - D: `"{place}: {count}"`
 - answer: B
 - rationale: An f-string evaluates the expressions inside braces and inserts their values into the surrounding text.
-- claims: external
+- claims: C18
 
 ## Sources
 
@@ -364,3 +372,5 @@ claims: C3
 - S5
 - S6
 - S7
+- S8
+- S9
