@@ -139,7 +139,7 @@ The circuit is complete. On Terra, we met values we already use. On Luna, we fol
 
 **MARCUS:** No. That is another useful caution. Uppercase, strip, and replace return a string; the original is unchanged. Split returns a list of pieces. Search methods can return numbers, and checks can return true or false. A method belongs to the string object, but its result can have a different type. Always ask what came back instead of assuming the result has the same type as the receiver.
 
-<!-- claims: C5,C6 -->
+<!-- claims: C5,C6,C8 -->
 **DANA:** Then a list gives us a contrast. Lists can change, right?
 
 **MARCUS:** A list is a mutable sequence. A method such as append changes the existing list in place. If the list starts with Terra and Luna, appending Sol leaves the same list containing all three items. The return value is separate: append returns None. So assigning the result of append gives you None, while the list itself has been updated.
@@ -161,7 +161,7 @@ The circuit is complete. On Terra, we met values we already use. On Luna, we fol
 
 **MARCUS:** No. It would bind `items` to the return value, `None`, after changing the original list. The method changes the receiver, but the assignment replaces the name’s reference with the returned value. Inspect both effects separately.
 
-**DANA:** And if I wanted another list value after the append, I could use `backup = items.copy()` and check that `backup` is a list?
+**DANA:** Back in the version where `returned = items.append("Luna")` left `items` alone as a list: if I wanted another list value after the append, I could use `backup = items.copy()` and check that `backup` is a list?
 
 **MARCUS:** Exactly. Copy returns a list containing a shallow copy. That is why “list methods mutate” is too broad: append mutates and returns `None`, while copy returns a list. You predicted the result, ran the check, and identified the receiver.
 
