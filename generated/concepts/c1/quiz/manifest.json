@@ -1,0 +1,9 @@
+{
+  "input_hash": "e521665ec1a7e9cf43ca5782869e0e7af94466caa2d968f2185a612afccd743c",
+  "outputs": [
+    "quiz/check.html",
+    "quiz/check.md",
+    "quiz/questions.json"
+  ],
+  "stage": "quiz"
+}

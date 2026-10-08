@@ -1,0 +1,36 @@
+{
+  "device": "cuda",
+  "kokoro_version": "0.9.4",
+  "output": {
+    "bytes": 2072702,
+    "channels": 1,
+    "decoded_peak": 0.7747665643692017,
+    "decoded_rms": 0.11852701471323429,
+    "duration_seconds": 86.3,
+    "path": "/home/jevert/concept_pipeline/d6eb71615204/luna-return.mp3",
+    "sample_rate": 44100,
+    "sha256": "5fcc2a60a557f1a1443c9640ae3c0eecea0ce918feecb2dcc4270d097b3aeacc"
+  },
+  "post_processing": {
+    "bitrate": 192000,
+    "codec": "mp3",
+    "filter": "loudnorm=I=-18:LRA=7:TP=-2"
+  },
+  "renderer": {
+    "path": "/mnt/nora/git/audio_foundry/tools/kokoro_dialogue.py",
+    "sha256": "f3875395091335058ce35bd991dd4a0a470a57b62a4293b5ad547748994be865"
+  },
+  "schema_version": 1,
+  "source": {
+    "path": "/home/jevert/concept_pipeline/d6eb71615204/beat-luna-return.md",
+    "sha256": "4411f572ac05666807f96164325552a7f812a3362ffc631d3cabb3ab9c8417e9"
+  },
+  "source_turn_count": 1,
+  "speed": 1.0,
+  "turn_pause_ms": 300,
+  "voice_mapping": {
+    "DANA": "af_sarah",
+    "MARCUS": "af_heart"
+  },
+  "voice": "af_heart"
+}

@@ -1,0 +1,36 @@
+{
+  "device": "cuda",
+  "kokoro_version": "0.9.4",
+  "output": {
+    "bytes": 1068346,
+    "channels": 1,
+    "decoded_peak": 0.772264838218689,
+    "decoded_rms": 0.11566598589760095,
+    "duration_seconds": 44.45,
+    "path": "/home/jevert/concept_pipeline/d6eb71615204/sol-debug.mp3",
+    "sample_rate": 44100,
+    "sha256": "243b4099e77ba60424f97b755079bfe078736d1f5476e955348e4ae31ce30cba"
+  },
+  "post_processing": {
+    "bitrate": 192000,
+    "codec": "mp3",
+    "filter": "loudnorm=I=-18:LRA=7:TP=-2"
+  },
+  "renderer": {
+    "path": "/mnt/nora/git/audio_foundry/tools/kokoro_dialogue.py",
+    "sha256": "f3875395091335058ce35bd991dd4a0a470a57b62a4293b5ad547748994be865"
+  },
+  "schema_version": 1,
+  "source": {
+    "path": "/home/jevert/concept_pipeline/d6eb71615204/beat-sol-debug.md",
+    "sha256": "ceeaf76ec27ae2ede738c2a2825528676d0fa89f970ed187bd23dd4f503c1199"
+  },
+  "source_turn_count": 1,
+  "speed": 1.0,
+  "turn_pause_ms": 300,
+  "voice_mapping": {
+    "DANA": "af_sarah",
+    "MARCUS": "af_heart"
+  },
+  "voice": "af_heart"
+}

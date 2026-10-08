@@ -1,0 +1,36 @@
+{
+  "device": "cuda",
+  "kokoro_version": "0.9.4",
+  "output": {
+    "bytes": 1346707,
+    "channels": 1,
+    "decoded_peak": 0.7713958024978638,
+    "decoded_rms": 0.11577083564923846,
+    "duration_seconds": 56.05,
+    "path": "/home/jevert/concept_pipeline/d6eb71615204/sol-recap.mp3",
+    "sample_rate": 44100,
+    "sha256": "4589fd4c5315ab377b2eec11f219c55fc672ea0c80db08e421d51f8f3394852e"
+  },
+  "post_processing": {
+    "bitrate": 192000,
+    "codec": "mp3",
+    "filter": "loudnorm=I=-18:LRA=7:TP=-2"
+  },
+  "renderer": {
+    "path": "/mnt/nora/git/audio_foundry/tools/kokoro_dialogue.py",
+    "sha256": "f3875395091335058ce35bd991dd4a0a470a57b62a4293b5ad547748994be865"
+  },
+  "schema_version": 1,
+  "source": {
+    "path": "/home/jevert/concept_pipeline/d6eb71615204/beat-sol-recap.md",
+    "sha256": "21d893645ea81a17ab0a0985cb815352e105598946eb671d89892da28bf896cf"
+  },
+  "source_turn_count": 1,
+  "speed": 1.0,
+  "turn_pause_ms": 300,
+  "voice_mapping": {
+    "DANA": "af_sarah",
+    "MARCUS": "af_heart"
+  },
+  "voice": "af_heart"
+}

@@ -1,0 +1,35 @@
+{
+  "device": "cuda",
+  "kokoro_version": "0.9.4",
+  "output": {
+    "bytes": 18731719,
+    "channels": 1,
+    "decoded_peak": 0.7744280099868774,
+    "decoded_rms": 0.1123690087227786,
+    "duration_seconds": 780.425011,
+    "path": "/home/jevert/concept_pipeline/d6eb71615204/podcast.mp3",
+    "sample_rate": 44100,
+    "sha256": "4f7a66f9c26552fb7f7be01afcc19c4173b5efd71887784e99dec2d3e1e46698"
+  },
+  "post_processing": {
+    "bitrate": 192000,
+    "codec": "mp3",
+    "filter": "loudnorm=I=-18:LRA=7:TP=-2"
+  },
+  "renderer": {
+    "path": "/mnt/nora/git/audio_foundry/tools/kokoro_dialogue.py",
+    "sha256": "f3875395091335058ce35bd991dd4a0a470a57b62a4293b5ad547748994be865"
+  },
+  "schema_version": 1,
+  "source": {
+    "path": "/home/jevert/concept_pipeline/d6eb71615204/dialogue.md",
+    "sha256": "d6eb71615204d971c5d542d14d220a74fe7c9e557544ace2f2e92305fce69229"
+  },
+  "source_turn_count": 56,
+  "speed": 1.0,
+  "turn_pause_ms": 300,
+  "voice_mapping": {
+    "DANA": "af_sarah",
+    "MARCUS": "af_heart"
+  }
+}

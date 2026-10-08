@@ -1,0 +1,33 @@
+{
+  "input_hash": "0bef6bdfa088a07319c277cdd83344494e4558263bda8f2251bd425034034122",
+  "outputs": [
+    "deck/deck.aux",
+    "deck/deck.log",
+    "deck/deck.nav",
+    "deck/deck.out",
+    "deck/deck.pdf",
+    "deck/deck.snm",
+    "deck/deck.tex",
+    "deck/deck.toc",
+    "deck/deck.vrb",
+    "deck/slides/luna-dot.png",
+    "deck/slides/luna-list.png",
+    "deck/slides/luna-return.png",
+    "deck/slides/sol-check.png",
+    "deck/slides/sol-circuit.png",
+    "deck/slides/sol-debug.png",
+    "deck/slides/sol-discover.png",
+    "deck/slides/sol-recap.png",
+    "deck/slides/terra.png",
+    "deck/speaker-notes.aux",
+    "deck/speaker-notes.log",
+    "deck/speaker-notes.nav",
+    "deck/speaker-notes.out",
+    "deck/speaker-notes.pdf",
+    "deck/speaker-notes.snm",
+    "deck/speaker-notes.tex",
+    "deck/speaker-notes.toc",
+    "deck/speaker-notes.vrb"
+  ],
+  "stage": "deck"
+}

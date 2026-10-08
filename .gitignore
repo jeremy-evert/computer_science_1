@@ -1,3 +1,16 @@
 .venv/
 __pycache__/
 *.pyc
+
+# concept pipeline: binary renderings stay out of Git (staged under ~/podcast_staging)
+generated/concepts/**/*.mp3
+generated/concepts/**/*.mp4
+generated/concepts/**/*.png
+generated/concepts/**/*.aux
+generated/concepts/**/*.log
+generated/concepts/**/*.nav
+generated/concepts/**/*.out
+generated/concepts/**/*.snm
+generated/concepts/**/*.toc
+generated/concepts/**/*.vrb
+generated/concepts/**/segments.txt

@@ -1,0 +1,20 @@
+{
+  "input_hash": "83068675041a7f9d316de379b64383e2819ec5bcee1c13ac3fee009bb0fdb141",
+  "outputs": [
+    "video-kokoro/captions.vtt",
+    "video-kokoro/chapters.ffmetadata",
+    "video-kokoro/joined.mp4",
+    "video-kokoro/segment-000.mp4",
+    "video-kokoro/segment-001.mp4",
+    "video-kokoro/segment-002.mp4",
+    "video-kokoro/segment-003.mp4",
+    "video-kokoro/segment-004.mp4",
+    "video-kokoro/segment-005.mp4",
+    "video-kokoro/segment-006.mp4",
+    "video-kokoro/segment-007.mp4",
+    "video-kokoro/segment-008.mp4",
+    "video-kokoro/segments.txt",
+    "video-kokoro/video.mp4"
+  ],
+  "stage": "video"
+}

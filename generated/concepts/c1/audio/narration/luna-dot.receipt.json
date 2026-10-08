@@ -1,0 +1,36 @@
+{
+  "device": "cuda",
+  "kokoro_version": "0.9.4",
+  "output": {
+    "bytes": 1650772,
+    "channels": 1,
+    "decoded_peak": 0.7734114527702332,
+    "decoded_rms": 0.1158384789392673,
+    "duration_seconds": 68.725011,
+    "path": "/home/jevert/concept_pipeline/d6eb71615204/luna-dot.mp3",
+    "sample_rate": 44100,
+    "sha256": "b841e1979bea27cd9ec9517f7564f37d767b0f347a3f91e8106cddd78caed310"
+  },
+  "post_processing": {
+    "bitrate": 192000,
+    "codec": "mp3",
+    "filter": "loudnorm=I=-18:LRA=7:TP=-2"
+  },
+  "renderer": {
+    "path": "/mnt/nora/git/audio_foundry/tools/kokoro_dialogue.py",
+    "sha256": "f3875395091335058ce35bd991dd4a0a470a57b62a4293b5ad547748994be865"
+  },
+  "schema_version": 1,
+  "source": {
+    "path": "/home/jevert/concept_pipeline/d6eb71615204/beat-luna-dot.md",
+    "sha256": "a5651998e6cbd9ecd1c2aedf8e9a4cb654586e3aeea85b9f099bef5cd667263b"
+  },
+  "source_turn_count": 1,
+  "speed": 1.0,
+  "turn_pause_ms": 300,
+  "voice_mapping": {
+    "DANA": "af_sarah",
+    "MARCUS": "af_heart"
+  },
+  "voice": "af_heart"
+}

@@ -1,0 +1,36 @@
+{
+  "device": "cuda",
+  "kokoro_version": "0.9.4",
+  "output": {
+    "bytes": 1551716,
+    "channels": 1,
+    "decoded_peak": 0.7738192677497864,
+    "decoded_rms": 0.115526289316714,
+    "duration_seconds": 64.6,
+    "path": "/home/jevert/concept_pipeline/d6eb71615204/sol-discover.mp3",
+    "sample_rate": 44100,
+    "sha256": "83b3316a89934211bc92f65372173b8cadb9e9ecb0b9849e01838de67b7829d8"
+  },
+  "post_processing": {
+    "bitrate": 192000,
+    "codec": "mp3",
+    "filter": "loudnorm=I=-18:LRA=7:TP=-2"
+  },
+  "renderer": {
+    "path": "/mnt/nora/git/audio_foundry/tools/kokoro_dialogue.py",
+    "sha256": "f3875395091335058ce35bd991dd4a0a470a57b62a4293b5ad547748994be865"
+  },
+  "schema_version": 1,
+  "source": {
+    "path": "/home/jevert/concept_pipeline/d6eb71615204/beat-sol-discover.md",
+    "sha256": "5bac2fb36e6c6c3dfc05118b4bbae7b5b2a74f3a6a24c6ca7ebba5a9f3004c62"
+  },
+  "source_turn_count": 1,
+  "speed": 1.0,
+  "turn_pause_ms": 300,
+  "voice_mapping": {
+    "DANA": "af_sarah",
+    "MARCUS": "af_heart"
+  },
+  "voice": "af_heart"
+}

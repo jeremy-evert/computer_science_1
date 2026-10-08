@@ -1,0 +1,208 @@
+[
+  {
+    "id": "Q1",
+    "prompt": "Which description best fits a value such as a string or list in Python?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "An object with a type, state or value, and behaviors"
+      },
+      {
+        "id": "B",
+        "text": "A variable name that permanently is the object's type"
+      },
+      {
+        "id": "C",
+        "text": "A value whose methods must change it in place and return nothing"
+      },
+      {
+        "id": "D",
+        "text": "A mutable container, because every object can change in place"
+      }
+    ],
+    "answer": "A",
+    "rationale": "The first object model asks what kind of thing a value is, what it holds, and what it can do. B targets the related confusion that a name is the type. C and D target the misconception that methods must change objects in place or return nothing.",
+    "claim_ids": [
+      "C1",
+      "C8",
+      "C9"
+    ],
+    "review": false
+  },
+  {
+    "id": "Q2",
+    "prompt": "What does this call do to the original string when its result is not saved: `s.upper()`?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "It changes the original string in place"
+      },
+      {
+        "id": "B",
+        "text": "It returns a string result and leaves the original unchanged"
+      },
+      {
+        "id": "C",
+        "text": "It returns `None` after changing the original string"
+      },
+      {
+        "id": "D",
+        "text": "It returns `None` and leaves the original unchanged"
+      }
+    ],
+    "answer": "B",
+    "rationale": "Strings are immutable. The call returns a string; the original is unchanged. A targets the misconception that a method changes the original. C targets expecting an in-place change and no useful return value. D targets expecting a method to return nothing instead of a value; assigning the string result is what makes a name refer to the returned text.",
+    "claim_ids": [
+      "C3",
+      "C9"
+    ],
+    "review": false
+  },
+  {
+    "id": "Q3",
+    "prompt": "After `items.append(\"Sol\")`, which statement is correct?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "The list is unchanged and append returns an expanded list"
+      },
+      {
+        "id": "B",
+        "text": "The list changes in place and append returns None"
+      },
+      {
+        "id": "C",
+        "text": "The list changes in place and append returns the changed list"
+      },
+      {
+        "id": "D",
+        "text": "The list changes in place, but append returns a new list"
+      }
+    ],
+    "answer": "B",
+    "rationale": "Lists are mutable sequences; append adds to the existing list and returns None. A targets expecting no mutation and an expanded return value. C targets expecting the in-place method to return the changed list. D targets expecting a new list value instead of the documented no-value return.",
+    "claim_ids": [
+      "C5",
+      "C6"
+    ],
+    "review": false
+  },
+  {
+    "id": "Q4",
+    "prompt": "What kind of value does a string split method return?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "The original string changes in place and becomes the pieces"
+      },
+      {
+        "id": "B",
+        "text": "A list of pieces"
+      },
+      {
+        "id": "C",
+        "text": "Nothing is returned; split only changes the original string"
+      },
+      {
+        "id": "D",
+        "text": "The original string changes in place and split returns `None`"
+      }
+    ],
+    "answer": "B",
+    "rationale": "Split is a string method whose result is a list; the original string is unchanged. A targets expecting a method to mutate the original. C targets expecting a method to return nothing. D combines both parts of the misconception: it expects an in-place change and a `None` result.",
+    "claim_ids": [
+      "C3",
+      "C4"
+    ],
+    "review": false
+  },
+  {
+    "id": "Q5",
+    "prompt": "Which investigation sequence is the best way to explore an unfamiliar object?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Use `type`, inspect names with `dir`, read focused `help`, then run a small test"
+      },
+      {
+        "id": "B",
+        "text": "Use `type`, call every name from `dir` because `dir` lists only methods you must call, and skip `help`"
+      },
+      {
+        "id": "C",
+        "text": "Call every name from `dir` because `dir` lists only methods you must call; errors mean the object is broken"
+      },
+      {
+        "id": "D",
+        "text": "Assume every method changes the original and returns nothing"
+      }
+    ],
+    "answer": "A",
+    "rationale": "`type` identifies the object, `dir` helps discover names, `help` explains a type or method, and a small experiment checks a prediction. B and C target the related confusion that `dir` lists only methods you must call. D targets the misconception that every method changes the original and returns nothing.",
+    "claim_ids": [
+      "C7",
+      "C8",
+      "C10",
+      "C14",
+      "C15",
+      "C16"
+    ],
+    "review": false
+  },
+  {
+    "id": "R1",
+    "prompt": "Given `word = \"Luna\"`, which expression produces `\"u\"` while `len(word)` produces `4`?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "`word[1]`"
+      },
+      {
+        "id": "B",
+        "text": "`word[0]`"
+      },
+      {
+        "id": "C",
+        "text": "`word[4]`"
+      },
+      {
+        "id": "D",
+        "text": "`word[len(word)]`"
+      }
+    ],
+    "answer": "A",
+    "rationale": "String indexing starts at zero, so index 1 selects the second character, `u`; the length is four.",
+    "claim_ids": [
+      "C17"
+    ],
+    "review": true
+  },
+  {
+    "id": "R2",
+    "prompt": "If `place = \"Sol\"` and `count = 2`, what does `f\"{place}: {count}\"` produce?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "`\"place: count\"`"
+      },
+      {
+        "id": "B",
+        "text": "`\"Sol: 2\"`"
+      },
+      {
+        "id": "C",
+        "text": "`\"Sol2\"`"
+      },
+      {
+        "id": "D",
+        "text": "`\"{place}: {count}\"`"
+      }
+    ],
+    "answer": "B",
+    "rationale": "An f-string evaluates the expressions inside braces and inserts their values into the surrounding text.",
+    "claim_ids": [
+      "C18"
+    ],
+    "review": true
+  }
+]

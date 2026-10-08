@@ -1,0 +1,36 @@
+{
+  "device": "cuda",
+  "kokoro_version": "0.9.4",
+  "output": {
+    "bytes": 1601244,
+    "channels": 1,
+    "decoded_peak": 0.7798193693161011,
+    "decoded_rms": 0.11711169247415437,
+    "duration_seconds": 66.65,
+    "path": "/home/jevert/concept_pipeline/d6eb71615204/luna-list.mp3",
+    "sample_rate": 44100,
+    "sha256": "74d08c0082b4da681e488d44a83c56fb9ed50b9f69de69867de5a1dba430cb8a"
+  },
+  "post_processing": {
+    "bitrate": 192000,
+    "codec": "mp3",
+    "filter": "loudnorm=I=-18:LRA=7:TP=-2"
+  },
+  "renderer": {
+    "path": "/mnt/nora/git/audio_foundry/tools/kokoro_dialogue.py",
+    "sha256": "f3875395091335058ce35bd991dd4a0a470a57b62a4293b5ad547748994be865"
+  },
+  "schema_version": 1,
+  "source": {
+    "path": "/home/jevert/concept_pipeline/d6eb71615204/beat-luna-list.md",
+    "sha256": "32022941883c89ce47ad336721aa3e4694d6ac28617573906cada07a76d0c278"
+  },
+  "source_turn_count": 1,
+  "speed": 1.0,
+  "turn_pause_ms": 300,
+  "voice_mapping": {
+    "DANA": "af_sarah",
+    "MARCUS": "af_heart"
+  },
+  "voice": "af_heart"
+}

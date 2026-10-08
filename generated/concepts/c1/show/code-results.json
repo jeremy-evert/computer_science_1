@@ -1,0 +1,60 @@
+[
+  {
+    "actual": [
+      "LUNA",
+      "luna",
+      "str",
+      "['lu', 'a']",
+      "list"
+    ],
+    "expected": [
+      "LUNA",
+      "luna",
+      "str",
+      "['lu', 'a']",
+      "list"
+    ],
+    "name": "string-new-value",
+    "passed": true,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "actual": [
+      "['Terra', 'Luna', 'Sol']",
+      "None",
+      "['Terra', 'Luna', 'Sol']",
+      "list"
+    ],
+    "expected": [
+      "['Terra', 'Luna', 'Sol']",
+      "None",
+      "['Terra', 'Luna', 'Sol']",
+      "list"
+    ],
+    "name": "list-in-place",
+    "passed": true,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "actual": [
+      "str",
+      "True",
+      "Terra to Sol",
+      "9",
+      "True"
+    ],
+    "expected": [
+      "str",
+      "True",
+      "Terra to Sol",
+      "9",
+      "True"
+    ],
+    "name": "discover",
+    "passed": true,
+    "returncode": 0,
+    "stderr": ""
+  }
+]
