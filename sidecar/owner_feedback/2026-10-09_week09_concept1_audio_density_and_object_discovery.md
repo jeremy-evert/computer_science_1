@@ -51,3 +51,29 @@ Do not require all four to ship by Monday. The minimum effective Concept 1 shoul
 ## Feedback classification
 
 **Constructive negative on pacing / positive on opportunity.** Jeremy sees considerable educational value, but the *first exposure* is too dense. Record this as a product-learning datapoint, not as a finding that the AI voice quality or factual code examples failed.
+
+
+---
+
+## Follow-up: modality mismatch for spoken Python syntax (Jeremy, 2026-10-09 ~08:38 CDT)
+
+**Observed user experience, not transcript verification:** Jeremy resumed the *same* `CS1 Week 9 Concept 1` audiobook on his Pixel. The screenshot shows about **9:36 elapsed / 3:25 remaining** (74% complete) of the ~13-minute single-track presentation, by Learning Foundry. The spoken Python example in this portion had strong instructional potential, but he found it difficult to maintain a mental image of syntax while hearing code read aloud. The underlying examples and ideas may be good; the **choice of modality** is the problem.
+
+**Owner's suggested reconsideration:** For exact Python syntax, names, periods, parentheses, indentation, and object relationships, a **Beamer slide deck**, annotated code, or narrated slides would make the lesson easier to follow than audio-only. He specifically sees a meaningful opportunity to visualize the example being narrated. This extends the earlier finding about excessive density: **do not treat every representation of one concept spec as equally suitable for every concept**.
+
+### Instructional design decision for Flo/Anna
+
+- **Audio:** Keep as an optional learning route for *intuition, vocabulary, analogies, questions, consequences, and concept recaps*. Narrate what the code accomplishes rather than reciting long literal syntax; use clear cues to stop and open a code example whenever the exact spelling/punctuation matters. Someone who cannot or does not wish to view slides should still receive a meaningful verbal explanation and a transcript.
+- **Beamer/visual presentation:** Use a *minimal, legible* syntax example with line-by-line highlighting or a small sequence of builds, annotated receiver/attribute/method/result labels, and side-by-side input/output. One new structural idea on each step. Avoid dumping full code onto slides or making an unreadable slide-only substitute for the podcast.
+- **Interactive/live Python:** Pair `dir()`/`help()`, a string method call, and eventually a tiny documented class with a runnable snippet and expected result, ideally a copyable accessible text/code version. Ask students to predict, run, inspect, and explain the outcome. For Jeremy, include the presenter run-of-show with exactly where to pause, which command to run, and what students should notice.
+- **Captioned video + transcript + accessible examples:** The pipeline already plans all these. Make sure narration, captions, examples and visual cues correspond to the same verified source; allow students to choose read/listen/watch/do. **Do not use a picture of code as the only accessible source**: provide selectable code text and descriptions.
+- **Rubric for modality allocation:** For each beat, identify the learning objective and decide what is best *heard*, *seen*, and *done*. A concept can legitimately need two complementary modalities, but students should not need to consume every mode to get its core meaning. In audio, avoid long uninterrupted passages of syntax and say when a visual/live demo is the better next step.
+
+### What Flo should check
+
+1. Locate the exact script and timestamp around **9:36** and identify the code example before altering content. The screenshot does not establish verbatim spoken syntax.
+2. Evaluate *learner performance*, not output counts: Can a student recognize the receiver and method, predict one result, then execute it with an accessible code example after seeing a short slide? Can an audio-only listener state the conceptual purpose even without memorizing punctuation?
+3. Pilot a bounded **before/after for the same example**: spoken-only, annotated Beamer, and a short run-it-yourself activity. Compare comprehension/time-to-first-success/needed rewinds with a real learner or representative novice review rather than assuming one modality always wins.
+4. Repair the current **existing** Week 9 Concept 1 spec and derived surfaces if supported by evidence. Defer nonessential follow-ups until after the Monday launch gate. No silent student-facing publication, no speculative production changes, and no new parallel modality pipeline.
+
+**Generalizable lesson:** *Use audio to explain why; visuals to reveal exact structure; hands-on execution to build skill*. Treat this as a testable heuristic, not a universal learning-style label or a claim that students can only learn using one medium. Existing CS1 pipeline and student accessibility requirements remain in force.
