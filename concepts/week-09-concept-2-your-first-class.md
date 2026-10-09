@@ -267,11 +267,6 @@ Before you move on, explain each line in plain language: what type is being defi
 
 **MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, create two instances with visibly different starting values. Print both attributes. Change one through dot notation and print both again. Then call a method on each. If one change appears in both objects, inspect whether you deliberately used shared class-level data; assignments through `self` should be instance state. If a change vanishes, inspect for a missing `self.` on the assignment target.
 
-<!-- claims: C1,C2 -->
-**DANA:** Why call the class a class object instead of just saying it is a type?
-
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, the class name refers to an object that represents the defined type. We can call that class object to create an instance, and the class object has the definitions from its body. Saying “class object” helps us keep the definition itself separate from each object created by calling it.
-
 <!-- claims: C2,C3,C4,C5 -->
 **DANA:** Does `__init__` run once when the class is defined?
 
@@ -280,17 +275,7 @@ Before you move on, explain each line in plain language: what type is being defi
 <!-- claims: C2,C3,C4,C5,C6 -->
 **DANA:** If two counters start at `3`, are their values linked because they match?
 
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, no. Equal values are an observation about two objects, not proof that there is one object. Each initializer call assigns through its own `self`, so the two instances have separate `value` attributes. Change one attribute and then read the other to test that independence.
-
-<!-- claims: C5,C8 -->
-**DANA:** How should I read `first.value = 9` aloud?
-
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, say, “store `9` in the `value` attribute reached through `first`.” The expression before the dot identifies the target instance. This is different from saying “set the Counter value everywhere.” Dot assignment is specific to the object named before the dot in this example.
-
-<!-- claims: C3,C4,C5,C9 -->
-**DANA:** How should I read `self.value = start` inside `__init__`?
-
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, say, “store the `start` argument in the `value` attribute of the instance receiving this initializer call.” `self` names that current instance inside the method. The parameter and attribute have related values, but they are not the same name or the same storage location.
+**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, no. Equal values are an observation about two objects, not proof that there is one object. Each initializer call assigns through its own `self`, so the two instances have separate `value` attributes. Change one attribute and read the other.
 
 <!-- claims: C4,C9,C10 -->
 **DANA:** Why does the method definition need `self` if the call already has `first` before the dot?
@@ -312,11 +297,6 @@ Before you move on, explain each line in plain language: what type is being defi
 
 **MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, print both `first.value` and `second.value` before and after the assignment. If only the value reached through the named target changes, the dot assignment is behaving as expected. If you expected both to change, you need to identify an explicit shared design; ordinary instance attributes assigned through `self` are separate in this lesson.
 
-<!-- claims: C2,C3,C4,C5,C6 -->
-**DANA:** Could the initializer use a different starting argument for each object without changing its code?
-
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, yes. The same initializer definition can receive `3` in one call and `8` in another. The argument goes to `start`, while the instance supplied as `self` changes with the call. That is how one class definition prepares instances with different starting state.
-
 <!-- claims: C5,C9,C10 -->
 **DANA:** What is the difference between a method that returns and one that updates?
 
@@ -331,11 +311,6 @@ Before you move on, explain each line in plain language: what type is being defi
 **DANA:** What is the fastest place to look when a method seems not to save a change?
 
 **MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, inspect the assignment target. `self.value` names instance state, while `value` names a local binding in the method. Then print the attribute through the same instance that made the call. Those two checks distinguish a missing `self.` from a change made to a different object.
-
-<!-- claims: C1,C6,C11 -->
-**DANA:** So the class is mainly a way to keep a design reusable?
-
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, yes. It packages a named type with the methods and attribute setup its instances need. The benefit appears when several objects share that design but hold different current values. You write the structure once, then create and inspect each instance separately.
 
 <!-- claims: C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11 -->
 **DANA:** So my first-class checklist is: define the type, initialize each instance, use `self`, trace the dot, and test two objects.
