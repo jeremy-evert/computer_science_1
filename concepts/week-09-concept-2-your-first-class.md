@@ -57,6 +57,7 @@ sources:
 | C12 | For a string, `upper()` returns a string result and leaves the original string value unchanged when the result is not assigned back. | fact | code run: review-string-method; doc citation: S7, “Text” | S7 |
 | C13 | For a list, `append` changes the list in place and returns `None`. | fact | code run: review-list-method; doc citation: S8, “More on Lists” | S8 |
 | C14 | For ordinary multi-line user-defined classes and ordinary method bodies as taught here, the `class` statement uses a class name followed by an indented body containing the class definition. | fact | code run: class-object-basics; doc citation: S1, “A First Look at Classes” | S1 |
+| C15 | For ordinary multi-line user-defined classes and ordinary method bodies as taught here, when an instance method is called with an additional positional argument, the instance is supplied to `self` and that explicit argument maps to the next parameter. | fact | code run: method-argument-mapping; doc citation: S4, “Method Objects” | S4 |
 
 ## Script
 
@@ -98,7 +99,7 @@ Now make two counters with different starting values:
 
 `second = Counter(8)`
 
-For ordinary multi-line user-defined classes and ordinary method bodies as taught here, the initializer runs once for `first` and once for `second`. On the first run, `self` is `first`, so `self.value = start` stores `3` on `first`. On the second run, `self` is `second`, so the same line stores `8` on `second`. The method definition is shared as part of the class, but the `value` attributes reached through the two instances are separate state.
+For ordinary multi-line user-defined classes and ordinary method bodies as taught here, the initializer runs once for each constructor call. On the first run, `self` is the new instance that will be bound to `first`, so `self.value = start` stores `3` on that instance. On the second run, `self` is the new instance that will be bound to `second`, so the same line stores `8` on that instance. The method definition is shared as part of the class, but the `value` attributes reached through the two instances are separate state.
 
 For ordinary multi-line user-defined classes and ordinary method bodies as taught here, this is the misconception to watch: same class does not mean one shared instance state. If we later write `first.value = 4`, reading `first.value` gives `4`, while reading `second.value` still gives `8`. The dot matters because it names the object through which we are reaching the attribute. We should say “the value on `first`” or “the value on `second`,” not just “the class’s value.” There can be two current values because there are two instance objects. The class supplies the common structure; each instance holds its own values assigned through `self`.
 
@@ -142,7 +143,7 @@ A local calculation is not useless; it can be returned, printed, or used for ano
 <!-- show: code example="local-vs-instance" -->
 
 <!-- slide id="trace-the-two-objects" title="Trace the objects, not a slogan" claims="C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11" -->
-For ordinary multi-line user-defined classes and ordinary method bodies as taught here, let’s trace the complete pattern. The `class Counter:` statement defines one repeatable type. `first = Counter(3)` creates one instance and runs `__init__` with `self` bound to `first`. `second = Counter(8)` creates another instance and runs the same initializer with `self` bound to `second`. Each initializer stores a starting value on its current instance. A dot read selects the instance before the dot. A dot assignment changes that selected instance. A method call supplies that selected instance as `self`, so the method can read or update the right state.
+For ordinary multi-line user-defined classes and ordinary method bodies as taught here, let’s trace the complete pattern. The `class Counter:` statement defines one repeatable type. `first = Counter(3)` creates one instance and runs `__init__` with `self` referring to the new instance that will be bound to `first`. `second = Counter(8)` creates another instance and runs the same initializer with `self` referring to the new instance that will be bound to `second`. Each initializer stores a starting value on its current instance. A dot read selects the instance before the dot. A dot assignment changes that selected instance. A method call supplies that selected instance as `self`, so the method can read or update the right state.
 
 When outputs surprise you, draw two records: `first.value` and `second.value`. Update only the record named by an assignment’s left side. Underline each `self.` access and bare local assignment. This makes class design, instance creation, attribute access, and local calculation visible.
 
@@ -160,162 +161,187 @@ Before you move on, explain each line in plain language: what type is being defi
 <!-- claims: C1,C2,C11 -->
 **DANA:** We already used string and list objects. Why do we need a class now?
 
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, a program sometimes needs its own repeatable kind of object. A class lets us describe a named type with state and behavior together. Instead of keeping unrelated variables and separate functions for every counter, we can define what a counter object contains and what a counter object can do.
+**MARCUS:** Let’s keep our scope clear: in the ordinary classes we write today, a program sometimes needs its own repeatable kind of object. A class lets us describe a named type with state and behavior together. Instead of keeping unrelated variables and separate functions for every counter, we can define what a counter object contains and what a counter object can do.
 
 <!-- claims: C1,C2,C11 -->
 **DANA:** Is a class just another variable, then?
 
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, a class definition creates a class object. Its body supplies names such as methods and attributes, and the class object can be called to create instances. The class is the reusable definition; an instance is one object made from it. That distinction is why one definition can support many objects.
+**MARCUS:** A class definition creates a class object. Its body supplies names such as methods and attributes, and the class object can be called to create instances. The class is the reusable definition; an instance is one object made from it. That distinction is why one definition can support many objects.
 
 <!-- claims: C1,C2,C14 -->
 **DANA:** What should I hear when I read `class Counter:`?
 
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, hear “define a class named Counter,” followed by an indented body. The body is where the class’s methods and attribute-related setup go. At that moment you have defined the type; you have not yet made a particular counter with a particular value. The later call to `Counter(...)` makes that instance.
+**MARCUS:** Hear “define a class named Counter,” followed by an indented body. The body is where the class’s methods and attribute-related setup go. At that moment you have defined the type; you have not yet made a particular counter with a particular value. The later call to `Counter(...)` makes that instance.
 
 <!-- claims: C2,C3 -->
 **DANA:** So what happens in `first = Counter(3)`?
 
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, the class object is called, Python creates an instance of that class, and the resulting object is bound to `first`. If the class has an `__init__` method, Python calls it during that normal creation call. The argument `3` is available to that initializer so it can set the starting state.
+**MARCUS:** The class object is called, Python creates an instance of that class, and the resulting object is bound to `first`. If the class has an `__init__` method, Python calls it during that normal creation call. The argument `3` is available to that initializer so it can set the starting state.
 
 <!-- claims: C2,C3,C4,C5 -->
 **DANA:** I see `def __init__(self, start):` a lot. What does each name do?
 
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, `start` is the argument carrying the requested starting value. `self` is conventionally the first parameter and receives the instance being initialized. A line such as `self.value = start` stores that argument in an attribute on that new instance. The initializer is where we give the object its initial state.
+**MARCUS:** `start` is the argument carrying the requested starting value. `self` is conventionally the first parameter and receives the instance being initialized. A line such as `self.value = start` stores that argument in an attribute on that new instance. The initializer is where we give the object its initial state.
 
 <!-- claims: C4,C10 -->
 **DANA:** Is `self` a special object that exists once for the whole class?
 
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, no. In an instance method, the first parameter is conventionally called `self`, and the call supplies the particular instance there. If `first.next_value()` runs, `self` refers to `first` during that call. If `second.next_value()` runs, `self` refers to `second`. The method definition is shared; the current instance is supplied for each call.
+**MARCUS:** No. In an instance method, the first parameter is conventionally called `self`, and the call supplies the particular instance there. If `first.next_value()` runs, `self` refers to `first` during that call. If `second.next_value()` runs, `self` refers to `second`. The method definition is shared; the current instance is supplied for each call.
 
 <!-- claims: C4,C5,C6 -->
 **DANA:** Then `self.value` means the value belonging to the current instance?
 
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, yes. The `self` part identifies the current instance, and the dot reaches its `value` attribute. When the initializer runs for `first`, `self.value = start` stores on `first`. When it runs for `second`, the same source line stores on `second`. The line is the same, but the instance named by `self` is different.
+**MARCUS:** Yes. The `self` part identifies the current instance, and the dot reaches its `value` attribute. During `first = Counter(3)`, the initializer receives the new instance that will be bound to `first`; during the second call it receives the new instance that will be bound to `second`. The source line is the same, but the instance named by `self` is different.
 
-<!-- claims: C2,C6,C8 -->
+<!-- claims: C2,C3,C5,C6,C8 -->
 **DANA:** Let’s make two counters with the same starting number. What should we expect?
 
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, `first = Counter(3)` and `second = Counter(3)` are two calls, so they create two instance objects. They begin with equal values, but equal starting values do not turn them into one object. If you later assign `first.value = 4`, the attribute reached through `second` remains `3` unless you change it separately.
+**MARCUS:** `first = Counter(3)` and `second = Counter(3)` are two calls, so they create two instance objects. They begin with equal values, but equal starting values do not turn them into one object. If you later assign `first.value = 4`, the attribute reached through `second` remains `3` unless you change it separately.
 
-<!-- claims: C5,C6,C8 -->
-**DANA:** That is the misconception I would make about ordinary multi-line user-defined classes and ordinary method bodies as taught here: same class means one shared value.
+<!-- claims: C1,C5,C6,C8,C10 -->
+**DANA:** That is the misconception I would make: same class means one shared value.
 
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, the class supplies common structure and method definitions. Attributes assigned through `self` are instance state, so corresponding attributes can differ between instances. To trace an assignment, look at the object before the dot. `first.value = 4` targets `first`; it does not announce a change to every instance made from the class.
+**MARCUS:** The class supplies common structure and method definitions. Attributes assigned through `self` are instance state, so corresponding attributes can differ between instances. To trace an assignment, look at the object before the dot. `first.value = 4` targets `first`; it does not announce a change to every instance made from the class.
 
 <!-- claims: C5,C6,C8 -->
 **DANA:** Does reading work the same way as changing?
 
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, yes. `first.value` reads the current value on `first`. `second.value` reads the current value on `second`. An assignment such as `second.value = 10` stores through `second` and leaves `first.value` at its current value. The dot is the route to the selected object’s attribute in both the expression and the assignment.
+**MARCUS:** The same dot identifies the object, but the operation differs. `first.value` reads the current value on `first`; `second.value = 10` stores through `second` and leaves `first.value` at its current value. Reading an attribute does not assign a new value. The dot is the route to the selected object in both expressions and assignments.
+
+<!-- claims: C2,C3,C5,C6,C8 -->
+**DANA:** Can we predict the output of the existing two-counter example before running it?
+
+**MARCUS:** Yes. The constructor calls give `first` the value `3` and `second` the value `8`, so the first two prints are `3` and `8`. `first.add(2)` changes only the attribute reached through `first`, making the next print `5`; the following `second.value` is still `8`. After `second.value = 11`, the final pair is `5` and `11`. The useful check is to name the object before each dot and update only that object’s row.
+
+<!-- claims: C2,C5,C6,C8 -->
+**DANA:** So equal values and shared state are different ideas?
+
+**MARCUS:** Exactly. Two objects can happen to contain the same number while remaining separate objects. If both start at `3`, changing `first.value` gives evidence about `first`, not about `second`. A prediction becomes reliable when you track both object identities and their attributes instead of treating matching output as proof of one shared record.
 
 <!-- claims: C4,C5,C9,C10 -->
 **DANA:** How does a method know which counter it should use?
 
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, the instance call supplies it. With `def next_value(self): return self.value + 1`, calling `first.next_value()` supplies `first` as `self`. The method reads the value through that `self`, adds one, and returns the result. Calling it through `second` uses the same method body with `second` as `self`.
+**MARCUS:** The instance call supplies it. With `def next_value(self): return self.value + 1`, calling `first.next_value()` supplies `first` as `self`. The method reads the value through that `self`, adds one, and returns the result. Calling it through `second` uses the same method body with `second` as `self`.
 
 <!-- claims: C5,C9 -->
 **DANA:** Does `return self.value + 1` change the stored value?
 
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, no. That line reads the attribute, computes a result, and returns it. It does not assign to the attribute. If the method should advance the stored value, it needs an assignment such as `self.value = self.value + 1`. A method can compute a result, update state, or do both; its statements determine which happens.
+**MARCUS:** No. That line reads the attribute, computes a result, and returns it. It does not assign to the attribute. If the method should advance the stored value, it needs an assignment such as `self.value = self.value + 1`. A method can compute a result, update state, or do both; its statements determine which happens.
+
+<!-- claims: C4,C5,C9 -->
+**DANA:** Is “reading an attribute changes it” another trap worth checking?
+
+**MARCUS:** It is. Imagine a counter whose value is `5`. Calling `next_value()` can return `6`, but a later read of `counter.value` is still `5` because no assignment occurred. The expression asks for a value; it does not write one back. To check yourself, look for the assignment symbol and the destination. `return self.value + 1` has a return, not an assignment to `self.value`.
 
 <!-- claims: C5,C7,C9 -->
 **DANA:** What is the missing-`self.` bug?
 
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, compare `value = self.value + amount` with `self.value = self.value + amount`. The first line assigns to a local name called `value` during the method call. The second line assigns to the current instance’s attribute. If you want a later dot read to see the new state, the left side must name the instance attribute with `self.`.
+**MARCUS:** Compare `value = self.value + amount` with `self.value = self.value + amount`. The first line assigns to a local name called `value` during the method call. The second line assigns to the current instance’s attribute. If you want a later dot read to see the new state, the left side must name the instance attribute with `self.`.
 
-<!-- claims: C5,C7 -->
+<!-- claims: C5,C7,C9 -->
 **DANA:** Does the local value disappear immediately?
 
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, it is available to the method while that call is running. It is not stored as an instance attribute, so later code such as `counter.value` cannot see that local binding. If the method does not return the local value or store it through `self`, the calculation has no persistent place in the object. That is why the missing dot can look like a method that did nothing.
+**MARCUS:** It is available to the method while that call is running. It is not stored as an instance attribute, so later code such as `counter.value` cannot see that local binding. If the method does not return the local value or store it through `self`, the calculation has no persistent place in the object. That is why the missing dot can look like a method that did nothing.
 
 <!-- claims: C5,C7,C8 -->
 **DANA:** Can we diagnose it from the output?
 
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, yes. Start with a counter whose `value` is `5`. Run a method containing `value = self.value + 4`, then print `counter.value`; it is still `5`. Run a method containing `self.value = self.value + 4`, then print the attribute; it is `9`. The difference is the assignment target, not whether the arithmetic ran.
+**MARCUS:** Yes. Start with a counter whose `value` is `5`. Run a method containing `value = self.value + 4`, then print `counter.value`; it is still `5`. Run a method containing `self.value = self.value + 4`, then print the attribute; it is `9`. The difference is the assignment target, not whether the arithmetic ran.
+
+<!-- claims: C5,C7,C9 -->
+**DANA:** Let’s predict the existing local-versus-instance example too. What should the two prints show?
+
+**MARCUS:** `counter.wrong_add(4)` calculates a local `value` and leaves the attribute at `5`, so its print is `5`. Then `counter.add(4)` assigns through `self.value`, making the final print `9`. Both methods perform the arithmetic; only one sends the result to persistent instance state. That is the check: compare the left side of the assignment, not just the right side.
 
 <!-- claims: C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11 -->
 **DANA:** Let me trace the full sequence: class, two calls, initializer, attributes, then a method.
 
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, the class statement defines the repeatable type. Each call creates an instance and runs `__init__` for that instance. `self` identifies the current object during the call. An assignment through `self` stores state there. A dot read or assignment names the instance first, and a method call supplies that instance as its first argument.
+**MARCUS:** The class statement defines the repeatable type. Each call creates an instance and runs `__init__` for that instance. `self` identifies the current object during the call. An assignment through `self` stores state there. A dot read or assignment names the instance first, and a method call supplies that instance as its first argument.
 
 <!-- claims: C4,C5,C6,C8 -->
 **DANA:** What should I write down when I am unsure whether state is shared?
 
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, write one row for each instance: `first.value` and `second.value`. Record their starting values. For every later assignment, update only the row named before the dot. If the code assigns through `self`, ask which instance is `self` during that call. This small trace makes separate state visible instead of relying on a vague picture of the class.
+**MARCUS:** Write one row for each instance: `first.value` and `second.value`. Record their starting values. For every later assignment, update only the row named before the dot. If the code assigns through `self`, ask which instance is `self` during that call. This small trace makes separate state visible instead of relying on a vague picture of the class.
 
 <!-- claims: C4,C5,C7,C9 -->
 **DANA:** What if a method uses a bare name in one line and `self.value` in another?
 
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, treat them as different destinations. A bare `value` is a local name for the method call. `self.value` is an attribute on the current instance. The first can support a temporary calculation or be returned. The second is where persistent object state lives for this example. Inspect the left side of the assignment before deciding what later code can read.
+**MARCUS:** Treat them as different destinations. A bare `value` is a local name for the method call. `self.value` is an attribute on the current instance. The first can support a temporary calculation or be returned. The second is where persistent object state lives for this example. Inspect the left side of the assignment before deciding what later code can read.
 
 <!-- claims: C1,C6,C11 -->
 **DANA:** Is every group of variables a reason to write a class?
 
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, no. A class earns its place when several objects need the same named state and behavior. It gives those objects a common type and methods, which keeps the data-and-behavior relationship visible. For a one-line calculation, a class would add needless structure. For many counters, points, or similar objects, the repeatable definition is useful.
+**MARCUS:** No. A class earns its place when several objects need the same named state and behavior. It gives those objects a common type and methods, which keeps the data-and-behavior relationship visible. For a one-line calculation, a class would add needless structure. For many counters, points, or similar objects, the repeatable definition is useful.
 
 <!-- claims: C2,C3,C4,C5,C6 -->
 **DANA:** What is the cleanest sentence for `Counter(3)`?
 
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, say: “Call the Counter class to create one Counter instance initialized with a starting value of 3.” The call creates one object. The initializer receives that object as `self` and the number as `start`, then `self.value = start` stores the number on that instance. A second call repeats the process for a different object.
+**MARCUS:** Say: “Call the Counter class to create one Counter instance initialized with a starting value of 3.” The call creates one object. The initializer receives that new object as `self` and the number as `start`, then `self.value = start` stores the number on that instance. A second call repeats the process for a different object.
 
 <!-- claims: C4,C5,C9,C10 -->
 **DANA:** And for `first.next_value()`?
 
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, say: “Call the instance method through first, supplying first as self.” The method then reads `self.value`, so it reads the value on `first`. If the body returns `self.value + 1`, the call sends back a computed result. If the body assigns to `self.value`, the call also changes the stored state.
+**MARCUS:** Say: “Call the instance method through first, supplying first as self.” The method then reads `self.value`, so it reads the value on `first`. If the body returns `self.value + 1`, the call sends back a computed result. If the body assigns to `self.value`, the call also changes the stored state.
 
 <!-- claims: C2,C5,C6,C7,C8 -->
 **DANA:** What final check should I use before I trust my class?
 
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, create two instances with visibly different starting values. Print both attributes. Change one through dot notation and print both again. Then call a method on each. If one change appears in both objects, inspect whether you deliberately used shared class-level data; assignments through `self` should be instance state. If a change vanishes, inspect for a missing `self.` on the assignment target.
+**MARCUS:** Create two instances with visibly different starting values. Print both attributes. Change one through dot notation and print both again. Then call a method on each. If one change appears in both objects, inspect whether you deliberately used shared class-level data; assignments through `self` should be instance state. If a change vanishes, inspect for a missing `self.` on the assignment target.
 
 <!-- claims: C2,C3,C4,C5 -->
 **DANA:** Does `__init__` run once when the class is defined?
 
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, no. It runs during each normal instance-creation call. If the program calls `Counter(3)` and then `Counter(8)`, the initializer runs for the first new object and then for the second new object. Each call supplies its own argument and its own current instance for `self`.
+**MARCUS:** No. It runs during each normal instance-creation call. If the program calls `Counter(3)` and then `Counter(8)`, the initializer runs for the first new object and then for the second new object. Each call supplies its own argument and its own current instance for `self`, then stores that starting value through `self`.
 
 <!-- claims: C2,C3,C4,C5,C6 -->
 **DANA:** If two counters start at `3`, are their values linked because they match?
 
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, no. Equal values are an observation about two objects, not proof that there is one object. Each initializer call assigns through its own `self`, so the two instances have separate `value` attributes. Change one attribute and read the other.
+**MARCUS:** No. Equal values are an observation about two objects, not proof that there is one object. Each initializer call assigns through its own `self`, so the two instances have separate `value` attributes. Change one attribute and read the other.
 
 <!-- claims: C4,C9,C10 -->
 **DANA:** Why does the method definition need `self` if the call already has `first` before the dot?
 
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, the call syntax is how Python supplies the receiving instance. The method body still needs a parameter name through which to access that instance. Conventionally that name is `self`, so the body can use `self.value` regardless of which instance made the call.
+**MARCUS:** The call syntax is how Python supplies the receiving instance. The method body still needs a parameter name through which to access that instance. Conventionally that name is `self`, so the body can use `self.value` regardless of which instance made the call.
 
 <!-- claims: C5,C7,C9 -->
 **DANA:** Could I write `value = self.value + amount` and then expect `counter.value` to find it?
 
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, no. The bare left side names a local binding for the method call. `counter.value` looks for an attribute on the instance, not for a local variable that belonged to a completed call. Use `self.value = self.value + amount` when the result should become persistent instance state.
+**MARCUS:** No. The bare left side names a local binding for the method call. `counter.value` looks for an attribute on the instance, not for a local variable that belonged to a completed call. Use `self.value = self.value + amount` when the result should become persistent instance state.
 
-<!-- claims: C5,C7 -->
+<!-- claims: C5,C7,C9 -->
 **DANA:** Is a local variable always an error in a method?
 
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, no. A local variable is useful for temporary work, and a method can return it. The error is expecting a bare local name to update an attribute automatically. Decide whether the value is temporary or part of the object’s state, then choose a bare name or a `self.` attribute as the assignment target.
+**MARCUS:** No. A local variable is useful for temporary work, and a method can return it. The error is expecting a bare local name to update an attribute automatically. Decide whether the value is temporary or part of the object’s state, then choose a bare name or a `self.` attribute as the assignment target.
 
 <!-- claims: C5,C6,C8 -->
 **DANA:** What evidence would show that I accidentally changed the wrong object?
 
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, print both `first.value` and `second.value` before and after the assignment. If only the value reached through the named target changes, the dot assignment is behaving as expected. If you expected both to change, you need to identify an explicit shared design; ordinary instance attributes assigned through `self` are separate in this lesson.
+**MARCUS:** Print both `first.value` and `second.value` before and after the assignment. If only the value reached through the named target changes, the dot assignment is behaving as expected. If you expected both to change, you need to identify an explicit shared design; instance attributes assigned through `self` are separate in this lesson.
 
 <!-- claims: C5,C9,C10 -->
 **DANA:** What is the difference between a method that returns and one that updates?
 
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, a return statement sends a result back to the caller. An assignment through `self`, such as `self.value = ...`, updates the instance attribute. A method can do either one or both. `return self.value + 1` computes and sends back a number but does not update the stored value by itself.
+**MARCUS:** A return statement sends a result back to the caller. An assignment through `self`, such as `self.value = ...`, updates the instance attribute. A method can do either one or both. `return self.value + 1` computes and sends back a number but does not update the stored value by itself.
 
 <!-- claims: C1,C2,C6,C8 -->
 **DANA:** Why is testing two objects better than testing only one?
 
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, one object can show that a class works at all, but two objects test whether state is kept separately. Give them different starting values, change one, and read both. That sequence makes a mistaken assumption about one shared state visible in the output.
+**MARCUS:** One object can show that a class works at all, but two objects test whether state is kept separately. Give them different starting values, change one, and read both. That sequence makes a mistaken assumption about one shared state visible in the output.
 
 <!-- claims: C5,C7,C8 -->
 **DANA:** What is the fastest place to look when a method seems not to save a change?
 
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, inspect the assignment target. `self.value` names instance state, while `value` names a local binding in the method. Then print the attribute through the same instance that made the call. Those two checks distinguish a missing `self.` from a change made to a different object.
+**MARCUS:** Inspect the assignment target. `self.value` names instance state, while `value` names a local binding in the method. Then print the attribute through the same instance that made the call. Those two checks distinguish a missing `self.` from a change made to a different object.
 
-<!-- claims: C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11 -->
+<!-- claims: C4,C10,C15 -->
+**DANA:** In `def add(self, amount):`, how do I check the second argument without guessing?
+
+**MARCUS:** Use the argument-mapping example. When `counter.add(2)` runs, the instance `counter` supplies `self`, and the explicit `2` supplies `amount`. The method adds that amount to `self.value` and returns `7` from a starting value of `5`; the stored attribute is also `7` because this method assigns through `self.value`. The example separates the automatic instance argument from the ordinary argument you wrote.
+
+<!-- claims: C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C15 -->
 **DANA:** So my first-class checklist is: define the type, initialize each instance, use `self`, trace the dot, and test two objects.
 
-**MARCUS:** For ordinary multi-line user-defined classes and ordinary method bodies as taught here, exactly. A class gives you a repeatable type. Calling it creates instances. `__init__` establishes starting state. `self` identifies the current instance for a method call. Dot notation reads or changes the selected attribute. Two instances can keep separate state, and a bare local name is not a substitute for `self.attribute` when the result must persist.
+**MARCUS:** Exactly. As a recap, in the ordinary classes we write today, a class gives you a repeatable type. Calling it creates instances. `__init__` establishes starting state. `self` identifies the current instance for a method call, while an additional explicit argument maps to the next parameter. Dot notation reads or changes the selected attribute. Two instances can keep separate state, and a bare local name is not a substitute for `self.attribute` when the result must persist.
 
 ## Worked examples
 
@@ -378,6 +404,23 @@ counter.add(4)
 print(counter.value)  # expect: 9
 ```
 
+### method-argument-mapping
+
+```python
+class Counter:
+    def __init__(self, start):
+        self.value = start
+
+    def add(self, amount):
+        self.value = self.value + amount
+        return self.value
+
+counter = Counter(5)
+new_value = counter.add(2)
+print(new_value)  # expect: 7
+print(counter.value)  # expect: 7
+```
+
 ### review-string-method
 
 ```python
@@ -398,9 +441,9 @@ print(result)  # expect: None
 
 ## Misconception
 
-Instances made from the same class all use one shared state, so changing `first.value` should change `second.value` too. In fact, for ordinary multi-line user-defined classes and ordinary method bodies as taught here, attributes assigned through `self` are state on the current instance: two calls to the class create two instance objects, and each initializer stores its argument on the instance passed as `self`. A dot assignment targets the instance before the dot. Related confusions: equal starting values mean one object; the class object, current instance, and `self` are the same thing; a method argument goes into `self`; every assignment in a method becomes persistent state; and a bare local name is an attribute. The related trap is writing `value = ...` when the intended destination is `self.value`; the bare name is local to that call and is not persistent instance state.
+Instances made from the same class all use one shared state, so changing `first.value` should change `second.value` too. In fact, for ordinary multi-line user-defined classes and ordinary method bodies as taught here, attributes assigned through `self` are state on the current instance: two calls to the class create two instance objects, and each initializer stores its argument on the new instance that will later be bound to the corresponding name. A dot assignment targets the instance before the dot. Related confusions include believing that equal starting values mean one object; that the class object, current instance, and `self` are the same thing; that a method argument goes into `self`; that a later initializer replaces an earlier object’s state; that the class stores one value for every future instance; that every assignment in a method becomes persistent state; that a bare local name is an attribute; and that merely reading an attribute mutates it. The related trap is writing `value = ...` when the intended destination is `self.value`; the bare name is local to that call and is not persistent instance state.
 
-claims: C1,C2,C3,C4,C5,C6,C7,C8,C10
+claims: C1,C2,C3,C4,C5,C6,C7,C8,C10,C15
 
 ## Quiz
 
@@ -426,7 +469,7 @@ claims: C1,C2,C3,C4,C5,C6,C7,C8,C10
   - D: Neither has a value, because `self` is shared by the class
 - answer: B
 - rationale: Each call creates a separate instance, and `first.value = 4` targets only the instance named `first`; the corresponding attribute on `second` remains `8`. A targets shared instance state, C targets one initializer replacing another object’s state, and D targets the confusion that `self` is one class-wide object.
-- claims: C2,C4,C6,C8
+- claims: C2,C3,C4,C5,C6,C8
 
 ### Q3
 
@@ -438,7 +481,7 @@ claims: C1,C2,C3,C4,C5,C6,C7,C8,C10
   - D: One shared variable used by every counter
 - answer: C
 - rationale: The instance call supplies the particular instance as the method’s first parameter, conventionally named `self`; `amount` receives `2`. A targets the class-object/current-instance confusion, B targets the argument-mapping confusion between `self` and `amount`, and D targets the shared-`self` confusion.
-- claims: C1,C2,C4,C6,C10
+- claims: C1,C2,C4,C6,C10,C15
 
 ### Q4
 
