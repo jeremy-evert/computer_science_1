@@ -77,3 +77,26 @@ Do not require all four to ship by Monday. The minimum effective Concept 1 shoul
 4. Repair the current **existing** Week 9 Concept 1 spec and derived surfaces if supported by evidence. Defer nonessential follow-ups until after the Monday launch gate. No silent student-facing publication, no speculative production changes, and no new parallel modality pipeline.
 
 **Generalizable lesson:** *Use audio to explain why; visuals to reveal exact structure; hands-on execution to build skill*. Treat this as a testable heuristic, not a universal learning-style label or a claim that students can only learn using one medium. Existing CS1 pipeline and student accessibility requirements remain in force.
+
+
+---
+
+## Follow-up: expand the rushed 13-minute Concept 1 into a teachable ~30-minute presentation (Jeremy, 2026-10-09 ~16:06 CDT)
+
+**Status: OWNER DIRECTION / DESIGN FEEDBACK ONLY. NOT IMPLEMENTED, RENDERED, OR PUBLISHED.**
+
+Jeremy shared the same Audiobookshelf book detail screen again. It identifies \`CS1 Week 9 Concept 1\` by Learning Foundry, **13 minutes**, **74% played**, roughly **3 minutes remaining**, one audio track. This is the **same** book already discussed above, not a new lesson or a second recording.
+
+**New explicit owner judgment:** Jeremy stopped at about this point because the information density was far too high, despite several genuinely good connections to earlier instruction on strings. In his words, "that 13 minutes presentation would have been much better as maybe a 30-minute presentation instead." **Keep and develop the strings-to-objects bridge. Dramatically reduce the rate at which unrelated concepts arrive.** Do not assume a runtime target was requested for every podcast or that stretching the narration's speed is a fix.
+
+### Design target for the existing CS1 Week 9 Concept 1 mission
+
+- **Target a roughly 30-minute actual learning presentation** for this first introduction when the pedagogy earns the time: meaningfully longer explanations, gentle transitions, repeated familiar-string examples, visibly worked Python, learner prediction/pause/try moments, and short recaps. Timing is a useful design target, not a quota to fill with filler.
+- **One coherent novice-facing objective for this session:** bridge familiar \`str\` objects to calling methods on objects. Introduce \`receiver\` and method only as they become necessary. Preserve existing Week 9 objectives across later lessons instead of squeezing them all into Concept 1.
+- **Suggested run-of-show to validate against the actual script and current course plan:** ~5 min recall of familiar strings; ~7 min one method call and a receiver with a visible example; ~8 min slow predict/run/compare with one or two string operations; ~7 min supervised example, misconceptions, and student try; ~3 min review and preview. **This is a proposed shape, not an owner-approved literal script.** Favor clear learning boundaries over rigid minute counts.
+- **Move Python \`dir()\` / \`help()\` object discovery and first custom \`class\` with docstrings to distinct upcoming teaching units** if they would overload Concept 1; retain those excellent opportunities, do not delete them. Wednesday Oct 14 and subsequent units provide the continuation. Avoid implying a custom class is required for Coding Odyssey Checkpoint 2.
+- **Modality:** narrated/audio portions explain intuition, plain-language behavior, and why; Beamer or legible annotated slides display literal code structure; runnable Python and prompts establish that the learner can actually predict and test it. Thirty minutes of continuously *spoken syntax* is not the requested repair.
+- **Validation:** compare the new concept-introduction with the original 13-minute source for coverage, readability, distinct new ideas per minute, time to first successful prediction and code run, and fidelity of every example. Include an audio-only comprehension route and an accessible text/code route. Preserve the original private audio and saved listening position while a corrected version is prepared; no silent replacement of student-facing material.
+- **Delivery order:** prioritize one excellent, useful Monday Oct 12 introduction over four rushed concepts. Route to the **existing** \`foreman_interface/jobs/tasks/anna_concept_pipeline_cs1w9_2026-10-08.md\` and \`anna_cs1_week9_oop_intro_build_2026-10-08.md\`, not a new competing pipeline.
+
+**Acceptance question:** After this ~30-minute guided encounter, can a student who knows strings point to the receiver, explain what a method does, predict one result, and run it, without also needing to learn introspection and class authoring in the same breath?
