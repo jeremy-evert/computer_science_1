@@ -4,7 +4,14 @@
 **Friday holiday — Fall Break begins Wed 10pm.** Monday and Wednesday meet; Friday does not.
 
 ## Weekly Focus
-Strings continued; Coding Odyssey checkpoint 2 — first real pass on the actual project (Decision, 2026-07-22: renumbered after adding Week 6's checkpoint 1 "baby project" dry run; see `reports/007_coding_odyssey_baby_project_checkpoint.md`). Now genuinely a second check-in rather than a first one, so it can go deeper: real project idea, meaningfully more code than the Week 6 dry run. See `lessons/06-strings.md` and `assignments/A2-coding-odyssey-project.md`.
+Objects you already use, then a first custom class: use `str` and `list`
+objects, compare methods with attributes, and write a small class with
+`__init__`, instance state, `self`, and one method. Coding Odyssey Checkpoint 2
+remains the first real pass on the actual project and a synthesis of previously
+taught work. A custom class is encouraged but not required for the checkpoint.
+
+This supersedes the August map's “strings continued” focus for Week 9. Remapping
+Week 10 and later is a separate mission.
 
 ## Monday — Oct 12 — Monday Moments
 **AI I Lens 9: Generate** — How do we use AI to create useful outputs for different audiences and purposes?
@@ -18,4 +25,5 @@ No class — Fall Break. Fun Friday / show-and-tell is skipped this week, not ma
 Book of record: *Clean Architecture* — Question: How do systems stay healthy over time?
 
 ## Due this week
-Coding Odyssey checkpoint 2 (`assignments/A2-coding-odyssey-project.md`).
+Coding Odyssey Checkpoint 2 remains the one graded target due Friday at 11:59
+PM Central. A custom class is encouraged but not required for this checkpoint.

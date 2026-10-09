@@ -2,32 +2,44 @@
 
 **Gate status:** active
 
-**Concept:** no new technical concept — consolidate the work already taught
-through strings. **This week's gate is Reasoning Odyssey Checkpoint 2 itself** — see
-`assignments/A2-coding-odyssey-project.md`'s checkpoint table and
-`planning/week-09.md`. No separate parallel gate; this file was previously
-missing entirely (`runs/2026-07-31_.../blocking_decisions.md` §5). Authored
-2026-08-06 (course_foundry prompt 026). **Instrument:** the two-axis rubric
-(result 15 + process 10 = 25 points) defined in `docs/grading-model.md` —
-reused as-is, not a new shape, per Jeremy's 2026-08-06 decision.
+**Week 9 focus:** objects you already use and a first class you write. The
+lesson material introduces `str` and `list` objects, method calls and
+attributes, classes and instances, `__init__`, instance state, and `self`.
+This week's gate is Reasoning Odyssey Checkpoint 2 itself: one graded
+submission, not two, and a first real synthesis pass on previously learned
+work.
 
-## The checkpoint (do this first)
+The checkpoint keeps its two-axis rubric: 15 points for the working result and
+10 points for the process, for 25 points total. There is no separate parallel
+submission.
 
-This is the first real synthesis pass on the actual project — a real idea,
-meaningfully more code than Week 6's baby project, and closer to the
-world's eventual scope. Consolidate the concepts already taught; a list or
-dictionary can be useful if you already know how to use one, but is not a
-new requirement for this checkpoint.
+## The checkpoint
 
-1. **Submit** a working version that meaningfully extends the Week 6
-   project using concepts already taught.
-2. **Explain**, in your own words, what changed since Week 6's checkpoint
-   and how the earlier concepts now fit together in your world.
-3. **Demonstrate** it actually runs — a short transcript is enough.
-4. **Reflect** on one revision, trade-off, or debugging insight that helped
-   you consolidate prior work.
+Submit as in earlier checkpoints. Build a working version that meaningfully
+extends your project, then include these four pieces of evidence:
 
-## Suggested shape (optional scaffolding)
+1. **Working extension:** show the part of your project that you added or
+   improved.
+2. **Explanation:** explain what changed and how earlier concepts fit together
+   in your project.
+3. **Run evidence:** show a short transcript or other clear evidence that the
+   program runs.
+4. **Reflection:** describe one revision, trade-off, or debugging insight that
+   helped you move forward.
+
+A first class may be an optional extension. You will not lose points for
+completing the checkpoint without a custom class.
+
+This is one graded submission. Submit as in earlier checkpoints.
+
+## Evaluation
+
+| Axis | Points | What it measures |
+| --- | ---: | --- |
+| Working result | 15 | A meaningful first synthesis pass that is clearly explained and demonstrated. |
+| Process | 10 | Reasoning, planning, resource choices, knowledge management, and an organized reusable package. |
+
+## Suggested shape
 
 - **Frontier Settlement:** combine an existing resource loop with a clear
   status message or decision.
