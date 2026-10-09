@@ -348,7 +348,7 @@ claims: C3,C9,C14
   - C: `word[4]`
   - D: `word[len(word)]`
 - answer: A
-- rationale: String indexing starts at zero, so index 1 selects the second character, `u`; the length is four.
+- rationale: String indexing starts at zero, so index 1 selects the second character, `o`; the length is four.
 - claims: C17
 
 ### R2
