@@ -38,7 +38,7 @@ What does this call do to the original string when its result is not saved: `s.u
 
 ### Q3
 
-After `items.append("Sol")`, which statement is correct?
+After `items.append("blue")`, which statement is correct?
 
 - A: The list is unchanged and append returns an expanded list
 - B: The list changes in place and append returns None
@@ -91,7 +91,7 @@ Which investigation sequence is the best way to explore an unfamiliar object?
 
 ### R1
 
-Given `word = "Luna"`, which expression produces `"u"` while `len(word)` produces `4`?
+Given `word = "code"`, which expression produces `"o"` while `len(word)` produces `4`?
 
 - A: `word[1]`
 - B: `word[0]`
@@ -102,17 +102,17 @@ Given `word = "Luna"`, which expression produces `"u"` while `len(word)` produce
 <summary>Answer and rationale</summary>
 
 - Answer: A
-- Rationale: String indexing starts at zero, so index 1 selects the second character, `u`; the length is four.
+- Rationale: String indexing starts at zero, so index 1 selects the second character, `o`; the length is four.
 
 </details>
 
 ### R2
 
-If `place = "Sol"` and `count = 2`, what does `f"{place}: {count}"` produce?
+If `place = "home"` and `count = 2`, what does `f"{place}: {count}"` produce?
 
 - A: `"place: count"`
-- B: `"Sol: 2"`
-- C: `"Sol2"`
+- B: `"home: 2"`
+- C: `"home2"`
 - D: `"{place}: {count}"`
 
 <details>

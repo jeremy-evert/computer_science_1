@@ -2,14 +2,14 @@
   "device": "cuda",
   "kokoro_version": "0.9.4",
   "output": {
-    "bytes": 1650772,
+    "bytes": 1089035,
     "channels": 1,
-    "decoded_peak": 0.7727125883102417,
-    "decoded_rms": 0.11575293865479286,
-    "duration_seconds": 68.725011,
-    "path": "/home/jevert/concept_pipeline/d6eb71615204/luna-dot.mp3",
+    "decoded_peak": 0.7722855806350708,
+    "decoded_rms": 0.11706686758257018,
+    "duration_seconds": 45.3,
+    "path": "/home/jevert/concept_pipeline/9d98db7a739a/debug-the-missing-result.mp3",
     "sample_rate": 44100,
-    "sha256": "4abebfb8261c37b6cec625dae0e3bff3c3efb2eb0f06a0e65973722571d9f6ec"
+    "sha256": "487ca3c6eb1a8cf2aa78a5893d1719833533ef7bec43662566961a8930b6ef12"
   },
   "post_processing": {
     "bitrate": 192000,
@@ -22,8 +22,8 @@
   },
   "schema_version": 1,
   "source": {
-    "path": "/home/jevert/concept_pipeline/d6eb71615204/beat-luna-dot.md",
-    "sha256": "a5651998e6cbd9ecd1c2aedf8e9a4cb654586e3aeea85b9f099bef5cd667263b"
+    "path": "/home/jevert/concept_pipeline/9d98db7a739a/beat-debug-the-missing-result.md",
+    "sha256": "5b0385135fcd2ecce857e68f16420dac55f2e3268f07d88965a63175cdb8eb3d"
   },
   "source_turn_count": 1,
   "speed": 1.0,

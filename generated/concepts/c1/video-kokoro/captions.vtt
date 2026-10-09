@@ -1,617 +1,613 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:04.795
-Let’s begin on familiar ground: a name, a message, or a list of places. Each one
+00:00:00.000 --> 00:00:04.424
+Let’s begin with values already present in ordinary Python code: a name, a
 
 2
-00:00:04.795 --> 00:00:09.591
-is a value in a Python program. Now widen the question. Do not ask only what the
+00:00:04.424 --> 00:00:09.147
+message, or a list of items. Each one is a value in a Python program. Now widen
 
 3
-00:00:09.591 --> 00:00:14.147
-value is called. Ask what kind of thing it is, what information it currently
+00:00:09.147 --> 00:00:13.810
+the question. Do not ask only what the value is called. Ask what kind of thing
 
 4
-00:00:14.147 --> 00:00:18.582
-holds, and what it knows how to do. That three-part question is our object
+00:00:13.810 --> 00:00:18.414
+it is, what information it currently holds, and what it knows how to do. That
 
 5
-00:00:18.582 --> 00:00:23.138
-model. A value has a type. Its current text or items are its state. Its type
+00:00:18.414 --> 00:00:23.196
+three-part question is our object model. A value has a type. Its current text or
 
 6
-00:00:23.138 --> 00:00:27.334
-supplies behaviors, including methods. A string is therefore more than
+00:00:23.196 --> 00:00:27.979
+items are its state. Its type supplies behaviors, including methods. A string is
 
 7
-00:00:27.334 --> 00:00:31.890
-characters sitting in a variable. A list is more than several values between
+00:00:27.979 --> 00:00:32.343
+therefore more than characters sitting in a variable. A list is more than
 
 8
-00:00:31.890 --> 00:00:36.565
-brackets. Both are objects that Python can work with according to their types.
+00:00:32.343 --> 00:00:36.827
+several values between brackets. Both are objects that Python can work with
 
 9
-00:00:36.565 --> 00:00:41.181
-This is not yet a lesson about writing your own class. It is a way to look at
+00:00:36.827 --> 00:00:41.610
+according to their types. This is not yet a lesson about writing your own class.
 
 10
-00:00:41.181 --> 00:00:45.856
-values you already use. The name on the left is a reference we use to reach an
+00:00:41.610 --> 00:00:45.914
+It is a way to look at values you already use. The name on the left is a
 
 11
-00:00:45.856 --> 00:00:50.112
-object; the name itself is not the type. Two different strings can have
+00:00:45.914 --> 00:00:50.278
+reference we use to reach an object; the name itself is not the type. Two
 
 12
-00:00:50.112 --> 00:00:54.488
-different text and still have the same type. As we travel from Terra, the
+00:00:50.278 --> 00:00:54.942
+different strings can have different text and still have the same type. As you
 
 13
-00:00:54.488 --> 00:00:58.984
-familiar world, toward Luna, keep asking: what kind of object is this, what
+00:00:54.942 --> 00:00:59.724
+inspect each value, keep asking: what kind of object is this, what state does it
 
 14
-00:00:58.984 --> 00:01:02.041
-state does it hold, and what behavior can it offer?
+00:00:59.724 --> 00:01:01.936
+hold, and what behavior can it offer?
 
 15
-00:01:02.041 --> 00:01:06.575
+00:01:01.936 --> 00:01:06.471
 The next clue is a dot. When you see a value followed by a dot and a name,
 
 16
-00:01:06.575 --> 00:01:11.478
+00:01:06.471 --> 00:01:11.373
 Python is looking up something attached to that object. When the name identifies
 
 17
-00:01:11.478 --> 00:01:16.319
+00:01:11.373 --> 00:01:16.214
 a method, parentheses call that method. In spoken language, you can hear it as:
 
 18
-00:01:16.319 --> 00:01:21.221
+00:01:16.214 --> 00:01:21.116
 ask this object to use this behavior. A string can be asked to become uppercase,
 
 19
-00:01:21.221 --> 00:01:25.817
+00:01:21.116 --> 00:01:25.712
 remove outside spaces, or replace one piece of text. The parentheses matter
 
 20
-00:01:25.817 --> 00:01:30.474
+00:01:25.712 --> 00:01:30.369
 because they perform the call; without them, you are referring to the method
 
 21
-00:01:30.474 --> 00:01:35.131
+00:01:30.369 --> 00:01:35.027
 itself rather than asking it to run. Not every name after a dot is a method.
 
 22
-00:01:35.131 --> 00:01:39.543
+00:01:35.027 --> 00:01:39.439
 Some are attributes that hold information. Today we are concentrating on
 
 23
-00:01:39.543 --> 00:01:44.445
+00:01:39.439 --> 00:01:44.341
 methods, because they make behavior visible. The dot is not decoration and it is
 
 24
-00:01:44.445 --> 00:01:49.164
+00:01:44.341 --> 00:01:49.059
 not a universal command. It is a route from an object to a named part of what
 
 25
-00:01:49.164 --> 00:01:53.637
+00:01:49.059 --> 00:01:53.533
 that object offers. This is why methods feel as though they belong to the
 
 26
-00:01:53.637 --> 00:01:58.049
+00:01:53.533 --> 00:01:57.945
 string: the string’s type supplies them. Pause and translate a line like
 
 27
-00:01:58.049 --> 00:02:02.706
+00:01:57.945 --> 00:02:02.602
 “message dot upper with parentheses” into ordinary language: ask the message
 
 28
-00:02:02.706 --> 00:02:07.425
+00:02:02.602 --> 00:02:07.320
 object for its uppercase behavior and call it. That translation will help you
 
 29
-00:02:07.425 --> 00:02:10.795
+00:02:07.320 --> 00:02:10.691
 read programs before you can write every line yourself.
 
 30
-00:02:10.795 --> 00:02:15.523
+00:02:10.691 --> 00:02:15.419
 Strings give us a useful surprise. A string method such as uppercase does not
 
 31
-00:02:15.523 --> 00:02:20.129
+00:02:15.419 --> 00:02:20.024
 edit the original string in place. Strings are immutable, which means their
 
 32
-00:02:20.129 --> 00:02:24.918
+00:02:20.024 --> 00:02:24.814
 contents cannot be changed in place. The method returns a string; the original
 
 33
-00:02:24.918 --> 00:02:29.585
+00:02:24.814 --> 00:02:29.480
 is unchanged. CPython may hand back the same object when nothing changed, so
 
 34
-00:02:29.585 --> 00:02:34.436
+00:02:29.480 --> 00:02:34.331
 compare values, not identity. If you call the method and throw away its result,
 
 35
-00:02:34.436 --> 00:02:38.980
+00:02:34.331 --> 00:02:38.875
 the original reference still leads to the original text. If you assign the
 
 36
-00:02:38.980 --> 00:02:43.524
+00:02:38.875 --> 00:02:43.419
 result back to the same variable, that variable now refers to the returned
 
 37
-00:02:43.524 --> 00:02:48.436
+00:02:43.419 --> 00:02:48.332
 string. The important habit is to ask what came back. Some string methods return
 
 38
-00:02:48.436 --> 00:02:53.287
+00:02:48.332 --> 00:02:53.183
 a string. The split method returns a list of pieces. The find method returns an
 
 39
-00:02:53.287 --> 00:02:57.831
+00:02:53.183 --> 00:02:57.726
 integer position, while startswith returns a Boolean. A method call is not
 
 40
-00:02:57.831 --> 00:03:02.743
+00:02:57.726 --> 00:03:02.639
 automatically an instruction that changes the object you started with. It may be
 
 41
-00:03:02.743 --> 00:03:07.656
+00:03:02.639 --> 00:03:07.551
 a computation that produces a value. This distinction explains a common beginner
 
 42
-00:03:07.656 --> 00:03:12.384
+00:03:07.551 --> 00:03:12.279
 error: saying that an uppercase call changes the string, then being surprised
 
 43
-00:03:12.384 --> 00:03:17.112
+00:03:12.279 --> 00:03:17.007
 when printing the string shows the old text. Nothing mysterious happened. The
 
 44
-00:03:17.112 --> 00:03:21.779
+00:03:17.007 --> 00:03:21.674
 call produced a result, and no one saved it. If you do save it, you have not
 
 45
-00:03:21.779 --> 00:03:26.323
+00:03:21.674 --> 00:03:26.218
 repaired the old string; you have made your variable refer to the returned
 
 46
-00:03:26.323 --> 00:03:30.867
+00:03:26.218 --> 00:03:30.762
 string. Think of a string method as sending a request to a text object and
 
 47
-00:03:30.867 --> 00:03:35.595
+00:03:30.762 --> 00:03:35.490
 receiving a result in reply, then check the result's type instead of guessing
 
 48
-00:03:35.595 --> 00:03:37.130
+00:03:35.490 --> 00:03:37.025
 from the receiver's type.
 
 49
-00:03:37.130 --> 00:03:41.785
+00:03:37.025 --> 00:03:41.681
 Now compare a list. Lists are also objects, but a list is a mutable sequence.
 
 50
-00:03:41.785 --> 00:03:46.562
+00:03:41.681 --> 00:03:46.458
 Mutable means the list can be changed in place. A method such as append adds an
 
 51
-00:03:46.562 --> 00:03:51.218
+00:03:46.458 --> 00:03:51.113
 item to the existing list. The list after the call contains the new item. The
 
 52
-00:03:51.218 --> 00:03:55.692
+00:03:51.113 --> 00:03:55.587
 return value is a different question: append returns None. That is why the
 
 53
-00:03:55.692 --> 00:04:00.348
+00:03:55.587 --> 00:04:00.243
 useful result is usually the changed list, not a new list stored from append.
 
 54
-00:04:00.348 --> 00:04:05.124
+00:04:00.243 --> 00:04:05.020
 The same pattern appears with other list methods that add, remove, or rearrange
 
 55
-00:04:05.124 --> 00:04:09.659
+00:04:05.020 --> 00:04:09.554
 items. They act on the list itself. This is a place where type matters. The
 
 56
-00:04:09.659 --> 00:04:14.435
+00:04:09.554 --> 00:04:14.331
 string method upper returns a string; the original is unchanged because strings
 
 57
-00:04:14.435 --> 00:04:19.152
+00:04:14.331 --> 00:04:19.047
 are immutable. The list method append changes a mutable list. Neither behavior
 
 58
-00:04:19.152 --> 00:04:23.928
+00:04:19.047 --> 00:04:23.824
 is the definition of all methods. It is a property you check for the particular
 
 59
-00:04:23.928 --> 00:04:28.705
+00:04:23.824 --> 00:04:28.600
 type and method. A safe routine is: predict the object’s state before the call,
 
 60
-00:04:28.705 --> 00:04:33.179
+00:04:28.600 --> 00:04:33.074
 predict whether the call returns a value, run it, and inspect both. If you
 
 61
-00:04:33.179 --> 00:04:37.835
+00:04:33.074 --> 00:04:37.730
 assign the result of append to a variable, that variable holds None while the
 
 62
-00:04:37.835 --> 00:04:42.369
+00:04:37.730 --> 00:04:42.265
 original list has changed. The list and the returned value are two separate
 
 63
-00:04:42.369 --> 00:04:43.820
+00:04:42.265 --> 00:04:43.716
 things to keep track of.
 
 64
-00:04:43.820 --> 00:04:48.655
+00:04:43.716 --> 00:04:48.551
 Let’s make the contrast concrete. With a string, call the method and print both
 
 65
-00:04:48.655 --> 00:04:53.551
+00:04:48.551 --> 00:04:53.447
 the returned value and the original. You will see two different strings: the new
 
 66
-00:04:53.551 --> 00:04:58.264
+00:04:53.447 --> 00:04:58.159
 uppercase text and the old lowercase text. With a list, call append, keep the
 
 67
-00:04:58.264 --> 00:05:03.037
+00:04:58.159 --> 00:05:02.933
 returned value, and then print both. You will see None in the saved result and
 
 68
-00:05:03.037 --> 00:05:07.750
+00:05:02.933 --> 00:05:07.645
 the added item in the original list. That pair of observations is more useful
 
 69
-00:05:07.750 --> 00:05:12.523
+00:05:07.645 --> 00:05:12.419
 than memorizing a slogan such as strings return and lists mutate. It teaches a
 
 70
-00:05:12.523 --> 00:05:17.174
+00:05:12.419 --> 00:05:17.070
 question: what does this method return, and does it change its receiver? The
 
 71
-00:05:17.174 --> 00:05:21.948
+00:05:17.070 --> 00:05:21.843
 word receiver simply means the object before the dot, the object receiving the
 
 72
-00:05:21.948 --> 00:05:26.783
+00:05:21.843 --> 00:05:26.678
 request. The answer comes from the type’s rules and the method’s documentation.
 
 73
-00:05:26.783 --> 00:05:31.434
+00:05:26.678 --> 00:05:31.329
 A string can also return a list from split, so even a method on an immutable
 
 74
-00:05:31.434 --> 00:05:36.146
+00:05:31.329 --> 00:05:36.042
 object may return a different type. A list can have methods such as copy that
 
 75
-00:05:36.146 --> 00:05:40.981
+00:05:36.042 --> 00:05:40.877
 return a list, and it also has methods that change the list. Types set the menu
 
 76
-00:05:40.981 --> 00:05:45.816
+00:05:40.877 --> 00:05:45.711
 of behaviors, but individual methods determine the details. Use the examples as
 
 77
-00:05:45.816 --> 00:05:50.651
+00:05:45.711 --> 00:05:50.546
 tiny experiments. Predict first. Run second. Explain the printed lines in plain
 
 78
-00:05:50.651 --> 00:05:54.873
+00:05:50.546 --> 00:05:54.769
 language. That loop turns an accidental result into object knowledge.
 
 79
-00:05:54.873 --> 00:05:56.551
-Here is a small live debugging session. I start with `label = " luna "` and
+00:05:54.769 --> 00:05:56.519
+Here is a small live debugging session. I start with `label = " python "` and
 
 80
-00:05:56.551 --> 00:05:58.296
+00:05:56.519 --> 00:05:58.292
 write `clean = label.strip()`. Then I write `clean.upper()` and print `clean`.
 
 81
-00:05:58.296 --> 00:06:00.062
-The output is still `luna`, in lowercase. My first thought might be, “upper did
+00:05:58.292 --> 00:06:00.043
+The output is still `python`, in lowercase. My first thought might be, “upper
 
 82
-00:06:00.062 --> 00:06:01.762
-not work,” but the evidence says something more precise: the call produced a
+00:06:00.043 --> 00:06:01.861
+did not work,” but the evidence says something more precise: the call produced a
 
 83
-00:06:01.762 --> 00:06:03.529
+00:06:01.861 --> 00:06:03.657
 string result, and I did not save it. I also used the parentheses correctly, so
 
 84
-00:06:03.529 --> 00:06:05.296
+00:06:03.657 --> 00:06:05.453
 this is not the missing-parentheses bug. The repair is `clean = clean.upper()`,
 
 85
-00:06:05.296 --> 00:06:07.063
-followed by `print(clean)`, which displays `LUNA`. The first assignment changes
+00:06:05.453 --> 00:06:07.112
+followed by `print(clean)`, which displays `PYTHON`. The first assignment
 
 86
-00:06:07.063 --> 00:06:08.718
-what the name `clean` refers to after `strip` returns a string; the second
+00:06:07.112 --> 00:06:08.817
+changes what the name `clean` refers to after `strip` returns a string; the
 
 87
-00:06:08.718 --> 00:06:10.418
-assignment does the same after `upper` returns a string. The original string
+00:06:08.817 --> 00:06:10.544
+second assignment does the same after `upper` returns a string. The original
 
 88
-00:06:10.418 --> 00:06:12.118
-object was never edited in place. Now I make a neighboring list bug. I start
+00:06:10.544 --> 00:06:12.295
+string object was never edited in place. Now I make a neighboring list bug. I
 
 89
-00:06:12.118 --> 00:06:13.907
-with `route = ["Terra", "Luna"]`, write `saved = route.append("Sol")`, and print
+00:06:12.295 --> 00:06:14.113
+start with `route = ["red", "green"]`, write `saved = route.append("blue")`, and
 
 90
-00:06:13.907 --> 00:06:15.607
-`saved`. The output is `None`, but printing `route` shows `['Terra', 'Luna',
+00:06:14.113 --> 00:06:15.750
+print `saved`. The output is `None`, but printing `route` shows `['red',
 
 91
-00:06:15.607 --> 00:06:17.352
-'Sol']`. That is not a failed append and not a new list hidden in `saved`. The
+00:06:15.750 --> 00:06:17.455
+'green', 'blue']`. That is not a failed append and not a new list hidden in
 
 92
-00:06:17.352 --> 00:06:19.119
-list receiver changed in place, while append deliberately returned `None`. If I
+00:06:17.455 --> 00:06:19.250
+`saved`. The list receiver changed in place, while append deliberately returned
 
 93
-00:06:19.119 --> 00:06:20.908
-wanted a separate list value, I would use `copy`, as in `backup = route.copy()`,
+00:06:19.250 --> 00:06:21.023
+`None`. If I wanted a separate list value, I would use `copy`, as in `backup =
 
 94
-00:06:20.908 --> 00:06:22.652
-and then check that `backup` is a list. These two debugging cases look similar
+00:06:21.023 --> 00:06:22.842
+route.copy()`, and then check that `backup` is a list. These two debugging cases
 
 95
-00:06:22.652 --> 00:06:24.352
-because both use a dot and parentheses, but their method contracts differ. I
+00:06:22.842 --> 00:06:24.638
+look similar because both use a dot and parentheses, but their method contracts
 
 96
-00:06:24.352 --> 00:06:25.895
-inspect the receiver, the saved return value, and the post-call state
+00:06:24.638 --> 00:06:26.433
+differ. I inspect the receiver, the saved return value, and the post-call state
 
 97
-00:06:25.895 --> 00:06:27.618
+00:06:26.433 --> 00:06:28.184
 separately. That three-part check usually tells me whether I forgot to save a
 
 98
-00:06:27.618 --> 00:06:29.295
+00:06:28.184 --> 00:06:29.889
 returned value, incorrectly expected a mutation, or simply called the wrong
 
 99
-00:06:29.295 --> 00:06:30.995
+00:06:29.889 --> 00:06:31.616
 method. Before moving on, notice the variable names in this debugging story.
 
 100
-00:06:30.995 --> 00:06:32.717
+00:06:31.616 --> 00:06:33.366
 `label`, `clean`, `route`, `saved`, and `backup` are references used to reach
 
 101
-00:06:32.717 --> 00:06:34.417
+00:06:33.366 --> 00:06:35.094
 objects. They are not labels for permanent types. A name can be rebound to a
 
 102
-00:06:34.417 --> 00:06:36.117
+00:06:35.094 --> 00:06:36.822
 returned string or a copied list, while the type of the object it reaches is
 
 103
-00:06:36.117 --> 00:06:37.817
+00:06:36.822 --> 00:06:38.549
 determined by that current value. This is why printing a result and checking
 
 104
-00:06:37.817 --> 00:06:39.360
+00:06:38.549 --> 00:06:40.118
 `type` can be more informative than reasoning from a variable's name.
 
 105
-00:06:39.360 --> 00:06:44.260
+00:06:40.118 --> 00:06:45.017
 You do not need to memorize every method. Python can help you investigate. Type
 
 106
-00:06:44.260 --> 00:06:48.973
+00:06:45.017 --> 00:06:49.731
 asks what kind of object you have. Dir lists names of attributes and methods
 
 107
-00:06:48.973 --> 00:06:53.563
+00:06:49.731 --> 00:06:54.321
 available on that object. It is a menu, not a promise that every name is a
 
 108
-00:06:53.563 --> 00:06:58.339
+00:06:54.321 --> 00:06:59.096
 method or that every method takes the same arguments. Help gives more focused
 
 109
-00:06:58.339 --> 00:07:03.238
+00:06:59.096 --> 00:07:03.996
 documentation about a type or a method. A practical loop is: identify the type,
 
 110
-00:07:03.238 --> 00:07:08.138
+00:07:03.996 --> 00:07:08.896
 look through the available names, ask for help on a promising method, predict a
 
 111
-00:07:08.138 --> 00:07:13.038
+00:07:08.896 --> 00:07:13.796
 small result, and run a tiny experiment. Start with a familiar object such as a
 
 112
-00:07:13.038 --> 00:07:17.876
+00:07:13.796 --> 00:07:18.633
 string or list, then try the same investigation on something new. If you see a
 
 113
-00:07:17.876 --> 00:07:22.403
+00:07:18.633 --> 00:07:23.161
 method name in the list, read its help before guessing what it changes or
 
 114
-00:07:22.403 --> 00:07:27.241
+00:07:23.161 --> 00:07:27.999
 returns. This is a professional programming habit. The goal is not to know the
 
 115
-00:07:27.241 --> 00:07:32.017
+00:07:27.999 --> 00:07:32.774
 whole library in your head. The goal is to know how to ask a good question of
 
 116
-00:07:32.017 --> 00:07:36.544
+00:07:32.774 --> 00:07:37.302
 the language and then test the answer. Documentation and experiments work
 
 117
-00:07:36.544 --> 00:07:41.196
+00:07:37.302 --> 00:07:41.953
 together: documentation tells you the contract, while a small run helps you
 
 118
-00:07:41.196 --> 00:07:43.987
+00:07:41.953 --> 00:07:44.744
 connect that contract to a value you can see.
 
 119
-00:07:43.987 --> 00:07:46.898
-Let’s collect the evidence before the final orbit. An object is a value with a
+00:07:44.744 --> 00:07:47.695
+Let’s collect the evidence before the final review. An object is a value with a
 
 120
-00:07:46.898 --> 00:07:49.659
+00:07:47.695 --> 00:07:50.458
 type, state, and available behavior. A variable name is a reference to the
 
 121
-00:07:49.659 --> 00:07:52.495
+00:07:50.458 --> 00:07:53.296
 current object, so the name does not tell us the whole story. A dot performs
 
 122
-00:07:52.495 --> 00:07:55.480
+00:07:53.296 --> 00:07:56.283
 attribute lookup, and parentheses call a method; without the parentheses we have
 
 123
-00:07:55.480 --> 00:07:58.391
+00:07:56.283 --> 00:07:59.196
 only referred to the method attribute. For strings, immutability means methods
 
 124
-00:07:58.391 --> 00:08:01.077
+00:07:59.196 --> 00:08:01.885
 such as `upper`, `strip`, and `replace` return a string; the original is
 
 125
-00:08:01.077 --> 00:08:03.801
+00:08:01.885 --> 00:08:04.611
 unchanged. CPython may hand back the same object when nothing changed, so
 
 126
-00:08:03.801 --> 00:08:06.712
+00:08:04.611 --> 00:08:07.523
 compare values, not identity. `split` is a useful reminder that the result can
 
 127
-00:08:06.712 --> 00:08:09.473
+00:08:07.523 --> 00:08:10.287
 be a list, while `find` gives an integer position and `startswith` gives a
 
 128
-00:08:09.473 --> 00:08:12.309
+00:08:10.287 --> 00:08:13.125
 Boolean. For lists, mutability allows in-place changes. `append` changes the
 
 129
-00:08:12.309 --> 00:08:15.220
+00:08:13.125 --> 00:08:16.038
 receiver and returns `None`; `copy` returns a list. There is no universal “all
 
 130
-00:08:15.220 --> 00:08:18.168
+00:08:16.038 --> 00:08:18.988
 methods return” or “all methods mutate” rule. The method’s documentation is the
 
 131
-00:08:18.168 --> 00:08:21.004
+00:08:18.988 --> 00:08:21.826
 contract. When a line surprises you, debug it in a fixed order. Identify the
 
 132
-00:08:21.004 --> 00:08:23.952
+00:08:21.826 --> 00:08:24.776
 receiver and its type. Read the call carefully, including its parentheses. Save
 
 133
-00:08:23.952 --> 00:08:26.862
+00:08:24.776 --> 00:08:27.688
 the return value if you need it. Inspect the receiver after the call. Then use
 
 134
-00:08:26.862 --> 00:08:29.847
+00:08:27.688 --> 00:08:30.676
 `dir` to discover names, `help` to read focused documentation, and a tiny run to
 
 135
-00:08:29.847 --> 00:08:32.683
+00:08:30.676 --> 00:08:33.514
 test one prediction. This routine makes the invisible parts of a method call
 
 136
-00:08:32.683 --> 00:08:35.519
+00:08:33.514 --> 00:08:36.352
 visible: the object before the dot, the result sent back, and the state that
 
 137
-00:08:35.519 --> 00:08:38.393
+00:08:36.352 --> 00:08:39.227
 remains afterward. You are not memorizing isolated tricks. You are building a
 
 138
-00:08:38.393 --> 00:08:40.072
+00:08:39.227 --> 00:08:40.908
 repeatable way to learn an unfamiliar object.
 
 139
-00:08:40.072 --> 00:08:44.824
-The circuit is complete. On Terra, we met values we already use. On Luna, we
+00:08:40.908 --> 00:08:45.627
+The review is complete. We met values we already use, followed the dot, and
 
 140
-00:08:44.824 --> 00:08:49.452
-followed the dot and compared what string and list methods do. At Sol, the
+00:08:45.627 --> 00:08:50.284
+compared what string and list methods do. The reusable habit is this: when
 
 141
-00:08:49.452 --> 00:08:54.392
-bright center is a reusable habit: when Python gives you a thing, ask what type
+00:08:50.284 --> 00:08:54.878
+Python gives you a thing, ask what type it has, what state it holds, what
 
 142
-00:08:54.392 --> 00:08:59.020
-it has, what state it holds, what behavior it offers, what it returns, and
+00:08:54.878 --> 00:08:59.724
+behavior it offers, what it returns, and whether it changes in place. Strings
 
 143
-00:08:59.020 --> 00:09:03.773
-whether it changes in place. Strings and lists are not merely containers for
+00:08:59.724 --> 00:09:04.758
+and lists are not merely containers for syntax practice. They are early examples
 
 144
-00:09:03.773 --> 00:09:08.338
-syntax practice. They are early examples of a much larger way to organize
+00:09:04.758 --> 00:09:09.666
+of a much larger way to organize software. Later, objects may represent files,
 
 145
-00:09:08.338 --> 00:09:12.715
-software. Later, objects may represent files, paths, game entities, or
+00:09:09.666 --> 00:09:14.449
+paths, game entities, or connections. The exact methods will come from their
 
 146
-00:09:12.715 --> 00:09:17.655
-connections. The exact methods will come from their types and documentation, so
+00:09:14.449 --> 00:09:19.295
+types and documentation, so do not assume that a conceptual example is a real
 
 147
-00:09:17.655 --> 00:09:22.283
-do not assume that a conceptual example is a real API. For today, keep the
+00:09:19.295 --> 00:09:24.329
+API. For today, keep the contrast sharp. Uppercase on a string returns a string;
 
 148
-00:09:22.283 --> 00:09:26.723
-contrast sharp. Uppercase on a string returns a string; the original is
+00:09:24.329 --> 00:09:29.237
+the original is unchanged. Append on a list changes the list and returns None.
 
 149
-00:09:26.723 --> 00:09:31.726
-unchanged. Append on a list changes the list and returns None. Dir and help make
+00:09:29.237 --> 00:09:34.020
+Dir and help make unfamiliar behavior discoverable. If you can explain those
 
 150
-00:09:31.726 --> 00:09:36.478
-unfamiliar behavior discoverable. If you can explain those observations, you
+00:09:34.020 --> 00:09:39.054
+observations, you already have a working first model of objects. The next time a
 
 151
-00:09:36.478 --> 00:09:41.419
-already have a working first model of objects. The next time a method surprises
+00:09:39.054 --> 00:09:43.963
+method surprises you, do not guess that all objects behave like strings or all
 
 152
-00:09:41.419 --> 00:09:46.171
-you, do not guess that all objects behave like strings or all methods behave
+00:09:43.963 --> 00:09:48.871
+methods behave like append. Identify the type, read the method’s contract, and
 
 153
-00:09:46.171 --> 00:09:51.174
-like append. Identify the type, read the method’s contract, and run the smallest
-
-154
-00:09:51.174 --> 00:09:51.987
-useful check.
+00:09:48.871 --> 00:09:50.759
+run the smallest useful check.

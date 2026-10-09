@@ -60,7 +60,7 @@
   },
   {
     "id": "Q3",
-    "prompt": "After `items.append(\"Sol\")`, which statement is correct?",
+    "prompt": "After `items.append(\"blue\")`, which statement is correct?",
     "choices": [
       {
         "id": "A",
@@ -151,7 +151,7 @@
   },
   {
     "id": "R1",
-    "prompt": "Given `word = \"Luna\"`, which expression produces `\"u\"` while `len(word)` produces `4`?",
+    "prompt": "Given `word = \"code\"`, which expression produces `\"o\"` while `len(word)` produces `4`?",
     "choices": [
       {
         "id": "A",
@@ -171,7 +171,7 @@
       }
     ],
     "answer": "A",
-    "rationale": "String indexing starts at zero, so index 1 selects the second character, `u`; the length is four.",
+    "rationale": "String indexing starts at zero, so index 1 selects the second character, `o`; the length is four.",
     "claim_ids": [
       "C17"
     ],
@@ -179,7 +179,7 @@
   },
   {
     "id": "R2",
-    "prompt": "If `place = \"Sol\"` and `count = 2`, what does `f\"{place}: {count}\"` produce?",
+    "prompt": "If `place = \"home\"` and `count = 2`, what does `f\"{place}: {count}\"` produce?",
     "choices": [
       {
         "id": "A",
@@ -187,11 +187,11 @@
       },
       {
         "id": "B",
-        "text": "`\"Sol: 2\"`"
+        "text": "`\"home: 2\"`"
       },
       {
         "id": "C",
-        "text": "`\"Sol2\"`"
+        "text": "`\"home2\"`"
       },
       {
         "id": "D",

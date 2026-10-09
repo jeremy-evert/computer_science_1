@@ -2,14 +2,14 @@
   "device": "cuda",
   "kokoro_version": "0.9.4",
   "output": {
-    "bytes": 2072702,
+    "bytes": 1348588,
     "channels": 1,
-    "decoded_peak": 0.7746707201004028,
-    "decoded_rms": 0.11859200898614093,
-    "duration_seconds": 86.3,
-    "path": "/home/jevert/concept_pipeline/d6eb71615204/luna-return.mp3",
+    "decoded_peak": 0.7715243697166443,
+    "decoded_rms": 0.11526311719445767,
+    "duration_seconds": 56.125011,
+    "path": "/home/jevert/concept_pipeline/9d98db7a739a/recap.mp3",
     "sample_rate": 44100,
-    "sha256": "d75e9c999424537d8e9e7dde486e6545cc8e53e9846108770596c4a50eed775d"
+    "sha256": "6d94e13160624a4ba44b22664ebe6a3faa3c34d7db8f5ba652483f743d91a7f2"
   },
   "post_processing": {
     "bitrate": 192000,
@@ -22,8 +22,8 @@
   },
   "schema_version": 1,
   "source": {
-    "path": "/home/jevert/concept_pipeline/d6eb71615204/beat-luna-return.md",
-    "sha256": "4411f572ac05666807f96164325552a7f812a3362ffc631d3cabb3ab9c8417e9"
+    "path": "/home/jevert/concept_pipeline/9d98db7a739a/beat-recap.md",
+    "sha256": "53a2db35423b858b9605a5c30172138175bae0ed6ea0a53c4e39dab353921d3f"
   },
   "source_turn_count": 1,
   "speed": 1.0,

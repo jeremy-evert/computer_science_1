@@ -2,14 +2,14 @@
 
 Presenter recording kit. Timings marked **estimate** are based on spoken words at 150 words per minute; **measured** timings come from the supplied per-beat durations.
 
-## terra: Start with a value
+## start-with-a-value: Start with a value
 
 - Elapsed: 00:00.00–01:19.20
 - Duration: 79.20 seconds (estimate)
 
 #### Spoken script
 
-Let’s begin on familiar ground: a name, a message, or a list of places. Each one is a value in a Python program. Now widen the question. Do not ask only what the value is called. Ask what kind of thing it is, what information it currently holds, and what it knows how to do. That three-part question is our object model. A value has a type. Its current text or items are its state. Its type supplies behaviors, including methods. A string is therefore more than characters sitting in a variable. A list is more than several values between brackets. Both are objects that Python can work with according to their types. This is not yet a lesson about writing your own class. It is a way to look at values you already use. The name on the left is a reference we use to reach an object; the name itself is not the type. Two different strings can have different text and still have the same type. As we travel from Terra, the familiar world, toward Luna, keep asking: what kind of object is this, what state does it hold, and what behavior can it offer?
+Let’s begin with values already present in ordinary Python code: a name, a message, or a list of items. Each one is a value in a Python program. Now widen the question. Do not ask only what the value is called. Ask what kind of thing it is, what information it currently holds, and what it knows how to do. That three-part question is our object model. A value has a type. Its current text or items are its state. Its type supplies behaviors, including methods. A string is therefore more than characters sitting in a variable. A list is more than several values between brackets. Both are objects that Python can work with according to their types. This is not yet a lesson about writing your own class. It is a way to look at values you already use. The name on the left is a reference we use to reach an object; the name itself is not the type. Two different strings can have different text and still have the same type. As you inspect each value, keep asking: what kind of object is this, what state does it hold, and what behavior can it offer?
 
 #### Code to run live
 
@@ -17,11 +17,11 @@ Let’s begin on familiar ground: a name, a message, or a list of places. Each o
 
 #### Presenter cues
 
-- Open the `terra` slide before speaking.
+- Open the `start-with-a-value` slide before speaking.
 - Run the listed code live after the explanation and compare its output.
 - Advance only after the expected output is visible.
 
-## luna-dot: Follow the dot
+## follow-the-dot: Follow the dot
 
 - Elapsed: 01:19.20–02:40.00
 - Duration: 80.80 seconds (estimate)
@@ -35,33 +35,33 @@ The next clue is a dot. When you see a value followed by a dot and a name, Pytho
 ##### `string-new-value`
 
 ```python
-text = "luna"
+text = "python"
 upper_text = text.upper()
-print(upper_text)  # expect: LUNA
-print(text)  # expect: luna
+print(upper_text)  # expect: PYTHON
+print(text)  # expect: python
 print(type(upper_text).__name__)  # expect: str
-pieces = text.split("n")
-print(pieces)  # expect: ['lu', 'a']
+pieces = text.split("h")
+print(pieces)  # expect: ['pyt', 'on']
 print(type(pieces).__name__)  # expect: list
 ```
 
 Expected output:
 
 ```text
-LUNA
-luna
+PYTHON
+python
 str
-['lu', 'a']
+['pyt', 'on']
 list
 ```
 
 #### Presenter cues
 
-- Open the `luna-dot` slide before speaking.
+- Open the `follow-the-dot` slide before speaking.
 - Run the listed code live after the explanation and compare its output.
 - Advance only after the expected output is visible.
 
-## luna-return: A string method gives back a value
+## string-returns-value: A string method gives back a value
 
 - Elapsed: 02:40.00–04:17.60
 - Duration: 97.60 seconds (estimate)
@@ -75,33 +75,33 @@ Strings give us a useful surprise. A string method such as uppercase does not ed
 ##### `string-new-value`
 
 ```python
-text = "luna"
+text = "python"
 upper_text = text.upper()
-print(upper_text)  # expect: LUNA
-print(text)  # expect: luna
+print(upper_text)  # expect: PYTHON
+print(text)  # expect: python
 print(type(upper_text).__name__)  # expect: str
-pieces = text.split("n")
-print(pieces)  # expect: ['lu', 'a']
+pieces = text.split("h")
+print(pieces)  # expect: ['pyt', 'on']
 print(type(pieces).__name__)  # expect: list
 ```
 
 Expected output:
 
 ```text
-LUNA
-luna
+PYTHON
+python
 str
-['lu', 'a']
+['pyt', 'on']
 list
 ```
 
 #### Presenter cues
 
-- Open the `luna-return` slide before speaking.
+- Open the `string-returns-value` slide before speaking.
 - Run the listed code live after the explanation and compare its output.
 - Advance only after the expected output is visible.
 
-## luna-list: A list can change in place
+## list-in-place: A list can change in place
 
 - Elapsed: 04:17.60–05:37.60
 - Duration: 80.00 seconds (estimate)
@@ -115,31 +115,31 @@ Now compare a list. Lists are also objects, but a list is a mutable sequence. Mu
 ##### `list-in-place`
 
 ```python
-route = ["Terra", "Luna"]
-returned = route.append("Sol")
-print(route)  # expect: ['Terra', 'Luna', 'Sol']
+route = ["red", "green"]
+returned = route.append("blue")
+print(route)  # expect: ['red', 'green', 'blue']
 print(returned)  # expect: None
 backup = route.copy()
-print(backup)  # expect: ['Terra', 'Luna', 'Sol']
+print(backup)  # expect: ['red', 'green', 'blue']
 print(type(backup).__name__)  # expect: list
 ```
 
 Expected output:
 
 ```text
-['Terra', 'Luna', 'Sol']
+['red', 'green', 'blue']
 None
-['Terra', 'Luna', 'Sol']
+['red', 'green', 'blue']
 list
 ```
 
 #### Presenter cues
 
-- Open the `luna-list` slide before speaking.
+- Open the `list-in-place` slide before speaking.
 - Run the listed code live after the explanation and compare its output.
 - Advance only after the expected output is visible.
 
-## sol-check: Use the return value as evidence
+## check-yourself: Use the return value as evidence
 
 - Elapsed: 05:37.60–06:59.20
 - Duration: 81.60 seconds (estimate)
@@ -153,63 +153,63 @@ Let’s make the contrast concrete. With a string, call the method and print bot
 ##### `string-new-value`
 
 ```python
-text = "luna"
+text = "python"
 upper_text = text.upper()
-print(upper_text)  # expect: LUNA
-print(text)  # expect: luna
+print(upper_text)  # expect: PYTHON
+print(text)  # expect: python
 print(type(upper_text).__name__)  # expect: str
-pieces = text.split("n")
-print(pieces)  # expect: ['lu', 'a']
+pieces = text.split("h")
+print(pieces)  # expect: ['pyt', 'on']
 print(type(pieces).__name__)  # expect: list
 ```
 
 Expected output:
 
 ```text
-LUNA
-luna
+PYTHON
+python
 str
-['lu', 'a']
+['pyt', 'on']
 list
 ```
 
 ##### `list-in-place`
 
 ```python
-route = ["Terra", "Luna"]
-returned = route.append("Sol")
-print(route)  # expect: ['Terra', 'Luna', 'Sol']
+route = ["red", "green"]
+returned = route.append("blue")
+print(route)  # expect: ['red', 'green', 'blue']
 print(returned)  # expect: None
 backup = route.copy()
-print(backup)  # expect: ['Terra', 'Luna', 'Sol']
+print(backup)  # expect: ['red', 'green', 'blue']
 print(type(backup).__name__)  # expect: list
 ```
 
 Expected output:
 
 ```text
-['Terra', 'Luna', 'Sol']
+['red', 'green', 'blue']
 None
-['Terra', 'Luna', 'Sol']
+['red', 'green', 'blue']
 list
 ```
 
 #### Presenter cues
 
-- Open the `sol-check` slide before speaking.
+- Open the `check-yourself` slide before speaking.
 - Run the listed code live after the explanation and compare its output.
 - Advance only after the expected output is visible.
 
-## sol-debug: Debug the missing result
+## debug-the-missing-result: Debug the missing result
 
 - Elapsed: 06:59.20–09:12.80
 - Duration: 133.60 seconds (estimate)
 
 #### Spoken script
 
-Here is a small live debugging session. I start with `label = " luna "` and write `clean = label.strip()`. Then I write `clean.upper()` and print `clean`. The output is still `luna`, in lowercase. My first thought might be, “upper did not work,” but the evidence says something more precise: the call produced a string result, and I did not save it. I also used the parentheses correctly, so this is not the missing-parentheses bug. The repair is `clean = clean.upper()`, followed by `print(clean)`, which displays `LUNA`. The first assignment changes what the name `clean` refers to after `strip` returns a string; the second assignment does the same after `upper` returns a string. The original string object was never edited in place.
+Here is a small live debugging session. I start with `label = " python "` and write `clean = label.strip()`. Then I write `clean.upper()` and print `clean`. The output is still `python`, in lowercase. My first thought might be, “upper did not work,” but the evidence says something more precise: the call produced a string result, and I did not save it. I also used the parentheses correctly, so this is not the missing-parentheses bug. The repair is `clean = clean.upper()`, followed by `print(clean)`, which displays `PYTHON`. The first assignment changes what the name `clean` refers to after `strip` returns a string; the second assignment does the same after `upper` returns a string. The original string object was never edited in place.
 
-Now I make a neighboring list bug. I start with `route = ["Terra", "Luna"]`, write `saved = route.append("Sol")`, and print `saved`. The output is `None`, but printing `route` shows `['Terra', 'Luna', 'Sol']`. That is not a failed append and not a new list hidden in `saved`. The list receiver changed in place, while append deliberately returned `None`. If I wanted a separate list value, I would use `copy`, as in `backup = route.copy()`, and then check that `backup` is a list. These two debugging cases look similar because both use a dot and parentheses, but their method contracts differ. I inspect the receiver, the saved return value, and the post-call state separately. That three-part check usually tells me whether I forgot to save a returned value, incorrectly expected a mutation, or simply called the wrong method.
+Now I make a neighboring list bug. I start with `route = ["red", "green"]`, write `saved = route.append("blue")`, and print `saved`. The output is `None`, but printing `route` shows `['red', 'green', 'blue']`. That is not a failed append and not a new list hidden in `saved`. The list receiver changed in place, while append deliberately returned `None`. If I wanted a separate list value, I would use `copy`, as in `backup = route.copy()`, and then check that `backup` is a list. These two debugging cases look similar because both use a dot and parentheses, but their method contracts differ. I inspect the receiver, the saved return value, and the post-call state separately. That three-part check usually tells me whether I forgot to save a returned value, incorrectly expected a mutation, or simply called the wrong method.
 
 Before moving on, notice the variable names in this debugging story. `label`, `clean`, `route`, `saved`, and `backup` are references used to reach objects. They are not labels for permanent types. A name can be rebound to a returned string or a copied list, while the type of the object it reaches is determined by that current value. This is why printing a result and checking `type` can be more informative than reasoning from a variable's name.
 
@@ -219,11 +219,11 @@ Before moving on, notice the variable names in this debugging story. `label`, `c
 
 #### Presenter cues
 
-- Open the `sol-debug` slide before speaking.
+- Open the `debug-the-missing-result` slide before speaking.
 - Run the listed code live after the explanation and compare its output.
 - Advance only after the expected output is visible.
 
-## sol-discover: Ask Python what is available
+## ask-python: Ask Python what is available
 
 - Elapsed: 09:12.80–10:29.60
 - Duration: 76.80 seconds (estimate)
@@ -237,12 +237,12 @@ You do not need to memorize every method. Python can help you investigate. Type 
 ##### `discover`
 
 ```python
-signal = "Terra to Luna"
+signal = "red to green"
 print(type(signal).__name__)  # expect: str
 print("upper" in dir(signal))  # expect: True
-print(signal.replace("Luna", "Sol"))  # expect: Terra to Sol
-print(signal.find("Luna"))  # expect: 9
-print(signal.startswith("Terra"))  # expect: True
+print(signal.replace("green", "blue"))  # expect: red to blue
+print(signal.find("green"))  # expect: 7
+print(signal.startswith("red"))  # expect: True
 ```
 
 Expected output:
@@ -250,25 +250,25 @@ Expected output:
 ```text
 str
 True
-Terra to Sol
-9
+red to blue
+7
 True
 ```
 
 #### Presenter cues
 
-- Open the `sol-discover` slide before speaking.
+- Open the `ask-python` slide before speaking.
 - Run the listed code live after the explanation and compare its output.
 - Advance only after the expected output is visible.
 
-## sol-recap: Recap the evidence
+## recap: Recap the evidence
 
 - Elapsed: 10:29.60–12:10.40
 - Duration: 100.80 seconds (estimate)
 
 #### Spoken script
 
-Let’s collect the evidence before the final orbit. An object is a value with a type, state, and available behavior. A variable name is a reference to the current object, so the name does not tell us the whole story. A dot performs attribute lookup, and parentheses call a method; without the parentheses we have only referred to the method attribute. For strings, immutability means methods such as `upper`, `strip`, and `replace` return a string; the original is unchanged. CPython may hand back the same object when nothing changed, so compare values, not identity. `split` is a useful reminder that the result can be a list, while `find` gives an integer position and `startswith` gives a Boolean. For lists, mutability allows in-place changes. `append` changes the receiver and returns `None`; `copy` returns a list. There is no universal “all methods return” or “all methods mutate” rule. The method’s documentation is the contract.
+Let’s collect the evidence before the final review. An object is a value with a type, state, and available behavior. A variable name is a reference to the current object, so the name does not tell us the whole story. A dot performs attribute lookup, and parentheses call a method; without the parentheses we have only referred to the method attribute. For strings, immutability means methods such as `upper`, `strip`, and `replace` return a string; the original is unchanged. CPython may hand back the same object when nothing changed, so compare values, not identity. `split` is a useful reminder that the result can be a list, while `find` gives an integer position and `startswith` gives a Boolean. For lists, mutability allows in-place changes. `append` changes the receiver and returns `None`; `copy` returns a list. There is no universal “all methods return” or “all methods mutate” rule. The method’s documentation is the contract.
 
 When a line surprises you, debug it in a fixed order. Identify the receiver and its type. Read the call carefully, including its parentheses. Save the return value if you need it. Inspect the receiver after the call. Then use `dir` to discover names, `help` to read focused documentation, and a tiny run to test one prediction. This routine makes the invisible parts of a method call visible: the object before the dot, the result sent back, and the state that remains afterward. You are not memorizing isolated tricks. You are building a repeatable way to learn an unfamiliar object.
 
@@ -278,18 +278,18 @@ When a line surprises you, debug it in a fixed order. Identify the receiver and 
 
 #### Presenter cues
 
-- Open the `sol-recap` slide before speaking.
+- Open the `recap` slide before speaking.
 - Run the listed code live after the explanation and compare its output.
 - Advance only after the expected output is visible.
 
-## sol-circuit: Carry the object question forward
+## carry-object-question-forward: Carry the object question forward
 
-- Elapsed: 12:10.40–13:30.80
-- Duration: 80.40 seconds (estimate)
+- Elapsed: 12:10.40–13:27.20
+- Duration: 76.80 seconds (estimate)
 
 #### Spoken script
 
-The circuit is complete. On Terra, we met values we already use. On Luna, we followed the dot and compared what string and list methods do. At Sol, the bright center is a reusable habit: when Python gives you a thing, ask what type it has, what state it holds, what behavior it offers, what it returns, and whether it changes in place. Strings and lists are not merely containers for syntax practice. They are early examples of a much larger way to organize software. Later, objects may represent files, paths, game entities, or connections. The exact methods will come from their types and documentation, so do not assume that a conceptual example is a real API. For today, keep the contrast sharp. Uppercase on a string returns a string; the original is unchanged. Append on a list changes the list and returns None. Dir and help make unfamiliar behavior discoverable. If you can explain those observations, you already have a working first model of objects. The next time a method surprises you, do not guess that all objects behave like strings or all methods behave like append. Identify the type, read the method’s contract, and run the smallest useful check.
+The review is complete. We met values we already use, followed the dot, and compared what string and list methods do. The reusable habit is this: when Python gives you a thing, ask what type it has, what state it holds, what behavior it offers, what it returns, and whether it changes in place. Strings and lists are not merely containers for syntax practice. They are early examples of a much larger way to organize software. Later, objects may represent files, paths, game entities, or connections. The exact methods will come from their types and documentation, so do not assume that a conceptual example is a real API. For today, keep the contrast sharp. Uppercase on a string returns a string; the original is unchanged. Append on a list changes the list and returns None. Dir and help make unfamiliar behavior discoverable. If you can explain those observations, you already have a working first model of objects. The next time a method surprises you, do not guess that all objects behave like strings or all methods behave like append. Identify the type, read the method’s contract, and run the smallest useful check.
 
 #### Code to run live
 
@@ -297,7 +297,7 @@ The circuit is complete. On Terra, we met values we already use. On Luna, we fol
 
 #### Presenter cues
 
-- Open the `sol-circuit` slide before speaking.
+- Open the `carry-object-question-forward` slide before speaking.
 - Run the listed code live after the explanation and compare its output.
 - Advance only after the expected output is visible.
 

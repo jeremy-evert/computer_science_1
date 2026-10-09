@@ -2,14 +2,14 @@
   "device": "cuda",
   "kokoro_version": "0.9.4",
   "output": {
-    "bytes": 18731719,
+    "bytes": 18778113,
     "channels": 1,
-    "decoded_peak": 0.773909330368042,
-    "decoded_rms": 0.11231444858559249,
-    "duration_seconds": 780.425011,
-    "path": "/home/jevert/concept_pipeline/d6eb71615204/podcast.mp3",
+    "decoded_peak": 0.7736497521400452,
+    "decoded_rms": 0.11236925992963533,
+    "duration_seconds": 782.35,
+    "path": "/home/jevert/concept_pipeline/9d98db7a739a/podcast.mp3",
     "sample_rate": 44100,
-    "sha256": "a6044f3305056e6ed93d0d4373142dcf812d3eeb6ff3ca9b2d5627054fcec13b"
+    "sha256": "1c0763d4c39cbfe0b759801e951c8e120688f1d66d8a7ab70b63324a3f4d02b5"
   },
   "post_processing": {
     "bitrate": 192000,
@@ -22,8 +22,8 @@
   },
   "schema_version": 1,
   "source": {
-    "path": "/home/jevert/concept_pipeline/d6eb71615204/dialogue.md",
-    "sha256": "d6eb71615204d971c5d542d14d220a74fe7c9e557544ace2f2e92305fce69229"
+    "path": "/home/jevert/concept_pipeline/9d98db7a739a/dialogue.md",
+    "sha256": "9d98db7a739a38e06262f97eab001e46f7f3592930c4fc9fee23d36d79919caa"
   },
   "source_turn_count": 56,
   "speed": 1.0,

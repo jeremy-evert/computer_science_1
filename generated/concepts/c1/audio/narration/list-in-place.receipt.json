@@ -4,12 +4,12 @@
   "output": {
     "bytes": 1601244,
     "channels": 1,
-    "decoded_peak": 0.7741153240203857,
-    "decoded_rms": 0.11691076682981986,
+    "decoded_peak": 0.7789779901504517,
+    "decoded_rms": 0.11708595310123186,
     "duration_seconds": 66.65,
-    "path": "/home/jevert/concept_pipeline/d6eb71615204/luna-list.mp3",
+    "path": "/home/jevert/concept_pipeline/9d98db7a739a/list-in-place.mp3",
     "sample_rate": 44100,
-    "sha256": "f2804beef202f6f75d7426ab0d5c8f0eccc5baadb9e753e35cf004c98b36cd52"
+    "sha256": "0abe7f3418f9e800f33db32c4ab60a2ef5d0e87edb57e9de996c449eb04f3d63"
   },
   "post_processing": {
     "bitrate": 192000,
@@ -22,7 +22,7 @@
   },
   "schema_version": 1,
   "source": {
-    "path": "/home/jevert/concept_pipeline/d6eb71615204/beat-luna-list.md",
+    "path": "/home/jevert/concept_pipeline/9d98db7a739a/beat-list-in-place.md",
     "sha256": "32022941883c89ce47ad336721aa3e4694d6ac28617573906cada07a76d0c278"
   },
   "source_turn_count": 1,

@@ -4,12 +4,12 @@
   "output": {
     "bytes": 1705943,
     "channels": 1,
-    "decoded_peak": 0.7746649980545044,
-    "decoded_rms": 0.11755475204246421,
+    "decoded_peak": 0.7732805013656616,
+    "decoded_rms": 0.1175929859237452,
     "duration_seconds": 71.025011,
-    "path": "/home/jevert/concept_pipeline/d6eb71615204/sol-check.mp3",
+    "path": "/home/jevert/concept_pipeline/9d98db7a739a/check-yourself.mp3",
     "sample_rate": 44100,
-    "sha256": "e6ae96683c7d3c099433e7110c7cbe555f4c7dfe9606f3afd0f61596554597e7"
+    "sha256": "25c46ae86ecf1a2b6980abed6c67f684f336f717950e01f002262546685ed546"
   },
   "post_processing": {
     "bitrate": 192000,
@@ -22,7 +22,7 @@
   },
   "schema_version": 1,
   "source": {
-    "path": "/home/jevert/concept_pipeline/d6eb71615204/beat-sol-check.md",
+    "path": "/home/jevert/concept_pipeline/9d98db7a739a/beat-check-yourself.md",
     "sha256": "b85c333700adf21b8a1df890b5d9a127ab7d1299ef04bbee78ae5b81677426f5"
   },
   "source_turn_count": 1,

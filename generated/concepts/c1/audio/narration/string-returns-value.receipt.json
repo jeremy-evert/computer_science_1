@@ -2,14 +2,14 @@
   "device": "cuda",
   "kokoro_version": "0.9.4",
   "output": {
-    "bytes": 1726632,
+    "bytes": 2072702,
     "channels": 1,
-    "decoded_peak": 0.7736948728561401,
-    "decoded_rms": 0.11844068859776737,
-    "duration_seconds": 71.875011,
-    "path": "/home/jevert/concept_pipeline/d6eb71615204/sol-circuit.mp3",
+    "decoded_peak": 0.7738019824028015,
+    "decoded_rms": 0.1185888483267359,
+    "duration_seconds": 86.3,
+    "path": "/home/jevert/concept_pipeline/9d98db7a739a/string-returns-value.mp3",
     "sample_rate": 44100,
-    "sha256": "bc2d2a024fe35a907bf77e26a54ba74562a320057a18017bd60d93734ab8623c"
+    "sha256": "a0d12b75d34fef46afbc82f9bac7520864dc214622195ce72978adc34612e458"
   },
   "post_processing": {
     "bitrate": 192000,
@@ -22,8 +22,8 @@
   },
   "schema_version": 1,
   "source": {
-    "path": "/home/jevert/concept_pipeline/d6eb71615204/beat-sol-circuit.md",
-    "sha256": "ffb1c1a760cc8963955c18311424ae6d27017e1ce854a2ddb67dd40a1134eea8"
+    "path": "/home/jevert/concept_pipeline/9d98db7a739a/beat-string-returns-value.md",
+    "sha256": "4411f572ac05666807f96164325552a7f812a3362ffc631d3cabb3ab9c8417e9"
   },
   "source_turn_count": 1,
   "speed": 1.0,

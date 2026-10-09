@@ -2,14 +2,14 @@
   "device": "cuda",
   "kokoro_version": "0.9.4",
   "output": {
-    "bytes": 1068346,
+    "bytes": 1551716,
     "channels": 1,
-    "decoded_peak": 0.7723853588104248,
-    "decoded_rms": 0.11564690707198952,
-    "duration_seconds": 44.45,
-    "path": "/home/jevert/concept_pipeline/d6eb71615204/sol-debug.mp3",
+    "decoded_peak": 0.7725470662117004,
+    "decoded_rms": 0.11551243374785332,
+    "duration_seconds": 64.6,
+    "path": "/home/jevert/concept_pipeline/9d98db7a739a/ask-python.mp3",
     "sample_rate": 44100,
-    "sha256": "fbccc9a7abb461d596a540d17cb111fd3d3467ba8c979c060b3746b994cdabb2"
+    "sha256": "9e92ad8de30f061ee560ad754e749e480947f5d3dffd3a31ba4dfb919f640910"
   },
   "post_processing": {
     "bitrate": 192000,
@@ -22,8 +22,8 @@
   },
   "schema_version": 1,
   "source": {
-    "path": "/home/jevert/concept_pipeline/d6eb71615204/beat-sol-debug.md",
-    "sha256": "ceeaf76ec27ae2ede738c2a2825528676d0fa89f970ed187bd23dd4f503c1199"
+    "path": "/home/jevert/concept_pipeline/9d98db7a739a/beat-ask-python.md",
+    "sha256": "5bac2fb36e6c6c3dfc05118b4bbae7b5b2a74f3a6a24c6ca7ebba5a9f3004c62"
   },
   "source_turn_count": 1,
   "speed": 1.0,

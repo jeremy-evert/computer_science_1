@@ -11,7 +11,7 @@
 
 ### Start with a value
 
-Let’s begin on familiar ground: a name, a message, or a list of places. Each one is a value in a Python program. Now widen the question. Do not ask only what the value is called. Ask what kind of thing it is, what information it currently holds, and what it knows how to do. That three-part question is our object model. A value has a type. Its current text or items are its state. Its type supplies behaviors, including methods. A string is therefore more than characters sitting in a variable. A list is more than several values between brackets. Both are objects that Python can work with according to their types. This is not yet a lesson about writing your own class. It is a way to look at values you already use. The name on the left is a reference we use to reach an object; the name itself is not the type. Two different strings can have different text and still have the same type. As we travel from Terra, the familiar world, toward Luna, keep asking: what kind of object is this, what state does it hold, and what behavior can it offer?
+Let’s begin with values already present in ordinary Python code: a name, a message, or a list of items. Each one is a value in a Python program. Now widen the question. Do not ask only what the value is called. Ask what kind of thing it is, what information it currently holds, and what it knows how to do. That three-part question is our object model. A value has a type. Its current text or items are its state. Its type supplies behaviors, including methods. A string is therefore more than characters sitting in a variable. A list is more than several values between brackets. Both are objects that Python can work with according to their types. This is not yet a lesson about writing your own class. It is a way to look at values you already use. The name on the left is a reference we use to reach an object; the name itself is not the type. Two different strings can have different text and still have the same type. As you inspect each value, keep asking: what kind of object is this, what state does it hold, and what behavior can it offer?
 
 ### Follow the dot
 
@@ -40,9 +40,9 @@ Code example: [list-in-place](#example-list-in-place)
 
 ### Debug the missing result
 
-Here is a small live debugging session. I start with `label = " luna "` and write `clean = label.strip()`. Then I write `clean.upper()` and print `clean`. The output is still `luna`, in lowercase. My first thought might be, “upper did not work,” but the evidence says something more precise: the call produced a string result, and I did not save it. I also used the parentheses correctly, so this is not the missing-parentheses bug. The repair is `clean = clean.upper()`, followed by `print(clean)`, which displays `LUNA`. The first assignment changes what the name `clean` refers to after `strip` returns a string; the second assignment does the same after `upper` returns a string. The original string object was never edited in place.
+Here is a small live debugging session. I start with `label = " python "` and write `clean = label.strip()`. Then I write `clean.upper()` and print `clean`. The output is still `python`, in lowercase. My first thought might be, “upper did not work,” but the evidence says something more precise: the call produced a string result, and I did not save it. I also used the parentheses correctly, so this is not the missing-parentheses bug. The repair is `clean = clean.upper()`, followed by `print(clean)`, which displays `PYTHON`. The first assignment changes what the name `clean` refers to after `strip` returns a string; the second assignment does the same after `upper` returns a string. The original string object was never edited in place.
 
-Now I make a neighboring list bug. I start with `route = ["Terra", "Luna"]`, write `saved = route.append("Sol")`, and print `saved`. The output is `None`, but printing `route` shows `['Terra', 'Luna', 'Sol']`. That is not a failed append and not a new list hidden in `saved`. The list receiver changed in place, while append deliberately returned `None`. If I wanted a separate list value, I would use `copy`, as in `backup = route.copy()`, and then check that `backup` is a list. These two debugging cases look similar because both use a dot and parentheses, but their method contracts differ. I inspect the receiver, the saved return value, and the post-call state separately. That three-part check usually tells me whether I forgot to save a returned value, incorrectly expected a mutation, or simply called the wrong method.
+Now I make a neighboring list bug. I start with `route = ["red", "green"]`, write `saved = route.append("blue")`, and print `saved`. The output is `None`, but printing `route` shows `['red', 'green', 'blue']`. That is not a failed append and not a new list hidden in `saved`. The list receiver changed in place, while append deliberately returned `None`. If I wanted a separate list value, I would use `copy`, as in `backup = route.copy()`, and then check that `backup` is a list. These two debugging cases look similar because both use a dot and parentheses, but their method contracts differ. I inspect the receiver, the saved return value, and the post-call state separately. That three-part check usually tells me whether I forgot to save a returned value, incorrectly expected a mutation, or simply called the wrong method.
 
 Before moving on, notice the variable names in this debugging story. `label`, `clean`, `route`, `saved`, and `backup` are references used to reach objects. They are not labels for permanent types. A name can be rebound to a returned string or a copied list, while the type of the object it reaches is determined by that current value. This is why printing a result and checking `type` can be more informative than reasoning from a variable's name.
 
@@ -54,13 +54,13 @@ Code example: [discover](#example-discover)
 
 ### Recap the evidence
 
-Let’s collect the evidence before the final orbit. An object is a value with a type, state, and available behavior. A variable name is a reference to the current object, so the name does not tell us the whole story. A dot performs attribute lookup, and parentheses call a method; without the parentheses we have only referred to the method attribute. For strings, immutability means methods such as `upper`, `strip`, and `replace` return a string; the original is unchanged. CPython may hand back the same object when nothing changed, so compare values, not identity. `split` is a useful reminder that the result can be a list, while `find` gives an integer position and `startswith` gives a Boolean. For lists, mutability allows in-place changes. `append` changes the receiver and returns `None`; `copy` returns a list. There is no universal “all methods return” or “all methods mutate” rule. The method’s documentation is the contract.
+Let’s collect the evidence before the final review. An object is a value with a type, state, and available behavior. A variable name is a reference to the current object, so the name does not tell us the whole story. A dot performs attribute lookup, and parentheses call a method; without the parentheses we have only referred to the method attribute. For strings, immutability means methods such as `upper`, `strip`, and `replace` return a string; the original is unchanged. CPython may hand back the same object when nothing changed, so compare values, not identity. `split` is a useful reminder that the result can be a list, while `find` gives an integer position and `startswith` gives a Boolean. For lists, mutability allows in-place changes. `append` changes the receiver and returns `None`; `copy` returns a list. There is no universal “all methods return” or “all methods mutate” rule. The method’s documentation is the contract.
 
 When a line surprises you, debug it in a fixed order. Identify the receiver and its type. Read the call carefully, including its parentheses. Save the return value if you need it. Inspect the receiver after the call. Then use `dir` to discover names, `help` to read focused documentation, and a tiny run to test one prediction. This routine makes the invisible parts of a method call visible: the object before the dot, the result sent back, and the state that remains afterward. You are not memorizing isolated tricks. You are building a repeatable way to learn an unfamiliar object.
 
 ### Carry the object question forward
 
-The circuit is complete. On Terra, we met values we already use. On Luna, we followed the dot and compared what string and list methods do. At Sol, the bright center is a reusable habit: when Python gives you a thing, ask what type it has, what state it holds, what behavior it offers, what it returns, and whether it changes in place. Strings and lists are not merely containers for syntax practice. They are early examples of a much larger way to organize software. Later, objects may represent files, paths, game entities, or connections. The exact methods will come from their types and documentation, so do not assume that a conceptual example is a real API. For today, keep the contrast sharp. Uppercase on a string returns a string; the original is unchanged. Append on a list changes the list and returns None. Dir and help make unfamiliar behavior discoverable. If you can explain those observations, you already have a working first model of objects. The next time a method surprises you, do not guess that all objects behave like strings or all methods behave like append. Identify the type, read the method’s contract, and run the smallest useful check.
+The review is complete. We met values we already use, followed the dot, and compared what string and list methods do. The reusable habit is this: when Python gives you a thing, ask what type it has, what state it holds, what behavior it offers, what it returns, and whether it changes in place. Strings and lists are not merely containers for syntax practice. They are early examples of a much larger way to organize software. Later, objects may represent files, paths, game entities, or connections. The exact methods will come from their types and documentation, so do not assume that a conceptual example is a real API. For today, keep the contrast sharp. Uppercase on a string returns a string; the original is unchanged. Append on a list changes the list and returns None. Dir and help make unfamiliar behavior discoverable. If you can explain those observations, you already have a working first model of objects. The next time a method surprises you, do not guess that all objects behave like strings or all methods behave like append. Identify the type, read the method’s contract, and run the smallest useful check.
 
 ## Worked examples
 
@@ -68,13 +68,13 @@ The circuit is complete. On Terra, we met values we already use. On Luna, we fol
 ### string-new-value
 
 ```python
-text = "luna"
+text = "python"
 upper_text = text.upper()
-print(upper_text)  # expect: LUNA
-print(text)  # expect: luna
+print(upper_text)  # expect: PYTHON
+print(text)  # expect: python
 print(type(upper_text).__name__)  # expect: str
-pieces = text.split("n")
-print(pieces)  # expect: ['lu', 'a']
+pieces = text.split("h")
+print(pieces)  # expect: ['pyt', 'on']
 print(type(pieces).__name__)  # expect: list
 ```
 
@@ -82,12 +82,12 @@ print(type(pieces).__name__)  # expect: list
 ### list-in-place
 
 ```python
-route = ["Terra", "Luna"]
-returned = route.append("Sol")
-print(route)  # expect: ['Terra', 'Luna', 'Sol']
+route = ["red", "green"]
+returned = route.append("blue")
+print(route)  # expect: ['red', 'green', 'blue']
 print(returned)  # expect: None
 backup = route.copy()
-print(backup)  # expect: ['Terra', 'Luna', 'Sol']
+print(backup)  # expect: ['red', 'green', 'blue']
 print(type(backup).__name__)  # expect: list
 ```
 
@@ -95,12 +95,12 @@ print(type(backup).__name__)  # expect: list
 ### discover
 
 ```python
-signal = "Terra to Luna"
+signal = "red to green"
 print(type(signal).__name__)  # expect: str
 print("upper" in dir(signal))  # expect: True
-print(signal.replace("Luna", "Sol"))  # expect: Terra to Sol
-print(signal.find("Luna"))  # expect: 9
-print(signal.startswith("Terra"))  # expect: True
+print(signal.replace("green", "blue"))  # expect: red to blue
+print(signal.find("green"))  # expect: 7
+print(signal.startswith("red"))  # expect: True
 ```
 
 ## Misconception

@@ -2,14 +2,14 @@
   "device": "cuda",
   "kokoro_version": "0.9.4",
   "output": {
-    "bytes": 1551716,
+    "bytes": 1650772,
     "channels": 1,
-    "decoded_peak": 0.7727885246276855,
-    "decoded_rms": 0.1154890338745806,
-    "duration_seconds": 64.6,
-    "path": "/home/jevert/concept_pipeline/d6eb71615204/sol-discover.mp3",
+    "decoded_peak": 0.7712671756744385,
+    "decoded_rms": 0.11597119234681967,
+    "duration_seconds": 68.725011,
+    "path": "/home/jevert/concept_pipeline/9d98db7a739a/follow-the-dot.mp3",
     "sample_rate": 44100,
-    "sha256": "acc0aa5505dd4ddf702970396bd614db32679899af0303601c7d965e5fedb91c"
+    "sha256": "e2c39d1ec059b6aadd4db13e2adf15fd749b07d1d74524851e4b7d594baef8ad"
   },
   "post_processing": {
     "bitrate": 192000,
@@ -22,8 +22,8 @@
   },
   "schema_version": 1,
   "source": {
-    "path": "/home/jevert/concept_pipeline/d6eb71615204/beat-sol-discover.md",
-    "sha256": "5bac2fb36e6c6c3dfc05118b4bbae7b5b2a74f3a6a24c6ca7ebba5a9f3004c62"
+    "path": "/home/jevert/concept_pipeline/9d98db7a739a/beat-follow-the-dot.md",
+    "sha256": "a5651998e6cbd9ecd1c2aedf8e9a4cb654586e3aeea85b9f099bef5cd667263b"
   },
   "source_turn_count": 1,
   "speed": 1.0,

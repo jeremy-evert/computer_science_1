@@ -1,17 +1,17 @@
 [
   {
     "actual": [
-      "LUNA",
-      "luna",
+      "PYTHON",
+      "python",
       "str",
-      "['lu', 'a']",
+      "['pyt', 'on']",
       "list"
     ],
     "expected": [
-      "LUNA",
-      "luna",
+      "PYTHON",
+      "python",
       "str",
-      "['lu', 'a']",
+      "['pyt', 'on']",
       "list"
     ],
     "name": "string-new-value",
@@ -21,15 +21,15 @@
   },
   {
     "actual": [
-      "['Terra', 'Luna', 'Sol']",
+      "['red', 'green', 'blue']",
       "None",
-      "['Terra', 'Luna', 'Sol']",
+      "['red', 'green', 'blue']",
       "list"
     ],
     "expected": [
-      "['Terra', 'Luna', 'Sol']",
+      "['red', 'green', 'blue']",
       "None",
-      "['Terra', 'Luna', 'Sol']",
+      "['red', 'green', 'blue']",
       "list"
     ],
     "name": "list-in-place",
@@ -41,15 +41,15 @@
     "actual": [
       "str",
       "True",
-      "Terra to Sol",
-      "9",
+      "red to blue",
+      "7",
       "True"
     ],
     "expected": [
       "str",
       "True",
-      "Terra to Sol",
-      "9",
+      "red to blue",
+      "7",
       "True"
     ],
     "name": "discover",

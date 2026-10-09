@@ -2,14 +2,14 @@
   "device": "cuda",
   "kokoro_version": "0.9.4",
   "output": {
-    "bytes": 1346707,
+    "bytes": 1487141,
     "channels": 1,
-    "decoded_peak": 0.7712429761886597,
-    "decoded_rms": 0.11570229269481905,
-    "duration_seconds": 56.05,
-    "path": "/home/jevert/concept_pipeline/d6eb71615204/sol-recap.mp3",
+    "decoded_peak": 0.7715873718261719,
+    "decoded_rms": 0.11647306072232963,
+    "duration_seconds": 61.9,
+    "path": "/home/jevert/concept_pipeline/9d98db7a739a/start-with-a-value.mp3",
     "sample_rate": 44100,
-    "sha256": "ebb2d7ed4c41c86bbb3ab69240aa02dd3331ae1c217143daea1acf2cb05c91dc"
+    "sha256": "444339631e0bf42d2a17f074586887969f77d843cd13d6a77f620a755f0dd0f1"
   },
   "post_processing": {
     "bitrate": 192000,
@@ -22,8 +22,8 @@
   },
   "schema_version": 1,
   "source": {
-    "path": "/home/jevert/concept_pipeline/d6eb71615204/beat-sol-recap.md",
-    "sha256": "21d893645ea81a17ab0a0985cb815352e105598946eb671d89892da28bf896cf"
+    "path": "/home/jevert/concept_pipeline/9d98db7a739a/beat-start-with-a-value.md",
+    "sha256": "1dcac149be6174285674ef96fbf9e99f9ae80a0020f06a5335b337022667bb46"
   },
   "source_turn_count": 1,
   "speed": 1.0,
