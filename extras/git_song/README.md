@@ -1,5 +1,13 @@
 # Git Ain't GitHub: the disposable-first music experiment
 
+## Listener verdict, 2026-10-09: V0 REJECTED
+
+Jeremy lasted roughly **five seconds** of `git_aint_github_scrappy_v0.mp3` before wanting to turn it off: the vocal sounded like a **Simon Speak & Spell**. The song was **not** acceptable to listen to or share with friends. **Never promote this file as the finished song, a successful singing demo, or a user-approved teaching product.** Keep v0 only as a historical source/negative control. The failure is the robotic eSpeak guide vocal, not proof that country-comedy, the Git/GitHub concept, or music mnemonics failed.
+
+**Hard next gate: first 15–25 seconds must contain a genuinely melodic, recognizable *sung* human-like voice, not eSpeak, Kokoro talk-read, pitch-shifted narration, or speech pasted on instruments.** No full-song render or tool building until a short sung sample passes Jeremy's five-second test. If no capable vocal music-generation tool is installed and available, report this plainly and request the smallest feasible way to get one, rather than shipping another robot read.
+
+**Immediate working brief:** [v1_sung_chorus_first.md](./v1_sung_chorus_first.md). Direct Codex/Hanna, no Flo or Claude Code. User explicitly wants to hear a song; a TTS-over-beats MP3 does not count.
+
 **We actually made a v0 on 2026-10-09. No Flo or Claude Code.**
 
 This is a public, shareable teaching artifact. The point is to hear an original, ridiculously campy Git-versus-GitHub country-comedy story now, react to it, and iterate. The accompanying 108-second MP3 was produced in the current ChatGPT session, not yet uploaded to GitHub; the conversation supplies the playback link. The generator source is in this folder and can reproduce a fresh version on a Linux box.
@@ -17,10 +25,10 @@ The script outputs one MP3 into this directory. It creates a simple original two
 
 ## How to ship a better version on Maise, via Codex/Hanna, without Flo
 
-This first sketch is sufficient to listen and criticize. Later, from a properly authenticated session, let Codex/Hanna reuse **existing verified** audio/music tools. Choose a music-capable generator if available; Kokoro is TTS for dialogue, not a convincing singer. Use this version as a reference for pace and refrain, not its specific original notes as mandatory. Preserve the lyric's Git correctness and use a **new filename** for every revision. Don't publish to students or modify a live private audio library without an explicit decision.
+Jeremy rejected the sketch after five seconds; treat it only as proof that the eSpeak path is unacceptable. Later, from a properly authenticated session, let Codex/Hanna reuse **existing verified** audio/music tools. Choose a music-capable generator if available; Kokoro is TTS for dialogue, not a convincing singer. Use this version as a reference for pace and refrain, not its specific original notes as mandatory. Preserve the lyric's Git correctness and use a **new filename** for every revision. Don't publish to students or modify a live private audio library without an explicit decision.
 
 Smallest delivery contract: (1) audio file, (2) duration/format validation, (3) title/lyrics/source refs, (4) playback link or copied private media path. No multi-agent review ceremony.
 
 ## Next experiment
 
-Listen to v0 before deciding what to change. First priority: turn the robotic talk-sing into a real, funny sung novelty vocal while keeping the guitar/banjo bounce and Git/GitHub distinction. Then consider a shareable 60-second classroom cut.
+Do NOT replay/recommend v0 as a song. First priority: a **real sung 15–25-second chorus sample** while keeping the guitar/banjo bounce and Git/GitHub distinction. Then consider a shareable 60-second classroom cut.
