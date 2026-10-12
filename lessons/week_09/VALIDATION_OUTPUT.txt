@@ -1,0 +1,182 @@
+Python: 3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]
+Validation date: 2026-10-12
+Working directory for every child process: /tmp
+
+=== 01_strings_are_objects.py ===
+
+1. A name on the training roster
+Clay
+Variable's type: <class 'str'>
+Literal's type: <class 'str'>
+Same type? True
+A string instance? True
+"Clay" is a string object; dragon_name refers to it. Its class is str.
+
+2. Identity during an object's lifetime
+Object identity: 135785258510656
+Identity again: 135785258510656
+The identity stays the same while this object lives; the number can vary by run.
+If Clay is an object, what can Clay do?
+
+=== 02_objects_have_behavior.py ===
+
+1. Sunny tries a loud announcement
+Returned by upper(): CLAY
+Original afterward: Clay
+Returned by lower(): clay
+Returned by replace(): Sunny
+Original still: Clay
+These methods return strings; the calls do not reassign dragon_name.
+
+2. Questions about the roster entry
+Starts with C? True
+Number of a characters: 1
+Length: 4
+object.method(arguments): upper() is a method; len(object) calls a function.
+Methods are functions accessed through objects; their results can have different types.
+
+3. Keep the old name, then reassign
+Reassigned dragon_name: CLAY
+original_name still refers to: Clay
+We assigned the returned string; we did not modify the original string.
+How do we discover methods without somebody telling us their names?
+
+=== 03_exploring_objects.py ===
+
+1. Starflight searches for clues
+Total names found: 81
+A small public sample: ['capitalize', 'casefold', 'center', 'count', 'encode', 'endswith', 'expandtabs', 'find']
+upper listed? True
+The filter hides underscore names to reduce clutter, not their importance.
+
+2. Find a name, retrieve its value, then try it
+Has upper? True
+Has breathe_fire? False
+Is the retrieved attribute callable? True
+Call it: CLAY
+Is the name string callable? False
+getattr retrieved the method; () called it and produced a result.
+
+3. Inspect before experimenting
+upper documentation: Return a copy of the string converted to uppercase.
+First line of replace documentation: Return a copy with all occurrences of substring old replaced by new.
+replace experiment: Cloy
+In the Python shell, try help(str.upper) and help(str.replace).
+dir is a useful list, not a guarantee of every possible attribute.
+hasattr tests access to a name, not whether it is callable or suitable.
+How do we inspect a name? Read help, then try a small experiment.
+If these methods belong to a string, where are they defined?
+
+=== 04_exploring_the_string_class.py ===
+
+1. Glory examines the class behind her name
+The built-in class: <class 'str'>
+Type of the string: <class 'str'>
+A str instance? True
+upper appears on the class? True
+The class attribute str.upper: <method 'upper' of 'str' objects>
+A class defines a kind of object; an instance is an object of that kind.
+
+2. Two routes to string behavior
+Through the class: GLORY
+Through the instance: GLORY
+Also available to Clay: CLAY
+For this str method, the class call explicitly supplies the string.
+The instance call supplies it through the object before the dot.
+Do not assume every Python method supports these exact call forms.
+
+3. Inspect the public interface
+A small class attribute sample: ['capitalize', 'casefold', 'center', 'count', 'encode', 'endswith', 'expandtabs', 'find']
+First line of class documentation: str(object='') -> str
+In the shell, use help(str) to explore the full class documentation.
+Attributes are named things accessed through an object or class.
+Methods are callable behavior; not every attribute is a method.
+We are examining str's public interface, not reading its implementation.
+If Python has a class for strings, can we make a class for dragons?
+
+=== 05_building_a_dragon_class.py ===
+
+1. Build one roster member
+Name stored on Clay: Clay
+Tribe stored on Clay: MudWing
+Dragon is the class definition; Dragon(...) creates an instance.
+__init__ initializes that instance with name and tribe data.
+self refers to the instance being initialized or receiving a method call.
+
+2. Give our object behavior
+Hello! I am Clay, a MudWing.
+introduce() returns text; print(message) displays that text.
+name and tribe are data attributes. introduce is a method.
+
+3. Connect our discovery to strings
+"Clay".upper(): CLAY
+clay.introduce(): Hello! I am Clay, a MudWing.
+Both calls access behavior through an object, then return a string.
+Now that we have a Dragon class, can we create different dragons?
+
+=== 06_creating_dragon_objects.py ===
+
+1. Three dragons join the roster
+Hello! I am Clay, a MudWing.
+Hello! I am Tsunami, a SeaWing.
+Hello! I am Glory, a RainWing.
+Clay's attributes: Clay MudWing
+Tsunami's attributes: Tsunami SeaWing
+Each instance stores its own data and uses methods defined by Dragon.
+
+2. Same kind, different objects
+Clay's type: <class '__main__.Dragon'>
+Tsunami's type: <class '__main__.Dragon'>
+Clay is a Dragon? True
+Same class? True
+Clay's identity: 123901115862720
+Tsunami's identity: 123901115763920
+Same identity? False
+These objects live at the same time, so their identities are distinct.
+
+3. Clay practices; Tsunami watches
+Before: Clay 3 Tsunami 3
+Clay's train() returns: 2
+After:  Clay 2 Tsunami 3
+train() assigns a new energy value on this instance: its state changes.
+The integers themselves are not mutated; Clay's energy attribute changes.
+Energy is a classroom rule, not a claim about the books.
+
+4. Mutable dragon, immutable string
+Uppercase result: CLAY
+Name afterward: Clay
+Dragon state can change; the string's existing contents cannot.
+How can another programmer discover what our Dragon objects can do?
+
+=== 07_making_objects_discoverable.py ===
+
+1. Give the roster a readable voice
+Clay the MudWing (energy: 3)
+Developer representation: Dragon(name='Clay', tribe='MudWing', energy=3)
+__str__ supplies readable text; __repr__ supplies useful developer text.
+Our repr shows state; it is not promised to be an executable constructor call.
+
+2. Starflight writes a discovery note for Sunny
+Public attributes: ['energy', 'introduce', 'name', 'train', 'tribe']
+Public methods: ['introduce', 'train']
+Has energy? True
+Is energy callable? False
+Has introduce? True
+Is introduce callable? True
+Try the discovered method: Hello! I am Clay, a MudWing.
+For this simple class, getattr safely retrieves these known public attributes.
+
+3. Leave useful documentation
+Class documentation: A classroom training-roster dragon with a name, tribe, and energy.
+
+Each dragon starts with three energy points. train() spends one point
+when energy is available. These training rules are invented for the lab.
+
+Initialization documentation: Initialize this dragon's name, tribe, and three energy points.
+Introduction documentation: Return a friendly introduction without changing this dragon.
+Training documentation: Spend one energy point if available; return the remaining energy.
+In the shell, try help(Dragon) and help(Dragon.introduce).
+Type hints describe intended types; Python does not enforce them here.
+We now explore Dragon with the same tools we used for the built-in str class.
+Clear names and docstrings make discovery part of good software design.
+From a string object to our own objects: what will you build next?
