@@ -1,0 +1,213 @@
+\documentclass{beamer}
+\input{../theme/preamble.tex}
+
+\title{Week 10 Monday}
+\subtitle{Lists: Collections That Grow}
+\author{CS1}
+\date{}
+
+\begin{document}
+
+\SessionTitleSlide{Week 10 -- Monday}{Lists: Collections That Grow}{How do we keep track of many things at once, and how do we critique the code that does it?}{Deitel \& Deitel, \emph{Intro to Python for Computer Science and Data Science}, Chapter 5, ``Sequences: Lists and Tuples''; AI Fluency Lens 10 (Critique) tie-in}
+
+\begin{frame}[fragile]{The Problem: One Variable Per Thing}
+\begin{verbatim}
+colonist1 = "Ana"
+colonist2 = "Bo"
+colonist3 = "Cy"
+print(colonist1)
+print(colonist2)
+print(colonist3)
+\end{verbatim}
+\begin{itemize}
+    \item How would you print 50 names? Count them? Add one more later?
+    \item We need \emph{one name} for \emph{many values}.
+\end{itemize}
+\note{Ask the class before showing the fix. Let them say ``a loop'' and then ``but the names are separate variables.'' Goal: feel the pain that a list removes.}
+\end{frame}
+
+\begin{frame}[fragile]{A List Holds Many Values in Order}
+\begin{verbatim}
+colonists = []                 # empty list
+colonists.append("Ana")        # add one at a time
+colonists.append("Bo")
+colonists.append("Cy")
+print(colonists)               # ['Ana', 'Bo', 'Cy']
+print(len(colonists))          # 3
+\end{verbatim}
+\begin{itemize}
+    \item \texttt{[]} makes an empty list; \texttt{.append(x)} adds to the end.
+    \item \texttt{len(list)} is the number of items.
+    \item \textbf{This is your gate:} build a list with \texttt{.append()} at least twice, then loop over it.
+\end{itemize}
+\note{Live code this. Students type along. Type the empty list, append three times, print after each append so they see it grow.}
+\end{frame}
+
+\begin{frame}[fragile]{Index: Position Starts at 0}
+\begin{verbatim}
+colonists = ["Ana", "Bo", "Cy"]
+colonists[0]     # 'Ana'
+colonists[2]     # 'Cy'
+colonists[-1]    # 'Cy'  (last item)
+colonists[3]     # IndexError: list index out of range
+\end{verbatim}
+\begin{itemize}
+    \item Counting starts at 0; the last valid index is \texttt{len(list) - 1}.
+    \item Negative indexes count from the end.
+\end{itemize}
+\note{Run the IndexError live; read the message aloud. Predict-then-run: what does colonists[1] give?}
+\end{frame}
+
+\begin{frame}[fragile]{Traverse: Do Something With Every Item}
+\begin{verbatim}
+for name in colonists:
+    print("Welcome,", name)
+
+total = 0
+for name in colonists:
+    total += 1
+print("Headcount:", total)       # same as len(colonists)
+\end{verbatim}
+\begin{itemize}
+    \item \texttt{for item in list:} visits each item in order.
+    \item A traversal should \emph{report something real}: a roster, a count, a search result.
+\end{itemize}
+\note{This is the second half of the gate: build, then traverse and report. Connect to Week 5 loops.}
+\end{frame}
+
+\begin{frame}[fragile]{Changing a List}
+\begin{verbatim}
+crew = ["Ana", "Bo", "Cy"]
+crew.insert(1, "Di")     # ['Ana', 'Di', 'Bo', 'Cy']
+crew.remove("Bo")        # ['Ana', 'Di', 'Cy']
+last = crew.pop()        # last == 'Cy'; crew == ['Ana', 'Di']
+"Ana" in crew            # True
+crew.index("Di")         # 1
+\end{verbatim}
+\begin{itemize}
+    \item \texttt{.insert(i, x)}, \texttt{.remove(x)}, \texttt{.pop()}, \texttt{in}, \texttt{.index(x)}.
+    \item Lists are \textbf{mutable}: these methods change the list itself.
+\end{itemize}
+\note{Predict-then-run: show each line, ask for the list afterward, then run. Mention that .remove raises ValueError if the item is missing.}
+\end{frame}
+
+\begin{frame}[fragile]{Sorting: Two Different Tools}
+\begin{verbatim}
+nums = [3, 1, 2]
+sorted(nums)       # [1, 2, 3]   new list; nums unchanged
+nums               # [3, 1, 2]
+nums.sort()        # changes nums itself
+nums               # [1, 2, 3]
+x = nums.sort()    # x is None !
+\end{verbatim}
+\begin{itemize}
+    \item \texttt{sorted(list)} returns a new list. \texttt{list.sort()} changes the list and returns \texttt{None}.
+\end{itemize}
+\note{This sets up mutation hazard 3. Ask: why would a method that changes a list return None?}
+\end{frame}
+
+\begin{frame}{Critique Mode: Find the Weakness}
+\begin{itemize}
+    \item Monday Moments this week: \textbf{Lens 10, Critique} --- find weaknesses in work before trusting it.
+    \item Reviewing code is the same habit: read it, predict what it does, then test.
+    \item Next: three snippets that \emph{look} fine and are not.
+\end{itemize}
+\note{Pairs for the next three slides. Give two minutes per snippet: predict the output, then run it, then name the weakness in one sentence.}
+\end{frame}
+
+\begin{frame}[fragile]{Hazard 1: A Second Name Is Not a Copy}
+\begin{verbatim}
+crew = ["Ana", "Bo", "Cy"]
+backup = crew
+backup.append("Di")
+print(crew)        # what prints?
+\end{verbatim}
+\pause
+\begin{verbatim}
+# ['Ana', 'Bo', 'Cy', 'Di']  -- crew changed too!
+backup = crew.copy()      # or list(crew)
+\end{verbatim}
+\begin{itemize}
+    \item \texttt{backup = crew} makes two names for \emph{one} list.
+    \item \texttt{.copy()} makes a new list.
+\end{itemize}
+\note{Draw two name tags on one box, then two boxes. If time, show id(crew) == id(backup).}
+\end{frame}
+
+\begin{frame}[fragile]{Hazard 2: Don't Remove While You Loop}
+\begin{verbatim}
+crew = ["Ana", "Bo", "Bo", "Cy"]
+for name in crew:
+    if name == "Bo":
+        crew.remove(name)
+print(crew)        # what prints?
+\end{verbatim}
+\pause
+\begin{verbatim}
+# ['Ana', 'Bo', 'Cy']  -- one Bo survived!
+crew = [n for n in crew if n != "Bo"]   # build a new list
+\end{verbatim}
+\begin{itemize}
+    \item Removing shifts the items, so the loop skips one.
+    \item Safer: loop over a copy, or build a new list.
+\end{itemize}
+\note{List comprehension is a preview; the safe version for Week 10 is for name in crew.copy() or build a second list with append.}
+\end{frame}
+
+\begin{frame}[fragile]{Hazard 3: sort() Returns None}
+\begin{verbatim}
+scores = [90, 72, 85]
+ranked = scores.sort()
+print(ranked)       # what prints?
+\end{verbatim}
+\pause
+\begin{verbatim}
+# None
+ranked = sorted(scores)     # or: scores.sort(); then use scores
+\end{verbatim}
+\begin{itemize}
+    \item Methods that change a list in place usually return \texttt{None}.
+\end{itemize}
+\note{Ties back to the sorting slide. Ask pairs: what would a reviewer write in a code comment here?}
+\end{frame}
+
+\begin{frame}{Your Gate: The Census}
+\begin{itemize}
+    \item Your world's population, inventory, case load, or customers becomes a list.
+    \item \textbf{Quick Check (pass/fail):}
+    \begin{itemize}
+        \item The list holds several distinct entities from your world.
+        \item It is built with \texttt{.append()} at least twice (not one typed-out literal).
+        \item At least one loop or \texttt{len()} reports something real.
+    \end{itemize}
+    \item World Bible: one line --- what you passed, what broke.
+\end{itemize}
+\note{Frontier Settlement: colonists. Investigation Bureau: suspects. Starship Log: crew. Small Business: customers.}
+\end{frame}
+
+\begin{frame}[fragile]{Work Time: Start Your Census}
+\begin{verbatim}
+colonists = []
+colonists.append("...")     # at least two appends
+colonists.append("...")
+for c in colonists:
+    print(c)
+print("Headcount:", len(colonists))
+\end{verbatim}
+\begin{itemize}
+    \item Work for about 10 minutes; ask a neighbor to critique before you ask me.
+\end{itemize}
+\note{Circulate. Common issues: forgetting the empty list before append, calling append on a string, misspelling the variable.}
+\end{frame}
+
+\begin{frame}{Wrap-Up and Preview}
+\begin{itemize}
+    \item Lists: \texttt{[]}, \texttt{.append}, \texttt{len}, index, \texttt{for}, \texttt{in}.
+    \item Hazards: aliasing, removing while looping, \texttt{.sort()} returns \texttt{None}.
+    \item \textbf{Week 11:} dictionaries --- look up an item by name or ID instead of searching the whole list.
+    \item Gate and optional bonus practice are due \textbf{Friday 11:59 PM}.
+\end{itemize}
+\note{Ask one student to show their list. Remind them about pair programming on the gate.}
+\end{frame}
+
+\end{document}
