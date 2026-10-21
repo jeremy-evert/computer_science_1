@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "title": "Choose a Structure and Defend It",
+  "series_type": "instructor-private-podcast",
+  "course": "CS1 / COMSC",
+  "week": 11,
+  "prepared_date": "2026-10-20",
+  "note": "Estimated duration is not a render proof. Verify duration from the completed Kokoro receipt.",
+  "source_repository": "jeremy-evert/computer_science_1",
+  "source_branch": "audio/cs1-week11-data-structure-choice-20261026",
+  "sources": [
+    "Computer Science One planning/week-10.md and planning/week-11.md",
+    "Computer Science One Week 10 and Week 11 Odyssey gates and rubrics",
+    "Computer Science One lessons/07-collections.md",
+    "Computer Science One planning/coding-odyssey-arc-map.md and planning/fall-2026-course-design.md",
+    "Computer Science One docs/curriculum/judgment_toolkit.md",
+    "Professional Minds Week 11 titles as listed in planning/week-11.md"
+  ],
+  "voice_map": {
+    "DANA": "af_sarah",
+    "MARIA": "af_heart"
+  },
+  "episodes": [
+    {
+      "number": "01",
+      "title": "Choose a Structure and Defend It",
+      "source": "scripts/01_choose_a_structure_and_defend_it.md",
+      "sha256": "55ad70fa8ea8bd6637bd9ff9b1321514b4228a5dc593a1a67ad7d23ef5540b91",
+      "spoken_words": 2074,
+      "estimated_minutes": 13.8
+    }
+  ],
+  "publication_status": "NOT RENDERED, NOT PUBLISHED, NOT PHONE VERIFIED"
+}
