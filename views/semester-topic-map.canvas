@@ -5,16 +5,16 @@
       "type": "text",
       "text": "# CS1 Semester Topic Map\nGenerated view \u2014 reproducible from `docs/curriculum/`, `planning/`, `lessons/`, and `assignments/`. Re-run `scripts/views/generate_semester_topic_map.py` to refresh; never hand-edit. Lives in `views/` (not `.views/`) so Obsidian's file explorer, which hides dot-prefixed folders by default, can actually show it.\n\nArranged left-to-right by the real Fall 2026 week sequence, grouped by Coding Odyssey arc. Arrows carry the *why* \u2014 what concept the next step actually depends on, not just file adjacency.",
       "x": -200,
-      "y": -520,
+      "y": -560,
       "width": 900,
-      "height": 180
+      "height": 320
     },
     {
       "id": "n002-unit-map",
       "type": "file",
       "file": "docs/curriculum/unit-map.md",
       "x": -200,
-      "y": -300,
+      "y": -200,
       "width": 320,
       "height": 90
     },
@@ -23,7 +23,7 @@
       "type": "file",
       "file": "docs/curriculum/course-sequence.md",
       "x": 180,
-      "y": -300,
+      "y": -200,
       "width": 320,
       "height": 90
     },
@@ -32,7 +32,7 @@
       "type": "file",
       "file": "planning/coding-odyssey-arc-map.md",
       "x": 560,
-      "y": -300,
+      "y": -200,
       "width": 320,
       "height": 90
     },
@@ -76,7 +76,7 @@
       "id": "n011-04-loops",
       "type": "file",
       "file": "lessons/04-loops.md",
-      "x": 540,
+      "x": 420,
       "y": 150,
       "width": 320,
       "height": 80
@@ -112,8 +112,8 @@
       "id": "n018-09-objects-you-use-classes-you-write",
       "type": "file",
       "file": "lessons/09-objects-you-use-classes-you-write.md",
-      "x": 1150,
-      "y": 260,
+      "x": -180,
+      "y": 320,
       "width": 320,
       "height": 100
     },
@@ -134,7 +134,7 @@
       "x": -220,
       "y": 440,
       "width": 1900,
-      "height": 480,
+      "height": 540,
       "color": "4"
     },
     {
@@ -171,8 +171,8 @@
       "id": "n028-week-11",
       "type": "file",
       "file": "planning/week-11.md",
-      "x": 180,
-      "y": 620,
+      "x": -180,
+      "y": 700,
       "width": 320,
       "height": 90
     },
@@ -180,8 +180,8 @@
       "id": "n029-08-classes-and-modules",
       "type": "file",
       "file": "lessons/08-classes-and-modules.md",
-      "x": 900,
-      "y": 620,
+      "x": 540,
+      "y": 830,
       "width": 320,
       "height": 90
     },
@@ -189,8 +189,8 @@
       "id": "n030-week-12",
       "type": "file",
       "file": "planning/week-12.md",
-      "x": 1260,
-      "y": 620,
+      "x": 900,
+      "y": 700,
       "width": 320,
       "height": 80
     },
@@ -198,8 +198,8 @@
       "id": "n031-week-13",
       "type": "file",
       "file": "planning/week-13.md",
-      "x": 1260,
-      "y": 740,
+      "x": 900,
+      "y": 830,
       "width": 320,
       "height": 80
     },
@@ -207,14 +207,14 @@
       "id": "n040-text",
       "type": "text",
       "text": "**Documentation drift (flagged, not fixed):**\n`planning/week-09.md` (committed 2026-10-08) explicitly says it *supersedes* the Week 9 framing in `planning/block-map.md` and `planning/coding-odyssey-arc-map.md` (both committed 2026-08-12), and says in its own text: 'Remapping Week 10 and later is a separate mission.' That remap has not happened yet \u2014 the arc-map/block-map still describe Week 9 as 'strings continued' with no class content. Source of truth for Week 9 right now is `week-09.md`; the arc map is stale on this one point.",
-      "x": 760,
+      "x": 1260,
       "y": 950,
       "width": 700,
       "height": 260,
       "color": "1"
     },
     {
-      "id": "n043-group",
+      "id": "n042-group",
       "type": "group",
       "label": "Arc 4/5 \u2014 Thanksgiving, Farkle/ML, Finals (Weeks 15-17)",
       "x": 1700,
@@ -223,7 +223,7 @@
       "height": 260
     },
     {
-      "id": "n044-10-farkle-ml",
+      "id": "n043-10-farkle-ml",
       "type": "file",
       "file": "lessons/10-farkle-ml.md",
       "x": 1740,
@@ -232,7 +232,7 @@
       "height": 90
     },
     {
-      "id": "n045-week-17-finals",
+      "id": "n044-week-17-finals",
       "type": "file",
       "file": "planning/week-17-finals.md",
       "x": 1740,
@@ -387,33 +387,17 @@
       "label": "superseded by"
     },
     {
-      "id": "n042-edge",
-      "fromNode": "n040-text",
-      "toNode": "n004-coding-odyssey-arc-map",
-      "fromSide": "right",
-      "toSide": "left",
-      "label": "stale framing not yet reconciled"
-    },
-    {
-      "id": "n046-edge",
-      "fromNode": "n029-08-classes-and-modules",
-      "toNode": "n044-10-farkle-ml",
-      "fromSide": "right",
-      "toSide": "left",
-      "label": "ML week reuses the whole CS1 core (incl. collections/objects); no new syntax"
-    },
-    {
-      "id": "n047-edge",
-      "fromNode": "n044-10-farkle-ml",
-      "toNode": "n045-week-17-finals",
+      "id": "n045-edge",
+      "fromNode": "n043-10-farkle-ml",
+      "toNode": "n044-week-17-finals",
       "fromSide": "right",
       "toSide": "left",
       "label": "wrap-up and show-and-tell"
     },
     {
-      "id": "n048-edge",
+      "id": "n046-edge",
       "fromNode": "n031-week-13",
-      "toNode": "n044-10-farkle-ml",
+      "toNode": "n043-10-farkle-ml",
       "fromSide": "right",
       "toSide": "left",
       "label": "capstone build finishes before the applied fun week"

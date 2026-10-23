@@ -109,11 +109,11 @@ title = text_node(
     "Arranged left-to-right by the real Fall 2026 week sequence, grouped by "
     "Coding Odyssey arc. Arrows carry the *why* — what concept the next step "
     "actually depends on, not just file adjacency.",
-    x=-200, y=-520, w=900, h=180,
+    x=-200, y=-560, w=900, h=320,
 )
-unit_map = file_node("docs/curriculum/unit-map.md", -200, -300)
-course_seq = file_node("docs/curriculum/course-sequence.md", 180, -300)
-arc_map = file_node("planning/coding-odyssey-arc-map.md", 560, -300)
+unit_map = file_node("docs/curriculum/unit-map.md", -200, -200)
+course_seq = file_node("docs/curriculum/course-sequence.md", 180, -200)
+arc_map = file_node("planning/coding-odyssey-arc-map.md", 560, -200)
 edge(unit_map, course_seq, "durable unit list vs. full historical narrative")
 edge(course_seq, arc_map, "historical sequence remapped onto real Fall 2026 weeks/arcs")
 
@@ -123,7 +123,7 @@ arc1_group = group_node("Arc 1 — Foundations (Weeks 1-6)", -220, 0, 900, 260)
 l01 = file_node("lessons/01-foundations-print-input.md", -180, 40, h=80)
 l02 = file_node("lessons/02-variables-expressions-types.md", 180, 40, h=80)
 l03 = file_node("lessons/03-branching.md", 180, 150, h=80)
-l04 = file_node("lessons/04-loops.md", 540, 150, h=80)
+l04 = file_node("lessons/04-loops.md", 420, 150, h=80)
 edge(l01, l02, "print/input before values have names")
 edge(l02, l03, "values enable conditions")
 edge(l03, l04, "conditions repeat into loops")
@@ -133,7 +133,7 @@ edge(l03, l04, "conditions repeat into loops")
 arc2_group = group_node("Arc 2 — First Real Choices (Weeks 7-9)", 760, 0, 900, 380)
 l05 = file_node("lessons/05-functions.md", 800, 40, h=80)
 l06 = file_node("lessons/06-strings.md", 800, 150, h=90)
-l09 = file_node("lessons/09-objects-you-use-classes-you-write.md", 1150, 260, h=100)
+l09 = file_node("lessons/09-objects-you-use-classes-you-write.md", -180, 320, h=100)
 w09 = file_node("planning/week-09.md", 800, 260, h=90, color=DRIFT_COLOR)
 edge(l04, l05, "repeated loop bodies get extracted into functions")
 edge(l05, l06, "decomposition now applied to text data")
@@ -144,15 +144,15 @@ edge(w09, l09, "Week 9 plan now folds in a first custom class (2026-10-08 update
 
 arc3_group = group_node(
     "Arc 3 — Systems That Remember Themselves (Weeks 10-14) — THIS WEEK",
-    -220, 440, 1900, 480, color=ARC3_GROUP_COLOR,
+    -220, 440, 1900, 540, color=ARC3_GROUP_COLOR,
 )
 l07 = file_node("lessons/07-collections.md", -180, 480, h=90, color=HIGHLIGHT)
 p_w10 = file_node("planning/week-10.md", 180, 480, h=90, color=HIGHLIGHT)
 gate_w10 = file_node("assignments/odyssey_gates/week-10.md", 540, 480, h=100, color=HIGHLIGHT)
-p_w11 = file_node("planning/week-11.md", 180, 620, h=90)
-l08 = file_node("lessons/08-classes-and-modules.md", 900, 620, h=90)
-p_w12 = file_node("planning/week-12.md", 1260, 620, h=80)
-p_w13 = file_node("planning/week-13.md", 1260, 740, h=80)
+p_w11 = file_node("planning/week-11.md", -180, 700, h=90)
+l08 = file_node("lessons/08-classes-and-modules.md", 540, 830, h=90)
+p_w12 = file_node("planning/week-12.md", 900, 700, h=80)
+p_w13 = file_node("planning/week-13.md", 900, 830, h=80)
 
 edge(l09, l07, "same object idea, now TRACK MANY of them in a collection")
 edge(p_w10, l07, "week's technical focus")
@@ -177,17 +177,15 @@ drift_note = text_node(
     "still describe Week 9 as 'strings continued' with no class content. "
     "Source of truth for Week 9 right now is `week-09.md`; the arc map is "
     "stale on this one point.",
-    x=760, y=950, w=700, h=260, color=DRIFT_COLOR,
+    x=1260, y=950, w=700, h=260, color=DRIFT_COLOR,
 )
 edge(w09, drift_note, "superseded by")
-edge(drift_note, arc_map, "stale framing not yet reconciled")
 
 # ---- Arc 4/5: wrap-up (Weeks 15-17) ----------------------------------------
 
 arc45_group = group_node("Arc 4/5 — Thanksgiving, Farkle/ML, Finals (Weeks 15-17)", 1700, 440, 620, 260)
 l10 = file_node("lessons/10-farkle-ml.md", 1740, 480, h=90)
 p_finals = file_node("planning/week-17-finals.md", 1740, 600, h=80)
-edge(l08, l10, "ML week reuses the whole CS1 core (incl. collections/objects); no new syntax")
 edge(l10, p_finals, "wrap-up and show-and-tell")
 edge(p_w13, l10, "capstone build finishes before the applied fun week")
 

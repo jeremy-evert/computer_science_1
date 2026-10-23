@@ -9,3 +9,5 @@ __pycache__/
 .obsidian/
 # Generated hub-and-spoke repo map (make_obsidian_map.py); rebuilt on every run
 _repo_map/
+# Debug SVG render from validate_canvas_layout.py; regenerate, don't commit
+views/*.svg
