@@ -4,3 +4,6 @@ __pycache__/
 
 # ShoulderTap recordings are protected (student voices; >100MB) -- never publish
 /recordings/
+
+.obsidian/
+_repo_map/
