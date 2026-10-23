@@ -5,5 +5,7 @@ __pycache__/
 # ShoulderTap recordings are protected (student voices; >100MB) -- never publish
 /recordings/
 
+# Obsidian local application settings (per-user vault state, not shared)
 .obsidian/
+# Generated hub-and-spoke repo map (make_obsidian_map.py); rebuilt on every run
 _repo_map/

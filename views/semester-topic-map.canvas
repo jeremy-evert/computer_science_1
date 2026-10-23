@@ -1,0 +1,422 @@
+{
+  "nodes": [
+    {
+      "id": "n001-text",
+      "type": "text",
+      "text": "# CS1 Semester Topic Map\nGenerated view \u2014 reproducible from `docs/curriculum/`, `planning/`, `lessons/`, and `assignments/`. Re-run `scripts/views/generate_semester_topic_map.py` to refresh; never hand-edit. Lives in `views/` (not `.views/`) so Obsidian's file explorer, which hides dot-prefixed folders by default, can actually show it.\n\nArranged left-to-right by the real Fall 2026 week sequence, grouped by Coding Odyssey arc. Arrows carry the *why* \u2014 what concept the next step actually depends on, not just file adjacency.",
+      "x": -200,
+      "y": -520,
+      "width": 900,
+      "height": 180
+    },
+    {
+      "id": "n002-unit-map",
+      "type": "file",
+      "file": "docs/curriculum/unit-map.md",
+      "x": -200,
+      "y": -300,
+      "width": 320,
+      "height": 90
+    },
+    {
+      "id": "n003-course-sequence",
+      "type": "file",
+      "file": "docs/curriculum/course-sequence.md",
+      "x": 180,
+      "y": -300,
+      "width": 320,
+      "height": 90
+    },
+    {
+      "id": "n004-coding-odyssey-arc-map",
+      "type": "file",
+      "file": "planning/coding-odyssey-arc-map.md",
+      "x": 560,
+      "y": -300,
+      "width": 320,
+      "height": 90
+    },
+    {
+      "id": "n007-group",
+      "type": "group",
+      "label": "Arc 1 \u2014 Foundations (Weeks 1-6)",
+      "x": -220,
+      "y": 0,
+      "width": 900,
+      "height": 260
+    },
+    {
+      "id": "n008-01-foundations-print-input",
+      "type": "file",
+      "file": "lessons/01-foundations-print-input.md",
+      "x": -180,
+      "y": 40,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "n009-02-variables-expressions-types",
+      "type": "file",
+      "file": "lessons/02-variables-expressions-types.md",
+      "x": 180,
+      "y": 40,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "n010-03-branching",
+      "type": "file",
+      "file": "lessons/03-branching.md",
+      "x": 180,
+      "y": 150,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "n011-04-loops",
+      "type": "file",
+      "file": "lessons/04-loops.md",
+      "x": 540,
+      "y": 150,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "n015-group",
+      "type": "group",
+      "label": "Arc 2 \u2014 First Real Choices (Weeks 7-9)",
+      "x": 760,
+      "y": 0,
+      "width": 900,
+      "height": 380
+    },
+    {
+      "id": "n016-05-functions",
+      "type": "file",
+      "file": "lessons/05-functions.md",
+      "x": 800,
+      "y": 40,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "n017-06-strings",
+      "type": "file",
+      "file": "lessons/06-strings.md",
+      "x": 800,
+      "y": 150,
+      "width": 320,
+      "height": 90
+    },
+    {
+      "id": "n018-09-objects-you-use-classes-you-write",
+      "type": "file",
+      "file": "lessons/09-objects-you-use-classes-you-write.md",
+      "x": 1150,
+      "y": 260,
+      "width": 320,
+      "height": 100
+    },
+    {
+      "id": "n019-week-09",
+      "type": "file",
+      "file": "planning/week-09.md",
+      "x": 800,
+      "y": 260,
+      "width": 320,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "n024-group",
+      "type": "group",
+      "label": "Arc 3 \u2014 Systems That Remember Themselves (Weeks 10-14) \u2014 THIS WEEK",
+      "x": -220,
+      "y": 440,
+      "width": 1900,
+      "height": 480,
+      "color": "4"
+    },
+    {
+      "id": "n025-07-collections",
+      "type": "file",
+      "file": "lessons/07-collections.md",
+      "x": -180,
+      "y": 480,
+      "width": 320,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "n026-week-10",
+      "type": "file",
+      "file": "planning/week-10.md",
+      "x": 180,
+      "y": 480,
+      "width": 320,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "n027-week-10",
+      "type": "file",
+      "file": "assignments/odyssey_gates/week-10.md",
+      "x": 540,
+      "y": 480,
+      "width": 320,
+      "height": 100,
+      "color": "1"
+    },
+    {
+      "id": "n028-week-11",
+      "type": "file",
+      "file": "planning/week-11.md",
+      "x": 180,
+      "y": 620,
+      "width": 320,
+      "height": 90
+    },
+    {
+      "id": "n029-08-classes-and-modules",
+      "type": "file",
+      "file": "lessons/08-classes-and-modules.md",
+      "x": 900,
+      "y": 620,
+      "width": 320,
+      "height": 90
+    },
+    {
+      "id": "n030-week-12",
+      "type": "file",
+      "file": "planning/week-12.md",
+      "x": 1260,
+      "y": 620,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "n031-week-13",
+      "type": "file",
+      "file": "planning/week-13.md",
+      "x": 1260,
+      "y": 740,
+      "width": 320,
+      "height": 80
+    },
+    {
+      "id": "n040-text",
+      "type": "text",
+      "text": "**Documentation drift (flagged, not fixed):**\n`planning/week-09.md` (committed 2026-10-08) explicitly says it *supersedes* the Week 9 framing in `planning/block-map.md` and `planning/coding-odyssey-arc-map.md` (both committed 2026-08-12), and says in its own text: 'Remapping Week 10 and later is a separate mission.' That remap has not happened yet \u2014 the arc-map/block-map still describe Week 9 as 'strings continued' with no class content. Source of truth for Week 9 right now is `week-09.md`; the arc map is stale on this one point.",
+      "x": 760,
+      "y": 950,
+      "width": 700,
+      "height": 260,
+      "color": "1"
+    },
+    {
+      "id": "n043-group",
+      "type": "group",
+      "label": "Arc 4/5 \u2014 Thanksgiving, Farkle/ML, Finals (Weeks 15-17)",
+      "x": 1700,
+      "y": 440,
+      "width": 620,
+      "height": 260
+    },
+    {
+      "id": "n044-10-farkle-ml",
+      "type": "file",
+      "file": "lessons/10-farkle-ml.md",
+      "x": 1740,
+      "y": 480,
+      "width": 320,
+      "height": 90
+    },
+    {
+      "id": "n045-week-17-finals",
+      "type": "file",
+      "file": "planning/week-17-finals.md",
+      "x": 1740,
+      "y": 600,
+      "width": 320,
+      "height": 80
+    }
+  ],
+  "edges": [
+    {
+      "id": "n005-edge",
+      "fromNode": "n002-unit-map",
+      "toNode": "n003-course-sequence",
+      "fromSide": "right",
+      "toSide": "left",
+      "label": "durable unit list vs. full historical narrative"
+    },
+    {
+      "id": "n006-edge",
+      "fromNode": "n003-course-sequence",
+      "toNode": "n004-coding-odyssey-arc-map",
+      "fromSide": "right",
+      "toSide": "left",
+      "label": "historical sequence remapped onto real Fall 2026 weeks/arcs"
+    },
+    {
+      "id": "n012-edge",
+      "fromNode": "n008-01-foundations-print-input",
+      "toNode": "n009-02-variables-expressions-types",
+      "fromSide": "right",
+      "toSide": "left",
+      "label": "print/input before values have names"
+    },
+    {
+      "id": "n013-edge",
+      "fromNode": "n009-02-variables-expressions-types",
+      "toNode": "n010-03-branching",
+      "fromSide": "right",
+      "toSide": "left",
+      "label": "values enable conditions"
+    },
+    {
+      "id": "n014-edge",
+      "fromNode": "n010-03-branching",
+      "toNode": "n011-04-loops",
+      "fromSide": "right",
+      "toSide": "left",
+      "label": "conditions repeat into loops"
+    },
+    {
+      "id": "n020-edge",
+      "fromNode": "n011-04-loops",
+      "toNode": "n016-05-functions",
+      "fromSide": "right",
+      "toSide": "left",
+      "label": "repeated loop bodies get extracted into functions"
+    },
+    {
+      "id": "n021-edge",
+      "fromNode": "n016-05-functions",
+      "toNode": "n017-06-strings",
+      "fromSide": "right",
+      "toSide": "left",
+      "label": "decomposition now applied to text data"
+    },
+    {
+      "id": "n022-edge",
+      "fromNode": "n017-06-strings",
+      "toNode": "n018-09-objects-you-use-classes-you-write",
+      "fromSide": "right",
+      "toSide": "left",
+      "label": "strings ARE objects (dot/method syntax) \u2014 first object model"
+    },
+    {
+      "id": "n023-edge",
+      "fromNode": "n019-week-09",
+      "toNode": "n018-09-objects-you-use-classes-you-write",
+      "fromSide": "right",
+      "toSide": "left",
+      "label": "Week 9 plan now folds in a first custom class (2026-10-08 update)"
+    },
+    {
+      "id": "n032-edge",
+      "fromNode": "n018-09-objects-you-use-classes-you-write",
+      "toNode": "n025-07-collections",
+      "fromSide": "right",
+      "toSide": "left",
+      "label": "same object idea, now TRACK MANY of them in a collection"
+    },
+    {
+      "id": "n033-edge",
+      "fromNode": "n026-week-10",
+      "toNode": "n025-07-collections",
+      "fromSide": "right",
+      "toSide": "left",
+      "label": "week's technical focus"
+    },
+    {
+      "id": "n034-edge",
+      "fromNode": "n026-week-10",
+      "toNode": "n027-week-10",
+      "fromSide": "right",
+      "toSide": "left",
+      "label": "weekly gate applies the concept to the student's own world"
+    },
+    {
+      "id": "n035-edge",
+      "fromNode": "n026-week-10",
+      "toNode": "n028-week-11",
+      "fromSide": "right",
+      "toSide": "left",
+      "label": "lists first, dicts (lookup-by-key) continued next week"
+    },
+    {
+      "id": "n036-edge",
+      "fromNode": "n025-07-collections",
+      "toNode": "n029-08-classes-and-modules",
+      "fromSide": "right",
+      "toSide": "left",
+      "label": "KEY SEQUENCING DECISION: a noun already tracked in the Wk10-11 collection becomes a Wk12-13 class \u2014 collections before classes, reversed from the historical Ch.9-before-Ch.8 order"
+    },
+    {
+      "id": "n037-edge",
+      "fromNode": "n028-week-11",
+      "toNode": "n030-week-12",
+      "fromSide": "right",
+      "toSide": "left",
+      "label": "dict lookup-by-name sets up the object a class will formalize"
+    },
+    {
+      "id": "n038-edge",
+      "fromNode": "n030-week-12",
+      "toNode": "n031-week-13",
+      "fromSide": "right",
+      "toSide": "left",
+      "label": "Round 1 (define) -> Round 2 (objects interact)"
+    },
+    {
+      "id": "n039-edge",
+      "fromNode": "n029-08-classes-and-modules",
+      "toNode": "n030-week-12",
+      "fromSide": "right",
+      "toSide": "left",
+      "label": "lesson content for both OOP rounds"
+    },
+    {
+      "id": "n041-edge",
+      "fromNode": "n019-week-09",
+      "toNode": "n040-text",
+      "fromSide": "right",
+      "toSide": "left",
+      "label": "superseded by"
+    },
+    {
+      "id": "n042-edge",
+      "fromNode": "n040-text",
+      "toNode": "n004-coding-odyssey-arc-map",
+      "fromSide": "right",
+      "toSide": "left",
+      "label": "stale framing not yet reconciled"
+    },
+    {
+      "id": "n046-edge",
+      "fromNode": "n029-08-classes-and-modules",
+      "toNode": "n044-10-farkle-ml",
+      "fromSide": "right",
+      "toSide": "left",
+      "label": "ML week reuses the whole CS1 core (incl. collections/objects); no new syntax"
+    },
+    {
+      "id": "n047-edge",
+      "fromNode": "n044-10-farkle-ml",
+      "toNode": "n045-week-17-finals",
+      "fromSide": "right",
+      "toSide": "left",
+      "label": "wrap-up and show-and-tell"
+    },
+    {
+      "id": "n048-edge",
+      "fromNode": "n031-week-13",
+      "toNode": "n044-10-farkle-ml",
+      "fromSide": "right",
+      "toSide": "left",
+      "label": "capstone build finishes before the applied fun week"
+    }
+  ]
+}
