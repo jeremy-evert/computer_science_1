@@ -1,17 +1,45 @@
 \documentclass{beamer}
 \input{../theme/preamble.tex}
 \usepackage{hyperref}
+\usepackage{graphicx}
 
 \title{Week 11 Monday}
-\subtitle{Dictionaries: A Dictionary of Dictionaries}
+\subtitle{Dictionaries: Rock-Paper-Scissors, Then Scale It Up}
 \author{CS1}
 \date{}
 
 \begin{document}
 
-\SessionTitleSlide{Week 11 -- Monday}{Dictionaries: Look It Up by Key}{How do we find one thing by name, and can a dictionary hold other dictionaries?}{Week 11 plan; \texttt{lessons/07-collections.md}; AI Fluency Lens 11 (Verify) tie-in}
+\SessionTitleSlide{Week 11 -- Monday}{Dictionaries: Look It Up by Key}{Can data replace a pile of if statements, and what happens when the game grows?}{Week 11 plan; \texttt{lessons/07-collections.md}; AI Fluency Lens 11 (Verify) tie-in}
 
-\begin{frame}[fragile]{Rock-Paper-Scissors: Rules as Data}
+\begin{frame}{1. The Logic Map: How Rock-Paper-Scissors Decides}
+\centering
+\includegraphics[height=0.74\textheight]{../../../dictionary_example/rps_logic_map.pdf}
+\note{Before any code, draw the logic. Ask: what are the questions the game asks, in what order? Same move? Then does my move beat theirs? Three winning pairs. Everything else is a loss. Have students predict a few matchups from the map.}
+\end{frame}
+
+\begin{frame}[fragile]{2. Solve It With if/elif}
+\begin{verbatim}
+def judge(player, opponent):
+    if player == opponent:
+        return "tie"
+    elif player == "rock" and opponent == "scissors":
+        return "win"
+    elif player == "scissors" and opponent == "paper":
+        return "win"
+    elif player == "paper" and opponent == "rock":
+        return "win"
+    else:
+        return "lose"
+\end{verbatim}
+\begin{itemize}
+    \item Five branches. It works, and it matches the map line by line.
+    \item Run: \texttt{python3 rps\_if\_elif.py}
+\end{itemize}
+\note{Live code or run rps\_if\_elif.py. Ask: how many branches? Five. Then ask what we would do for lizard and spock. Plant the worry, do not solve it yet.}
+\end{frame}
+
+\begin{frame}[fragile]{3. Solve It With a Dictionary of Dictionaries}
 \begin{verbatim}
 rules = {
  "rock": {"rock": "tie", "paper": "lose",
@@ -21,32 +49,77 @@ rules = {
  "scissors": {"rock": "lose", "paper": "win",
               "scissors": "tie"},
 }
-print(rules["rock"]["scissors"])  # win
+def judge(player, opponent):
+    return rules[player][opponent]
 \end{verbatim}
 \begin{itemize}
-    \item A dictionary whose values are dictionaries: \texttt{rules[player][opponent]}.
-    \item First key picks the row, second key picks the column. Two lookups, one answer.
-    \item Predict first: what is \texttt{rules["paper"]["rock"]}?
+    \item \texttt{rules[player][opponent]}: first key picks the row, second picks the column.
+    \item Predict: \texttt{rules["paper"]["rock"]}? Run: \texttt{python3 rps\_dict\_of\_dicts.py}
 \end{itemize}
-\note{Ask for predictions before running. Then ask: how many if statements would the same game need? Nine. Changing a rule here means changing data, not logic. Run the file live: python3 rps\_dict\_of\_dicts.py}
+\note{Same game, same output. Run both files and diff the demo output: Step 3 scores are identical. The rules are now data you can read as a table, and judge is one line.}
 \end{frame}
 
-\begin{frame}[fragile]{Walk It, Score It, Guard It}
-\begin{verbatim}
-for mine in rules:            # outer keys
-    for theirs in rules[mine]:  # inner keys
-        print(mine, theirs, rules[mine][theirs])
-
-score = {"win": 0, "lose": 0, "tie": 0}
-score[judge("rock", "scissors")] += 1
-\end{verbatim}
+\begin{frame}{4. Refactoring: Same Game, Better Shape}
+\begin{columns}[T]
+\column{0.32\textwidth}
+\textbf{Got simpler}
 \begin{itemize}
-    \item A second dictionary keeps score: keys are results, values are counts.
-    \item A move that is not a key raises \texttt{KeyError}; check with \texttt{in} first.
-    \item \textbf{Verify (Lens 11):} try an empty string, a capital letter, a move not in the table.
-    \item \textbf{Run it, read the walkthrough:} \href{https://swosu.instructure.com/courses/74029/pages/week-11-overview-lists-and-dictionaries-continued}{Canvas, Week 11 Overview page, ``Rock-Paper-Scissors example''}
+    \item \texttt{judge} is one line
+    \item No repeated \texttt{and} tests to proofread
+    \item The rules read like a table
 \end{itemize}
-\note{Code and walkthrough are linked from that Canvas page (Python file plus README). Decide/Compare tie-in: why a dict of dicts and not nine ifs, a list of lists, or one dict keyed by a pair? What changes when we add lizard and spock?}
+\column{0.34\textwidth}
+\textbf{Easier to extend}
+\begin{itemize}
+    \item New move = new data
+    \item Change a rule without touching logic
+    \item Loop over the table to check it
+\end{itemize}
+\column{0.30\textwidth}
+\textbf{Stayed the same}
+\begin{itemize}
+    \item Same inputs and outputs
+    \item Same demo results
+    \item Same scoreboard idea
+\end{itemize}
+\end{columns}
+\vspace{1ex}
+\textbf{Refactoring} = changing the structure without changing the behavior. Verify it: run both versions on all nine matchups.
+\note{Ask each column before revealing. Emphasize the test: refactor safely by comparing old and new outputs on every case. That is the Lens 11 Verify habit. Decide/Compare \#1 tie-in: why a dict of dicts and not nine ifs, a list of lists, or one dict keyed by a pair?}
+\end{frame}
+
+\begin{frame}[fragile]{5. Scale It: Lizard, Spock, Batman, Glock}
+\begin{verbatim}
+beats = {"rock": {"scissors": "crushes",
+                  "lizard": "crushes",
+                  "glock": "jams"},
+         "batman": {"glock": "disarms", ...},
+         ...  # 7 moves, each beats exactly 3
+}
+\end{verbatim}
+\begin{center}\small
+\begin{tabular}{r|r|r|r}
+moves & if/elif branches & dict entries & \texttt{judge} lines\\\hline
+3 & 5 & 9 & 1\\
+5 & 12 & 25 & 1\\
+7 & 23 & 49 & 1\\
+9 & 38 & 81 & 1\\
+\end{tabular}
+\end{center}
+\begin{itemize}
+    \item The old way grows with the rules. The dictionary grows only as data.
+    \item Run: \texttt{python3 rps\_advanced\_dict.py} (verbs explain each result)
+\end{itemize}
+\note{Seven moves, every move beats three and loses to three (the script checks fairness). Branch count for if/elif is 1 tie + one per winning pair + 1 else. Challenge: add an eighth move. How many places change? Ask for the Verify step: what test would catch a wrong rule?}
+\end{frame}
+
+\begin{frame}{Where to Find It}
+\begin{itemize}
+    \item Python files, walkthrough, and these slides: \href{https://swosu.instructure.com/courses/74029/pages/week-11-overview-lists-and-dictionaries-continued}{Canvas, Week 11 Overview page, ``Rock-Paper-Scissors example''}
+    \item Gate this week: a dictionary that looks up an entity from your Week 10 list, plus Decide/Compare \#1.
+    \item Try it: make a small table for your own world (crew, cases, customers) and look things up by key.
+\end{itemize}
+\note{Links to the code live on the Canvas Week 11 Overview page.}
 \end{frame}
 
 \end{document}

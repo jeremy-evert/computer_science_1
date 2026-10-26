@@ -30,8 +30,11 @@ BASE = "https://swosu.instructure.com/courses/74029"
 ROOT = Path(__file__).resolve().parents[1]
 BACKUP = ROOT / "sidecar" / "reports" / "week11_rps_backup"
 FILES = [  # (key, local path, canvas folder, content type, label)
-    ("py", "dictionary_example/rps_dict_of_dicts.py", "week11/dictionary_example", "text/x-python", "rps_dict_of_dicts.py (run it)"),
-    ("md", "dictionary_example/README.md", "week11/dictionary_example", "text/markdown", "walkthrough (README)"),
+    ("map", "dictionary_example/rps_logic_map.png", "week11/dictionary_example", "image/png", "1. Logic map (picture)"),
+    ("ifelif", "dictionary_example/rps_if_elif.py", "week11/dictionary_example", "text/x-python", "2. if/elif version (run it)"),
+    ("dict", "dictionary_example/rps_dict_of_dicts.py", "week11/dictionary_example", "text/x-python", "3. dictionary of dictionaries (run it)"),
+    ("adv", "dictionary_example/rps_advanced_dict.py", "week11/dictionary_example", "text/x-python", "5. scaled up: 7 moves (run it)"),
+    ("md", "dictionary_example/README.md", "week11/dictionary_example", "text/markdown", "Walkthrough (README)"),
     ("pdf", "presentations/beamer/week11_mon_dicts_rps/week11_mon_dicts_rps.pdf", "week11/slides", "application/pdf", "Monday slides (PDF)"),
 ]
 MON_OLD = "<p>Monday (Oct 26): Monday Moments, AI I Lens 11: Verify."
@@ -54,10 +57,12 @@ def section(ids):
     )
     return (
         f'<h2 id="{MARK}">Worked example: Rock-Paper-Scissors with a dictionary of dictionaries</h2>'
-        "<p>The rules of the game are stored as data: <code>rules[player][opponent]</code> gives "
-        "<em>win</em>, <em>lose</em>, or <em>tie</em>. The first key picks the row, the second picks the column. "
-        "A second dictionary keeps the score. Run the Python file, then read the walkthrough, then think about "
-        "this week's Decide/Compare question: why a dictionary of dictionaries here, and not nine if statements?</p>"
+        "<p>One game, five steps: (1) draw the logic map, (2) solve it with if/elif, (3) solve it with a dictionary of "
+        "dictionaries, <code>rules[player][opponent]</code> gives <em>win</em>, <em>lose</em>, or <em>tie</em>, (4) talk about "
+        "refactoring: what got simpler, what got easier to extend, what stayed the same, (5) scale up to Rock, Paper, Scissors, "
+        "Lizard, Spock, Batman and Glock and watch the data grow while the code stays put. Run the files, read the walkthrough, "
+        "then think about this week's Decide/Compare question: why a dictionary of dictionaries here, and not nine if statements?</p>"
+        f'<p><img src="{BASE}/files/{ids["map"]}/preview" alt="Logic map: is A the same as B? tie. Otherwise does A beat B? win or lose." style="max-width:100%;"></p>'
         f"<p>{links}</p>"
     )
 
