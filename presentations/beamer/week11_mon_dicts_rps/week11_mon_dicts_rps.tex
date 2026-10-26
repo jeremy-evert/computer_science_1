@@ -1,0 +1,52 @@
+\documentclass{beamer}
+\input{../theme/preamble.tex}
+\usepackage{hyperref}
+
+\title{Week 11 Monday}
+\subtitle{Dictionaries: A Dictionary of Dictionaries}
+\author{CS1}
+\date{}
+
+\begin{document}
+
+\SessionTitleSlide{Week 11 -- Monday}{Dictionaries: Look It Up by Key}{How do we find one thing by name, and can a dictionary hold other dictionaries?}{Week 11 plan; \texttt{lessons/07-collections.md}; AI Fluency Lens 11 (Verify) tie-in}
+
+\begin{frame}[fragile]{Rock-Paper-Scissors: Rules as Data}
+\begin{verbatim}
+rules = {
+ "rock": {"rock": "tie", "paper": "lose",
+          "scissors": "win"},
+ "paper": {"rock": "win", "paper": "tie",
+           "scissors": "lose"},
+ "scissors": {"rock": "lose", "paper": "win",
+              "scissors": "tie"},
+}
+print(rules["rock"]["scissors"])  # win
+\end{verbatim}
+\begin{itemize}
+    \item A dictionary whose values are dictionaries: \texttt{rules[player][opponent]}.
+    \item First key picks the row, second key picks the column. Two lookups, one answer.
+    \item Predict first: what is \texttt{rules["paper"]["rock"]}?
+\end{itemize}
+\note{Ask for predictions before running. Then ask: how many if statements would the same game need? Nine. Changing a rule here means changing data, not logic. Run the file live: python3 rps\_dict\_of\_dicts.py}
+\end{frame}
+
+\begin{frame}[fragile]{Walk It, Score It, Guard It}
+\begin{verbatim}
+for mine in rules:            # outer keys
+    for theirs in rules[mine]:  # inner keys
+        print(mine, theirs, rules[mine][theirs])
+
+score = {"win": 0, "lose": 0, "tie": 0}
+score[judge("rock", "scissors")] += 1
+\end{verbatim}
+\begin{itemize}
+    \item A second dictionary keeps score: keys are results, values are counts.
+    \item A move that is not a key raises \texttt{KeyError}; check with \texttt{in} first.
+    \item \textbf{Verify (Lens 11):} try an empty string, a capital letter, a move not in the table.
+    \item \textbf{Run it, read the walkthrough:} \href{https://swosu.instructure.com/courses/74029/pages/week-11-overview-lists-and-dictionaries-continued}{Canvas, Week 11 Overview page, ``Rock-Paper-Scissors example''}
+\end{itemize}
+\note{Code and walkthrough are linked from that Canvas page (Python file plus README). Decide/Compare tie-in: why a dict of dicts and not nine ifs, a list of lists, or one dict keyed by a pair? What changes when we add lizard and spock?}
+\end{frame}
+
+\end{document}

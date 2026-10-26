@@ -1,0 +1,24 @@
+{
+ "url": "week-11-overview-lists-and-dictionaries-continued",
+ "title": "Week 11 Overview: Lists and Dictionaries, Continued",
+ "created_at": "2026-10-15T19:18:39Z",
+ "editing_roles": "teachers",
+ "page_id": 458569,
+ "last_edited_by": {
+  "id": 24406,
+  "anonymous_id": "ity",
+  "display_name": "Jeremy Paul Evert",
+  "avatar_image_url": "https://swosu.instructure.com/images/messages/avatar-50.png",
+  "html_url": "https://swosu.instructure.com/courses/74029/users/24406",
+  "pronouns": null
+ },
+ "published": true,
+ "hide_from_students": false,
+ "front_page": false,
+ "html_url": "https://swosu.instructure.com/courses/74029/pages/week-11-overview-lists-and-dictionaries-continued",
+ "todo_date": null,
+ "publish_at": null,
+ "updated_at": "2026-10-15T19:53:11Z",
+ "locked_for_user": false,
+ "body": "<h1>Week 11 Overview: Lists and Dictionaries, Continued (Delivery Week)</h1>\n<h2>Week at a glance</h2>\n<p>Monday (Oct 26): Monday Moments, AI I Lens 11: Verify. How do we know whether an AI answer is trustworthy? Checking a program that processes a collection against edge cases, such as an empty list or duplicate keys, is the programming form of verifying a claim.</p>\n<p>Wednesday (Oct 28): Wacky Wednesday, Professional Minds Week 11: how do projects become reliable products?</p>\n<p>Friday (Oct 30): Fun Friday. Share the edge cases your collections program was tested against.</p>\n<h2>This week's focus</h2>\n<p>Dictionaries, and the choice between a dictionary and a list. When you look things up by a name or an ID, a dictionary replaces searching by hand. Build the lookup from your world's real data, not from a hardcoded literal.</p>\n<h2>This week's gate</h2>\n<p>The <strong>week-11</strong> Odyssey gate is \"The registry, and the first real trade-off\". Add a dictionary that looks up an entity from Week 10's list by name or ID, and show at least one lookup returning a real result. The gate also asks for your first <em>Decide/Compare</em>: commit in writing to your data-structure choice first, then compare it against at least one real alternative, naming a trade-off that is specific to your world's data.</p>\n<p>The due date and time are shown on the assignment in Canvas. A bonus practice assignment is also available this week and is optional.</p><h2>Optional reading and listening</h2><p>For a second explanation of dictionaries, read Chapter 9 of <em>Python for Everybody</em> by Charles R. Severance, which is free to read online, or listen to it here: <a href=\"https://swosu.instructure.com/courses/74029/files/6658357?verifier=52ee440a-d3fc-4859-8743-76068b4928cc&amp;wrap=1\" data-api-endpoint=\"https://swosu.instructure.com/api/v1/courses/74029/files/6658357\" data-api-returntype=\"File\">audio of Chapter 9: Dictionaries (about 17 minutes)</a>. Reading and audio are optional. Source: Python for Everybody, Chapter 9 (www.py4e.com/html3/09-dictionaries), Charles R. Severance, licensed under Creative Commons Attribution-NonCommercial-ShareAlike 3.0 (creativecommons.org/licenses/by-nc-sa/3.0). The audio is a computer-generated narration of that text, shared under the same licence; code examples are described, not read aloud.</p>"
+}
