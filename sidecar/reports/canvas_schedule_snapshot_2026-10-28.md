@@ -1,8 +1,8 @@
 # Canvas schedule snapshot: Fall 2026 Computer Science I (COMSC-1033-1415) (course 74029)
 
-Snapshot taken 2026-10-28 09:24 CDT by Flo from the live Canvas API (read-only). Canvas is the system of record; this file is the durable repo copy of what students could see on that date.
+Snapshot taken 2026-10-28 09:30 CDT by Flo from the live Canvas API (read-only). Canvas is the system of record; this file is the durable repo copy of what students could see on that date.
 
-- 2026-10-28 change (Jeremy approved): Week 17 Finals Week module unlocks Sat 2026-12-05 06:00 CST. Script and backup: foreman_interface scripts/finals_unlock_all_courses.py, reports/finals_unlock_backup_2026-10-28.json. Known gaps: W16 farkle-ml receipt and week-17 assignment have no due date.
+- 2026-10-28 changes (Jeremy approved): Week 17 Finals Week module unlocks Sat 2026-12-05 06:00 CST; Week 16 Farkle/ML receipt due Fri 2026-12-04 11:59 PM Central; Week 17 assignment due Fri 2026-12-11 5:00 PM Central (matches the other courses' finals). Script and backup: foreman_interface scripts/fill_missing_due_dates_dsct_cs1.py, scripts/finals_unlock_all_courses.py.
 
 | Module | Published | Unlocks | Items (assignment due in Central time) |
 |---|---|---|---|
@@ -26,6 +26,6 @@ Snapshot taken 2026-10-28 09:24 CDT by Flo from the live Canvas API (read-only).
 | 18. Week 13: People | yes | - | Page: Week 13 Overview: Classes and Objects, Round 2<br>Assignment: Bonus Practice (Week 13) (due Fri 2026-11-13 11:59 PM CST; published)<br>Assignment: week-13 (due Fri 2026-11-13 11:59 PM CST; published)<br>Page: week-13_rubric |
 | 19. Week 14: Communication | yes | - | Page: Week 14 Overview: Tools and Authentic Application<br>Page: 09-projects-tools-and-reflection<br>Assignment: week-14 (due Fri 2026-11-20 11:59 PM CST; published)<br>Page: week-14_rubric |
 | 20. Week 15: Modern AI | yes | - | Page: Monday Moment — week_15_measure |
-| 21. Week 16: Farkle / Machine Learning fun week | yes | - | Page: 10-farkle-ml<br>Assignment: W16-farkle-ml-experiment-receipt (due none; published) |
-| 22. Week 17: Finals Week | yes | Sat 2026-12-05 06:00 AM CST | Assignment: week-17 (due none; published)<br>Page: week-17_rubric |
+| 21. Week 16: Farkle / Machine Learning fun week | yes | - | Page: 10-farkle-ml<br>Assignment: W16-farkle-ml-experiment-receipt (due Fri 2026-12-04 11:59 PM CST; published) |
+| 22. Week 17: Finals Week | yes | Sat 2026-12-05 06:00 AM CST | Assignment: week-17 (due Fri 2026-12-11 05:00 PM CST; published)<br>Page: week-17_rubric |
 | 23. Resources | yes | - |  |
