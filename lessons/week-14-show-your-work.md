@@ -11,6 +11,8 @@ What to look for this week:
 - **Credit it:** list libraries, images, sounds and starter code you did not write.
 - **Look at the history:** a secret or a private path you deleted last week is still in the commits.
 
+The same path as a 50-minute deck: https://jeremy-evert.github.io/swosu-computing/show-your-work/lecture/
+
 Before you publish anything, tick the checklist: https://github.com/jeremy-evert/oeqa_spell_roller_public/blob/main/CHECKLIST.md
 
 Pick one thing you made, find the first checklist box it fails, and fix that one box. That is the whole task.
